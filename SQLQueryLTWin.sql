@@ -1,0 +1,1 @@
+﻿CREATE TABLE Account ( UserName varchar(50) PRIMARY KEY, Password varchar(50), Email varchar(50));INSERT INTO Account (UserName, Password, Email)VALUES ('Admin', 'Admin', 'Admin@gmail.com');select * from Account
