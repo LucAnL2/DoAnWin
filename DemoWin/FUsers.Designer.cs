@@ -351,7 +351,7 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Button btnCloseChildForm;
-        private System.Windows.Forms.Panel panelDesktop;
+        public System.Windows.Forms.Panel panelDesktop;
         private System.Windows.Forms.Label lblClock;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;

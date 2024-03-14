@@ -52,6 +52,10 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
             this.txtMail = new Guna.UI2.WinForms.Guna2TextBox();
             this.panelTaskBar.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -69,6 +73,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel5.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -78,9 +83,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.label1.Location = new System.Drawing.Point(22, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 20);
+            this.label1.Size = new System.Drawing.Size(76, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Người gửi:";
+            this.label1.Text = "Tiêu đề:";
             // 
             // panelTaskBar
             // 
@@ -163,7 +168,7 @@
             this.panel2.Controls.Add(this.panel6);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 51);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(689, 38);
             this.panel2.TabIndex = 3;
@@ -335,9 +340,10 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel5.Controls.Add(this.panel9);
             this.panel5.Controls.Add(this.label4);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 89);
+            this.panel5.Location = new System.Drawing.Point(0, 38);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(689, 36);
             this.panel5.TabIndex = 6;
@@ -349,18 +355,61 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.label4.Location = new System.Drawing.Point(22, 7);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(108, 20);
+            this.label4.Size = new System.Drawing.Size(93, 20);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Người nhận:";
+            this.label4.Text = "Người gửi:";
             // 
             // panel7
             // 
             this.panel7.Controls.Add(this.txtMail);
+            this.panel7.Controls.Add(this.panel1);
+            this.panel7.Controls.Add(this.panel5);
+            this.panel7.Controls.Add(this.panel2);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(0, 125);
+            this.panel7.Location = new System.Drawing.Point(0, 51);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(689, 304);
+            this.panel7.Size = new System.Drawing.Size(689, 378);
             this.panel7.TabIndex = 7;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel1.Controls.Add(this.panel8);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 74);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(689, 38);
+            this.panel1.TabIndex = 7;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.DarkGray;
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel8.Location = new System.Drawing.Point(0, 34);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(689, 4);
+            this.panel8.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.label2.Location = new System.Drawing.Point(22, 7);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(108, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Người nhận:";
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.DarkGray;
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel9.Location = new System.Drawing.Point(0, 32);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(689, 4);
+            this.panel9.TabIndex = 2;
             // 
             // txtMail
             // 
@@ -379,7 +428,7 @@
             this.txtMail.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMail.HoverState.Parent = this.txtMail;
-            this.txtMail.Location = new System.Drawing.Point(0, 0);
+            this.txtMail.Location = new System.Drawing.Point(0, 112);
             this.txtMail.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtMail.Multiline = true;
             this.txtMail.Name = "txtMail";
@@ -387,8 +436,8 @@
             this.txtMail.PlaceholderText = "";
             this.txtMail.SelectedText = "";
             this.txtMail.ShadowDecoration.Parent = this.txtMail;
-            this.txtMail.Size = new System.Drawing.Size(689, 304);
-            this.txtMail.TabIndex = 0;
+            this.txtMail.Size = new System.Drawing.Size(689, 266);
+            this.txtMail.TabIndex = 8;
             // 
             // FMail
             // 
@@ -397,9 +446,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(689, 479);
             this.Controls.Add(this.panel7);
-            this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panelTaskBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FMail";
@@ -424,6 +471,8 @@
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel7.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -454,6 +503,10 @@
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.PictureBox btnDelete;
         private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2TextBox txtMail;
     }
 }

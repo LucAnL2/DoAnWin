@@ -44,6 +44,9 @@
             this.lblStatusData = new System.Windows.Forms.Label();
             this.lblStatus = new System.Windows.Forms.Label();
             this.btnDetail = new FontAwesome.Sharp.IconButton();
+            this.btnHome = new FontAwesome.Sharp.IconButton();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -115,6 +118,7 @@
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.Controls.Add(this.lblDatePostData);
             this.panel3.Controls.Add(this.lblDatePost);
             this.panel3.Location = new System.Drawing.Point(378, 14);
@@ -219,11 +223,65 @@
             this.btnDetail.TabIndex = 1;
             this.btnDetail.UseVisualStyleBackColor = true;
             // 
+            // btnHome
+            // 
+            this.btnHome.FlatAppearance.BorderSize = 0;
+            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.ForeColor = System.Drawing.Color.White;
+            this.btnHome.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnHome.IconColor = System.Drawing.Color.White;
+            this.btnHome.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnHome.IconSize = 32;
+            this.btnHome.Location = new System.Drawing.Point(283, 95);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(135, 40);
+            this.btnHome.TabIndex = 13;
+            this.btnHome.Text = "Nhận việc";
+            this.btnHome.UseVisualStyleBackColor = true;
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton1.ForeColor = System.Drawing.Color.White;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton1.IconColor = System.Drawing.Color.White;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 32;
+            this.iconButton1.Location = new System.Drawing.Point(471, 95);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(135, 40);
+            this.iconButton1.TabIndex = 13;
+            this.iconButton1.Text = "Từ chối";
+            this.iconButton1.UseVisualStyleBackColor = true;
+            // 
+            // iconButton2
+            // 
+            this.iconButton2.FlatAppearance.BorderSize = 0;
+            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton2.ForeColor = System.Drawing.Color.White;
+            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton2.IconColor = System.Drawing.Color.White;
+            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton2.IconSize = 32;
+            this.iconButton2.Location = new System.Drawing.Point(662, 95);
+            this.iconButton2.Name = "iconButton2";
+            this.iconButton2.Size = new System.Drawing.Size(135, 40);
+            this.iconButton2.TabIndex = 13;
+            this.iconButton2.Text = "Xóa bỏ";
+            this.iconButton2.UseVisualStyleBackColor = true;
+            // 
             // UCPostJob
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.iconButton2);
+            this.Controls.Add(this.iconButton1);
+            this.Controls.Add(this.btnHome);
             this.Controls.Add(this.btnDetail);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
@@ -231,7 +289,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "UCPostJob";
-            this.Size = new System.Drawing.Size(1027, 103);
+            this.Size = new System.Drawing.Size(1027, 139);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -264,5 +322,8 @@
         private System.Windows.Forms.Label lblStatusData;
         private System.Windows.Forms.Label lblStatus;
         private FontAwesome.Sharp.IconButton btnDetail;
+        private FontAwesome.Sharp.IconButton btnHome;
+        private FontAwesome.Sharp.IconButton iconButton1;
+        private FontAwesome.Sharp.IconButton iconButton2;
     }
 }

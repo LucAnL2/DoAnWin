@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FontAwesome.Sharp;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,11 @@ namespace DemoWin.Forms
 {
     public partial class FHome : Form
     {
+        private IconButton currentButton;
+        private Random random;
+        private int tempIndex;
+        public static Form activeForm;
+        private Panel leftBorderBtn;
         public FHome()
         {
             InitializeComponent();
@@ -30,10 +36,25 @@ namespace DemoWin.Forms
             }
             panelTaskBar.BackColor = ThemeColors.PrimaryColor;
         }
-
+        private void OpenChildForm(Form childForm, object btnSender)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+            }
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelCotain.Controls.Add(childForm);
+            panelCotain.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
         private void FHome_Load(object sender, EventArgs e)
         {
             LoadTheme();
+            panelCotain.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -49,38 +70,44 @@ namespace DemoWin.Forms
         private void btnMechanic_Click(object sender, EventArgs e)
         {
             FHire user = new FHire(btnMechanic.Text);
-            user.ShowDialog();
+            OpenChildForm(user, sender);
+            panelCotain.Show();
         }
 
         private void btnPainter_Click(object sender, EventArgs e)
         {
             FHire user = new FHire(btnPainter.Text);
-            user.ShowDialog();
+            OpenChildForm(user, sender);
+            panelCotain.Show();
         }
 
         private void btnElectrician_Click(object sender, EventArgs e)
         {
             FHire user = new FHire(btnElectrician.Text);
-            user.ShowDialog();
+            OpenChildForm(user, sender);
+            panelCotain.Show();
         }
         
         private void btnCarvers_Click(object sender, EventArgs e)
         {
             FHire user = new FHire(btnCarvers.Text);
-            user.ShowDialog();
-            
+            OpenChildForm(user, sender);
+            panelCotain.Show();
+
         }
 
         private void btnCarWashman_Click(object sender, EventArgs e)
         {
             FHire user = new FHire(btnCarWashman.Text);
-            user.ShowDialog();
+            OpenChildForm(user, sender);
+            panelCotain.Show();
         }
 
         private void btnOther_Click(object sender, EventArgs e)
         {
             FHire user = new FHire(btnOther.Text);
-            user.ShowDialog();
+            OpenChildForm(user, sender);
+            panelCotain.Show();
         }
     }
 }

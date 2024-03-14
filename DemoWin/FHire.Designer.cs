@@ -73,10 +73,7 @@
             this.btnHue = new FontAwesome.Sharp.IconButton();
             this.btnNoiKhac = new FontAwesome.Sharp.IconButton();
             this.panelTop = new System.Windows.Forms.Panel();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.btnMinimize = new System.Windows.Forms.Button();
             this.btnHelp = new System.Windows.Forms.Button();
-            this.btnChangeColor = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.panelButtom = new System.Windows.Forms.Panel();
             this.flowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
@@ -106,7 +103,7 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(262, 622);
+            this.panelMenu.Size = new System.Drawing.Size(262, 670);
             this.panelMenu.TabIndex = 0;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
@@ -115,7 +112,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(76, 13);
+            this.lblTitle.Location = new System.Drawing.Point(95, 3);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(54, 25);
             this.lblTitle.TabIndex = 0;
@@ -123,6 +120,8 @@
             // 
             // panelContain
             // 
+            this.panelContain.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.panelContain.AutoScroll = true;
             this.panelContain.BackColor = System.Drawing.Color.White;
             this.panelContain.Controls.Add(this.panelSearch);
@@ -133,9 +132,9 @@
             this.panelContain.Controls.Add(this.PanelComboAge);
             this.panelContain.Controls.Add(this.PanelComboAddress);
             this.panelContain.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panelContain.Location = new System.Drawing.Point(15, 47);
+            this.panelContain.Location = new System.Drawing.Point(15, 41);
             this.panelContain.Name = "panelContain";
-            this.panelContain.Size = new System.Drawing.Size(230, 550);
+            this.panelContain.Size = new System.Drawing.Size(230, 604);
             this.panelContain.TabIndex = 1;
             // 
             // panelSearch
@@ -172,7 +171,7 @@
             this.txtSearch.BorderRadius = 10;
             this.txtSearch.BorderThickness = 2;
             this.txtSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSearch.DefaultText = "Tìm kiếm";
+            this.txtSearch.DefaultText = "";
             this.txtSearch.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -187,14 +186,11 @@
             this.txtSearch.Margin = new System.Windows.Forms.Padding(8);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PasswordChar = '\0';
-            this.txtSearch.PlaceholderText = "";
+            this.txtSearch.PlaceholderText = "Tìm kiếm";
             this.txtSearch.SelectedText = "";
-            this.txtSearch.SelectionStart = 8;
             this.txtSearch.ShadowDecoration.Parent = this.txtSearch;
             this.txtSearch.Size = new System.Drawing.Size(196, 46);
             this.txtSearch.TabIndex = 10;
-            this.txtSearch.Enter += new System.EventHandler(this.txtSearch_Enter);
-            this.txtSearch.Leave += new System.EventHandler(this.txtSearch_Leave);
             // 
             // PanelComboWorkHour
             // 
@@ -908,48 +904,15 @@
             // panelTop
             // 
             this.panelTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.panelTop.Controls.Add(this.btnClose);
-            this.panelTop.Controls.Add(this.btnMinimize);
             this.panelTop.Controls.Add(this.btnHelp);
-            this.panelTop.Controls.Add(this.btnChangeColor);
             this.panelTop.Controls.Add(this.btnBack);
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(262, 0);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(925, 47);
+            this.panelTop.Size = new System.Drawing.Size(917, 41);
             this.panelTop.TabIndex = 25;
             this.panelTop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTop_Paint);
             this.panelTop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTop_MouseDown);
-            // 
-            // btnClose
-            // 
-            this.btnClose.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.ForeColor = System.Drawing.Color.White;
-            this.btnClose.Image = global::DemoWin.Properties.Resources.cross_small;
-            this.btnClose.Location = new System.Drawing.Point(878, 6);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(35, 35);
-            this.btnClose.TabIndex = 14;
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
-            // btnMinimize
-            // 
-            this.btnMinimize.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnMinimize.FlatAppearance.BorderSize = 0;
-            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Image = global::DemoWin.Properties.Resources.minus_small;
-            this.btnMinimize.Location = new System.Drawing.Point(810, 6);
-            this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(35, 35);
-            this.btnMinimize.TabIndex = 13;
-            this.btnMinimize.UseVisualStyleBackColor = true;
-            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
             // btnHelp
             // 
@@ -959,7 +922,7 @@
             this.btnHelp.ForeColor = System.Drawing.Color.White;
             this.btnHelp.Image = global::DemoWin.Properties.Resources.interrogation1;
             this.btnHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHelp.Location = new System.Drawing.Point(282, 0);
+            this.btnHelp.Location = new System.Drawing.Point(142, -6);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btnHelp.Size = new System.Drawing.Size(125, 47);
@@ -970,25 +933,6 @@
             this.btnHelp.UseVisualStyleBackColor = true;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
-            // btnChangeColor
-            // 
-            this.btnChangeColor.FlatAppearance.BorderSize = 0;
-            this.btnChangeColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChangeColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChangeColor.ForeColor = System.Drawing.Color.White;
-            this.btnChangeColor.Image = global::DemoWin.Properties.Resources.fill;
-            this.btnChangeColor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnChangeColor.Location = new System.Drawing.Point(131, 0);
-            this.btnChangeColor.Name = "btnChangeColor";
-            this.btnChangeColor.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnChangeColor.Size = new System.Drawing.Size(155, 47);
-            this.btnChangeColor.TabIndex = 10;
-            this.btnChangeColor.Text = "    Change";
-            this.btnChangeColor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnChangeColor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnChangeColor.UseVisualStyleBackColor = true;
-            this.btnChangeColor.Click += new System.EventHandler(this.btnChangeColor_Click);
-            // 
             // btnBack
             // 
             this.btnBack.FlatAppearance.BorderSize = 0;
@@ -997,7 +941,7 @@
             this.btnBack.ForeColor = System.Drawing.Color.White;
             this.btnBack.Image = global::DemoWin.Properties.Resources.undo;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBack.Location = new System.Drawing.Point(0, 0);
+            this.btnBack.Location = new System.Drawing.Point(0, -6);
             this.btnBack.Name = "btnBack";
             this.btnBack.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btnBack.Size = new System.Drawing.Size(136, 47);
@@ -1012,18 +956,18 @@
             // 
             this.panelButtom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.panelButtom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelButtom.Location = new System.Drawing.Point(262, 597);
+            this.panelButtom.Location = new System.Drawing.Point(262, 645);
             this.panelButtom.Name = "panelButtom";
-            this.panelButtom.Size = new System.Drawing.Size(925, 25);
+            this.panelButtom.Size = new System.Drawing.Size(917, 25);
             this.panelButtom.TabIndex = 27;
             // 
             // flowLayoutPanel
             // 
             this.flowLayoutPanel.AutoScroll = true;
             this.flowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel.Location = new System.Drawing.Point(262, 47);
+            this.flowLayoutPanel.Location = new System.Drawing.Point(262, 41);
             this.flowLayoutPanel.Name = "flowLayoutPanel";
-            this.flowLayoutPanel.Size = new System.Drawing.Size(925, 550);
+            this.flowLayoutPanel.Size = new System.Drawing.Size(917, 604);
             this.flowLayoutPanel.TabIndex = 28;
             this.flowLayoutPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel_Paint);
             // 
@@ -1062,7 +1006,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1187, 622);
+            this.ClientSize = new System.Drawing.Size(1179, 670);
             this.Controls.Add(this.flowLayoutPanel);
             this.Controls.Add(this.panelButtom);
             this.Controls.Add(this.panelTop);
@@ -1094,10 +1038,7 @@
         private System.Windows.Forms.Button btnHelp;
         private System.Windows.Forms.Panel panelTop;
         private System.Windows.Forms.Panel panelButtom;
-        private System.Windows.Forms.Button btnChangeColor;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel;
-        private System.Windows.Forms.Button btnMinimize;
-        private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.FlowLayoutPanel PanelComboAge;
         private FontAwesome.Sharp.IconButton btnAge;
         private System.Windows.Forms.Timer RollBtnAge;

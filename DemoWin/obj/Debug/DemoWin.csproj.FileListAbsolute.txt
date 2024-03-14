@@ -59,3 +59,4 @@ D:\DataD\c#\DemoWin\DemoWin\obj\Debug\DemoWin.UCTxtWorker.resources
 D:\DataD\c#\DemoWin\DemoWin\obj\Debug\DemoWin.Form1.resources
 D:\DataD\c#\DemoWin\DemoWin\obj\Debug\DemoWin.UCPostJob.resources
 D:\DataD\c#\DemoWin\DemoWin\obj\Debug\DemoWin.FPostWork.resources
+D:\DataD\c#\DemoWin\DemoWin\obj\Debug\DemoWin.UCMail.resources

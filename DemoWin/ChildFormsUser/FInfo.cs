@@ -37,5 +37,11 @@ namespace DemoWin.Forms
             panelBackInfo.BackColor = ThemeColors.PrimaryColor;
             panelTaskBar.BackColor = ThemeColors.PrimaryColor;
         }
+
+        private void btnMailBox_Click(object sender, EventArgs e)
+        {
+            FMailBox mailBox = new FMailBox();
+            mailBox.ShowDialog();
+        }
     }
 }

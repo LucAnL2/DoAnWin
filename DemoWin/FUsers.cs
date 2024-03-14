@@ -1,4 +1,5 @@
-﻿using FontAwesome.Sharp;
+﻿using DemoWin.Forms;
+using FontAwesome.Sharp;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,7 +18,7 @@ namespace DemoWin
         private IconButton currentButton;
         private Random random;
         private int tempIndex;
-        private Form activeForm;
+        public static Form activeForm;
         private Panel leftBorderBtn;
         public FUsers()
         {
@@ -103,9 +104,6 @@ namespace DemoWin
             Clock.Start();
             MakeSpace();
         }
-
-
-
         private void btnHome_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FHome(), sender);

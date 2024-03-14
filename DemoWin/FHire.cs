@@ -1,4 +1,5 @@
-﻿using FontAwesome.Sharp;
+﻿using DemoWin.Forms;
+using FontAwesome.Sharp;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -57,8 +58,7 @@ namespace DemoWin
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            this.Close();
+            FHome.panelCotain.Visible = false;
         }
 
         private void panelMenu_Paint(object sender, PaintEventArgs e)
@@ -71,7 +71,7 @@ namespace DemoWin
             for (int i = 0; i < 7; i++)
             {
                 UCWorkerInfo uc = new UCWorkerInfo();
-                uc.Margin = new Padding(30);
+                uc.Margin = new Padding(22);
                 flowLayoutPanel.Controls.Add(uc);
             }
             ChangeColor();
@@ -79,32 +79,31 @@ namespace DemoWin
         }
         private void ChangeColor()
         {
-            Color color = paintColor.SelectThemeColors();
             foreach (Control previousBtn in flowLayoutPanel.Controls)
             {
                 if (previousBtn.GetType() == typeof(Label) || previousBtn.GetType() == typeof(Button) || previousBtn.GetType() == typeof(UCWorkerInfo))
                 {
-                    previousBtn.BackColor = color;
+                    previousBtn.BackColor = ThemeColors.PrimaryColor;
                     if(previousBtn.Text == "")
-                        previousBtn.BackColor = color;
+                        previousBtn.BackColor = ThemeColors.PrimaryColor;
                 }
             }
-            txtSearch.BorderColor = color;
-            btnSearch.FillColor = color;
+            txtSearch.BorderColor = ThemeColors.PrimaryColor;
+            btnSearch.FillColor = ThemeColors.PrimaryColor;
             //
-            ChangeColorComboButton(PanelComboAge, color);
-            ChangeColorComboButton(PanelComboAddress, color);
-            ChangeColorComboButton(PanelComboRate, color);
-            ChangeColorComboButton(PanelComboHireCost, color);
-            ChangeColorComboButton(PanelComboWorkDay, color);
-            ChangeColorComboButton(PanelComboWorkHour, color);
+            ChangeColorComboButton(PanelComboAge, ThemeColors.PrimaryColor);
+            ChangeColorComboButton(PanelComboAddress, ThemeColors.PrimaryColor);
+            ChangeColorComboButton(PanelComboRate, ThemeColors.PrimaryColor);
+            ChangeColorComboButton(PanelComboHireCost, ThemeColors.PrimaryColor);
+            ChangeColorComboButton(PanelComboWorkDay, ThemeColors.PrimaryColor);
+            ChangeColorComboButton(PanelComboWorkHour, ThemeColors.PrimaryColor);
             //
-            panelMenu.BackColor = color;
-            panelTop.BackColor = color;
-            panelButtom.BackColor = color;
-            btnBack.BackColor = ThemeColors.ChangeColorBrightness(color, +0.3);
-            btnHelp.BackColor = ThemeColors.ChangeColorBrightness(color, +0.3);
-            btnChangeColor.BackColor = ThemeColors.ChangeColorBrightness(color, +0.3);
+            panelMenu.BackColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor, +0.3);
+            panelTop.BackColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor, +0.3);
+            panelButtom.BackColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor, +0.3);
+            btnBack.BackColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor, +0.3);
+            btnHelp.BackColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor, +0.3);
+            //btnChangeColor.BackColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor, +0.3);
         }
         private void ChangeColorComboButton(FlowLayoutPanel panel, Color color)
         {
@@ -118,10 +117,6 @@ namespace DemoWin
                 }
             }
         }
-        private void btnChangeColor_Click(object sender, EventArgs e)
-        {
-            ChangeColor();
-        }
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
@@ -132,16 +127,6 @@ namespace DemoWin
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
-        }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void btnMinimize_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
         }
 
         private void panelTop_Paint(object sender, PaintEventArgs e)
@@ -178,21 +163,24 @@ namespace DemoWin
             RollBtnRate.Start();
         }
 
-        private void txtSearch_Enter(object sender, EventArgs e)
+        void OpenOnDock(Form childForm)
         {
-            if (txtSearch.Text == "Tìm kiếm")
-            {
-                txtSearch.Text = "";
-                txtSearch.ForeColor = Color.Black;
-            }
-        }
+            FUsers mainForm = this.ParentForm as FUsers;
 
-        private void txtSearch_Leave(object sender, EventArgs e)
-        {
-            if (string.IsNullOrWhiteSpace(txtSearch.Text))
+            if (mainForm != null)
             {
-                txtSearch.Text = "Tìm kiếm";
-                txtSearch.ForeColor = Color.Gray;
+                if (FUsers.activeForm != null)
+                {
+                    FUsers.activeForm.Close();
+                }
+                childForm.TopLevel = false;
+                childForm.FormBorderStyle = FormBorderStyle.None;
+                childForm.Dock = DockStyle.Fill;
+                childForm.FormBorderStyle = FormBorderStyle.None;
+                mainForm.panelDesktop.Controls.Clear();
+                mainForm.panelDesktop.Controls.Add(childForm);
+                childForm.BringToFront();
+                childForm.Show();
             }
         }
 
