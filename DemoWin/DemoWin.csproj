@@ -217,6 +217,7 @@
     </Compile>
     <Compile Include="Modify.cs" />
     <Compile Include="PaintColor.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThemeColors.cs" />
@@ -238,6 +239,7 @@
     <Compile Include="UCWorkerInfo.Designer.cs">
       <DependentUpon>UCWorkerInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="User.cs" />
     <Compile Include="Worker.cs" />
     <EmbeddedResource Include="ChildFormsManager\FAllUsers.resx">
       <DependentUpon>FAllUsers.cs</DependentUpon>
@@ -321,6 +323,7 @@
     <EmbeddedResource Include="UCWorkerInfo.resx">
       <DependentUpon>UCWorkerInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="dia.cd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
