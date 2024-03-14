@@ -38,6 +38,10 @@ namespace DemoWin
             iconWorkHour.IconColor = color;
             iconPhone.IconColor = color;
             iconHireCost.IconColor = color;
+            iconAddress.IconColor = color;
+            iconMedal.IconColor = color;
+            iconStar.IconColor = color;
+            iconHireTime.IconColor = color;
             foreach (Control previousBtn in this.Controls)
             {
                 if (previousBtn.GetType() == typeof(Label))

@@ -49,31 +49,32 @@
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btnClose1 = new System.Windows.Forms.Button();
             this.btnChangeColor = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.lblRight = new System.Windows.Forms.Label();
             this.lblLeft = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
-            this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
-            this.iconPictureBox4 = new FontAwesome.Sharp.IconPictureBox();
+            this.iconHireTime = new FontAwesome.Sharp.IconPictureBox();
+            this.iconMedal = new FontAwesome.Sharp.IconPictureBox();
+            this.iconAddress = new FontAwesome.Sharp.IconPictureBox();
+            this.iconStar = new FontAwesome.Sharp.IconPictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.label23 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.iconWorkHour)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconWorkDay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPhone)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconHireCost)).BeginInit();
             this.panelTaskBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconHireTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconMedal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconAddress)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconStar)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -139,7 +140,7 @@
             this.btnClose.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.btnClose.HoverState.Parent = this.btnClose;
-            this.btnClose.Location = new System.Drawing.Point(422, 669);
+            this.btnClose.Location = new System.Drawing.Point(521, 669);
             this.btnClose.Name = "btnClose";
             this.btnClose.ShadowDecoration.Parent = this.btnClose;
             this.btnClose.Size = new System.Drawing.Size(101, 45);
@@ -158,7 +159,7 @@
             this.btnHire.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHire.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.btnHire.HoverState.Parent = this.btnHire;
-            this.btnHire.Location = new System.Drawing.Point(234, 669);
+            this.btnHire.Location = new System.Drawing.Point(98, 669);
             this.btnHire.Name = "btnHire";
             this.btnHire.ShadowDecoration.Parent = this.btnHire;
             this.btnHire.Size = new System.Drawing.Size(101, 45);
@@ -182,7 +183,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label11.Location = new System.Drawing.Point(93, 376);
+            this.label11.Location = new System.Drawing.Point(79, 398);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(248, 25);
             this.label11.TabIndex = 94;
@@ -193,7 +194,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label15.Location = new System.Drawing.Point(93, 310);
+            this.label15.Location = new System.Drawing.Point(79, 332);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(243, 25);
             this.label15.TabIndex = 97;
@@ -204,7 +205,7 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label20.Location = new System.Drawing.Point(86, 269);
+            this.label20.Location = new System.Drawing.Point(79, 273);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(196, 25);
             this.label20.TabIndex = 101;
@@ -228,7 +229,7 @@
             this.iconWorkHour.IconChar = FontAwesome.Sharp.IconChar.ClockFour;
             this.iconWorkHour.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconWorkHour.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconWorkHour.Location = new System.Drawing.Point(59, 314);
+            this.iconWorkHour.Location = new System.Drawing.Point(41, 328);
             this.iconWorkHour.Name = "iconWorkHour";
             this.iconWorkHour.Size = new System.Drawing.Size(32, 32);
             this.iconWorkHour.TabIndex = 81;
@@ -241,7 +242,7 @@
             this.iconWorkDay.IconChar = FontAwesome.Sharp.IconChar.CalendarCheck;
             this.iconWorkDay.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconWorkDay.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconWorkDay.Location = new System.Drawing.Point(55, 369);
+            this.iconWorkDay.Location = new System.Drawing.Point(41, 395);
             this.iconWorkDay.Name = "iconWorkDay";
             this.iconWorkDay.Size = new System.Drawing.Size(32, 32);
             this.iconWorkDay.TabIndex = 81;
@@ -267,7 +268,7 @@
             this.iconHireCost.IconChar = FontAwesome.Sharp.IconChar.MoneyCheckDollar;
             this.iconHireCost.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconHireCost.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconHireCost.Location = new System.Drawing.Point(52, 269);
+            this.iconHireCost.Location = new System.Drawing.Point(41, 269);
             this.iconHireCost.Name = "iconHireCost";
             this.iconHireCost.Size = new System.Drawing.Size(32, 32);
             this.iconHireCost.TabIndex = 81;
@@ -352,6 +353,28 @@
             this.btnChangeColor.UseVisualStyleBackColor = true;
             this.btnChangeColor.Click += new System.EventHandler(this.btnChangeColor_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(316, 45);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(51, 15);
+            this.label6.TabIndex = 54;
+            this.label6.Text = "Tuổi: 29";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(195, 45);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(85, 15);
+            this.label4.TabIndex = 54;
+            this.label4.Text = "Giới tính: Nam";
+            // 
             // lblRight
             // 
             this.lblRight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -370,34 +393,12 @@
             this.lblLeft.Size = new System.Drawing.Size(2, 557);
             this.lblLeft.TabIndex = 109;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(195, 45);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 15);
-            this.label4.TabIndex = 54;
-            this.label4.Text = "Giới tính: Nam";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(316, 45);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 15);
-            this.label6.TabIndex = 54;
-            this.label6.Text = "Tuổi: 29";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label7.Location = new System.Drawing.Point(445, 221);
+            this.label7.Location = new System.Drawing.Point(439, 206);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(156, 25);
             this.label7.TabIndex = 94;
@@ -408,7 +409,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label8.Location = new System.Drawing.Point(107, 207);
+            this.label8.Location = new System.Drawing.Point(79, 210);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(250, 25);
             this.label8.TabIndex = 94;
@@ -430,63 +431,63 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label10.Location = new System.Drawing.Point(439, 362);
+            this.label10.Location = new System.Drawing.Point(439, 398);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(168, 25);
             this.label10.TabIndex = 94;
             this.label10.Text = "Đánh giá: 5 Sao";
             // 
-            // iconPictureBox1
+            // iconHireTime
             // 
-            this.iconPictureBox1.BackColor = System.Drawing.Color.White;
-            this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.BusinessTime;
-            this.iconPictureBox1.IconColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.Location = new System.Drawing.Point(401, 322);
-            this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(32, 32);
-            this.iconPictureBox1.TabIndex = 110;
-            this.iconPictureBox1.TabStop = false;
+            this.iconHireTime.BackColor = System.Drawing.Color.White;
+            this.iconHireTime.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.iconHireTime.IconChar = FontAwesome.Sharp.IconChar.BusinessTime;
+            this.iconHireTime.IconColor = System.Drawing.SystemColors.ControlText;
+            this.iconHireTime.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconHireTime.Location = new System.Drawing.Point(401, 328);
+            this.iconHireTime.Name = "iconHireTime";
+            this.iconHireTime.Size = new System.Drawing.Size(32, 32);
+            this.iconHireTime.TabIndex = 110;
+            this.iconHireTime.TabStop = false;
             // 
-            // iconPictureBox2
+            // iconMedal
             // 
-            this.iconPictureBox2.BackColor = System.Drawing.Color.White;
-            this.iconPictureBox2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.Medal;
-            this.iconPictureBox2.IconColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox2.Location = new System.Drawing.Point(69, 207);
-            this.iconPictureBox2.Name = "iconPictureBox2";
-            this.iconPictureBox2.Size = new System.Drawing.Size(32, 32);
-            this.iconPictureBox2.TabIndex = 110;
-            this.iconPictureBox2.TabStop = false;
+            this.iconMedal.BackColor = System.Drawing.Color.White;
+            this.iconMedal.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.iconMedal.IconChar = FontAwesome.Sharp.IconChar.Medal;
+            this.iconMedal.IconColor = System.Drawing.SystemColors.ControlText;
+            this.iconMedal.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconMedal.Location = new System.Drawing.Point(41, 206);
+            this.iconMedal.Name = "iconMedal";
+            this.iconMedal.Size = new System.Drawing.Size(32, 32);
+            this.iconMedal.TabIndex = 110;
+            this.iconMedal.TabStop = false;
             // 
-            // iconPictureBox3
+            // iconAddress
             // 
-            this.iconPictureBox3.BackColor = System.Drawing.Color.White;
-            this.iconPictureBox3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.LocationDot;
-            this.iconPictureBox3.IconColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox3.Location = new System.Drawing.Point(401, 221);
-            this.iconPictureBox3.Name = "iconPictureBox3";
-            this.iconPictureBox3.Size = new System.Drawing.Size(32, 32);
-            this.iconPictureBox3.TabIndex = 110;
-            this.iconPictureBox3.TabStop = false;
+            this.iconAddress.BackColor = System.Drawing.Color.White;
+            this.iconAddress.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.iconAddress.IconChar = FontAwesome.Sharp.IconChar.LocationDot;
+            this.iconAddress.IconColor = System.Drawing.SystemColors.ControlText;
+            this.iconAddress.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconAddress.Location = new System.Drawing.Point(401, 203);
+            this.iconAddress.Name = "iconAddress";
+            this.iconAddress.Size = new System.Drawing.Size(32, 32);
+            this.iconAddress.TabIndex = 110;
+            this.iconAddress.TabStop = false;
             // 
-            // iconPictureBox4
+            // iconStar
             // 
-            this.iconPictureBox4.BackColor = System.Drawing.Color.White;
-            this.iconPictureBox4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox4.IconChar = FontAwesome.Sharp.IconChar.StarHalfAlt;
-            this.iconPictureBox4.IconColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox4.Location = new System.Drawing.Point(390, 362);
-            this.iconPictureBox4.Name = "iconPictureBox4";
-            this.iconPictureBox4.Size = new System.Drawing.Size(32, 32);
-            this.iconPictureBox4.TabIndex = 110;
-            this.iconPictureBox4.TabStop = false;
+            this.iconStar.BackColor = System.Drawing.Color.White;
+            this.iconStar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.iconStar.IconChar = FontAwesome.Sharp.IconChar.StarHalfAlt;
+            this.iconStar.IconColor = System.Drawing.SystemColors.ControlText;
+            this.iconStar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconStar.Location = new System.Drawing.Point(401, 395);
+            this.iconStar.Name = "iconStar";
+            this.iconStar.Size = new System.Drawing.Size(32, 32);
+            this.iconStar.TabIndex = 110;
+            this.iconStar.TabStop = false;
             // 
             // label12
             // 
@@ -506,7 +507,7 @@
             this.guna2Panel1.BorderRadius = 10;
             this.guna2Panel1.BorderThickness = 2;
             this.guna2Panel1.Controls.Add(this.label12);
-            this.guna2Panel1.Location = new System.Drawing.Point(59, 538);
+            this.guna2Panel1.Location = new System.Drawing.Point(41, 498);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(628, 142);
@@ -515,13 +516,22 @@
             // label23
             // 
             this.label23.BackColor = System.Drawing.Color.White;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label23.Location = new System.Drawing.Point(87, 520);
+            this.label23.Location = new System.Drawing.Point(69, 486);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(76, 27);
+            this.label23.Size = new System.Drawing.Size(77, 27);
             this.label23.TabIndex = 113;
             this.label23.Text = "Mô tả: ";
+            // 
+            // label13
+            // 
+            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.label13.Location = new System.Drawing.Point(359, 171);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(10, 258);
+            this.label13.TabIndex = 114;
             // 
             // FWorkerDetail
             // 
@@ -529,6 +539,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(720, 775);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.label11);
@@ -538,11 +549,11 @@
             this.Controls.Add(this.iconWorkHour);
             this.Controls.Add(this.iconHireCost);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.iconPictureBox4);
+            this.Controls.Add(this.iconStar);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.iconPictureBox3);
-            this.Controls.Add(this.iconPictureBox2);
-            this.Controls.Add(this.iconPictureBox1);
+            this.Controls.Add(this.iconAddress);
+            this.Controls.Add(this.iconMedal);
+            this.Controls.Add(this.iconHireTime);
             this.Controls.Add(this.lblLeft);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -568,10 +579,10 @@
             this.panelTaskBar.ResumeLayout(false);
             this.panelTaskBar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconHireTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconMedal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconAddress)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconStar)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -609,12 +620,13 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox3;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox4;
+        private FontAwesome.Sharp.IconPictureBox iconHireTime;
+        private FontAwesome.Sharp.IconPictureBox iconMedal;
+        private FontAwesome.Sharp.IconPictureBox iconAddress;
+        private FontAwesome.Sharp.IconPictureBox iconStar;
         private System.Windows.Forms.Label label12;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label13;
     }
 }
