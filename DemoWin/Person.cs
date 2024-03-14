@@ -18,7 +18,9 @@ namespace DemoWin
         private string email;
         private string acNumber;
         private string surplus;
-
+        private string account; 
+        private string pass; 
+        private string role;
         public Person(string id, string name, string sex, string phone, string address, string cccd, string date, string email, string acNumber, string surplus)
         {
             this.id = id;
@@ -43,5 +45,8 @@ namespace DemoWin
         public string Email { get => email; set => email = value; }
         public string AcNumber { get => acNumber; set => acNumber = value; }
         public string Surplus { get => surplus; set => surplus = value; }
+        public string Account { get => account; set => account = value; }
+        public string Pass { get => pass; set => pass = value; }
+        public string Role { get => role; set => role = value; }
     }
 }

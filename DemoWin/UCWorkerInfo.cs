@@ -19,7 +19,7 @@ namespace DemoWin
         public UCWorkerInfo()
         {
             InitializeComponent();
-            imagePaths = Directory.GetFiles("D:\\DataD\\c#\\DemoWin\\BackGroundImage"); // Thay đường dẫn với thư mục chứa hình ảnh
+            imagePaths = Directory.GetFiles("C:\\DoAnWin\\DoAnWin\\BackGroundImage"); // Thay đường dẫn với thư mục chứa hình ảnh
         }
 
         private void label5_Click(object sender, EventArgs e)
