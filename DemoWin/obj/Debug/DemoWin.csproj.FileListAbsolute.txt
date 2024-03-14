@@ -59,6 +59,7 @@ D:\DataD\c#\DemoWin\DemoWin\obj\Debug\DemoWin.UCTxtWorker.resources
 D:\DataD\c#\DemoWin\DemoWin\obj\Debug\DemoWin.Form1.resources
 D:\DataD\c#\DemoWin\DemoWin\obj\Debug\DemoWin.UCPostJob.resources
 D:\DataD\c#\DemoWin\DemoWin\obj\Debug\DemoWin.FPostWork.resources
+<<<<<<< HEAD
 C:\DoAnWin\DoAnWin\DemoWin\bin\Debug\DemoWin.exe.config
 C:\DoAnWin\DoAnWin\DemoWin\bin\Debug\DemoWin.exe
 C:\DoAnWin\DoAnWin\DemoWin\bin\Debug\DemoWin.pdb
@@ -98,3 +99,6 @@ C:\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.CoreCompileInputs.cache
 C:\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.Up2Date
 C:\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.exe
 C:\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.pdb
+=======
+D:\DataD\c#\DemoWin\DemoWin\obj\Debug\DemoWin.UCMail.resources
+>>>>>>> 6bdf59a7bebf4a8148fe6991a5dda81b87933803

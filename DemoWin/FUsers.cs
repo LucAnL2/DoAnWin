@@ -1,4 +1,5 @@
-﻿using FontAwesome.Sharp;
+﻿using DemoWin.Forms;
+using FontAwesome.Sharp;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,7 +18,7 @@ namespace DemoWin
         private IconButton currentButton;
         private Random random;
         private int tempIndex;
-        private Form activeForm;
+        public static Form activeForm;
         private Panel leftBorderBtn;
         public FUsers()
         {
@@ -29,6 +30,7 @@ namespace DemoWin
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
+            panelMenu.Controls.Add(leftBorderBtn);
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -65,6 +67,10 @@ namespace DemoWin
                     currentButton.TextAlign = ContentAlignment.MiddleCenter;
                     currentButton.TextImageRelation = TextImageRelation.TextBeforeImage;
                     currentButton.ImageAlign = ContentAlignment.MiddleRight;
+                    leftBorderBtn.BackColor = ThemeColors.ChangeColorBrightness(color, +0.3); ;
+                    leftBorderBtn.Location = new Point(0, currentButton.Location.Y);
+                    leftBorderBtn.Visible = true;
+                    leftBorderBtn.BringToFront();
                 }
             }
         }
@@ -103,9 +109,6 @@ namespace DemoWin
             Clock.Start();
             MakeSpace();
         }
-
-
-
         private void btnHome_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FHome(), sender);

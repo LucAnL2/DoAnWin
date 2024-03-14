@@ -16,7 +16,6 @@ namespace DemoWin
     public partial class FWorkerDetail : Form
     {
         PaintColor paintColor = new PaintColor();
-        public Color IconPicColor { get; set; }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
@@ -32,41 +31,40 @@ namespace DemoWin
         }
         private void ChangeColor()
         {
-            Color color = paintColor.SelectThemeColors();
-            panelTaskBar.BackColor = color;
-            iconWorkDay.IconColor = color;
-            iconWorkHour.IconColor = color;
-            iconPhone.IconColor = color;
-            iconHireCost.IconColor = color;
-            iconAddress.IconColor = color;
-            iconMedal.IconColor = color;
-            iconStar.IconColor = color;
-            iconHireTime.IconColor = color;
+            panelTaskBar.BackColor = ThemeColors.PrimaryColor;
+            iconWorkDay.IconColor = ThemeColors.PrimaryColor;
+            iconWorkHour.IconColor = ThemeColors.PrimaryColor;
+            iconPhone.IconColor = ThemeColors.PrimaryColor;
+            iconHireCost.IconColor = ThemeColors.PrimaryColor;
+            iconAddress.IconColor = ThemeColors.PrimaryColor;
+            iconMedal.IconColor = ThemeColors.PrimaryColor;
+            iconStar.IconColor = ThemeColors.PrimaryColor;
+            iconHireTime.IconColor = ThemeColors.PrimaryColor;
             foreach (Control previousBtn in this.Controls)
             {
                 if (previousBtn.GetType() == typeof(Label))
                 {
                     if (previousBtn.Text == "")
-                        previousBtn.BackColor = color;
+                        previousBtn.BackColor = ThemeColors.PrimaryColor;
                     else
-                        previousBtn.ForeColor = color;
+                        previousBtn.ForeColor = ThemeColors.PrimaryColor;
                 }
                 else if (previousBtn.GetType() == typeof(Guna2Button))
                 {
-                    previousBtn.ForeColor = color;
+                    previousBtn.ForeColor = ThemeColors.PrimaryColor;
                     Guna2Button Button = (Guna2Button)previousBtn; // Ép kiểu về IconButton
-                    Button.BorderColor = color; // Gán giá trị cho thuộc tính IconColor
+                    Button.BorderColor = ThemeColors.PrimaryColor; // Gán giá trị cho thuộc tính IconColor
                 }
                 else if (previousBtn.GetType() == typeof(Guna2Panel))
                 {
-                    previousBtn.ForeColor = color;
+                    previousBtn.ForeColor = ThemeColors.PrimaryColor;
                     Guna2Panel Button = (Guna2Panel)previousBtn; // Ép kiểu về IconButton
-                    Button.BorderColor = color; // Gán giá trị cho thuộc tính IconColor
+                    Button.BorderColor = ThemeColors.PrimaryColor; // Gán giá trị cho thuộc tính IconColor
                     foreach (Control item in previousBtn.Controls)
                     {
                         if (item.GetType() == typeof(Label))
                         { 
-                            item.ForeColor = color;
+                            item.ForeColor = ThemeColors.PrimaryColor;
                         }
                     }
                 }

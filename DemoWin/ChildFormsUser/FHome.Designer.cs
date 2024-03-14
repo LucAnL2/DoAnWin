@@ -40,13 +40,13 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.picCarWash = new System.Windows.Forms.PictureBox();
             this.picOther = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            panelCotain = new System.Windows.Forms.Panel();
             this.panelTaskBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCarWash)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picOther)).BeginInit();
@@ -153,11 +153,10 @@
             this.panelTaskBar.Controls.Add(this.button2);
             this.panelTaskBar.Controls.Add(this.button1);
             this.panelTaskBar.Controls.Add(this.label1);
-            this.panelTaskBar.Controls.Add(this.panel2);
             this.panelTaskBar.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelTaskBar.Location = new System.Drawing.Point(0, 529);
+            this.panelTaskBar.Location = new System.Drawing.Point(0, 577);
             this.panelTaskBar.Name = "panelTaskBar";
-            this.panelTaskBar.Size = new System.Drawing.Size(1179, 141);
+            this.panelTaskBar.Size = new System.Drawing.Size(1179, 93);
             this.panelTaskBar.TabIndex = 13;
             // 
             // button4
@@ -169,7 +168,7 @@
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = global::DemoWin.Properties.Resources.discord;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(762, 81);
+            this.button4.Location = new System.Drawing.Point(761, 43);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(124, 38);
             this.button4.TabIndex = 2;
@@ -187,7 +186,7 @@
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = global::DemoWin.Properties.Resources.facebook;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(617, 81);
+            this.button3.Location = new System.Drawing.Point(616, 43);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(122, 38);
             this.button3.TabIndex = 2;
@@ -206,7 +205,7 @@
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::DemoWin.Properties.Resources.clock__1_;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(480, 81);
+            this.button2.Location = new System.Drawing.Point(479, 43);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(107, 38);
             this.button2.TabIndex = 2;
@@ -224,7 +223,7 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::DemoWin.Properties.Resources.smartphone;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(265, 81);
+            this.button1.Location = new System.Drawing.Point(264, 43);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(165, 38);
             this.button1.TabIndex = 2;
@@ -240,20 +239,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(523, 43);
+            this.label1.Location = new System.Drawing.Point(522, 5);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(165, 22);
             this.label1.TabIndex = 1;
             this.label1.Text = "-World of work Z-";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1179, 40);
-            this.panel2.TabIndex = 0;
             // 
             // picCarWash
             // 
@@ -320,6 +310,14 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
+            // panelCotain
+            // 
+            panelCotain.Dock = System.Windows.Forms.DockStyle.Fill;
+            panelCotain.Location = new System.Drawing.Point(0, 0);
+            panelCotain.Name = "panelCotain";
+            panelCotain.Size = new System.Drawing.Size(1179, 577);
+            panelCotain.TabIndex = 14;
+            // 
             // FHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -327,6 +325,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1179, 670);
+            this.Controls.Add(panelCotain);
             this.Controls.Add(this.panelTaskBar);
             this.Controls.Add(this.picCarWash);
             this.Controls.Add(this.picOther);
@@ -370,11 +369,11 @@
         private System.Windows.Forms.PictureBox picOther;
         private System.Windows.Forms.PictureBox picCarWash;
         private System.Windows.Forms.Panel panelTaskBar;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        public static System.Windows.Forms.Panel panelCotain;
     }
 }

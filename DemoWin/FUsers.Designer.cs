@@ -81,7 +81,7 @@
             this.btnLogout.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLogout.IconSize = 32;
             this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.Location = new System.Drawing.Point(-3, 237);
+            this.btnLogout.Location = new System.Drawing.Point(-3, 255);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnLogout.Size = new System.Drawing.Size(190, 60);
@@ -102,7 +102,7 @@
             this.btnUser.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnUser.IconSize = 32;
             this.btnUser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUser.Location = new System.Drawing.Point(0, 171);
+            this.btnUser.Location = new System.Drawing.Point(0, 189);
             this.btnUser.Name = "btnUser";
             this.btnUser.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnUser.Size = new System.Drawing.Size(190, 60);
@@ -123,7 +123,7 @@
             this.btnHired.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnHired.IconSize = 32;
             this.btnHired.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHired.Location = new System.Drawing.Point(0, 111);
+            this.btnHired.Location = new System.Drawing.Point(0, 123);
             this.btnHired.Name = "btnHired";
             this.btnHired.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnHired.Size = new System.Drawing.Size(190, 60);
@@ -351,7 +351,7 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Button btnCloseChildForm;
-        private System.Windows.Forms.Panel panelDesktop;
+        public System.Windows.Forms.Panel panelDesktop;
         private System.Windows.Forms.Label lblClock;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;

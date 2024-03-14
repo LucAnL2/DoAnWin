@@ -22,7 +22,7 @@ namespace DemoWin
                                                                     "#E41A4A",
                                                                     "#5978BB",
                                                                     "#018790",
-                                                                    "#0E3441",
+                                                                    //"#0E3441",
                                                                     "#00B0AD",
                                                                     "#721D47",
                                                                     "#EA4833",
@@ -31,13 +31,16 @@ namespace DemoWin
                                                                     "#A12059",
                                                                     "#126881",
                                                                     "#8BC240",
-                                                                    "#364D5B",
+                                                                    //"#364D5B",
                                                                     "#C7DC5B",
                                                                     "#0094BC",
                                                                     "#E4126B",
                                                                     "#43B76E",
                                                                     "#7BCFE9",
-                                                                    "#B71C46"};
+                                                                    "#B71C46",
+                                                                    "#381CB7",
+                                                                    "#5EFF00",
+                                                                    "#0C855E"};
         public static Color ChangeColorBrightness(Color color, double correctionFactor)
         {
             double red = color.R;
