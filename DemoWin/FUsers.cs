@@ -30,6 +30,7 @@ namespace DemoWin
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
+            panelMenu.Controls.Add(leftBorderBtn);
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -66,6 +67,10 @@ namespace DemoWin
                     currentButton.TextAlign = ContentAlignment.MiddleCenter;
                     currentButton.TextImageRelation = TextImageRelation.TextBeforeImage;
                     currentButton.ImageAlign = ContentAlignment.MiddleRight;
+                    leftBorderBtn.BackColor = ThemeColors.ChangeColorBrightness(color, +0.3); ;
+                    leftBorderBtn.Location = new Point(0, currentButton.Location.Y);
+                    leftBorderBtn.Visible = true;
+                    leftBorderBtn.BringToFront();
                 }
             }
         }

@@ -20,7 +20,7 @@ namespace DemoWin
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
         PaintColor paintColor = new PaintColor();
-        public Color IconColor { get; set; }
+        //public Color IconColor { get; set; }
         private bool isbtnHaNoi = false;
         private bool isbtnTpHCM = false;
         private bool isbtnHue = false;
@@ -71,7 +71,7 @@ namespace DemoWin
             for (int i = 0; i < 7; i++)
             {
                 UCWorkerInfo uc = new UCWorkerInfo();
-                uc.Margin = new Padding(22);
+                uc.Margin = new Padding(23);
                 flowLayoutPanel.Controls.Add(uc);
             }
             ChangeColor();
@@ -103,7 +103,6 @@ namespace DemoWin
             panelButtom.BackColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor, +0.3);
             btnBack.BackColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor, +0.3);
             btnHelp.BackColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor, +0.3);
-            //btnChangeColor.BackColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor, +0.3);
         }
         private void ChangeColorComboButton(FlowLayoutPanel panel, Color color)
         {
@@ -161,27 +160,6 @@ namespace DemoWin
         private void btnRate_Click(object sender, EventArgs e)
         {
             RollBtnRate.Start();
-        }
-
-        void OpenOnDock(Form childForm)
-        {
-            FUsers mainForm = this.ParentForm as FUsers;
-
-            if (mainForm != null)
-            {
-                if (FUsers.activeForm != null)
-                {
-                    FUsers.activeForm.Close();
-                }
-                childForm.TopLevel = false;
-                childForm.FormBorderStyle = FormBorderStyle.None;
-                childForm.Dock = DockStyle.Fill;
-                childForm.FormBorderStyle = FormBorderStyle.None;
-                mainForm.panelDesktop.Controls.Clear();
-                mainForm.panelDesktop.Controls.Add(childForm);
-                childForm.BringToFront();
-                childForm.Show();
-            }
         }
 
         private void flowLayoutPanel_Paint(object sender, PaintEventArgs e)
