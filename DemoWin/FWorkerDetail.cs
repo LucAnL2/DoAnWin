@@ -73,8 +73,8 @@ namespace DemoWin
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            this.Close();
+            //this.Hide();
+            //this.Close();
         }
 
         private void btnChangeColor_Click(object sender, EventArgs e)
@@ -115,6 +115,11 @@ namespace DemoWin
         {
             FConfirmHire fConfirmHire = new FConfirmHire();
             fConfirmHire.ShowDialog();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -44,12 +44,12 @@
             this.iconPhone = new FontAwesome.Sharp.IconPictureBox();
             this.iconHireCost = new FontAwesome.Sharp.IconPictureBox();
             this.panelTaskBar = new System.Windows.Forms.Panel();
-            this.btnMinimize = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.btnClose1 = new System.Windows.Forms.Button();
             this.btnChangeColor = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnBack = new Guna.UI2.WinForms.Guna2Button();
             this.lblRight = new System.Windows.Forms.Label();
             this.lblLeft = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -132,7 +132,7 @@
             this.btnClose.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.btnClose.HoverState.Parent = this.btnClose;
-            this.btnClose.Location = new System.Drawing.Point(791, 521);
+            this.btnClose.Location = new System.Drawing.Point(778, 285);
             this.btnClose.Name = "btnClose";
             this.btnClose.ShadowDecoration.Parent = this.btnClose;
             this.btnClose.Size = new System.Drawing.Size(101, 45);
@@ -152,7 +152,7 @@
             this.btnHire.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHire.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.btnHire.HoverState.Parent = this.btnHire;
-            this.btnHire.Location = new System.Drawing.Point(778, 193);
+            this.btnHire.Location = new System.Drawing.Point(778, 204);
             this.btnHire.Name = "btnHire";
             this.btnHire.ShadowDecoration.Parent = this.btnHire;
             this.btnHire.Size = new System.Drawing.Size(101, 45);
@@ -270,15 +270,15 @@
             // panelTaskBar
             // 
             this.panelTaskBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.panelTaskBar.Controls.Add(this.btnMinimize);
+            this.panelTaskBar.Controls.Add(this.button1);
             this.panelTaskBar.Controls.Add(this.guna2CirclePictureBox1);
-            this.panelTaskBar.Controls.Add(this.btnClose1);
             this.panelTaskBar.Controls.Add(this.btnChangeColor);
             this.panelTaskBar.Controls.Add(this.label3);
             this.panelTaskBar.Controls.Add(this.label6);
             this.panelTaskBar.Controls.Add(this.label4);
             this.panelTaskBar.Controls.Add(this.label2);
             this.panelTaskBar.Controls.Add(this.label5);
+            this.panelTaskBar.Controls.Add(this.btnBack);
             this.panelTaskBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTaskBar.Location = new System.Drawing.Point(0, 0);
             this.panelTaskBar.Name = "panelTaskBar";
@@ -286,20 +286,22 @@
             this.panelTaskBar.TabIndex = 107;
             this.panelTaskBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTaskBar_MouseDown);
             // 
-            // btnMinimize
+            // button1
             // 
-            this.btnMinimize.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnMinimize.FlatAppearance.BorderSize = 0;
-            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Image = global::DemoWin.Properties.Resources.minus_small;
-            this.btnMinimize.Location = new System.Drawing.Point(829, 12);
-            this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(35, 35);
-            this.btnMinimize.TabIndex = 82;
-            this.btnMinimize.UseVisualStyleBackColor = true;
-            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = global::DemoWin.Properties.Resources.envelope__2_;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(757, 114);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.button1.Size = new System.Drawing.Size(131, 33);
+            this.button1.TabIndex = 83;
+            this.button1.Text = "    Thuê";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // guna2CirclePictureBox1
             // 
@@ -312,21 +314,6 @@
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox1.TabIndex = 81;
             this.guna2CirclePictureBox1.TabStop = false;
-            // 
-            // btnClose1
-            // 
-            this.btnClose1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnClose1.FlatAppearance.BorderSize = 0;
-            this.btnClose1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose1.ForeColor = System.Drawing.Color.White;
-            this.btnClose1.Image = global::DemoWin.Properties.Resources.cross_small;
-            this.btnClose1.Location = new System.Drawing.Point(870, 12);
-            this.btnClose1.Name = "btnClose1";
-            this.btnClose1.Size = new System.Drawing.Size(35, 35);
-            this.btnClose1.TabIndex = 80;
-            this.btnClose1.UseVisualStyleBackColor = true;
-            this.btnClose1.Click += new System.EventHandler(this.btnClose1_Click_1);
             // 
             // btnChangeColor
             // 
@@ -368,22 +355,42 @@
             this.label4.TabIndex = 54;
             this.label4.Text = "Giới tính: Nam";
             // 
+            // btnBack
+            // 
+            this.btnBack.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnBack.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.btnBack.BorderRadius = 8;
+            this.btnBack.BorderThickness = 2;
+            this.btnBack.CheckedState.Parent = this.btnBack;
+            this.btnBack.CustomImages.Parent = this.btnBack;
+            this.btnBack.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.btnBack.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.ForeColor = System.Drawing.Color.White;
+            this.btnBack.HoverState.Parent = this.btnBack;
+            this.btnBack.Location = new System.Drawing.Point(811, 3);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.ShadowDecoration.Parent = this.btnBack;
+            this.btnBack.Size = new System.Drawing.Size(101, 45);
+            this.btnBack.TabIndex = 75;
+            this.btnBack.Text = "Đóng";
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // lblRight
             // 
             this.lblRight.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblRight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.lblRight.Location = new System.Drawing.Point(907, 84);
+            this.lblRight.Location = new System.Drawing.Point(910, 171);
             this.lblRight.Name = "lblRight";
-            this.lblRight.Size = new System.Drawing.Size(2, 557);
+            this.lblRight.Size = new System.Drawing.Size(2, 422);
             this.lblRight.TabIndex = 108;
             // 
             // lblLeft
             // 
             this.lblLeft.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.lblLeft.Location = new System.Drawing.Point(8, 84);
+            this.lblLeft.Location = new System.Drawing.Point(4, 171);
             this.lblLeft.Name = "lblLeft";
-            this.lblLeft.Size = new System.Drawing.Size(2, 557);
+            this.lblLeft.Size = new System.Drawing.Size(2, 422);
             this.lblLeft.TabIndex = 109;
             // 
             // label7
@@ -488,9 +495,9 @@
             this.label12.BackColor = System.Drawing.Color.White;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label12.Location = new System.Drawing.Point(11, 19);
+            this.label12.Location = new System.Drawing.Point(39, 15);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(605, 88);
+            this.label12.Size = new System.Drawing.Size(773, 56);
             this.label12.TabIndex = 112;
             this.label12.Text = "Nhận mọi công việc nằm trong lĩnh vực cơ khí, có 21.1 năm kinh nghiệm trong công " +
     "việc, đã từng sửa chữa thành công cho nhiều xe tăng của bộ quốc phòng";
@@ -502,10 +509,10 @@
             this.guna2Panel1.BorderRadius = 10;
             this.guna2Panel1.BorderThickness = 2;
             this.guna2Panel1.Controls.Add(this.label12);
-            this.guna2Panel1.Location = new System.Drawing.Point(41, 448);
+            this.guna2Panel1.Location = new System.Drawing.Point(12, 476);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(628, 142);
+            this.guna2Panel1.Size = new System.Drawing.Size(892, 94);
             this.guna2Panel1.TabIndex = 113;
             // 
             // label23
@@ -514,7 +521,7 @@
             this.label23.BackColor = System.Drawing.Color.White;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label23.Location = new System.Drawing.Point(69, 436);
+            this.label23.Location = new System.Drawing.Point(50, 464);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(77, 27);
             this.label23.TabIndex = 113;
@@ -526,7 +533,7 @@
             this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.label13.Location = new System.Drawing.Point(385, 171);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(10, 258);
+            this.label13.Size = new System.Drawing.Size(10, 252);
             this.label13.TabIndex = 114;
             // 
             // lblTop
@@ -553,6 +560,7 @@
             this.Controls.Add(this.label18);
             this.Controls.Add(this.iconWorkHour);
             this.Controls.Add(this.iconHireCost);
+            this.Controls.Add(this.btnHire);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.iconStar);
             this.Controls.Add(this.label20);
@@ -566,7 +574,6 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.lblRight);
             this.Controls.Add(this.panelTaskBar);
-            this.Controls.Add(this.btnHire);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.lblBotton);
             this.Controls.Add(this.label1);
@@ -610,13 +617,11 @@
         private System.Windows.Forms.Panel panelTaskBar;
         private System.Windows.Forms.Label lblRight;
         private System.Windows.Forms.Label lblLeft;
-        private System.Windows.Forms.Button btnClose1;
         private FontAwesome.Sharp.IconPictureBox iconWorkDay;
         private FontAwesome.Sharp.IconPictureBox iconPhone;
         private FontAwesome.Sharp.IconPictureBox iconWorkHour;
         private FontAwesome.Sharp.IconPictureBox iconHireCost;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
@@ -632,5 +637,7 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label lblTop;
+        private System.Windows.Forms.Button button1;
+        public Guna.UI2.WinForms.Guna2Button btnBack;
     }
 }

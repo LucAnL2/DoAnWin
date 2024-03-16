@@ -83,6 +83,7 @@
             this.RollBtnHireCost = new System.Windows.Forms.Timer(this.components);
             this.RollBtnWorkDay = new System.Windows.Forms.Timer(this.components);
             this.RollBtnWorkHour = new System.Windows.Forms.Timer(this.components);
+            this.panelContainDetail = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.panelContain.SuspendLayout();
             this.panelSearch.SuspendLayout();
@@ -93,6 +94,7 @@
             this.PanelComboAge.SuspendLayout();
             this.PanelComboAddress.SuspendLayout();
             this.panelTop.SuspendLayout();
+            this.panelContainDetail.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -965,7 +967,7 @@
             // 
             this.flowLayoutPanel.AutoScroll = true;
             this.flowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel.Location = new System.Drawing.Point(262, 41);
+            this.flowLayoutPanel.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel.Name = "flowLayoutPanel";
             this.flowLayoutPanel.Size = new System.Drawing.Size(917, 604);
             this.flowLayoutPanel.TabIndex = 28;
@@ -1001,13 +1003,23 @@
             this.RollBtnWorkHour.Interval = 1;
             this.RollBtnWorkHour.Tick += new System.EventHandler(this.RollBtnWorkHour_Tick);
             // 
+            // panelContainDetail
+            // 
+            this.panelContainDetail.AutoScroll = true;
+            this.panelContainDetail.Controls.Add(this.flowLayoutPanel);
+            this.panelContainDetail.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContainDetail.Location = new System.Drawing.Point(262, 41);
+            this.panelContainDetail.Name = "panelContainDetail";
+            this.panelContainDetail.Size = new System.Drawing.Size(917, 604);
+            this.panelContainDetail.TabIndex = 28;
+            // 
             // FHire
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1179, 670);
-            this.Controls.Add(this.flowLayoutPanel);
+            this.Controls.Add(this.panelContainDetail);
             this.Controls.Add(this.panelButtom);
             this.Controls.Add(this.panelTop);
             this.Controls.Add(this.panelMenu);
@@ -1027,6 +1039,7 @@
             this.PanelComboAge.ResumeLayout(false);
             this.PanelComboAddress.ResumeLayout(false);
             this.panelTop.ResumeLayout(false);
+            this.panelContainDetail.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1038,7 +1051,7 @@
         private System.Windows.Forms.Button btnHelp;
         private System.Windows.Forms.Panel panelTop;
         private System.Windows.Forms.Panel panelButtom;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel;
+        public System.Windows.Forms.FlowLayoutPanel flowLayoutPanel;
         private System.Windows.Forms.FlowLayoutPanel PanelComboAge;
         private FontAwesome.Sharp.IconButton btnAge;
         private System.Windows.Forms.Timer RollBtnAge;
@@ -1087,5 +1100,6 @@
         private FontAwesome.Sharp.IconButton btnOvertime;
         private System.Windows.Forms.Timer RollBtnWorkDay;
         private System.Windows.Forms.Timer RollBtnWorkHour;
+        private System.Windows.Forms.Panel panelContainDetail;
     }
 }

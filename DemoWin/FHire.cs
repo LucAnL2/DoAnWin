@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Common;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -46,6 +47,7 @@ namespace DemoWin
         private bool isbtn7h10h30 = false;
         private bool isbtn12h305h = false;
         private bool isbtnOvertime = false;
+        public static Form activeForm;
         public FHire()
         {
             InitializeComponent();
@@ -72,7 +74,9 @@ namespace DemoWin
             {
                 UCWorkerInfo uc = new UCWorkerInfo();
                 uc.Margin = new Padding(23);
+                uc.btnDetail.Click += btnOpenDetail_Click;
                 flowLayoutPanel.Controls.Add(uc);
+
             }
             ChangeColor();
             
@@ -356,6 +360,40 @@ namespace DemoWin
                 }
                 iconButton.IconChar = IconChar.ChevronRight;
             }
+        }
+        private void OpenChildForm(Form childForm, object btnSender)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+            }
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelContainDetail.Controls.Add(childForm);
+            panelContainDetail.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+        private void btnOpenDetail_Click(object sender, EventArgs e)
+        {
+            //FWorkerDetail user = new FWorkerDetail();
+            //OpenChildForm(user, sender);
+            //flowLayoutPanel.Hide();
+            FWorkerDetail user = new FWorkerDetail();
+            user.btnBack.Click += btnCloseDetail_Click;
+            OpenChildForm(user, sender);
+            //user.ShowDialog();
+        }
+        private void btnCloseDetail_Click(object sender, EventArgs e)
+        {
+            FHire_Load(sender, e);
+            
+            flowLayoutPanel.Visible = true;
+            panelContainDetail.Controls.Add(flowLayoutPanel);
+            panelContainDetail.Tag = flowLayoutPanel;
+            flowLayoutPanel.BringToFront();
         }
     }
 }

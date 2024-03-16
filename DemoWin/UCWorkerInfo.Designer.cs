@@ -122,7 +122,7 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2Button btnDetail;
+        public Guna.UI2.WinForms.Guna2Button btnDetail;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
