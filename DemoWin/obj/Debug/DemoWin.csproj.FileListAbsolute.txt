@@ -102,3 +102,4 @@ C:\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.pdb
 =======
 D:\DataD\c#\DemoWin\DemoWin\obj\Debug\DemoWin.UCMail.resources
 >>>>>>> 6bdf59a7bebf4a8148fe6991a5dda81b87933803
+C:\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.UCMail.resources
