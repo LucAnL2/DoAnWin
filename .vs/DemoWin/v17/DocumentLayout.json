@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\DataD\\c#\\DemoWin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|d:\\datad\\c#\\demowin\\demowin\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|d:\\datad\\c#\\demowin\\demowin\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|d:\\datad\\c#\\demowin\\demowin\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|d:\\datad\\c#\\demowin\\demowin\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|d:\\datad\\c#\\demowin\\demowin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|d:\\datad\\c#\\demowin\\demowin\\fusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +74,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Modify.cs",
+              "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Modify.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Modify.cs",
+              "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Modify.cs",
+              "RelativeToolTip": "DemoWin\\Modify.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T06:49:56.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\User.cs",
+              "RelativeDocumentMoniker": "DemoWin\\User.cs",
+              "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\User.cs",
+              "RelativeToolTip": "DemoWin\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T06:49:53.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Person.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Person.cs",
+              "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Person.cs",
+              "RelativeToolTip": "DemoWin\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T06:49:44.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Program.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Program.cs",
+              "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Program.cs",
+              "RelativeToolTip": "DemoWin\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T06:49:42.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Test.cs",
+              "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Test.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Test.cs",
+              "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Test.cs",
+              "RelativeToolTip": "DemoWin\\Test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T06:49:15.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FUsers.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FUsers.cs",
               "RelativeDocumentMoniker": "DemoWin\\FUsers.cs",
@@ -67,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ThemeColors.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\ThemeColors.cs",
               "RelativeDocumentMoniker": "DemoWin\\ThemeColors.cs",
@@ -79,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "FHire.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FHire.cs",
               "RelativeDocumentMoniker": "DemoWin\\FHire.cs",
@@ -90,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "FUsers.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FUsers.cs",
               "RelativeDocumentMoniker": "DemoWin\\FUsers.cs",
@@ -101,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "FInfo.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\ChildFormsUser\\FInfo.cs",
               "RelativeDocumentMoniker": "DemoWin\\ChildFormsUser\\FInfo.cs",
@@ -112,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "FWorkerDetail.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FWorkerDetail.cs",
               "RelativeDocumentMoniker": "DemoWin\\FWorkerDetail.cs",
@@ -124,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "FHire.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FHire.cs",
               "RelativeDocumentMoniker": "DemoWin\\FHire.cs",
@@ -136,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "FHome.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\ChildFormsUser\\FHome.cs",
               "RelativeDocumentMoniker": "DemoWin\\ChildFormsUser\\FHome.cs",
