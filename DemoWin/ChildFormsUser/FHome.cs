@@ -13,11 +13,7 @@ namespace DemoWin.Forms
 {
     public partial class FHome : Form
     {
-        private IconButton currentButton;
-        private Random random;
-        private int tempIndex;
         public static Form activeForm;
-        private Panel leftBorderBtn;
         public FHome()
         {
             InitializeComponent();

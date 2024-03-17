@@ -17,6 +17,7 @@ namespace DemoWin.Forms
         string[] dataAddress = { "Hà Nội", "Huế", "Tp Hồ Chí Minh", "Nơi khác" };
         string[] dataHireCost = { "Dưới 8tr", "8-10tr", "10-20tr", "Trên 20tr" };
         string[] dataRate = { "1 Sao", "2 Sao", "3 Sao", "4 Sao", "5 Sao" };
+        public static Form activeForm;
         public FHired()
         {
             InitializeComponent();
@@ -33,6 +34,7 @@ namespace DemoWin.Forms
                 UCWorkerInfo uc = new UCWorkerInfo();
                 uc.Margin = new Padding(13);
                 uc.BackColor = ThemeColors.PrimaryColor;
+                uc.btnDetail.Click += btnOpenDetail_Click;
                 flowPanelContain.Controls.Add(uc);
             }
         }
@@ -43,6 +45,36 @@ namespace DemoWin.Forms
             cbbAddress.FillColor = ThemeColors.SecondaryColor;
             cbbHirecost.FillColor = ThemeColors.SecondaryColor;
             cbbRate.FillColor = ThemeColors.SecondaryColor;
+        }
+        private void OpenChildForm(Form childForm, object btnSender)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+            }
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelContain.Controls.Add(childForm);
+            panelContain.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+        private void btnOpenDetail_Click(object sender, EventArgs e)
+        {
+            FWorkerDetail user = new FWorkerDetail();
+            user.btnBack.Click += btnCloseDetail_Click;
+            OpenChildForm(user, sender);
+        }
+        private void btnCloseDetail_Click(object sender, EventArgs e)
+        {
+            //FHired_Load(sender, e);
+
+            flowPanelContain.Visible = true;
+            panelContain.Controls.Add(flowPanelContain);
+            panelContain.Tag = flowPanelContain;
+            flowPanelContain.BringToFront();
         }
     }
 }
