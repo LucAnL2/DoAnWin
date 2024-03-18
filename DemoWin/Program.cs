@@ -16,7 +16,7 @@ namespace DemoWin
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FUsers());
+            Application.Run(new Form1());
         }
     }
 }
