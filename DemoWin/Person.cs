@@ -34,7 +34,10 @@ namespace DemoWin
             this.acNumber = acNumber;
             this.surplus = surplus;
         }
-
+        public Person(string id)
+        {
+            this.id=id;
+        }
         public string Id { get => id; set => id = value; }
         public string Name { get => name; set => name = value; }
         public string Sex { get => sex; set => sex = value; }

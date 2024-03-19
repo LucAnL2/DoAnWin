@@ -21,7 +21,7 @@ namespace DemoWin
         public UCWorkerInfo()
         {
             InitializeComponent();
-            ////imagePaths = Directory.GetFiles("D:\\DataD\\c#\\DemoWin\\BackGroundImage"); // Thay đường dẫn với thư mục chứa hình ảnh
+            // imagePaths = Directory.GetFiles("C:\\DoAnWin\\DoAnWin\\BackGroundImage"); // Thay đường dẫn với thư mục chứa hình ảnh
             //string defaultFolderPath = root + "\\BackGroundImage\\";
             //imagePaths = Path.Combine(defaultFolderPath);
             string defaultFolderPath = Path.Combine(root, "BackGroundImage"); // Tạo đường dẫn đầy đủ của thư mục hình ảnh

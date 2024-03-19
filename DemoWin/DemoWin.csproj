@@ -256,6 +256,7 @@
       <DependentUpon>UCWorkerInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <Compile Include="WokerDAO.cs" />
     <Compile Include="Worker.cs" />
     <EmbeddedResource Include="ChildFormsManager\FAllUsers.resx">
       <DependentUpon>FAllUsers.cs</DependentUpon>

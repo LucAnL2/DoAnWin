@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,7 +17,7 @@ namespace DemoWin.ChildFormsWorker
         {
             InitializeComponent();
         }
-
+       
         private void FWork_Load(object sender, EventArgs e)
         {
             panelRight.BackColor = ThemeColors.PrimaryColor;
@@ -34,6 +35,7 @@ namespace DemoWin.ChildFormsWorker
         {
             FPostWork postWork = new FPostWork();
             postWork.ShowDialog();
+ 
         }
     }
 }
