@@ -17,11 +17,17 @@ namespace DemoWin
         public static Form activeForm;
         private Random random = new Random();
         private string[] imagePaths;
+        string root = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
         public UCWorkerInfo()
         {
             InitializeComponent();
-            imagePaths = Directory.GetFiles("D:\\DataD\\c#\\DemoWin\\BackGroundImage"); // Thay đường dẫn với thư mục chứa hình ảnh
+            ////imagePaths = Directory.GetFiles("D:\\DataD\\c#\\DemoWin\\BackGroundImage"); // Thay đường dẫn với thư mục chứa hình ảnh
+            //string defaultFolderPath = root + "\\BackGroundImage\\";
+            //imagePaths = Path.Combine(defaultFolderPath);
+            string defaultFolderPath = Path.Combine(root, "BackGroundImage"); // Tạo đường dẫn đầy đủ của thư mục hình ảnh
+            imagePaths = Directory.GetFiles(defaultFolderPath);
         }
+
         private void label5_Click(object sender, EventArgs e)
         {
 
