@@ -17,9 +17,11 @@ namespace DemoWin
         public static Form activeForm;
         private Random random = new Random();
         private string[] imagePaths;
+        string root = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
         public UCWorkerInfo()
         {
             InitializeComponent();
+<<<<<<< HEAD
             imagePaths = Directory.GetFiles("C:\\DoAnWin\\DoAnWin\\BackGroundImage"); // Thay đường dẫn với thư mục chứa hình ảnh
         }
         private void OpenChildForm(Form childForm, object btnSender)
@@ -36,7 +38,15 @@ namespace DemoWin
             //panelCotain.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
+=======
+            ////imagePaths = Directory.GetFiles("D:\\DataD\\c#\\DemoWin\\BackGroundImage"); // Thay đường dẫn với thư mục chứa hình ảnh
+            //string defaultFolderPath = root + "\\BackGroundImage\\";
+            //imagePaths = Path.Combine(defaultFolderPath);
+            string defaultFolderPath = Path.Combine(root, "BackGroundImage"); // Tạo đường dẫn đầy đủ của thư mục hình ảnh
+            imagePaths = Directory.GetFiles(defaultFolderPath);
+>>>>>>> Toan
         }
+
         private void label5_Click(object sender, EventArgs e)
         {
 
@@ -56,8 +66,6 @@ namespace DemoWin
 
         private void btnDetail_Click(object sender, EventArgs e)
         {
-            //FWorkerDetail fWorkerDetail = new FWorkerDetail();
-            //fWorkerDetail.ShowDialog();
         }
     }
 }

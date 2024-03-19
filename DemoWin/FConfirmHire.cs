@@ -31,24 +31,24 @@ namespace DemoWin
 
         private void FConfirmHire_Load(object sender, EventArgs e)
         {
-            Color color = paintColor.SelectThemeColors();
-            panelBottom.BackColor = color;
-            panelTaskBar.BackColor = color;
-            iconPictureBox1.IconColor = color;
-            iconPictureBox2.IconColor = color;
-            lblMonthHire.ForeColor = color;
-            lblYearHire.ForeColor = color;
-            lblSelectHire.ForeColor = color;
-            dateHire.ForeColor = color;
-            txtMonthHire.ForeColor = color;
-            txtYearHire.ForeColor = color;
-            btnCancel.ForeColor = color;
-            btnHire.ForeColor = color;
-            dateHire.BorderColor = ThemeColors.ChangeColorBrightness(color,-0.3);
-            txtMonthHire.BorderColor = ThemeColors.ChangeColorBrightness(color, -0.3);
-            txtYearHire.BorderColor = ThemeColors.ChangeColorBrightness(color, -0.3);
-            btnCancel.BorderColor = ThemeColors.ChangeColorBrightness(color, -0.3);
-            btnHire.BorderColor = ThemeColors.ChangeColorBrightness(color, -0.3);
+            //Color color = paintColor.SelectThemeColors();
+            panelBottom.BackColor = ThemeColors.PrimaryColor;
+            panelTaskBar.BackColor = ThemeColors.PrimaryColor;
+            iconPictureBox1.IconColor = ThemeColors.PrimaryColor;
+            iconPictureBox2.IconColor = ThemeColors.PrimaryColor;
+            lblMonthHire.ForeColor = ThemeColors.PrimaryColor;
+            lblYearHire.ForeColor = ThemeColors.PrimaryColor;
+            lblSelectHire.ForeColor = ThemeColors.PrimaryColor;
+            dateHire.ForeColor = ThemeColors.PrimaryColor;
+            txtMonthHire.ForeColor = ThemeColors.PrimaryColor;
+            txtYearHire.ForeColor = ThemeColors.PrimaryColor;
+            btnCancel.ForeColor = ThemeColors.PrimaryColor;
+            btnHire.ForeColor = ThemeColors.PrimaryColor;
+            dateHire.BorderColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor,-0.3);
+            txtMonthHire.BorderColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor, -0.3);
+            txtYearHire.BorderColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor, -0.3);
+            btnCancel.BorderColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor, -0.3);
+            btnHire.BorderColor = ThemeColors.ChangeColorBrightness(ThemeColors.PrimaryColor, -0.3);
         }
 
         private void btnMinimize_Click(object sender, EventArgs e)

@@ -16,12 +16,6 @@ namespace DemoWin
 {
     public partial class FHire : Form
     {
-        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
-        private extern static void ReleaseCapture();
-        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
-        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
-        PaintColor paintColor = new PaintColor();
-        //public Color IconColor { get; set; }
         private bool isbtnHaNoi = false;
         private bool isbtnTpHCM = false;
         private bool isbtnHue = false;
@@ -128,8 +122,7 @@ namespace DemoWin
 
         private void panelTop_MouseDown(object sender, MouseEventArgs e)
         {
-            ReleaseCapture();
-            SendMessage(this.Handle, 0x112, 0xf012, 0);
+
         }
 
         private void panelTop_Paint(object sender, PaintEventArgs e)
@@ -378,17 +371,13 @@ namespace DemoWin
         }
         private void btnOpenDetail_Click(object sender, EventArgs e)
         {
-            //FWorkerDetail user = new FWorkerDetail();
-            //OpenChildForm(user, sender);
-            //flowLayoutPanel.Hide();
             FWorkerDetail user = new FWorkerDetail();
             user.btnBack.Click += btnCloseDetail_Click;
             OpenChildForm(user, sender);
-            //user.ShowDialog();
         }
         private void btnCloseDetail_Click(object sender, EventArgs e)
         {
-            FHire_Load(sender, e);
+            //FHire_Load(sender, e);
             
             flowLayoutPanel.Visible = true;
             panelContainDetail.Controls.Add(flowLayoutPanel);

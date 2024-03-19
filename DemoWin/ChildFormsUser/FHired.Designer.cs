@@ -35,17 +35,19 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panelTop = new System.Windows.Forms.Panel();
+            this.cbbRate = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cbbHirecost = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cbbAddress = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.btnRevoke = new FontAwesome.Sharp.IconButton();
+            this.btnPending = new FontAwesome.Sharp.IconButton();
             this.btnBlackList = new FontAwesome.Sharp.IconButton();
             this.btnSaved = new FontAwesome.Sharp.IconButton();
             this.btnHired = new FontAwesome.Sharp.IconButton();
             this.flowPanelContain = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnPending = new FontAwesome.Sharp.IconButton();
-            this.btnRevoke = new FontAwesome.Sharp.IconButton();
-            this.cbbAddress = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.cbbHirecost = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.cbbRate = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.panelContain = new System.Windows.Forms.Panel();
             this.panelTaskBar.SuspendLayout();
             this.panelTop.SuspendLayout();
+            this.panelContain.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelTaskBar
@@ -163,6 +165,107 @@
             this.panelTop.Size = new System.Drawing.Size(1179, 41);
             this.panelTop.TabIndex = 15;
             // 
+            // cbbRate
+            // 
+            this.cbbRate.BackColor = System.Drawing.Color.Transparent;
+            this.cbbRate.BorderThickness = 0;
+            this.cbbRate.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbbRate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbRate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.cbbRate.FocusedColor = System.Drawing.Color.Empty;
+            this.cbbRate.FocusedState.Parent = this.cbbRate;
+            this.cbbRate.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbbRate.ForeColor = System.Drawing.Color.White;
+            this.cbbRate.FormattingEnabled = true;
+            this.cbbRate.HoverState.Parent = this.cbbRate;
+            this.cbbRate.ItemHeight = 30;
+            this.cbbRate.ItemsAppearance.Parent = this.cbbRate;
+            this.cbbRate.Location = new System.Drawing.Point(983, 2);
+            this.cbbRate.Name = "cbbRate";
+            this.cbbRate.ShadowDecoration.Parent = this.cbbRate;
+            this.cbbRate.Size = new System.Drawing.Size(140, 36);
+            this.cbbRate.TabIndex = 20;
+            // 
+            // cbbHirecost
+            // 
+            this.cbbHirecost.BackColor = System.Drawing.Color.Transparent;
+            this.cbbHirecost.BorderThickness = 0;
+            this.cbbHirecost.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbbHirecost.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbHirecost.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.cbbHirecost.FocusedColor = System.Drawing.Color.Empty;
+            this.cbbHirecost.FocusedState.Parent = this.cbbHirecost;
+            this.cbbHirecost.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbbHirecost.ForeColor = System.Drawing.Color.White;
+            this.cbbHirecost.FormattingEnabled = true;
+            this.cbbHirecost.HoverState.Parent = this.cbbHirecost;
+            this.cbbHirecost.ItemHeight = 30;
+            this.cbbHirecost.ItemsAppearance.Parent = this.cbbHirecost;
+            this.cbbHirecost.Location = new System.Drawing.Point(837, 2);
+            this.cbbHirecost.Name = "cbbHirecost";
+            this.cbbHirecost.ShadowDecoration.Parent = this.cbbHirecost;
+            this.cbbHirecost.Size = new System.Drawing.Size(140, 36);
+            this.cbbHirecost.TabIndex = 19;
+            // 
+            // cbbAddress
+            // 
+            this.cbbAddress.BackColor = System.Drawing.Color.Transparent;
+            this.cbbAddress.BorderThickness = 0;
+            this.cbbAddress.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbbAddress.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbAddress.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.cbbAddress.FocusedColor = System.Drawing.Color.Empty;
+            this.cbbAddress.FocusedState.Parent = this.cbbAddress;
+            this.cbbAddress.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbbAddress.ForeColor = System.Drawing.Color.White;
+            this.cbbAddress.FormattingEnabled = true;
+            this.cbbAddress.HoverState.Parent = this.cbbAddress;
+            this.cbbAddress.ItemHeight = 30;
+            this.cbbAddress.ItemsAppearance.Parent = this.cbbAddress;
+            this.cbbAddress.Location = new System.Drawing.Point(691, 3);
+            this.cbbAddress.Name = "cbbAddress";
+            this.cbbAddress.ShadowDecoration.Parent = this.cbbAddress;
+            this.cbbAddress.Size = new System.Drawing.Size(140, 36);
+            this.cbbAddress.TabIndex = 18;
+            // 
+            // btnRevoke
+            // 
+            this.btnRevoke.FlatAppearance.BorderSize = 0;
+            this.btnRevoke.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRevoke.ForeColor = System.Drawing.Color.White;
+            this.btnRevoke.IconChar = FontAwesome.Sharp.IconChar.Cancel;
+            this.btnRevoke.IconColor = System.Drawing.Color.White;
+            this.btnRevoke.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnRevoke.IconSize = 20;
+            this.btnRevoke.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRevoke.Location = new System.Drawing.Point(205, 0);
+            this.btnRevoke.Name = "btnRevoke";
+            this.btnRevoke.Size = new System.Drawing.Size(104, 41);
+            this.btnRevoke.TabIndex = 17;
+            this.btnRevoke.Text = "Bị hủy";
+            this.btnRevoke.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRevoke.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRevoke.UseVisualStyleBackColor = true;
+            // 
+            // btnPending
+            // 
+            this.btnPending.FlatAppearance.BorderSize = 0;
+            this.btnPending.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPending.ForeColor = System.Drawing.Color.White;
+            this.btnPending.IconChar = FontAwesome.Sharp.IconChar.HourglassHalf;
+            this.btnPending.IconColor = System.Drawing.Color.White;
+            this.btnPending.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnPending.IconSize = 20;
+            this.btnPending.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPending.Location = new System.Drawing.Point(55, 0);
+            this.btnPending.Name = "btnPending";
+            this.btnPending.Size = new System.Drawing.Size(144, 41);
+            this.btnPending.TabIndex = 16;
+            this.btnPending.Text = "Chờ xác nhận";
+            this.btnPending.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPending.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnPending.UseVisualStyleBackColor = true;
+            // 
             // btnBlackList
             // 
             this.btnBlackList.FlatAppearance.BorderSize = 0;
@@ -224,111 +327,19 @@
             // 
             this.flowPanelContain.AutoScroll = true;
             this.flowPanelContain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowPanelContain.Location = new System.Drawing.Point(0, 41);
+            this.flowPanelContain.Location = new System.Drawing.Point(0, 0);
             this.flowPanelContain.Name = "flowPanelContain";
             this.flowPanelContain.Size = new System.Drawing.Size(1179, 522);
             this.flowPanelContain.TabIndex = 16;
             // 
-            // btnPending
+            // panelContain
             // 
-            this.btnPending.FlatAppearance.BorderSize = 0;
-            this.btnPending.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPending.ForeColor = System.Drawing.Color.White;
-            this.btnPending.IconChar = FontAwesome.Sharp.IconChar.HourglassHalf;
-            this.btnPending.IconColor = System.Drawing.Color.White;
-            this.btnPending.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnPending.IconSize = 20;
-            this.btnPending.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPending.Location = new System.Drawing.Point(55, 0);
-            this.btnPending.Name = "btnPending";
-            this.btnPending.Size = new System.Drawing.Size(144, 41);
-            this.btnPending.TabIndex = 16;
-            this.btnPending.Text = "Chờ xác nhận";
-            this.btnPending.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPending.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnPending.UseVisualStyleBackColor = true;
-            // 
-            // btnRevoke
-            // 
-            this.btnRevoke.FlatAppearance.BorderSize = 0;
-            this.btnRevoke.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRevoke.ForeColor = System.Drawing.Color.White;
-            this.btnRevoke.IconChar = FontAwesome.Sharp.IconChar.Cancel;
-            this.btnRevoke.IconColor = System.Drawing.Color.White;
-            this.btnRevoke.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnRevoke.IconSize = 20;
-            this.btnRevoke.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRevoke.Location = new System.Drawing.Point(205, 0);
-            this.btnRevoke.Name = "btnRevoke";
-            this.btnRevoke.Size = new System.Drawing.Size(104, 41);
-            this.btnRevoke.TabIndex = 17;
-            this.btnRevoke.Text = "Bị hủy";
-            this.btnRevoke.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRevoke.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnRevoke.UseVisualStyleBackColor = true;
-            // 
-            // cbbAddress
-            // 
-            this.cbbAddress.BackColor = System.Drawing.Color.Transparent;
-            this.cbbAddress.BorderThickness = 0;
-            this.cbbAddress.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbbAddress.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbbAddress.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.cbbAddress.FocusedColor = System.Drawing.Color.Empty;
-            this.cbbAddress.FocusedState.Parent = this.cbbAddress;
-            this.cbbAddress.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cbbAddress.ForeColor = System.Drawing.Color.White;
-            this.cbbAddress.FormattingEnabled = true;
-            this.cbbAddress.HoverState.Parent = this.cbbAddress;
-            this.cbbAddress.ItemHeight = 30;
-            this.cbbAddress.ItemsAppearance.Parent = this.cbbAddress;
-            this.cbbAddress.Location = new System.Drawing.Point(691, 3);
-            this.cbbAddress.Name = "cbbAddress";
-            this.cbbAddress.ShadowDecoration.Parent = this.cbbAddress;
-            this.cbbAddress.Size = new System.Drawing.Size(140, 36);
-            this.cbbAddress.TabIndex = 18;
-            // 
-            // cbbHirecost
-            // 
-            this.cbbHirecost.BackColor = System.Drawing.Color.Transparent;
-            this.cbbHirecost.BorderThickness = 0;
-            this.cbbHirecost.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbbHirecost.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbbHirecost.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.cbbHirecost.FocusedColor = System.Drawing.Color.Empty;
-            this.cbbHirecost.FocusedState.Parent = this.cbbHirecost;
-            this.cbbHirecost.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cbbHirecost.ForeColor = System.Drawing.Color.White;
-            this.cbbHirecost.FormattingEnabled = true;
-            this.cbbHirecost.HoverState.Parent = this.cbbHirecost;
-            this.cbbHirecost.ItemHeight = 30;
-            this.cbbHirecost.ItemsAppearance.Parent = this.cbbHirecost;
-            this.cbbHirecost.Location = new System.Drawing.Point(837, 2);
-            this.cbbHirecost.Name = "cbbHirecost";
-            this.cbbHirecost.ShadowDecoration.Parent = this.cbbHirecost;
-            this.cbbHirecost.Size = new System.Drawing.Size(140, 36);
-            this.cbbHirecost.TabIndex = 19;
-            // 
-            // cbbRate
-            // 
-            this.cbbRate.BackColor = System.Drawing.Color.Transparent;
-            this.cbbRate.BorderThickness = 0;
-            this.cbbRate.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbbRate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbbRate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.cbbRate.FocusedColor = System.Drawing.Color.Empty;
-            this.cbbRate.FocusedState.Parent = this.cbbRate;
-            this.cbbRate.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cbbRate.ForeColor = System.Drawing.Color.White;
-            this.cbbRate.FormattingEnabled = true;
-            this.cbbRate.HoverState.Parent = this.cbbRate;
-            this.cbbRate.ItemHeight = 30;
-            this.cbbRate.ItemsAppearance.Parent = this.cbbRate;
-            this.cbbRate.Location = new System.Drawing.Point(983, 2);
-            this.cbbRate.Name = "cbbRate";
-            this.cbbRate.ShadowDecoration.Parent = this.cbbRate;
-            this.cbbRate.Size = new System.Drawing.Size(140, 36);
-            this.cbbRate.TabIndex = 20;
+            this.panelContain.Controls.Add(this.flowPanelContain);
+            this.panelContain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContain.Location = new System.Drawing.Point(0, 41);
+            this.panelContain.Name = "panelContain";
+            this.panelContain.Size = new System.Drawing.Size(1179, 522);
+            this.panelContain.TabIndex = 17;
             // 
             // FHired
             // 
@@ -336,7 +347,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1179, 670);
-            this.Controls.Add(this.flowPanelContain);
+            this.Controls.Add(this.panelContain);
             this.Controls.Add(this.panelTop);
             this.Controls.Add(this.panelTaskBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -346,6 +357,7 @@
             this.panelTaskBar.ResumeLayout(false);
             this.panelTaskBar.PerformLayout();
             this.panelTop.ResumeLayout(false);
+            this.panelContain.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -367,5 +379,6 @@
         private Guna.UI2.WinForms.Guna2ComboBox cbbRate;
         private Guna.UI2.WinForms.Guna2ComboBox cbbHirecost;
         private Guna.UI2.WinForms.Guna2ComboBox cbbAddress;
+        private System.Windows.Forms.Panel panelContain;
     }
 }

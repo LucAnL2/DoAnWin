@@ -15,11 +15,11 @@ namespace DemoWin
 {
     public partial class FWorkerDetail : Form
     {
-        PaintColor paintColor = new PaintColor();
-        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
-        private extern static void ReleaseCapture();
-        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
-        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+        //PaintColor paintColor = new PaintColor();
+        //[DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        //private extern static void ReleaseCapture();
+        //[DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        //private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
         public FWorkerDetail()
         {
             InitializeComponent();
@@ -40,6 +40,8 @@ namespace DemoWin
             iconMedal.IconColor = ThemeColors.PrimaryColor;
             iconStar.IconColor = ThemeColors.PrimaryColor;
             iconHireTime.IconColor = ThemeColors.PrimaryColor;
+            btnBack.BackColor = ThemeColors.PrimaryColor;
+            btnBack.FillColor = ThemeColors.PrimaryColor;
             foreach (Control previousBtn in this.Controls)
             {
                 if (previousBtn.GetType() == typeof(Label))
@@ -85,8 +87,8 @@ namespace DemoWin
 
         private void FWorkerDetail_MouseDown(object sender, MouseEventArgs e)
         {
-            ReleaseCapture();
-            SendMessage(this.Handle, 0x112, 0xf012, 0);
+            //ReleaseCapture();
+            //SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
         private void label22_Click(object sender, EventArgs e)
@@ -107,19 +109,19 @@ namespace DemoWin
 
         private void panelTaskBar_MouseDown(object sender, MouseEventArgs e)
         {
-            ReleaseCapture();
-            SendMessage(this.Handle, 0x112, 0xf012, 0);
-        }
-
-        private void btnHire_Click(object sender, EventArgs e)
-        {
-            FConfirmHire fConfirmHire = new FConfirmHire();
-            fConfirmHire.ShowDialog();
+            //ReleaseCapture();
+            //SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnHire_Click_1(object sender, EventArgs e)
+        {
+            FConfirmHire fConfirmHire = new FConfirmHire();
+            fConfirmHire.ShowDialog();
         }
     }
 }
