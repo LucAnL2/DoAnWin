@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\DataD\\c#\\DemoWin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|d:\\datad\\c#\\demowin\\demowin\\ucworkerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucworkerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|D:\\DataD\\c#\\DemoWin\\demowin\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|d:\\datad\\c#\\demowin\\demowin\\ucworkerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucworkerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|D:\\DataD\\c#\\DemoWin\\demowin\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,7 +146,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -204,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UCWorkerInfo.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\UCWorkerInfo.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCWorkerInfo.cs",
@@ -228,13 +228,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Worker.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Worker.cs",
               "RelativeDocumentMoniker": "DemoWin\\Worker.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Worker.cs",
               "RelativeToolTip": "DemoWin\\Worker.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAA0wDoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T01:33:23.494Z",
               "EditorCaption": ""
@@ -328,9 +328,8 @@
               "RelativeDocumentMoniker": "DemoWin\\UCWorkerInfo.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\UCWorkerInfo.cs [Design]",
               "RelativeToolTip": "DemoWin\\UCWorkerInfo.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.493Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-03-19T01:33:23.493Z"
             },
             {
               "$type": "Document",

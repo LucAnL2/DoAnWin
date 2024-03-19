@@ -193,3 +193,4 @@ C:\DoAnWin\cloneDoAnToan2\DoAnWin\DemoWin\bin\Debug\Bunifu.UI.WinForms.xml
 C:\DoAnWin\cloneDoAnToan2\DoAnWin\DemoWin\bin\Debug\System.Data.SqlClient.xml
 C:\DoAnWin\cloneDoAnToan2\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.Up2Date
 >>>>>>> 9e6e271fe81193b6ba8e21d0afdc47d16a35fb12
+C:\DoAnWin\cloneNhanhToan\DoAnWin\DemoWin\obj\Debug\DemoWin.Form2.resources
