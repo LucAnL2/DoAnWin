@@ -1,4 +1,5 @@
-﻿using Guna.UI2.WinForms;
+﻿using FontAwesome.Sharp;
+using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,7 +17,7 @@ namespace DemoWin
 {
     public partial class FPostWork : Form
     {
-        
+
         public UCTxtWorker UctHireCost
         {
             get { return ucTxtWorker1; }
@@ -26,7 +27,7 @@ namespace DemoWin
         public UCTxtWorker UctJob { get => ucTxtWorker4; set => ucTxtWorker4 = value; }
         public UCTxtWorker UctExperience { get => ucTxtWorker5; set => ucTxtWorker5 = value; }
         public Guna2TextBox TxtDataDescribe { get => txtDataDescribe; set => txtDataDescribe = value; }
-        public DataGridView gridViewPostWork{ get => dataGridView1; set => dataGridView1 = value; }
+        public DataGridView gridViewPostWork { get => dataGridView1; set => dataGridView1 = value; }
 
         private void load()
         {
@@ -62,7 +63,7 @@ namespace DemoWin
                     uc.lblTitle.ForeColor = ThemeColors.PrimaryColor;
                     i++;
                 }
-                else if(previousBtn.GetType() == typeof(Label))
+                else if (previousBtn.GetType() == typeof(Label))
                 {
                     previousBtn.ForeColor = ThemeColors.PrimaryColor;
                 }
@@ -120,7 +121,7 @@ namespace DemoWin
             //UCTxtWorker uctJob = postWork.UctJob;
             //UCTxtWorker uctExperience = postWork.UctExperience;
             //Guna2TextBox txtDataDesCribe = postWork.UctExperience.txtData;
-            
+
 
             //Worker wk = new Worker(GlobalVariables.Id.ToString(), uctJob.ToString(), uctDayOfWork.ToString(), ucttimeOfWork.ToString(),
             //                 uctHireCost.ToString(), uctExperience.ToString(), txtDataDesCribe.ToString());
@@ -145,13 +146,46 @@ namespace DemoWin
             Worker wk = new Worker(GlobalVariables.Id.ToString(), ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
                              ucTxtWorker1.txtData.Text, ucTxtWorker5.txtData.Text, txtDataDescribe.Text);
             WokerDAO HSD = new WokerDAO();
-           // HSD.RepairWork(wk);
+            // HSD.RepairWork(wk);
             load();
         }
-
+        private void ExpandButton(ref bool isExpand, FlowLayoutPanel flowLayoutPanel, IconButton iconButton, Timer timer)
+        {
+            if (isExpand == false)
+            {
+                flowLayoutPanel.Height += 15;
+                if (flowLayoutPanel.Height >= flowLayoutPanel.MaximumSize.Height)
+                {
+                    timer.Stop();
+                    isExpand = true;
+                }
+                iconButton.IconChar = IconChar.ChevronDown;
+            }
+            else
+            {
+                flowLayoutPanel.Height -= 15;
+                if (flowLayoutPanel.Height <= flowLayoutPanel.MinimumSize.Height)
+                {
+                    timer.Stop();
+                    isExpand = false;
+                }
+                iconButton.IconChar = IconChar.ChevronRight;
+            }
+        }
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+        bool isBtnWorkOfDay = false;
+
+        private void RollBtnDayOfWork_Tick(object sender, EventArgs e)
+        {
+            ExpandButton(ref isBtnWorkOfDay, PanelComboWorkOfDay, btnWorkOfDay, RollBtnDayOfWork);
+        }
+
+        private void btnWorkOfDay_Click(object sender, EventArgs e)
+        {
+            RollBtnDayOfWork.Start();
         }
     }
 }

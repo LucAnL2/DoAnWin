@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Documents;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace DemoWin
 {
@@ -17,14 +21,20 @@ namespace DemoWin
         }
         public Worker PostWork(Worker newDangviec)
         {
-            //newDangviec.checkNullDangViec(newDangviec);
+            if(Worker.checkNullDangViec(newDangviec) == true)
+            {
+                string sqlStr = string.Format("INSERT INTO DangViec (ID, NgheNghiep, NgayLamViec, GioLam, GiaThue, NamKinhNghiem, MoTa) " +
+                        "VALUES ('{0}', '{1}','{2}','{3}','{4}', '{5}','{6}')", newDangviec.Id, newDangviec.Job, newDangviec.WorkingDay
+                        , newDangviec.WorkingTime, newDangviec.HireCost, newDangviec.Experience, newDangviec.Describe);
+                connect.ThucThi(sqlStr, "Thêm công việc thành công", newDangviec);
+                return newDangviec;
+            }
+            else
+            {
+                return newDangviec;
+            }    
+            
 
-            string sqlStr = string.Format("INSERT INTO DangViec (ID, NgheNghiep, NgayLamViec, GioLam, GiaThue, NamKinhNghiem, MoTa) " +
-                     "VALUES ('{0}', '{1}','{2}','{3}','{4}', '{5}','{6}')", newDangviec.Id, newDangviec.Job, newDangviec.WorkingDay
-                     , newDangviec.WorkingTime, newDangviec.HireCost, newDangviec.Experience, newDangviec.Describe);
-            connect.ThucThi(sqlStr, "Thêm công việc thành công", newDangviec);
-
-            return newDangviec;
         }
         public void DeleteWork(Worker newDangviec)
         {

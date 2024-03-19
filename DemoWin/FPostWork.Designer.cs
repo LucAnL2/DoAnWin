@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panelTop = new System.Windows.Forms.Panel();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -45,17 +46,17 @@
             this.ucTxtWorker1 = new DemoWin.UCTxtWorker();
             this.ucTxtWorker5 = new DemoWin.UCTxtWorker();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.PanelComboHireCost = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnHireCost = new FontAwesome.Sharp.IconButton();
-            this.btn8Tr = new FontAwesome.Sharp.IconButton();
-            this.btn810Tr = new FontAwesome.Sharp.IconButton();
-            this.btn1020Tr = new FontAwesome.Sharp.IconButton();
-            this.btn20Tr = new FontAwesome.Sharp.IconButton();
+            this.PanelComboWorkOfDay = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnWorkOfDay = new FontAwesome.Sharp.IconButton();
+            this.btn246 = new FontAwesome.Sharp.IconButton();
+            this.btn357 = new FontAwesome.Sharp.IconButton();
+            this.btnAll = new FontAwesome.Sharp.IconButton();
+            this.RollBtnDayOfWork = new System.Windows.Forms.Timer(this.components);
             this.panelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.panelBottom.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.PanelComboHireCost.SuspendLayout();
+            this.PanelComboWorkOfDay.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelTop
@@ -277,117 +278,103 @@
             this.dataGridView1.TabIndex = 8;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // PanelComboHireCost
+            // PanelComboWorkOfDay
             // 
-            this.PanelComboHireCost.BackColor = System.Drawing.Color.White;
-            this.PanelComboHireCost.Controls.Add(this.btnHireCost);
-            this.PanelComboHireCost.Controls.Add(this.btn8Tr);
-            this.PanelComboHireCost.Controls.Add(this.btn810Tr);
-            this.PanelComboHireCost.Controls.Add(this.btn1020Tr);
-            this.PanelComboHireCost.Controls.Add(this.btn20Tr);
-            this.PanelComboHireCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PanelComboHireCost.ForeColor = System.Drawing.Color.Navy;
-            this.PanelComboHireCost.Location = new System.Drawing.Point(68, 197);
-            this.PanelComboHireCost.MaximumSize = new System.Drawing.Size(214, 285);
-            this.PanelComboHireCost.MinimumSize = new System.Drawing.Size(214, 58);
-            this.PanelComboHireCost.Name = "PanelComboHireCost";
-            this.PanelComboHireCost.Size = new System.Drawing.Size(214, 285);
-            this.PanelComboHireCost.TabIndex = 9;
+            this.PanelComboWorkOfDay.BackColor = System.Drawing.Color.White;
+            this.PanelComboWorkOfDay.Controls.Add(this.btnWorkOfDay);
+            this.PanelComboWorkOfDay.Controls.Add(this.btn246);
+            this.PanelComboWorkOfDay.Controls.Add(this.btn357);
+            this.PanelComboWorkOfDay.Controls.Add(this.btnAll);
+            this.PanelComboWorkOfDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanelComboWorkOfDay.ForeColor = System.Drawing.Color.Navy;
+            this.PanelComboWorkOfDay.Location = new System.Drawing.Point(68, 197);
+            this.PanelComboWorkOfDay.MaximumSize = new System.Drawing.Size(214, 226);
+            this.PanelComboWorkOfDay.MinimumSize = new System.Drawing.Size(214, 58);
+            this.PanelComboWorkOfDay.Name = "PanelComboWorkOfDay";
+            this.PanelComboWorkOfDay.Size = new System.Drawing.Size(214, 58);
+            this.PanelComboWorkOfDay.TabIndex = 9;
             // 
-            // btnHireCost
+            // btnWorkOfDay
             // 
-            this.btnHireCost.FlatAppearance.BorderSize = 0;
-            this.btnHireCost.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHireCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHireCost.IconChar = FontAwesome.Sharp.IconChar.ChevronRight;
-            this.btnHireCost.IconColor = System.Drawing.Color.Navy;
-            this.btnHireCost.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnHireCost.IconSize = 25;
-            this.btnHireCost.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnHireCost.Location = new System.Drawing.Point(3, 3);
-            this.btnHireCost.Name = "btnHireCost";
-            this.btnHireCost.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnHireCost.Size = new System.Drawing.Size(211, 52);
-            this.btnHireCost.TabIndex = 0;
-            this.btnHireCost.Text = "Ngày làm việc";
-            this.btnHireCost.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHireCost.UseVisualStyleBackColor = true;
+            this.btnWorkOfDay.FlatAppearance.BorderSize = 0;
+            this.btnWorkOfDay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWorkOfDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnWorkOfDay.IconChar = FontAwesome.Sharp.IconChar.ChevronRight;
+            this.btnWorkOfDay.IconColor = System.Drawing.Color.Navy;
+            this.btnWorkOfDay.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnWorkOfDay.IconSize = 25;
+            this.btnWorkOfDay.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnWorkOfDay.Location = new System.Drawing.Point(3, 3);
+            this.btnWorkOfDay.Name = "btnWorkOfDay";
+            this.btnWorkOfDay.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnWorkOfDay.Size = new System.Drawing.Size(211, 52);
+            this.btnWorkOfDay.TabIndex = 0;
+            this.btnWorkOfDay.Text = "Ngày làm việc";
+            this.btnWorkOfDay.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnWorkOfDay.UseVisualStyleBackColor = true;
+            this.btnWorkOfDay.Click += new System.EventHandler(this.btnWorkOfDay_Click);
             // 
-            // btn8Tr
+            // btn246
             // 
-            this.btn8Tr.FlatAppearance.BorderSize = 0;
-            this.btn8Tr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn8Tr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn8Tr.IconChar = FontAwesome.Sharp.IconChar.Square;
-            this.btn8Tr.IconColor = System.Drawing.Color.Navy;
-            this.btn8Tr.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn8Tr.IconSize = 25;
-            this.btn8Tr.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn8Tr.Location = new System.Drawing.Point(3, 61);
-            this.btn8Tr.Name = "btn8Tr";
-            this.btn8Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn8Tr.Size = new System.Drawing.Size(211, 52);
-            this.btn8Tr.TabIndex = 1;
-            this.btn8Tr.Text = "Thứ 2, 4, 6";
-            this.btn8Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn8Tr.UseVisualStyleBackColor = true;
+            this.btn246.FlatAppearance.BorderSize = 0;
+            this.btn246.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn246.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn246.IconChar = FontAwesome.Sharp.IconChar.Square;
+            this.btn246.IconColor = System.Drawing.Color.Navy;
+            this.btn246.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn246.IconSize = 25;
+            this.btn246.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn246.Location = new System.Drawing.Point(3, 61);
+            this.btn246.Name = "btn246";
+            this.btn246.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btn246.Size = new System.Drawing.Size(211, 52);
+            this.btn246.TabIndex = 1;
+            this.btn246.Text = "Thứ 2, 4, 6";
+            this.btn246.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn246.UseVisualStyleBackColor = true;
             // 
-            // btn810Tr
+            // btn357
             // 
-            this.btn810Tr.FlatAppearance.BorderSize = 0;
-            this.btn810Tr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn810Tr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn810Tr.IconChar = FontAwesome.Sharp.IconChar.Square;
-            this.btn810Tr.IconColor = System.Drawing.Color.Navy;
-            this.btn810Tr.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn810Tr.IconSize = 25;
-            this.btn810Tr.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn810Tr.Location = new System.Drawing.Point(3, 119);
-            this.btn810Tr.Name = "btn810Tr";
-            this.btn810Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn810Tr.Size = new System.Drawing.Size(211, 52);
-            this.btn810Tr.TabIndex = 2;
-            this.btn810Tr.Text = "Thứ 3,5,7";
-            this.btn810Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn810Tr.UseVisualStyleBackColor = true;
+            this.btn357.FlatAppearance.BorderSize = 0;
+            this.btn357.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn357.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn357.IconChar = FontAwesome.Sharp.IconChar.Square;
+            this.btn357.IconColor = System.Drawing.Color.Navy;
+            this.btn357.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn357.IconSize = 25;
+            this.btn357.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn357.Location = new System.Drawing.Point(3, 119);
+            this.btn357.Name = "btn357";
+            this.btn357.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btn357.Size = new System.Drawing.Size(211, 52);
+            this.btn357.TabIndex = 2;
+            this.btn357.Text = "Thứ 3,5,7";
+            this.btn357.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn357.UseVisualStyleBackColor = true;
             // 
-            // btn1020Tr
+            // btnAll
             // 
-            this.btn1020Tr.FlatAppearance.BorderSize = 0;
-            this.btn1020Tr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1020Tr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn1020Tr.IconChar = FontAwesome.Sharp.IconChar.Square;
-            this.btn1020Tr.IconColor = System.Drawing.Color.Navy;
-            this.btn1020Tr.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn1020Tr.IconSize = 25;
-            this.btn1020Tr.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn1020Tr.Location = new System.Drawing.Point(3, 177);
-            this.btn1020Tr.Name = "btn1020Tr";
-            this.btn1020Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn1020Tr.Size = new System.Drawing.Size(211, 52);
-            this.btn1020Tr.TabIndex = 2;
-            this.btn1020Tr.Text = "ALL";
-            this.btn1020Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn1020Tr.UseVisualStyleBackColor = true;
+            this.btnAll.FlatAppearance.BorderSize = 0;
+            this.btnAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAll.IconChar = FontAwesome.Sharp.IconChar.Square;
+            this.btnAll.IconColor = System.Drawing.Color.Navy;
+            this.btnAll.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnAll.IconSize = 25;
+            this.btnAll.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAll.Location = new System.Drawing.Point(3, 177);
+            this.btnAll.Name = "btnAll";
+            this.btnAll.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnAll.Size = new System.Drawing.Size(211, 52);
+            this.btnAll.TabIndex = 2;
+            this.btnAll.Text = "ALL";
+            this.btnAll.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnAll.UseVisualStyleBackColor = true;
             // 
-            // btn20Tr
+            // RollBtnDayOfWork
             // 
-            this.btn20Tr.FlatAppearance.BorderSize = 0;
-            this.btn20Tr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn20Tr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn20Tr.IconChar = FontAwesome.Sharp.IconChar.Square;
-            this.btn20Tr.IconColor = System.Drawing.Color.Navy;
-            this.btn20Tr.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn20Tr.IconSize = 25;
-            this.btn20Tr.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn20Tr.Location = new System.Drawing.Point(3, 235);
-            this.btn20Tr.Name = "btn20Tr";
-            this.btn20Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn20Tr.Size = new System.Drawing.Size(211, 52);
-            this.btn20Tr.TabIndex = 2;
-            this.btn20Tr.Text = "Trên 20    Tr/Tháng";
-            this.btn20Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn20Tr.UseVisualStyleBackColor = true;
+            this.RollBtnDayOfWork.Interval = 1;
+            this.RollBtnDayOfWork.Tick += new System.EventHandler(this.RollBtnDayOfWork_Tick);
             // 
             // FPostWork
             // 
@@ -395,7 +382,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1167, 508);
-            this.Controls.Add(this.PanelComboHireCost);
+            this.Controls.Add(this.PanelComboWorkOfDay);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.ucTxtWorker5);
             this.Controls.Add(this.lblDescribe);
@@ -417,7 +404,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             this.panelBottom.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.PanelComboHireCost.ResumeLayout(false);
+            this.PanelComboWorkOfDay.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -442,11 +429,11 @@
         private UCTxtWorker ucTxtWorker5;
         public Guna.UI2.WinForms.Guna2TextBox txtDataDescribe;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.FlowLayoutPanel PanelComboHireCost;
-        private FontAwesome.Sharp.IconButton btnHireCost;
-        private FontAwesome.Sharp.IconButton btn8Tr;
-        private FontAwesome.Sharp.IconButton btn810Tr;
-        private FontAwesome.Sharp.IconButton btn1020Tr;
-        private FontAwesome.Sharp.IconButton btn20Tr;
+        private System.Windows.Forms.FlowLayoutPanel PanelComboWorkOfDay;
+        private FontAwesome.Sharp.IconButton btnWorkOfDay;
+        private FontAwesome.Sharp.IconButton btn246;
+        private FontAwesome.Sharp.IconButton btn357;
+        private FontAwesome.Sharp.IconButton btnAll;
+        private System.Windows.Forms.Timer RollBtnDayOfWork;
     }
 }

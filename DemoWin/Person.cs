@@ -38,6 +38,17 @@ namespace DemoWin
         {
             this.id=id;
         }
+
+        public Person(string id,string name, string email,  string account, string pass, string role) 
+        {
+            this.id = id;
+            this.name = name;
+            this.email = email;
+            this.account = account;
+            this.pass = pass;
+            this.role = role;
+        }
+
         public string Id { get => id; set => id = value; }
         public string Name { get => name; set => name = value; }
         public string Sex { get => sex; set => sex = value; }

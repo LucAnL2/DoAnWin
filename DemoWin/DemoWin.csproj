@@ -115,6 +115,7 @@
     <Compile Include="ChildFormsWorker\FWork.Designer.cs">
       <DependentUpon>FWork.cs</DependentUpon>
     </Compile>
+    <Compile Include="PerSonDAO.cs" />
     <Compile Include="Connection.cs" />
     <Compile Include="FConfirmHire.cs">
       <SubType>Form</SubType>

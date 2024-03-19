@@ -42,16 +42,17 @@ namespace DemoWin
         {
             public static int Id = 3;
         }
-        public static void checkNullDangViec(Worker newWorker)
+        public static bool checkNullDangViec(Worker newWorker)
         {
             foreach (var property in newWorker.GetType().GetProperties())
             {
                 if (property.GetValue(newWorker) == null)
                 {
                     MessageBox.Show($"Thuộc tính {property.Name} không được để trống !!!");
-                    return;
+                    return false;
                 }
             }
+            return true;
         }
         
     }
