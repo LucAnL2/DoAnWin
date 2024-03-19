@@ -1,23 +1,45 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static DemoWin.Worker;
 
 namespace DemoWin
 {
     public partial class FPostWork : Form
     {
+        
+        public UCTxtWorker UctHireCost
+        {
+            get { return ucTxtWorker1; }
+        }
+        public UCTxtWorker UctTimeOfWork { get => ucTxtWorker2; set => ucTxtWorker2 = value; }
+        public UCTxtWorker UctDayOfWork { get => ucTxtWorker3; set => ucTxtWorker3 = value; }
+        public UCTxtWorker UctJob { get => ucTxtWorker4; set => ucTxtWorker4 = value; }
+        public UCTxtWorker UctExperience { get => ucTxtWorker5; set => ucTxtWorker5 = value; }
+        public Guna2TextBox TxtDataDescribe { get => txtDataDescribe; set => txtDataDescribe = value; }
+        public DataGridView gridViewPostWork{ get => dataGridView1; set => dataGridView1 = value; }
+
+        private void load()
+        {
+            //comboBox1.Text = "Mặc định";
+            WokerDAO hsd = new WokerDAO();
+            dataGridView1.DataSource = hsd.load();
+        }
+
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
-        string[] listTitle = { "Nhóm công việc", "Ngày làm", "Giờ làm", "Mức lương" };
+        string[] listTitle = { "Năm kinh nghiêm", "Nhóm công việc", "Ngày làm", "Giờ làm", "Mức lương" };
         public FPostWork()
         {
             InitializeComponent();
@@ -62,6 +84,74 @@ namespace DemoWin
         private void btnMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void ucTxtWorker1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ucTxtWorker2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ucTxtWorker3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ucTxtWorker4_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDataDescribe_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            //FPostWork postWork = new FPostWork();
+            //UCTxtWorker uctHireCost = postWork.UctHireCost;
+            //UCTxtWorker ucttimeOfWork = postWork.UctTimeOfWork;
+            //UCTxtWorker uctDayOfWork = postWork.UctDayOfWork;
+            //UCTxtWorker uctJob = postWork.UctJob;
+            //UCTxtWorker uctExperience = postWork.UctExperience;
+            //Guna2TextBox txtDataDesCribe = postWork.UctExperience.txtData;
+            
+
+            //Worker wk = new Worker(GlobalVariables.Id.ToString(), uctJob.ToString(), uctDayOfWork.ToString(), ucttimeOfWork.ToString(),
+            //                 uctHireCost.ToString(), uctExperience.ToString(), txtDataDesCribe.ToString());
+            Worker wk = new Worker(GlobalVariables.Id.ToString(), ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
+                             ucTxtWorker1.txtData.Text, ucTxtWorker5.txtData.Text, txtDataDescribe.Text);
+            WokerDAO HSD = new WokerDAO();
+            HSD.PostWork(wk);
+            load();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            Worker wk = new Worker(GlobalVariables.Id.ToString(), ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
+                             ucTxtWorker1.txtData.Text, ucTxtWorker5.txtData.Text, txtDataDescribe.Text);
+            WokerDAO HSD = new WokerDAO();
+            HSD.DeleteWork(wk);
+            load();
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            Worker wk = new Worker(GlobalVariables.Id.ToString(), ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
+                             ucTxtWorker1.txtData.Text, ucTxtWorker5.txtData.Text, txtDataDescribe.Text);
+            WokerDAO HSD = new WokerDAO();
+           // HSD.RepairWork(wk);
+            load();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

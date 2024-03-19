@@ -46,7 +46,7 @@
             this.btnDetail = new FontAwesome.Sharp.IconButton();
             this.btnHome = new FontAwesome.Sharp.IconButton();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
+            this.btnDeleteJob = new FontAwesome.Sharp.IconButton();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -257,29 +257,30 @@
             this.iconButton1.Text = "Từ chối";
             this.iconButton1.UseVisualStyleBackColor = true;
             // 
-            // iconButton2
+            // btnDeleteJob
             // 
-            this.iconButton2.FlatAppearance.BorderSize = 0;
-            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton2.ForeColor = System.Drawing.Color.White;
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton2.IconColor = System.Drawing.Color.White;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.IconSize = 32;
-            this.iconButton2.Location = new System.Drawing.Point(662, 95);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(135, 40);
-            this.iconButton2.TabIndex = 13;
-            this.iconButton2.Text = "Xóa bỏ";
-            this.iconButton2.UseVisualStyleBackColor = true;
+            this.btnDeleteJob.FlatAppearance.BorderSize = 0;
+            this.btnDeleteJob.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteJob.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteJob.ForeColor = System.Drawing.Color.White;
+            this.btnDeleteJob.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnDeleteJob.IconColor = System.Drawing.Color.White;
+            this.btnDeleteJob.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnDeleteJob.IconSize = 32;
+            this.btnDeleteJob.Location = new System.Drawing.Point(662, 95);
+            this.btnDeleteJob.Name = "btnDeleteJob";
+            this.btnDeleteJob.Size = new System.Drawing.Size(135, 40);
+            this.btnDeleteJob.TabIndex = 13;
+            this.btnDeleteJob.Text = "Xóa bỏ";
+            this.btnDeleteJob.UseVisualStyleBackColor = true;
+            this.btnDeleteJob.Click += new System.EventHandler(this.btnDeleteJob_Click);
             // 
             // UCPostJob
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.iconButton2);
+            this.Controls.Add(this.btnDeleteJob);
             this.Controls.Add(this.iconButton1);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.btnDetail);
@@ -324,6 +325,6 @@
         private FontAwesome.Sharp.IconButton btnDetail;
         private FontAwesome.Sharp.IconButton btnHome;
         private FontAwesome.Sharp.IconButton iconButton1;
-        private FontAwesome.Sharp.IconButton iconButton2;
+        private FontAwesome.Sharp.IconButton btnDeleteJob;
     }
 }

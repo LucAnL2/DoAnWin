@@ -21,31 +21,13 @@ namespace DemoWin
         public UCWorkerInfo()
         {
             InitializeComponent();
-<<<<<<< HEAD
-            imagePaths = Directory.GetFiles("C:\\DoAnWin\\DoAnWin\\BackGroundImage"); // Thay đường dẫn với thư mục chứa hình ảnh
-        }
-        private void OpenChildForm(Form childForm, object btnSender)
-        {
-            if (activeForm != null)
-            {
-                activeForm.Close();
-            }
-            activeForm = childForm;
-            childForm.TopLevel = false;
-            childForm.FormBorderStyle = FormBorderStyle.None;
-            childForm.Dock = DockStyle.Fill;
-            //panelCotain.Controls.Add(childForm);
-            //panelCotain.Tag = childForm;
-            childForm.BringToFront();
-            childForm.Show();
-=======
-            ////imagePaths = Directory.GetFiles("D:\\DataD\\c#\\DemoWin\\BackGroundImage"); // Thay đường dẫn với thư mục chứa hình ảnh
+           // imagePaths = Directory.GetFiles("C:\\DoAnWin\\DoAnWin\\BackGroundImage"); // Thay đường dẫn với thư mục chứa hình ảnh
             //string defaultFolderPath = root + "\\BackGroundImage\\";
             //imagePaths = Path.Combine(defaultFolderPath);
             string defaultFolderPath = Path.Combine(root, "BackGroundImage"); // Tạo đường dẫn đầy đủ của thư mục hình ảnh
             imagePaths = Directory.GetFiles(defaultFolderPath);
->>>>>>> Toan
         }
+        
 
         private void label5_Click(object sender, EventArgs e)
         {
