@@ -74,7 +74,7 @@ namespace DemoWin
             try
             {
                 string defaultFolderPath = root +"\\DataUser\\";
-                string defaultFilePath = Path.Combine(defaultFolderPath, "test.txt");
+                string defaultFilePath = Path.Combine(defaultFolderPath, "test2.txt");
                 if (File.Exists(defaultFilePath))
                 {
                     MessageBox.Show("Default file already exists.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
