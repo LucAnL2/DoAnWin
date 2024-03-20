@@ -37,7 +37,6 @@ namespace DemoWin
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
         }
-
         private void FWorker_Load(object sender, EventArgs e)
         {
             MakeSpace();

@@ -44,10 +44,10 @@ namespace DemoWin
         public string Describe { get => describe; set => describe = value; }
         public string HireTimes { get => hireTimes; set => hireTimes = value; }
 
-        public static class GlobalVariables
-        {
-            public static int Id = 3;
-        }
+        //public static class GlobalVariables
+        //{
+        //    public static int Id = 3;
+        //}
         //public static bool checkNullDangViec(Worker newDangviec)
         //{
 

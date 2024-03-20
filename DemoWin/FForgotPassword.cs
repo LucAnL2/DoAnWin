@@ -62,7 +62,7 @@ namespace DemoWin
                 if (modify.Accounts(query).Count != 0)
                 {
                     lblResult.ForeColor = Color.Gainsboro;
-                    lblResult.Text = "Mật khẩu: " + modify.Accounts(query)[0].Password;
+                    lblResult.Text = "Mật khẩu: " + modify.Accounts(query)[0].UserName;
                 }
                 else
                 {

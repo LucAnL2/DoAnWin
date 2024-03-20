@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace DemoWin
 {
@@ -38,7 +39,6 @@ namespace DemoWin
             else if (password.Trim() == "") { MessageBox.Show("Vui lòng nhập mật khẩu !!!"); btnLogin.BackColor = Color.FromArgb(51, 51, 76); return; }
             else
             {
-                //string query = "Select * from Account where UserName = '" + userName + "' and Password = '" + password + "'"; ;
                 string query;
                 if (rbtnUser.Checked)
                     query = "Select * from NguoiDung2 where TenTaiKhoan = '"+userName+"' and MatKhau = '"+password+"'";
@@ -52,15 +52,13 @@ namespace DemoWin
                     btnLogin.BackColor = Color.FromArgb(51, 51, 76);
                     this.Hide();
                     if (rbtnUser.Checked)
-                    {    
+                    {
                         FUsers user = new FUsers();
-                        //user.StartPosition = FormStartPosition.CenterScreen;
                         user.ShowDialog();
                     }
                     else if (rbtnWorker.Checked)
                     {
                         FWorker worker = new FWorker();
-                        //worker.StartPosition = FormStartPosition.CenterScreen;
                         worker.ShowDialog();
                     }
                     this.Close();

@@ -12,6 +12,7 @@ namespace DemoWin
 {
     public class Person
     {
+        public static Random random = new Random();
         private string id;
         private string name;
         private string sex;
@@ -74,10 +75,11 @@ namespace DemoWin
         public string Pass { get => pass; set => pass = value; }
         public string Role { get => role; set => role = value; }
         public string ConfirmPassword { get => confirmPassword; set => confirmPassword = value; }
-
+        Modify modify = new Modify();
         public static bool checkNullDangKi(Person newPerson)
         {
-            string[] propertiesToCheck = { "Name", "Account", "Pass", "ConfirmPassword", "Email", "Role" };
+            Modify modify = new Modify();
+            string[] propertiesToCheck = { "ID", "Name", "Account", "Pass", "ConfirmPassword", "Email", "Role" };
 
             foreach (var propertyName in propertiesToCheck)
             {
@@ -97,6 +99,11 @@ namespace DemoWin
                         System.Windows.Forms.MessageBox.Show("Tên tài khoản có ít nhất 5 bao gồm chữ và số");
                         return false;
                     }
+                    if (modify.Accounts("Select * from NguoiDung2 where TenTaiKhoan = '" + ac + "'").Count != 0 || modify.Accounts("Select * from Worker where TenTaiKhoan = '" + ac + "'").Count != 0)
+                    {
+                        System.Windows.Forms.MessageBox.Show("Tên tài khoản này đã được sử dụng vui lòng sử dụng tên tài khoản khác !!!");
+                        return false;
+                    }
                 }
                 if (property.Name == "Email")
                 {
@@ -105,6 +112,11 @@ namespace DemoWin
                     {
                         System.Windows.Forms.MessageBox.Show("Email không hợp lệ !!!");
                         return false;
+                    }
+                    if (modify.Accounts("Select * from NguoiDung2 where Email = '" + email + "'").Count != 0 || modify.Accounts("Select * from Worker where Email = '" + email + "'").Count != 0)
+                    {
+                        System.Windows.Forms.MessageBox.Show("Email này đã được sử dụng vui lòng dùng Email khác !!!"); 
+                        return false; 
                     }
                     //else
                     //{
@@ -118,13 +130,34 @@ namespace DemoWin
                     //        return false;
                     //    }
                     //}
-                   
+                    //if (property.Name == "ID")
+                    //{
+                    //    if (modify.Accounts("Select * from NguoiDung2 where ID = '" + Id + "'").Count != 0 || modify.Accounts("Select * from Worker where ID = '" + Id + "'").Count != 0)
+                    //    {
+                    //        Id = Id + 100;
+                    //    }
+                    //}
                 }
             }
             return true;
         }
 
-       
+        public static string CreateID(ComboBox cbbVaiTro)
+        {
+            Modify modify = new Modify();
+            string id;
+
+            if (cbbVaiTro.Text == "Người dùng")
+                id = (100000 + random.Next(1, 101)).ToString();
+            else
+                id = (200000 + random.Next(1, 101)).ToString();
+            while (modify.Accounts("Select * from NguoiDung2 where ID = '" + id + "'").Count != 0 || modify.Accounts("Select * from Worker where ID = '" + id + "'").Count != 0)
+            {
+                long temp = Int32.Parse(id) + 100;
+                id = temp.ToString();
+            }
+            return id;
+        }
       
         //private void btnRegister_Click(object sender, EventArgs e)
         //{

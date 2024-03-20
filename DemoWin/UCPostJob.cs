@@ -29,10 +29,10 @@ namespace DemoWin
         private void btnDeleteJob_Click(object sender, EventArgs e)
         {
             FPostWork newPostWork = new FPostWork();
-            Worker wk = new Worker(GlobalVariables.Id.ToString(), newPostWork.UctJob.txtData.Text, newPostWork.UctDayOfWork.txtData.Text, newPostWork.UctTimeOfWork.txtData.Text,
-                             newPostWork.UctHireCost.txtData.Text, newPostWork.UctExperience.txtData.Text, newPostWork.TxtDataDescribe.Text);
+            //////////Worker wk = new Worker(GlobalVariables.Id.ToString(), newPostWork.UctJob.txtData.Text, newPostWork.UctDayOfWork.txtData.Text, newPostWork.UctTimeOfWork.txtData.Text,
+            //////////                 newPostWork.UctHireCost.txtData.Text, newPostWork.UctExperience.txtData.Text, newPostWork.TxtDataDescribe.Text);
             WokerDAO HSD = new WokerDAO();
-            HSD.DeleteWork(wk);
+            ////////////HSD.DeleteWork(wk);
             load();
         }
     }

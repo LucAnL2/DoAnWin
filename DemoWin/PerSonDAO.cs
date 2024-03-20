@@ -12,7 +12,7 @@ namespace DemoWin
         Connection connect = new Connection();
         public DataTable load()
         {
-            string sqlStr = string.Format("SELECT ID, Ten, Email, TenTaiKhoan, MatKhau, NhapLaiMatKhau, VaiTro FROM Worker");
+            string sqlStr = string.Format("SELECT ID, Ten, Email, TenTaiKhoan, MatKhau, NhapLaiMatKhau, VaiTro FROM NguoiDung2");
             return connect.Load(sqlStr);
         }
         public void DangKi(Person newPerson)
