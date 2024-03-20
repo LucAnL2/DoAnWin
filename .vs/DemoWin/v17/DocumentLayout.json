@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "D:\\DataD\\c#\\DemoWin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|d:\\datad\\c#\\demowin\\demowin\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|d:\\datad\\c#\\demowin\\demowin\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|D:\\DataD\\c#\\DemoWin\\demowin\\persondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\persondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|D:\\DataD\\c#\\DemoWin\\demowin\\fusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|D:\\DataD\\c#\\DemoWin\\demowin\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -18,7 +30,7 @@
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|d:\\datad\\c#\\demowin\\demowin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|D:\\DataD\\c#\\DemoWin\\demowin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,11 +38,7 @@
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|d:\\datad\\c#\\demowin\\demowin\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|d:\\datad\\c#\\demowin\\demowin\\fforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|D:\\DataD\\c#\\DemoWin\\demowin\\fforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -41,16 +49,12 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.Worker.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|d:\\datad\\c#\\demowin\\demowin\\wokerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|D:\\DataD\\c#\\DemoWin\\demowin\\wokerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\wokerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|D:\\DataD\\c#\\DemoWin\\demowin\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|D:\\DataD\\c#\\DemoWin\\demowin\\persondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\persondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|D:\\DataD\\c#\\DemoWin\\demowin\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -165,10 +169,6 @@
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\themecolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|D:\\DataD\\c#\\DemoWin\\demowin\\fusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|D:\\DataD\\c#\\DemoWin\\demowin\\childformsuser\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\childformsuser\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -184,7 +184,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -208,55 +208,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FForgotPassword.cs",
-              "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FForgotPassword.cs",
-              "RelativeDocumentMoniker": "DemoWin\\FForgotPassword.cs",
-              "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FForgotPassword.cs",
-              "RelativeToolTip": "DemoWin\\FForgotPassword.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAwwEAAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T06:12:02.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FLogin.cs",
-              "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FLogin.cs",
-              "RelativeDocumentMoniker": "DemoWin\\FLogin.cs",
-              "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FLogin.cs*",
-              "RelativeToolTip": "DemoWin\\FLogin.cs*",
-              "ViewState": "AQIAAB4AAAAAAAAAAAA8wCwAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T06:09:50.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FLogin.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FLogin.cs",
               "RelativeDocumentMoniker": "DemoWin\\FLogin.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FLogin.cs [Design]*",
               "RelativeToolTip": "DemoWin\\FLogin.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.487Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T01:33:23.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "dbo.NguoiDung [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.NguoiDung.sql",
               "ToolTip": "dbo.NguoiDung [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-20T06:05:32.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T06:05:32.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Modify.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Modify.cs",
               "RelativeDocumentMoniker": "DemoWin\\Modify.cs",
@@ -264,12 +236,11 @@
               "RelativeToolTip": "DemoWin\\Modify.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAnwCYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Account.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Account.cs",
               "RelativeDocumentMoniker": "DemoWin\\Account.cs",
@@ -277,12 +248,11 @@
               "RelativeToolTip": "DemoWin\\Account.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Program.cs",
               "RelativeDocumentMoniker": "DemoWin\\Program.cs",
@@ -290,60 +260,91 @@
               "RelativeToolTip": "DemoWin\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T06:01:05.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T06:01:05.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Person.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Person.cs",
               "RelativeDocumentMoniker": "DemoWin\\Person.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Person.cs",
               "RelativeToolTip": "DemoWin\\Person.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T06:15:18.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "dbo.Worker [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.Worker.sql",
-              "ToolTip": "dbo.Worker [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-20T06:09:15.668Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "FUsers.cs [Design]",
+              "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FUsers.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FUsers.cs",
+              "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FUsers.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FUsers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:33:23.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "PerSonDAO.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\PerSonDAO.cs",
               "RelativeDocumentMoniker": "DemoWin\\PerSonDAO.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\PerSonDAO.cs",
               "RelativeToolTip": "DemoWin\\PerSonDAO.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAmwCcAAAAwAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAmwCcAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:28:05.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T16:28:05.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "FLogin.cs",
+              "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FLogin.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FLogin.cs",
+              "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FLogin.cs",
+              "RelativeToolTip": "DemoWin\\FLogin.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAA6wCwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T06:09:50.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FForgotPassword.cs",
+              "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FForgotPassword.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FForgotPassword.cs",
+              "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FForgotPassword.cs",
+              "RelativeToolTip": "DemoWin\\FForgotPassword.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAwwEAAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T06:12:02.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "dbo.Worker [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.Worker.sql",
+              "ToolTip": "dbo.Worker [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-20T06:09:15.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "FForgotPassword.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FForgotPassword.cs",
               "RelativeDocumentMoniker": "DemoWin\\FForgotPassword.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FForgotPassword.cs [Design]",
               "RelativeToolTip": "DemoWin\\FForgotPassword.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.489Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T01:33:23.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Worker.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\Worker.cs",
               "RelativeDocumentMoniker": "DemoWin\\Worker.cs",
@@ -351,12 +352,11 @@
               "RelativeToolTip": "DemoWin\\Worker.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAA1wCsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "WokerDAO.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\WokerDAO.cs",
               "RelativeDocumentMoniker": "DemoWin\\WokerDAO.cs",
@@ -364,24 +364,22 @@
               "RelativeToolTip": "DemoWin\\WokerDAO.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAkwCMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T15:07:34.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T15:07:34.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FPostWork.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FPostWork.cs",
               "RelativeDocumentMoniker": "DemoWin\\FPostWork.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FPostWork.cs [Design]",
               "RelativeToolTip": "DemoWin\\FPostWork.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.498Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T01:33:23.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\User.cs",
               "RelativeDocumentMoniker": "DemoWin\\User.cs",
@@ -389,12 +387,11 @@
               "RelativeToolTip": "DemoWin\\User.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAkwCAAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "FPostWork.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FPostWork.cs",
               "RelativeDocumentMoniker": "DemoWin\\FPostWork.cs",
@@ -402,24 +399,22 @@
               "RelativeToolTip": "DemoWin\\FPostWork.cs",
               "ViewState": "AQIAAKkAAAAAAAAAAAArwLsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T15:21:32.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T15:21:32.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "FHire.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FHire.cs",
               "RelativeDocumentMoniker": "DemoWin\\FHire.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FHire.cs [Design]",
               "RelativeToolTip": "DemoWin\\FHire.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.492Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T01:33:23.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "FHire.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FHire.cs",
               "RelativeDocumentMoniker": "DemoWin\\FHire.cs",
@@ -427,96 +422,88 @@
               "RelativeToolTip": "DemoWin\\FHire.cs",
               "ViewState": "AQIAAIYAAAAAAAAAAAAnwJQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "FConfirmHire.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FConfirmHire.cs",
               "RelativeDocumentMoniker": "DemoWin\\FConfirmHire.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FConfirmHire.cs [Design]",
               "RelativeToolTip": "DemoWin\\FConfirmHire.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.491Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T01:33:23.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "FWokerInfo.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\ChildFormsWorker\\FWokerInfo.cs",
               "RelativeDocumentMoniker": "DemoWin\\ChildFormsWorker\\FWokerInfo.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\ChildFormsWorker\\FWokerInfo.cs [Design]",
               "RelativeToolTip": "DemoWin\\ChildFormsWorker\\FWokerInfo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T15:19:13.872Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T15:19:13.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "UCMail.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\UCMail.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCMail.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\UCMail.cs [Design]",
               "RelativeToolTip": "DemoWin\\UCMail.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T15:18:55.789Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T15:18:55.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "UCPostJob.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\UCPostJob.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCPostJob.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\UCPostJob.cs [Design]",
               "RelativeToolTip": "DemoWin\\UCPostJob.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T15:18:54.572Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T15:18:54.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "UCWorkerInfo.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\UCWorkerInfo.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCWorkerInfo.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\UCWorkerInfo.cs [Design]",
               "RelativeToolTip": "DemoWin\\UCWorkerInfo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.493Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T01:33:23.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UCTxtWorker.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\UCTxtWorker.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCTxtWorker.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\UCTxtWorker.cs [Design]",
               "RelativeToolTip": "DemoWin\\UCTxtWorker.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.497Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T01:33:23.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "FMail.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FMail.cs",
               "RelativeDocumentMoniker": "DemoWin\\FMail.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FMail.cs [Design]",
               "RelativeToolTip": "DemoWin\\FMail.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.49Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T01:33:23.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "UCWorkerInfo.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\UCWorkerInfo.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCWorkerInfo.cs",
@@ -524,24 +511,22 @@
               "RelativeToolTip": "DemoWin\\UCWorkerInfo.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAqwBUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "FMailBox.cs [Design]",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FMailBox.cs",
               "RelativeDocumentMoniker": "DemoWin\\FMailBox.cs",
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FMailBox.cs [Design]",
               "RelativeToolTip": "DemoWin\\FMailBox.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.489Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T01:33:23.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "FConfirmHire.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FConfirmHire.cs",
               "RelativeDocumentMoniker": "DemoWin\\FConfirmHire.cs",
@@ -549,12 +534,11 @@
               "RelativeToolTip": "DemoWin\\FConfirmHire.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "FWorker.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FWorker.cs",
               "RelativeDocumentMoniker": "DemoWin\\FWorker.cs",
@@ -562,12 +546,11 @@
               "RelativeToolTip": "DemoWin\\FWorker.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "UCMail.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\UCMail.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCMail.cs",
@@ -575,12 +558,11 @@
               "RelativeToolTip": "DemoWin\\UCMail.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "UCPostJob.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\UCPostJob.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCPostJob.cs",
@@ -588,12 +570,11 @@
               "RelativeToolTip": "DemoWin\\UCPostJob.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "UCTxtWorker.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\UCTxtWorker.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCTxtWorker.cs",
@@ -601,12 +582,11 @@
               "RelativeToolTip": "DemoWin\\UCTxtWorker.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "FHire.resx",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FHire.resx",
               "RelativeDocumentMoniker": "DemoWin\\FHire.resx",
@@ -614,12 +594,11 @@
               "RelativeToolTip": "DemoWin\\FHire.resx",
               "ViewState": "AQIAAIoAAAAA/uGJT4YMwD8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-03-19T01:33:23.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "FUsers.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FUsers.cs",
               "RelativeDocumentMoniker": "DemoWin\\FUsers.cs",
@@ -627,12 +606,11 @@
               "RelativeToolTip": "DemoWin\\FUsers.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.503Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "FHired.resx",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\ChildFormsUser\\FHired.resx",
               "RelativeDocumentMoniker": "DemoWin\\ChildFormsUser\\FHired.resx",
@@ -640,12 +618,11 @@
               "RelativeToolTip": "DemoWin\\ChildFormsUser\\FHired.resx",
               "ViewState": "AQIAAC8AAAAAAAAAAAAjwD4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-03-19T01:33:23.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.504Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "FWorkerDetail.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FWorkerDetail.cs",
               "RelativeDocumentMoniker": "DemoWin\\FWorkerDetail.cs",
@@ -653,12 +630,11 @@
               "RelativeToolTip": "DemoWin\\FWorkerDetail.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAHkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.504Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "FHome.resx",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\ChildFormsUser\\FHome.resx",
               "RelativeDocumentMoniker": "DemoWin\\ChildFormsUser\\FHome.resx",
@@ -666,12 +642,11 @@
               "RelativeToolTip": "DemoWin\\ChildFormsUser\\FHome.resx",
               "ViewState": "AQIAAD0AAAAAAAAAAAAAAD0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-03-19T01:33:23.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "FForgotPassword.resx",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FForgotPassword.resx",
               "RelativeDocumentMoniker": "DemoWin\\FForgotPassword.resx",
@@ -679,12 +654,11 @@
               "RelativeToolTip": "DemoWin\\FForgotPassword.resx",
               "ViewState": "AQIAAD0AAAAAAAAAAAAAAD0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-03-19T01:33:23.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "FConfirmHire.resx",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FConfirmHire.resx",
               "RelativeDocumentMoniker": "DemoWin\\FConfirmHire.resx",
@@ -692,12 +666,11 @@
               "RelativeToolTip": "DemoWin\\FConfirmHire.resx",
               "ViewState": "AQIAAD0AAAAAAAAAAAAAAD0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-03-19T01:33:23.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "FAllUsers.resx",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\ChildFormsManager\\FAllUsers.resx",
               "RelativeDocumentMoniker": "DemoWin\\ChildFormsManager\\FAllUsers.resx",
@@ -705,12 +678,11 @@
               "RelativeToolTip": "DemoWin\\ChildFormsManager\\FAllUsers.resx",
               "ViewState": "AQIAADsAAAAAAAAAAAAjwE0AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-03-19T01:33:23.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T01:33:23.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "ThemeColors.cs",
               "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\ThemeColors.cs",
               "RelativeDocumentMoniker": "DemoWin\\ThemeColors.cs",
@@ -718,20 +690,7 @@
               "RelativeToolTip": "DemoWin\\ThemeColors.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "FUsers.cs [Design]",
-              "DocumentMoniker": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FUsers.cs",
-              "RelativeDocumentMoniker": "DemoWin\\FUsers.cs",
-              "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\FUsers.cs [Design]",
-              "RelativeToolTip": "DemoWin\\FUsers.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.508Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T01:33:23.507Z"
             },
             {
               "$type": "Document",
@@ -742,8 +701,7 @@
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\ChildFormsUser\\FInfo.cs [Design]",
               "RelativeToolTip": "DemoWin\\ChildFormsUser\\FInfo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.508Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T01:33:23.508Z"
             },
             {
               "$type": "Document",
@@ -754,8 +712,7 @@
               "ToolTip": "D:\\DataD\\c#\\DemoWin\\DemoWin\\ChildFormsUser\\FHome.cs [Design]",
               "RelativeToolTip": "DemoWin\\ChildFormsUser\\FHome.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T01:33:23.509Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-19T01:33:23.509Z"
             }
           ]
         },
