@@ -19,8 +19,8 @@ namespace DemoWin
 
 
         public Worker(string id, string name, string sex, string phone, string address,
-            string cccd, string date, string email, string acNumber, string surplus) 
-            : base(id, name, sex, phone, address, cccd, date, email, acNumber, surplus)
+            string cccd, string date, string email, string acNumber, string pass) 
+            : base(id, name, sex, phone, address, cccd, date, email, acNumber, pass)
         {
         }
         public Worker(string id, string job, string workingDay, string workingTime,
@@ -33,8 +33,9 @@ namespace DemoWin
             Experience = experience;
             Describe = describe;
         }
+        
 
-   
+
 
         public string Job { get => job; set => job = value; }
         public string WorkingDay { get => workingDay; set => workingDay = value; }

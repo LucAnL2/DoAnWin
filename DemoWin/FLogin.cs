@@ -47,7 +47,7 @@ namespace DemoWin
                     query = "Select * from Worker where TenTaiKhoan = '" + userName + "' and MatKhau = '" + password + "'";
                 else if (rbtnWorker.Checked == false && rbtnUser.Checked == false) { MessageBox.Show("Vui lòng chọn vai trò !!!"); btnLogin.BackColor = Color.FromArgb(51, 51, 76); return; }
                 else { MessageBox.Show("Vui lòng chỉ chọn một vai trò !!!"); btnLogin.BackColor = Color.FromArgb(51, 51, 76); return; }
-                if (modify.Persons(query).Count != 0)
+                if (modify.Accounts(query).Count != 0)
                 {
                     MessageBox.Show("Đăng nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     btnLogin.BackColor = Color.FromArgb(51, 51, 76);

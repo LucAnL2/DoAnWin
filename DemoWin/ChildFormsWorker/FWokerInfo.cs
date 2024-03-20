@@ -38,8 +38,12 @@ namespace DemoWin.ChildFormsWorker
                     i--;
                 }
             }
+            loadInfo();
         }
-
+        private void loadInfo()
+        {
+            
+        }
         private void ucTxtWorker10_Load(object sender, EventArgs e)
         {
 
@@ -48,6 +52,16 @@ namespace DemoWin.ChildFormsWorker
         private void ucTxtWorker8_Load(object sender, EventArgs e)
         {
 
+        }
+        
+        private void btnUpdateInfo_Click(object sender, EventArgs e)
+        {
+            Worker wk = new Worker(ThemeColors.IncomeID,ucTxtWorkerName.txtData.Text, ucTxtWorkerBirthDay.txtData.Text,
+                                    ucTxtWorkerSex.txtData.Text,ucTxtWorkerAddress.txtData.Text,ucTxtWorkerPhone.txtData.Text,
+                                    ucTxtWorkerEmail.txtData.Text, ucTxtWorkerCCCD.txtData.Text, ucTxtWorkerAccount.txtData.Text,
+                                       ucTxtWorkerPass.txtData.Text);
+            WokerDAO HSD = new WokerDAO();
+            HSD.updateInfo(wk);
         }
     }
 }

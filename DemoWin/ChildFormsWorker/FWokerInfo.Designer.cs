@@ -30,22 +30,22 @@
         {
             this.picWorkerCard = new FontAwesome.Sharp.IconPictureBox();
             this.panelRight = new System.Windows.Forms.Panel();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
+            this.iconButton4 = new FontAwesome.Sharp.IconButton();
+            this.btnUpdateInfo = new FontAwesome.Sharp.IconButton();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.btnHome = new FontAwesome.Sharp.IconButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.ucTxtWorker10 = new DemoWin.UCTxtWorker();
-            this.ucTxtWorker8 = new DemoWin.UCTxtWorker();
-            this.ucTxtWorker7 = new DemoWin.UCTxtWorker();
-            this.ucTxtWorker6 = new DemoWin.UCTxtWorker();
-            this.ucTxtWorker9 = new DemoWin.UCTxtWorker();
-            this.ucTxtWorker5 = new DemoWin.UCTxtWorker();
-            this.ucTxtWorker4 = new DemoWin.UCTxtWorker();
-            this.ucTxtWorker3 = new DemoWin.UCTxtWorker();
-            this.ucTxtWorker2 = new DemoWin.UCTxtWorker();
-            this.ucTxtWorker1 = new DemoWin.UCTxtWorker();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
+            this.ucTxtWorkerPass = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerAccount = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerEmail = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerPhone = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerCCCD = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerAddress = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerSex = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerBirthDay = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerName = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerID = new DemoWin.UCTxtWorker();
             ((System.ComponentModel.ISupportInitialize)(this.picWorkerCard)).BeginInit();
             this.panelRight.SuspendLayout();
             this.SuspendLayout();
@@ -70,7 +70,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelRight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.panelRight.Controls.Add(this.iconButton4);
-            this.panelRight.Controls.Add(this.iconButton3);
+            this.panelRight.Controls.Add(this.btnUpdateInfo);
             this.panelRight.Controls.Add(this.iconButton2);
             this.panelRight.Controls.Add(this.iconButton1);
             this.panelRight.Controls.Add(this.btnHome);
@@ -79,25 +79,46 @@
             this.panelRight.Size = new System.Drawing.Size(222, 575);
             this.panelRight.TabIndex = 2;
             // 
-            // iconButton3
+            // iconButton4
             // 
-            this.iconButton3.FlatAppearance.BorderSize = 0;
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.ForeColor = System.Drawing.Color.White;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Pen;
-            this.iconButton3.IconColor = System.Drawing.Color.White;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.IconSize = 32;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(29, 196);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton3.Size = new System.Drawing.Size(190, 60);
-            this.iconButton3.TabIndex = 16;
-            this.iconButton3.Text = "Cập nhật thông tin";
-            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton3.UseVisualStyleBackColor = true;
+            this.iconButton4.FlatAppearance.BorderSize = 0;
+            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton4.ForeColor = System.Drawing.Color.White;
+            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.MoneyBill1Wave;
+            this.iconButton4.IconColor = System.Drawing.Color.White;
+            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton4.IconSize = 32;
+            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton4.Location = new System.Drawing.Point(29, 262);
+            this.iconButton4.Name = "iconButton4";
+            this.iconButton4.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.iconButton4.Size = new System.Drawing.Size(190, 60);
+            this.iconButton4.TabIndex = 17;
+            this.iconButton4.Text = "Số dư";
+            this.iconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton4.UseVisualStyleBackColor = true;
+            // 
+            // btnUpdateInfo
+            // 
+            this.btnUpdateInfo.FlatAppearance.BorderSize = 0;
+            this.btnUpdateInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpdateInfo.ForeColor = System.Drawing.Color.White;
+            this.btnUpdateInfo.IconChar = FontAwesome.Sharp.IconChar.Pen;
+            this.btnUpdateInfo.IconColor = System.Drawing.Color.White;
+            this.btnUpdateInfo.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnUpdateInfo.IconSize = 32;
+            this.btnUpdateInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUpdateInfo.Location = new System.Drawing.Point(29, 196);
+            this.btnUpdateInfo.Name = "btnUpdateInfo";
+            this.btnUpdateInfo.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnUpdateInfo.Size = new System.Drawing.Size(190, 60);
+            this.btnUpdateInfo.TabIndex = 16;
+            this.btnUpdateInfo.Text = "Cập nhật thông tin";
+            this.btnUpdateInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUpdateInfo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnUpdateInfo.UseVisualStyleBackColor = true;
+            this.btnUpdateInfo.Click += new System.EventHandler(this.btnUpdateInfo_Click);
             // 
             // iconButton2
             // 
@@ -168,107 +189,87 @@
             this.panel1.Size = new System.Drawing.Size(8, 575);
             this.panel1.TabIndex = 0;
             // 
-            // ucTxtWorker10
+            // ucTxtWorkerPass
             // 
-            this.ucTxtWorker10.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorker10.Location = new System.Drawing.Point(629, 486);
-            this.ucTxtWorker10.Name = "ucTxtWorker10";
-            this.ucTxtWorker10.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorker10.TabIndex = 1;
-            this.ucTxtWorker10.Load += new System.EventHandler(this.ucTxtWorker10_Load);
+            this.ucTxtWorkerPass.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerPass.Location = new System.Drawing.Point(629, 486);
+            this.ucTxtWorkerPass.Name = "ucTxtWorkerPass";
+            this.ucTxtWorkerPass.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerPass.TabIndex = 1;
+            this.ucTxtWorkerPass.Load += new System.EventHandler(this.ucTxtWorker10_Load);
             // 
-            // ucTxtWorker8
+            // ucTxtWorkerAccount
             // 
-            this.ucTxtWorker8.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorker8.Location = new System.Drawing.Point(629, 377);
-            this.ucTxtWorker8.Name = "ucTxtWorker8";
-            this.ucTxtWorker8.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorker8.TabIndex = 1;
-            this.ucTxtWorker8.Load += new System.EventHandler(this.ucTxtWorker8_Load);
+            this.ucTxtWorkerAccount.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerAccount.Location = new System.Drawing.Point(629, 377);
+            this.ucTxtWorkerAccount.Name = "ucTxtWorkerAccount";
+            this.ucTxtWorkerAccount.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerAccount.TabIndex = 1;
+            this.ucTxtWorkerAccount.Load += new System.EventHandler(this.ucTxtWorker8_Load);
             // 
-            // ucTxtWorker7
+            // ucTxtWorkerEmail
             // 
-            this.ucTxtWorker7.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorker7.Location = new System.Drawing.Point(629, 166);
-            this.ucTxtWorker7.Name = "ucTxtWorker7";
-            this.ucTxtWorker7.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorker7.TabIndex = 1;
+            this.ucTxtWorkerEmail.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerEmail.Location = new System.Drawing.Point(629, 166);
+            this.ucTxtWorkerEmail.Name = "ucTxtWorkerEmail";
+            this.ucTxtWorkerEmail.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerEmail.TabIndex = 1;
             // 
-            // ucTxtWorker6
+            // ucTxtWorkerPhone
             // 
-            this.ucTxtWorker6.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorker6.Location = new System.Drawing.Point(629, 60);
-            this.ucTxtWorker6.Name = "ucTxtWorker6";
-            this.ucTxtWorker6.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorker6.TabIndex = 1;
+            this.ucTxtWorkerPhone.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerPhone.Location = new System.Drawing.Point(629, 60);
+            this.ucTxtWorkerPhone.Name = "ucTxtWorkerPhone";
+            this.ucTxtWorkerPhone.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerPhone.TabIndex = 1;
             // 
-            // ucTxtWorker9
+            // ucTxtWorkerCCCD
             // 
-            this.ucTxtWorker9.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorker9.Location = new System.Drawing.Point(629, 275);
-            this.ucTxtWorker9.Name = "ucTxtWorker9";
-            this.ucTxtWorker9.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorker9.TabIndex = 1;
+            this.ucTxtWorkerCCCD.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerCCCD.Location = new System.Drawing.Point(629, 275);
+            this.ucTxtWorkerCCCD.Name = "ucTxtWorkerCCCD";
+            this.ucTxtWorkerCCCD.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerCCCD.TabIndex = 1;
             // 
-            // ucTxtWorker5
+            // ucTxtWorkerAddress
             // 
-            this.ucTxtWorker5.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorker5.Location = new System.Drawing.Point(270, 486);
-            this.ucTxtWorker5.Name = "ucTxtWorker5";
-            this.ucTxtWorker5.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorker5.TabIndex = 1;
+            this.ucTxtWorkerAddress.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerAddress.Location = new System.Drawing.Point(270, 486);
+            this.ucTxtWorkerAddress.Name = "ucTxtWorkerAddress";
+            this.ucTxtWorkerAddress.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerAddress.TabIndex = 1;
             // 
-            // ucTxtWorker4
+            // ucTxtWorkerSex
             // 
-            this.ucTxtWorker4.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorker4.Location = new System.Drawing.Point(270, 377);
-            this.ucTxtWorker4.Name = "ucTxtWorker4";
-            this.ucTxtWorker4.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorker4.TabIndex = 1;
+            this.ucTxtWorkerSex.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerSex.Location = new System.Drawing.Point(270, 377);
+            this.ucTxtWorkerSex.Name = "ucTxtWorkerSex";
+            this.ucTxtWorkerSex.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerSex.TabIndex = 1;
             // 
-            // ucTxtWorker3
+            // ucTxtWorkerBirthDay
             // 
-            this.ucTxtWorker3.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorker3.Location = new System.Drawing.Point(270, 275);
-            this.ucTxtWorker3.Name = "ucTxtWorker3";
-            this.ucTxtWorker3.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorker3.TabIndex = 1;
+            this.ucTxtWorkerBirthDay.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerBirthDay.Location = new System.Drawing.Point(270, 275);
+            this.ucTxtWorkerBirthDay.Name = "ucTxtWorkerBirthDay";
+            this.ucTxtWorkerBirthDay.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerBirthDay.TabIndex = 1;
             // 
-            // ucTxtWorker2
+            // ucTxtWorkerName
             // 
-            this.ucTxtWorker2.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorker2.Location = new System.Drawing.Point(270, 166);
-            this.ucTxtWorker2.Name = "ucTxtWorker2";
-            this.ucTxtWorker2.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorker2.TabIndex = 1;
+            this.ucTxtWorkerName.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerName.Location = new System.Drawing.Point(270, 166);
+            this.ucTxtWorkerName.Name = "ucTxtWorkerName";
+            this.ucTxtWorkerName.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerName.TabIndex = 1;
             // 
-            // ucTxtWorker1
+            // ucTxtWorkerID
             // 
-            this.ucTxtWorker1.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorker1.Location = new System.Drawing.Point(270, 60);
-            this.ucTxtWorker1.Name = "ucTxtWorker1";
-            this.ucTxtWorker1.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorker1.TabIndex = 1;
-            // 
-            // iconButton4
-            // 
-            this.iconButton4.FlatAppearance.BorderSize = 0;
-            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton4.ForeColor = System.Drawing.Color.White;
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.MoneyBill1Wave;
-            this.iconButton4.IconColor = System.Drawing.Color.White;
-            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton4.IconSize = 32;
-            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.Location = new System.Drawing.Point(29, 262);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton4.Size = new System.Drawing.Size(190, 60);
-            this.iconButton4.TabIndex = 17;
-            this.iconButton4.Text = "Số dư";
-            this.iconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton4.UseVisualStyleBackColor = true;
+            this.ucTxtWorkerID.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerID.Location = new System.Drawing.Point(270, 60);
+            this.ucTxtWorkerID.Name = "ucTxtWorkerID";
+            this.ucTxtWorkerID.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerID.TabIndex = 1;
             // 
             // FWokerInfo
             // 
@@ -278,16 +279,16 @@
             this.ClientSize = new System.Drawing.Size(1179, 670);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelRight);
-            this.Controls.Add(this.ucTxtWorker10);
-            this.Controls.Add(this.ucTxtWorker8);
-            this.Controls.Add(this.ucTxtWorker7);
-            this.Controls.Add(this.ucTxtWorker6);
-            this.Controls.Add(this.ucTxtWorker9);
-            this.Controls.Add(this.ucTxtWorker5);
-            this.Controls.Add(this.ucTxtWorker4);
-            this.Controls.Add(this.ucTxtWorker3);
-            this.Controls.Add(this.ucTxtWorker2);
-            this.Controls.Add(this.ucTxtWorker1);
+            this.Controls.Add(this.ucTxtWorkerPass);
+            this.Controls.Add(this.ucTxtWorkerAccount);
+            this.Controls.Add(this.ucTxtWorkerEmail);
+            this.Controls.Add(this.ucTxtWorkerPhone);
+            this.Controls.Add(this.ucTxtWorkerCCCD);
+            this.Controls.Add(this.ucTxtWorkerAddress);
+            this.Controls.Add(this.ucTxtWorkerSex);
+            this.Controls.Add(this.ucTxtWorkerBirthDay);
+            this.Controls.Add(this.ucTxtWorkerName);
+            this.Controls.Add(this.ucTxtWorkerID);
             this.Controls.Add(this.picWorkerCard);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FWokerInfo";
@@ -302,20 +303,20 @@
         #endregion
 
         private FontAwesome.Sharp.IconPictureBox picWorkerCard;
-        private UCTxtWorker ucTxtWorker1;
-        private UCTxtWorker ucTxtWorker2;
-        private UCTxtWorker ucTxtWorker3;
-        private UCTxtWorker ucTxtWorker4;
-        private UCTxtWorker ucTxtWorker5;
-        private UCTxtWorker ucTxtWorker6;
-        private UCTxtWorker ucTxtWorker7;
-        private UCTxtWorker ucTxtWorker8;
-        private UCTxtWorker ucTxtWorker9;
-        private UCTxtWorker ucTxtWorker10;
+        private UCTxtWorker ucTxtWorkerID;
+        private UCTxtWorker ucTxtWorkerName;
+        private UCTxtWorker ucTxtWorkerBirthDay;
+        private UCTxtWorker ucTxtWorkerSex;
+        private UCTxtWorker ucTxtWorkerAddress;
+        private UCTxtWorker ucTxtWorkerPhone;
+        private UCTxtWorker ucTxtWorkerEmail;
+        private UCTxtWorker ucTxtWorkerAccount;
+        private UCTxtWorker ucTxtWorkerCCCD;
+        private UCTxtWorker ucTxtWorkerPass;
         private System.Windows.Forms.Panel panelRight;
         private System.Windows.Forms.Panel panel1;
         private FontAwesome.Sharp.IconButton btnHome;
-        private FontAwesome.Sharp.IconButton iconButton3;
+        private FontAwesome.Sharp.IconButton btnUpdateInfo;
         private FontAwesome.Sharp.IconButton iconButton2;
         private FontAwesome.Sharp.IconButton iconButton1;
         private FontAwesome.Sharp.IconButton iconButton4;

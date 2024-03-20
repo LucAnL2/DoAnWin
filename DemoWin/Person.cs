@@ -27,7 +27,8 @@ namespace DemoWin
         private string pass;
         private string confirmPassword;
         private string role;
-        public Person(string id, string name, string sex, string phone, string address, string cccd, string date, string email, string acNumber, string surplus)
+        public Person(string id, string name, string sex, string phone, string address, string cccd, 
+            string date, string email, string acNumber, string pass)
         {
             this.id = id;
             this.name = name;
@@ -38,7 +39,7 @@ namespace DemoWin
             this.date = date;
             this.email = email;
             this.acNumber = acNumber;
-            this.surplus = surplus;
+            this.pass = pass;
         }
         public Person(string id, string name, string email, string account, string pass, string confirmPassword, string role)
         {
@@ -50,17 +51,29 @@ namespace DemoWin
             this.role = role;
             this.confirmPassword = confirmPassword;
         }
+        //public Person(string id, string name, string date, string sex, string address, string phone, string email,
+        //    string cccd, string acNumber, string pass)
+        //{
+        //    this.id= id;
+        //    this.name = name;
+        //    this.date= date;
+        //    this.sex = sex;
+        //    this.address = address;
+        //    this.phone = phone;
+        //    this.email = email;
+        //    this.cccd = cccd;
+        //    this.acNumber = acNumber;
+        //    this.pass= pass;
+        //}
 
+        public Person()
+        {
+        }
         public Person(string id)
         {
-            this.id=id;
+            this.id= id;
         }
-        public Person(string account, string pass)
-        {
-            this.account =account;
-            this.pass = pass;
-        }
-       
+
         public string Id { get => id; set => id = value; }
         public string Name { get => name; set => name = value; }
         public string Sex { get => sex; set => sex = value; }
@@ -159,29 +172,7 @@ namespace DemoWin
             return id;
         }
       
-        //private void btnRegister_Click(object sender, EventArgs e)
-        //{
-          
-        //    string confirmPassword = txtConfirmPassword.Text;
-        //    makeColor.ActivateButton(sender);
-        //    if (!CheckAccount(password)) { MessageBox.Show("Vui lòng nhập mật khẩu từ năm ký tự trở lên bao gồm của chữ và sô !!!"); return; }
-        //    if (confirmPassword != password) { MessageBox.Show("Vui lòng nhập chính xác mật khẩu !!!"); return; }
-        //    if (!CheckEmail(email)) { MessageBox.Show("Email không hợp lệ !!!"); return; }
-        //    if (modify.Accounts("Select * from Account where Email = '" + email + "'").Count != 0) { MessageBox.Show("Email này đã được sử dụng vui lòng dùng Email khác !!!"); return; }
-        //            try
-        //            {
-        //                string query = "Insert into Account values ('" + userName + "','" + password + "','" + email + "')";
-        //        modify.Command(query);
-        //                if (MessageBox.Show("Đăng ký thành công! Bạn có muốn đăng nhập luôn không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
-        //                {
-        //                    this.Close();
-        //    }
-        //}
-        //            catch
-        //            {
-        //    MessageBox.Show("Tài khoản này đã tồn tại !!!");
-        //}
-               // }
+      
     }
     
 }
