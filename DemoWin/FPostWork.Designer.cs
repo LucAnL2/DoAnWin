@@ -287,7 +287,7 @@
             this.PanelComboWorkOfDay.Controls.Add(this.btnAll);
             this.PanelComboWorkOfDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PanelComboWorkOfDay.ForeColor = System.Drawing.Color.Navy;
-            this.PanelComboWorkOfDay.Location = new System.Drawing.Point(68, 197);
+            this.PanelComboWorkOfDay.Location = new System.Drawing.Point(12, 56);
             this.PanelComboWorkOfDay.MaximumSize = new System.Drawing.Size(214, 226);
             this.PanelComboWorkOfDay.MinimumSize = new System.Drawing.Size(214, 58);
             this.PanelComboWorkOfDay.Name = "PanelComboWorkOfDay";

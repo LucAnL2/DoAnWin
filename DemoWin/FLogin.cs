@@ -41,7 +41,7 @@ namespace DemoWin
                 //string query = "Select * from Account where UserName = '" + userName + "' and Password = '" + password + "'"; ;
                 string query;
                 if (rbtnUser.Checked)
-                    query = "Select * from NguoiDung where TenTaiKhoan = '"+userName+"' and MatKhau = '"+password+"'";
+                    query = "Select * from NguoiDung2 where TenTaiKhoan = '"+userName+"' and MatKhau = '"+password+"'";
                 else if (rbtnWorker.Checked)
                     query = "Select * from Worker where TenTaiKhoan = '" + userName + "' and MatKhau = '" + password + "'";
                 else if (rbtnWorker.Checked == false && rbtnUser.Checked == false) { MessageBox.Show("Vui lòng chọn vai trò !!!"); btnLogin.BackColor = Color.FromArgb(51, 51, 76); return; }

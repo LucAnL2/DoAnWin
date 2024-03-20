@@ -19,22 +19,21 @@ namespace DemoWin
             string sqlStr = string.Format("SELECT *FROM DangViec");
             return connect.Load(sqlStr);
         }
-        public Worker PostWork(Worker newDangviec)
+        public void PostWork(Worker newDangviec)
         {
-            if(Worker.checkNullDangViec(newDangviec) == true)
+            //newDangviec = new Worker(newDangviec.Id, newDangviec.Job, newDangviec.WorkingDay, newDangviec.WorkingTime, newDangviec.HireCost, newDangviec.Experience, newDangviec.Describe);
+
+            if (Worker.checkNullDangViec(newDangviec) == true)
             {
                 string sqlStr = string.Format("INSERT INTO DangViec (ID, NgheNghiep, NgayLamViec, GioLam, GiaThue, NamKinhNghiem, MoTa) " +
                         "VALUES ('{0}', '{1}','{2}','{3}','{4}', '{5}','{6}')", newDangviec.Id, newDangviec.Job, newDangviec.WorkingDay
                         , newDangviec.WorkingTime, newDangviec.HireCost, newDangviec.Experience, newDangviec.Describe);
                 connect.ThucThi(sqlStr, "Thêm công việc thành công", newDangviec);
-                return newDangviec;
             }
             else
             {
-                return newDangviec;
+                return ;
             }    
-            
-
         }
         public void DeleteWork(Worker newDangviec)
         {
