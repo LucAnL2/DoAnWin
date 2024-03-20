@@ -23,7 +23,8 @@ namespace DemoWin
         private string acNumber;
         private string surplus;
         private string account; 
-        private string pass; 
+        private string pass;
+        private string confirmPassword;
         private string role;
         public Person(string id, string name, string sex, string phone, string address, string cccd, string date, string email, string acNumber, string surplus)
         {
@@ -38,12 +39,7 @@ namespace DemoWin
             this.acNumber = acNumber;
             this.surplus = surplus;
         }
-        public Person(string id)
-        {
-            this.id=id;
-        }
-
-        public Person(string id,string name, string email,  string account, string pass, string role) 
+        public Person(string id, string name, string email, string account, string pass, string confirmPassword, string role)
         {
             this.id = id;
             this.name = name;
@@ -51,8 +47,19 @@ namespace DemoWin
             this.account = account;
             this.pass = pass;
             this.role = role;
+            this.confirmPassword = confirmPassword;
         }
 
+        public Person(string id)
+        {
+            this.id=id;
+        }
+        public Person(string account, string pass)
+        {
+            this.account =account;
+            this.pass = pass;
+        }
+       
         public string Id { get => id; set => id = value; }
         public string Name { get => name; set => name = value; }
         public string Sex { get => sex; set => sex = value; }
@@ -66,10 +73,11 @@ namespace DemoWin
         public string Account { get => account; set => account = value; }
         public string Pass { get => pass; set => pass = value; }
         public string Role { get => role; set => role = value; }
+        public string ConfirmPassword { get => confirmPassword; set => confirmPassword = value; }
 
         public static bool checkNullDangKi(Person newPerson)
         {
-            string[] propertiesToCheck = { "Name", "Email", "Account", "Pass", "Role" };
+            string[] propertiesToCheck = { "Name", "Account", "Pass", "ConfirmPassword", "Email", "Role" };
 
             foreach (var propertyName in propertiesToCheck)
             {
@@ -98,18 +106,18 @@ namespace DemoWin
                         System.Windows.Forms.MessageBox.Show("Email không hợp lệ !!!");
                         return false;
                     }
-                    else
-                    {
-                        var query1Result = ("SELECT * FROM NguoiDung2 WHERE Email = '" + email + "'");
-                        var query2Result = ("SELECT * FROM Worker2 WHERE Email = '" + email + "'");
+                    //else
+                    //{
+                    //    var query1Result = ("SELECT * FROM NguoiDung2 WHERE Email = '" + email + "'");
+                    //    var query2Result = ("SELECT * FROM Worker WHERE Email = '" + email + "'");
 
-                        if (query1Result.Count() != 0 || query2Result.Count() != 0)
-                        {
-                            // Nếu có ít nhất một hàng được trả về từ bất kỳ truy vấn nào, tức là email đã tồn tại trong cơ sở dữ liệu
-                            System.Windows.Forms.MessageBox.Show("Email đã tồn tại trong cơ sở dữ liệu !!!");
-                            return false;
-                        }
-                    }
+                    //    if (query1Result.Count() != 0 || query2Result.Count() != 0)
+                    //    {
+                    //        // Nếu có ít nhất một hàng được trả về từ bất kỳ truy vấn nào, tức là email đã tồn tại trong cơ sở dữ liệu
+                    //        System.Windows.Forms.MessageBox.Show("Email đã được sử dụng !!!");
+                    //        return false;
+                    //    }
+                    //}
                    
                 }
             }
@@ -127,20 +135,20 @@ namespace DemoWin
         //    if (confirmPassword != password) { MessageBox.Show("Vui lòng nhập chính xác mật khẩu !!!"); return; }
         //    if (!CheckEmail(email)) { MessageBox.Show("Email không hợp lệ !!!"); return; }
         //    if (modify.Accounts("Select * from Account where Email = '" + email + "'").Count != 0) { MessageBox.Show("Email này đã được sử dụng vui lòng dùng Email khác !!!"); return; }
-        //    try
-        //    {
-        //        string query = "Insert into Account values ('" + userName + "','" + password + "','" + email + "')";
+        //            try
+        //            {
+        //                string query = "Insert into Account values ('" + userName + "','" + password + "','" + email + "')";
         //        modify.Command(query);
-        //        if (MessageBox.Show("Đăng ký thành công! Bạn có muốn đăng nhập luôn không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
-        //        {
-        //            this.Close();
-        //        }
-        //    }
-        //    catch
-        //    {
-        //        MessageBox.Show("Tài khoản này đã tồn tại !!!");
+        //                if (MessageBox.Show("Đăng ký thành công! Bạn có muốn đăng nhập luôn không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
+        //                {
+        //                    this.Close();
         //    }
         //}
+        //            catch
+        //            {
+        //    MessageBox.Show("Tài khoản này đã tồn tại !!!");
+        //}
+               // }
     }
     
 }

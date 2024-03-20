@@ -29,6 +29,22 @@ namespace DemoWin
             }
             return accounts;
         }
+        public List<Person> Persons(string query)
+        {
+            List<Person> persons = new List<Person>();
+            using (SqlConnection sqlConnection = Connection.GetSqlConnection())
+            {
+                sqlConnection.Open();
+                sqlCommand = new SqlCommand(query, sqlConnection);
+                dataReader = sqlCommand.ExecuteReader();
+                while (dataReader.Read())
+                {
+                    persons.Add(new Person(dataReader.GetString(0), dataReader.GetString(1)));
+                }
+                sqlConnection.Close();
+            }
+            return persons;
+        }
         public void Command(string query)
         {
             using (SqlConnection sqlConnection = Connection.GetSqlConnection())

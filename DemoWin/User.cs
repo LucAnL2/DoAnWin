@@ -30,11 +30,11 @@ namespace DemoWin
             : base(id, name, sex, phone, address, cccd, date, email, acNumber, surplus)
         {
         }
-        public User(string id, string name, string email, string account, string pass, string role) : base(id,name,email,account,pass,role)
+        public User(string id, string name, string email, string account, string pass
+            , string confirmPassword, string role) : base(id,name,email,account,pass,confirmPassword,role)
         {
-           
         }
-
+        
         public string HireID { get => hireID; set => hireID = value; }
         public string HireName { get => hireName; set => hireName = value; }
         public string Vote { get => vote; set => vote = value; }

@@ -46,6 +46,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnLogin = new System.Windows.Forms.Button();
+            this.rbtnWorker = new System.Windows.Forms.RadioButton();
+            this.rbtnUser = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -220,7 +222,7 @@
             this.btnLogin.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnLogin.Image = global::DemoWin.Properties.Resources.sign_in_alt;
             this.btnLogin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogin.Location = new System.Drawing.Point(521, 299);
+            this.btnLogin.Location = new System.Drawing.Point(520, 335);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
             this.btnLogin.Size = new System.Drawing.Size(171, 39);
@@ -231,12 +233,39 @@
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
+            // rbtnWorker
+            // 
+            this.rbtnWorker.AutoSize = true;
+            this.rbtnWorker.ForeColor = System.Drawing.Color.White;
+            this.rbtnWorker.Location = new System.Drawing.Point(665, 285);
+            this.rbtnWorker.Name = "rbtnWorker";
+            this.rbtnWorker.Size = new System.Drawing.Size(52, 20);
+            this.rbtnWorker.TabIndex = 11;
+            this.rbtnWorker.TabStop = true;
+            this.rbtnWorker.Text = "Thợ";
+            this.rbtnWorker.UseVisualStyleBackColor = true;
+            this.rbtnWorker.CheckedChanged += new System.EventHandler(this.rbtnWorker_CheckedChanged);
+            // 
+            // rbtnUser
+            // 
+            this.rbtnUser.AutoSize = true;
+            this.rbtnUser.ForeColor = System.Drawing.Color.White;
+            this.rbtnUser.Location = new System.Drawing.Point(481, 285);
+            this.rbtnUser.Name = "rbtnUser";
+            this.rbtnUser.Size = new System.Drawing.Size(97, 20);
+            this.rbtnUser.TabIndex = 11;
+            this.rbtnUser.TabStop = true;
+            this.rbtnUser.Text = "Người dùng";
+            this.rbtnUser.UseVisualStyleBackColor = true;
+            // 
             // FLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.ClientSize = new System.Drawing.Size(826, 476);
+            this.Controls.Add(this.rbtnUser);
+            this.Controls.Add(this.rbtnWorker);
             this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.label5);
@@ -256,7 +285,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FLogin";
+            this.Text = "x";
             this.Load += new System.EventHandler(this.FLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -285,5 +314,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnMinimize;
+        private System.Windows.Forms.RadioButton rbtnWorker;
+        private System.Windows.Forms.RadioButton rbtnUser;
     }
 }

@@ -1,4 +1,5 @@
 ﻿using DemoWin.Forms;
+using Microsoft.VisualBasic.ApplicationServices;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -37,14 +38,31 @@ namespace DemoWin
             else if (password.Trim() == "") { MessageBox.Show("Vui lòng nhập mật khẩu !!!"); btnLogin.BackColor = Color.FromArgb(51, 51, 76); return; }
             else
             {
-                string query = "Select * from Account where UserName = '"+userName+"' and Password = '"+password+"'";
-                if(modify.Accounts(query).Count != 0)
+                //string query = "Select * from Account where UserName = '" + userName + "' and Password = '" + password + "'"; ;
+                string query;
+                if (rbtnUser.Checked)
+                    query = "Select * from NguoiDung2 where TenTaiKhoan = '"+userName+"' and MatKhau = '"+password+"'";
+                else if (rbtnWorker.Checked)
+                    query = "Select * from Worker where TenTaiKhoan = '" + userName + "' and MatKhau = '" + password + "'";
+                else if (rbtnWorker.Checked == false && rbtnUser.Checked == false) { MessageBox.Show("Vui lòng chọn vai trò !!!"); btnLogin.BackColor = Color.FromArgb(51, 51, 76); return; }
+                else { MessageBox.Show("Vui lòng chỉ chọn một vai trò !!!"); btnLogin.BackColor = Color.FromArgb(51, 51, 76); return; }
+                if (modify.Persons(query).Count != 0)
                 {
-                    MessageBox.Show("Đăng nhập thành công","Thông báo",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                    MessageBox.Show("Đăng nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     btnLogin.BackColor = Color.FromArgb(51, 51, 76);
                     this.Hide();
-                    FUsers user = new FUsers();
-                    user.ShowDialog();
+                    if (rbtnUser.Checked)
+                    {    
+                        FUsers user = new FUsers();
+                        //user.StartPosition = FormStartPosition.CenterScreen;
+                        user.ShowDialog();
+                    }
+                    else if (rbtnWorker.Checked)
+                    {
+                        FWorker worker = new FWorker();
+                        //worker.StartPosition = FormStartPosition.CenterScreen;
+                        worker.ShowDialog();
+                    }
                     this.Close();
                 }
                 else
@@ -84,6 +102,11 @@ namespace DemoWin
         private void btnMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void rbtnWorker_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
