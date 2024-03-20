@@ -9,6 +9,7 @@ namespace DemoWin
 {
     public static class ThemeColors
     {
+        public static string IncomeID { get; set; }
         public static Color PrimaryColor { get; set; }
         public static Color SecondaryColor { get; set; }
         public static List<string> ColorList = new List<string>() { "#3F51B5",
@@ -61,8 +62,5 @@ namespace DemoWin
             }
             return Color.FromArgb(color.A, (byte)red, (byte)green, (byte)blue);
         }
-        
-        public static string IncomeID { get; set; }
-        
     }
 }

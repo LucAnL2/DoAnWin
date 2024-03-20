@@ -122,18 +122,7 @@ namespace DemoWin
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            //FPostWork postWork = new FPostWork();
-            //UCTxtWorker uctHireCost = postWork.UctHireCost;
-            //UCTxtWorker ucttimeOfWork = postWork.UctTimeOfWork;
-            //UCTxtWorker uctDayOfWork = postWork.UctDayOfWork;
-            //UCTxtWorker uctJob = postWork.UctJob;
-            //UCTxtWorker uctExperience = postWork.UctExperience;
-            //Guna2TextBox txtDataDesCribe = postWork.UctExperience.txtData;
-
-
-            //Worker wk = new Worker(GlobalVariables.Id.ToString(), uctJob.ToString(), uctDayOfWork.ToString(), ucttimeOfWork.ToString(),
-            //                 uctHireCost.ToString(), uctExperience.ToString(), txtDataDesCribe.ToString());
-            Worker wk = new Worker(_incomeID, ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
+            Worker wk = new Worker(ThemeColors.IncomeID, ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
                              ucTxtWorker1.txtData.Text, ucTxtWorker5.txtData.Text, txtDataDescribe.Text);
             WokerDAO HSD = new WokerDAO();
             HSD.PostWork(wk);
@@ -142,19 +131,19 @@ namespace DemoWin
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            ////////////Worker wk = new Worker(GlobalVariables.Id.ToString(), ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
-            ////////////                 ucTxtWorker1.txtData.Text, ucTxtWorker5.txtData.Text, txtDataDescribe.Text);
+            Worker wk = new Worker(ThemeColors.IncomeID, ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
+                             ucTxtWorker1.txtData.Text, ucTxtWorker5.txtData.Text, txtDataDescribe.Text);
             WokerDAO HSD = new WokerDAO();
-            ////////////HSD.DeleteWork(wk);
+            HSD.DeleteWork(wk);
             load();
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            //////////Worker wk = new Worker(GlobalVariables.Id.ToString(), ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
-            //////////                 ucTxtWorker1.txtData.Text, ucTxtWorker5.txtData.Text, txtDataDescribe.Text);
+            Worker wk = new Worker(ThemeColors.IncomeID, ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
+                             ucTxtWorker1.txtData.Text, ucTxtWorker5.txtData.Text, txtDataDescribe.Text);
             WokerDAO HSD = new WokerDAO();
-            // HSD.RepairWork(wk);
+            //HSD.RepairWork(wk);
             load();
         }
         private void ExpandButton(ref bool isExpand, FlowLayoutPanel flowLayoutPanel, IconButton iconButton, Timer timer)

@@ -291,6 +291,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "UCPostJob";
             this.Size = new System.Drawing.Size(1027, 139);
+            this.Load += new System.EventHandler(this.UCPostJob_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

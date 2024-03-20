@@ -52,10 +52,10 @@ namespace DemoWin
                     MessageBox.Show("Đăng nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     btnLogin.BackColor = Color.FromArgb(51, 51, 76);
                     this.Hide();
-                    string tenTK = txtUserName.Text;
-                    string incomeID = "SELECT id FROM Worker2 WHERE TenTaiKhoan = '" + tenTK + "'";
-                    MessageBox.Show(incomeID);
-                    FPostWork fPostWork = new FPostWork(incomeID);
+                    //string tenTK = txtUserName.Text;
+                    //string incomeID = "SELECT id FROM Worker2 WHERE TenTaiKhoan = '" + tenTK + "'";
+                    //MessageBox.Show(incomeID);
+                    //FPostWork fPostWork = new FPostWork(incomeID);
 
                     if (rbtnUser.Checked)
                     {
@@ -64,6 +64,9 @@ namespace DemoWin
                     }
                     else if (rbtnWorker.Checked)
                     {
+                        string queryneo = "Select * from Worker where TenTaiKhoan = '" + userName + "'";
+                        ThemeColors.IncomeID = modify.Accounts(queryneo)[0].UserName;
+                        //MessageBox.Show(ThemeColors.IncomeID);
                         FWorker worker = new FWorker();
                         worker.ShowDialog();
                         
