@@ -61,5 +61,8 @@ namespace DemoWin
             }
             return Color.FromArgb(color.A, (byte)red, (byte)green, (byte)blue);
         }
+        
+        public static string IncomeID { get; set; }
+        
     }
 }

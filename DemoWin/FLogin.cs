@@ -30,6 +30,7 @@ namespace DemoWin
             FRegister register = new FRegister();
             register.ShowDialog();
         }
+        
         private void btnLogin_Click(object sender, EventArgs e)
         {
             btnLogin.BackColor = Color.White;
@@ -51,6 +52,11 @@ namespace DemoWin
                     MessageBox.Show("Đăng nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     btnLogin.BackColor = Color.FromArgb(51, 51, 76);
                     this.Hide();
+                    string tenTK = txtUserName.Text;
+                    string incomeID = "SELECT id FROM Worker2 WHERE TenTaiKhoan = '" + tenTK + "'";
+                    MessageBox.Show(incomeID);
+                    FPostWork fPostWork = new FPostWork(incomeID);
+
                     if (rbtnUser.Checked)
                     {
                         FUsers user = new FUsers();
@@ -60,6 +66,7 @@ namespace DemoWin
                     {
                         FWorker worker = new FWorker();
                         worker.ShowDialog();
+                        
                     }
                     this.Close();
                 }
@@ -70,6 +77,7 @@ namespace DemoWin
                 }
             }
         }
+        
         private void FLogin_Load(object sender, EventArgs e)
         {
             Clock.Start();

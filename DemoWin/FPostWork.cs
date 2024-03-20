@@ -45,6 +45,15 @@ namespace DemoWin
         {
             InitializeComponent();
         }
+        // Khai báo một biến instance để lưu trữ incomeID
+        private string _incomeID;
+
+        // Constructor nhận tham số là incomeID và lưu trữ nó vào biến instance _incomeID
+        public FPostWork(string incomeID)
+        {
+            InitializeComponent();
+            _incomeID = incomeID;
+        }
         private void FPostWork_Load(object sender, EventArgs e)
         {
             int i = 0;
@@ -124,10 +133,10 @@ namespace DemoWin
 
             //Worker wk = new Worker(GlobalVariables.Id.ToString(), uctJob.ToString(), uctDayOfWork.ToString(), ucttimeOfWork.ToString(),
             //                 uctHireCost.ToString(), uctExperience.ToString(), txtDataDesCribe.ToString());
-            ////////Worker wk = new Worker(lblId.Text, ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
-            ////////                 ucTxtWorker1.txtData.Text, ucTxtWorker5.txtData.Text, txtDataDescribe.Text);
+            Worker wk = new Worker(_incomeID, ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
+                             ucTxtWorker1.txtData.Text, ucTxtWorker5.txtData.Text, txtDataDescribe.Text);
             WokerDAO HSD = new WokerDAO();
-            //////HSD.PostWork(wk);
+            HSD.PostWork(wk);
             load();
         }
 
