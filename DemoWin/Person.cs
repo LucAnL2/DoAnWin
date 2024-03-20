@@ -38,7 +38,11 @@ namespace DemoWin
         {
             this.id=id;
         }
-
+        public Person(string account, string pass)
+        {
+            this.account =account;
+            this.pass = pass;
+        }
         public Person(string id,string name, string email,  string account, string pass, string role) 
         {
             this.id = id;
