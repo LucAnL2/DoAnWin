@@ -63,7 +63,7 @@
             this.btnElectrician.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnElectrician.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnElectrician.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnElectrician.Location = new System.Drawing.Point(12, 771);
+            this.btnElectrician.Location = new System.Drawing.Point(97, 771);
             this.btnElectrician.Name = "btnElectrician";
             this.btnElectrician.Size = new System.Drawing.Size(396, 57);
             this.btnElectrician.TabIndex = 5;
@@ -78,7 +78,7 @@
             this.btnCarvers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCarvers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCarvers.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnCarvers.Location = new System.Drawing.Point(731, 771);
+            this.btnCarvers.Location = new System.Drawing.Point(701, 771);
             this.btnCarvers.Name = "btnCarvers";
             this.btnCarvers.Size = new System.Drawing.Size(396, 57);
             this.btnCarvers.TabIndex = 5;
@@ -92,7 +92,7 @@
             this.btnMechanic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMechanic.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMechanic.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnMechanic.Location = new System.Drawing.Point(12, 308);
+            this.btnMechanic.Location = new System.Drawing.Point(97, 308);
             this.btnMechanic.Name = "btnMechanic";
             this.btnMechanic.Size = new System.Drawing.Size(396, 53);
             this.btnMechanic.TabIndex = 5;
@@ -107,7 +107,7 @@
             this.btnCarWashman.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCarWashman.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCarWashman.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnCarWashman.Location = new System.Drawing.Point(1391, 308);
+            this.btnCarWashman.Location = new System.Drawing.Point(1306, 308);
             this.btnCarWashman.Name = "btnCarWashman";
             this.btnCarWashman.Size = new System.Drawing.Size(396, 53);
             this.btnCarWashman.TabIndex = 5;
@@ -122,7 +122,7 @@
             this.btnOther.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOther.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOther.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnOther.Location = new System.Drawing.Point(1391, 771);
+            this.btnOther.Location = new System.Drawing.Point(1306, 771);
             this.btnOther.Name = "btnOther";
             this.btnOther.Size = new System.Drawing.Size(396, 57);
             this.btnOther.TabIndex = 5;
@@ -137,7 +137,7 @@
             this.btnPainter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPainter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPainter.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnPainter.Location = new System.Drawing.Point(731, 308);
+            this.btnPainter.Location = new System.Drawing.Point(701, 308);
             this.btnPainter.Name = "btnPainter";
             this.btnPainter.Size = new System.Drawing.Size(396, 53);
             this.btnPainter.TabIndex = 5;
@@ -249,7 +249,7 @@
             // 
             this.picCarWash.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.picCarWash.Image = global::DemoWin.Properties.Resources.Car_wash_rafiki;
-            this.picCarWash.Location = new System.Drawing.Point(1391, 12);
+            this.picCarWash.Location = new System.Drawing.Point(1306, 12);
             this.picCarWash.Name = "picCarWash";
             this.picCarWash.Size = new System.Drawing.Size(396, 290);
             this.picCarWash.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -260,7 +260,7 @@
             // 
             this.picOther.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.picOther.Image = global::DemoWin.Properties.Resources.Dark_mode_pana;
-            this.picOther.Location = new System.Drawing.Point(1391, 475);
+            this.picOther.Location = new System.Drawing.Point(1306, 475);
             this.picOther.Name = "picOther";
             this.picOther.Size = new System.Drawing.Size(396, 290);
             this.picOther.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -271,7 +271,7 @@
             // 
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBox4.Image = global::DemoWin.Properties.Resources.Sculpting_cuate;
-            this.pictureBox4.Location = new System.Drawing.Point(731, 475);
+            this.pictureBox4.Location = new System.Drawing.Point(701, 475);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(396, 290);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -282,7 +282,7 @@
             // 
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox3.Image = global::DemoWin.Properties.Resources.Electrician_amico;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 475);
+            this.pictureBox3.Location = new System.Drawing.Point(97, 475);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(396, 290);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -292,7 +292,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::DemoWin.Properties.Resources.Prototyping_process_amico;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(97, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(396, 290);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -303,7 +303,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = global::DemoWin.Properties.Resources.Artist_amico;
-            this.pictureBox1.Location = new System.Drawing.Point(731, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(701, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(396, 290);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

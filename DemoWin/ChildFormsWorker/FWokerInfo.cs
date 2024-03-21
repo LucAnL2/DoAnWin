@@ -19,8 +19,9 @@ namespace DemoWin.ChildFormsWorker
     {
         private string[] listTitle = { "ID", "Tên", "Ngày sinh", "Giới tính", "Địa chỉ", "CCCD", "Số ĐT", "Email", "Tài khoản", "Mật khẩu" };
         private string[] listData = { "2030442", "Phạm D", "12/12/2002", "Nam", "Hà Nội", "07220400", "03xxxxxx14", "D123@gmail.com", "Worker", "xxxxxx" };
-        private string connectionString = @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=theGioiTho;Integrated Security=True";
-        private string query = "SELECT ID, Ten, NgaySinh, GioiTinh, DiaChi, SDT, Email, CCCD, TenTaiKhoan, MatKhau FROM Worker";
+        //private string connectionString = @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=theGioiTho;Integrated Security=True";
+        //private string query = "SELECT ID, Ten, NgaySinh, GioiTinh, DiaChi, SDT, Email, CCCD, TenTaiKhoan, MatKhau FROM Worker";
+        private string query = "SELECT ID, Ten, NgaySinh, GioiTinh, DiaChi, SDT, Email, CCCD, TenTaiKhoan, MatKhau FROM Worker Where ID = '"+ThemeColors.IncomeID+"'";
         public FWokerInfo()
         {
             InitializeComponent();
@@ -48,7 +49,7 @@ namespace DemoWin.ChildFormsWorker
 
         private void LoadDataIntoTextBoxes()
         {
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlConnection connection = Connection.GetSqlConnection())
             {
                 connection.Open();
 

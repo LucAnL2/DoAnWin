@@ -28,12 +28,9 @@ namespace DemoWin
         }
         private void btnDeleteJob_Click(object sender, EventArgs e)
         {
-            FPostWork newPostWork = new FPostWork();
-            Worker wk = new Worker(ThemeColors.IncomeID, newPostWork.UctJob.txtData.Text, newPostWork.UctDayOfWork.txtData.Text, newPostWork.UctTimeOfWork.txtData.Text,
-                             newPostWork.UctHireCost.txtData.Text, newPostWork.UctExperience.txtData.Text, newPostWork.TxtDataDescribe.Text);
-            WokerDAO HSD = new WokerDAO();
-            HSD.DeleteWork(wk);
-            load();
+            Worker worker = new Worker(ThemeColors.IncomeID, lblGroupWorkData.Text);
+            WokerDAO workerDAO = new WokerDAO();
+            workerDAO.DeleteWork(worker);
         }
 
         private void UCPostJob_Load(object sender, EventArgs e)

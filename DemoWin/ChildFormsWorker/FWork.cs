@@ -14,7 +14,7 @@ namespace DemoWin.ChildFormsWorker
 {
     public partial class FWork : Form
     {
-        private string connectionString = @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=theGioiTho;Integrated Security=True";
+        //private string connectionString = @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=theGioiTho2;Integrated Security=True";
 
         public FWork()
         {
@@ -23,16 +23,6 @@ namespace DemoWin.ChildFormsWorker
        
         private void FWork_Load(object sender, EventArgs e)
         {
-            panelRight.BackColor = ThemeColors.PrimaryColor;
-            panelBoundary.BackColor = ThemeColors.PrimaryColor;
-            for (int i = 0; i < 2; i++)
-            {
-                UCPostJob uc = new UCPostJob();
-                uc.Margin = new Padding(20);
-                uc.BackColor = ThemeColors.PrimaryColor;
-                flowPanelContain.Controls.Add(uc);
-            }
-
             LoadDataIntoTextBoxes();
         }
         public void LoadDataIntoTextBoxes()
@@ -40,7 +30,7 @@ namespace DemoWin.ChildFormsWorker
             string id = ThemeColors.IncomeID;
 
             string query = string.Format("select Worker.Ten, DangViec.NgheNghiep from Worker, DangViec Where Worker.ID = '{0}' and DangViec.ID = '{0}'", id);
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlConnection connection = Connection.GetSqlConnection())
             {
                 connection.Open();
 
@@ -81,7 +71,6 @@ namespace DemoWin.ChildFormsWorker
         {
             FPostWork postWork = new FPostWork();
             postWork.ShowDialog();
- 
         }
     }
 }

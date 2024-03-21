@@ -169,6 +169,7 @@ namespace DemoWin
             {
                 activeForm.Close();
             }
+            leftBorderBtn.Visible = false ;
             Reset();
         }
         private void Reset()

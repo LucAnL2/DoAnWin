@@ -33,9 +33,11 @@ namespace DemoWin
             Experience = experience;
             Describe = describe;
         }
-        
-
-
+        public Worker(string id, string job) 
+        { 
+            Id = id;
+            Job = job;
+        }
 
         public string Job { get => job; set => job = value; }
         public string WorkingDay { get => workingDay; set => workingDay = value; }

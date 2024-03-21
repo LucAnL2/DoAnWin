@@ -283,7 +283,7 @@
             this.lblClock.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblClock.AutoSize = true;
             this.lblClock.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblClock.Location = new System.Drawing.Point(1715, 971);
+            this.lblClock.Location = new System.Drawing.Point(1687, 956);
             this.lblClock.Name = "lblClock";
             this.lblClock.Size = new System.Drawing.Size(72, 18);
             this.lblClock.TabIndex = 2;

@@ -62,7 +62,7 @@
             this.panelTaskBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTaskBar.Location = new System.Drawing.Point(0, 0);
             this.panelTaskBar.Name = "panelTaskBar";
-            this.panelTaskBar.Size = new System.Drawing.Size(475, 45);
+            this.panelTaskBar.Size = new System.Drawing.Size(575, 45);
             this.panelTaskBar.TabIndex = 0;
             this.panelTaskBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTaskBar_MouseDown);
             // 
@@ -112,7 +112,7 @@
             this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
             this.btnMinimize.Image = global::DemoWin.Properties.Resources.minus_small;
-            this.btnMinimize.Location = new System.Drawing.Point(396, 3);
+            this.btnMinimize.Location = new System.Drawing.Point(496, 3);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(35, 35);
             this.btnMinimize.TabIndex = 82;
@@ -127,7 +127,7 @@
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Image = global::DemoWin.Properties.Resources.cross_small;
-            this.btnClose.Location = new System.Drawing.Point(437, 3);
+            this.btnClose.Location = new System.Drawing.Point(537, 3);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(35, 35);
             this.btnClose.TabIndex = 81;
@@ -140,9 +140,9 @@
             this.panelBottom.Controls.Add(this.btnCancel);
             this.panelBottom.Controls.Add(this.btnHire);
             this.panelBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelBottom.Location = new System.Drawing.Point(0, 345);
+            this.panelBottom.Location = new System.Drawing.Point(0, 445);
             this.panelBottom.Name = "panelBottom";
-            this.panelBottom.Size = new System.Drawing.Size(475, 75);
+            this.panelBottom.Size = new System.Drawing.Size(575, 75);
             this.panelBottom.TabIndex = 1;
             // 
             // btnCancel
@@ -237,7 +237,7 @@
             this.panelMonthHire.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMonthHire.Location = new System.Drawing.Point(0, 45);
             this.panelMonthHire.Name = "panelMonthHire";
-            this.panelMonthHire.Size = new System.Drawing.Size(475, 300);
+            this.panelMonthHire.Size = new System.Drawing.Size(575, 400);
             this.panelMonthHire.TabIndex = 6;
             // 
             // lblYearHire
@@ -313,10 +313,10 @@
             this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.CalendarCheck;
             this.iconPictureBox2.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconPictureBox2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox2.IconSize = 137;
+            this.iconPictureBox2.IconSize = 157;
             this.iconPictureBox2.Location = new System.Drawing.Point(32, 63);
             this.iconPictureBox2.Name = "iconPictureBox2";
-            this.iconPictureBox2.Size = new System.Drawing.Size(137, 137);
+            this.iconPictureBox2.Size = new System.Drawing.Size(157, 157);
             this.iconPictureBox2.TabIndex = 6;
             this.iconPictureBox2.TabStop = false;
             // 
@@ -325,7 +325,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(475, 420);
+            this.ClientSize = new System.Drawing.Size(575, 520);
             this.Controls.Add(this.panelMonthHire);
             this.Controls.Add(this.iconPictureBox1);
             this.Controls.Add(this.dateHire);

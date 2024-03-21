@@ -59,9 +59,9 @@
             this.panelTaskBar.Controls.Add(this.button1);
             this.panelTaskBar.Controls.Add(this.label1);
             this.panelTaskBar.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelTaskBar.Location = new System.Drawing.Point(0, 563);
+            this.panelTaskBar.Location = new System.Drawing.Point(0, 869);
             this.panelTaskBar.Name = "panelTaskBar";
-            this.panelTaskBar.Size = new System.Drawing.Size(1179, 107);
+            this.panelTaskBar.Size = new System.Drawing.Size(1799, 129);
             this.panelTaskBar.TabIndex = 14;
             // 
             // button4
@@ -73,9 +73,9 @@
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = global::DemoWin.Properties.Resources.discord;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(748, 47);
+            this.button4.Location = new System.Drawing.Point(1122, 61);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(124, 38);
+            this.button4.Size = new System.Drawing.Size(166, 38);
             this.button4.TabIndex = 2;
             this.button4.Text = "  WWOZ";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -91,9 +91,9 @@
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = global::DemoWin.Properties.Resources.facebook;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(603, 47);
+            this.button3.Location = new System.Drawing.Point(926, 61);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(122, 38);
+            this.button3.Size = new System.Drawing.Size(164, 38);
             this.button3.TabIndex = 2;
             this.button3.Text = "  LucAn";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -109,9 +109,9 @@
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::DemoWin.Properties.Resources.clock__1_;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(466, 47);
+            this.button2.Location = new System.Drawing.Point(753, 61);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 38);
+            this.button2.Size = new System.Drawing.Size(149, 38);
             this.button2.TabIndex = 2;
             this.button2.Text = "  24/7";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -127,9 +127,9 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::DemoWin.Properties.Resources.smartphone;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(251, 47);
+            this.button1.Location = new System.Drawing.Point(512, 61);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(165, 38);
+            this.button1.Size = new System.Drawing.Size(207, 38);
             this.button1.TabIndex = 2;
             this.button1.Text = "  03xxxxxx90";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -142,7 +142,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(509, 9);
+            this.label1.Location = new System.Drawing.Point(832, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(165, 22);
             this.label1.TabIndex = 1;
@@ -162,7 +162,7 @@
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(0, 0);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(1179, 41);
+            this.panelTop.Size = new System.Drawing.Size(1799, 51);
             this.panelTop.TabIndex = 15;
             // 
             // cbbRate
@@ -180,10 +180,10 @@
             this.cbbRate.HoverState.Parent = this.cbbRate;
             this.cbbRate.ItemHeight = 30;
             this.cbbRate.ItemsAppearance.Parent = this.cbbRate;
-            this.cbbRate.Location = new System.Drawing.Point(983, 2);
+            this.cbbRate.Location = new System.Drawing.Point(1117, 7);
             this.cbbRate.Name = "cbbRate";
             this.cbbRate.ShadowDecoration.Parent = this.cbbRate;
-            this.cbbRate.Size = new System.Drawing.Size(140, 36);
+            this.cbbRate.Size = new System.Drawing.Size(162, 36);
             this.cbbRate.TabIndex = 20;
             // 
             // cbbHirecost
@@ -201,10 +201,10 @@
             this.cbbHirecost.HoverState.Parent = this.cbbHirecost;
             this.cbbHirecost.ItemHeight = 30;
             this.cbbHirecost.ItemsAppearance.Parent = this.cbbHirecost;
-            this.cbbHirecost.Location = new System.Drawing.Point(837, 2);
+            this.cbbHirecost.Location = new System.Drawing.Point(955, 7);
             this.cbbHirecost.Name = "cbbHirecost";
             this.cbbHirecost.ShadowDecoration.Parent = this.cbbHirecost;
-            this.cbbHirecost.Size = new System.Drawing.Size(140, 36);
+            this.cbbHirecost.Size = new System.Drawing.Size(162, 36);
             this.cbbHirecost.TabIndex = 19;
             // 
             // cbbAddress
@@ -222,10 +222,10 @@
             this.cbbAddress.HoverState.Parent = this.cbbAddress;
             this.cbbAddress.ItemHeight = 30;
             this.cbbAddress.ItemsAppearance.Parent = this.cbbAddress;
-            this.cbbAddress.Location = new System.Drawing.Point(691, 3);
+            this.cbbAddress.Location = new System.Drawing.Point(793, 7);
             this.cbbAddress.Name = "cbbAddress";
             this.cbbAddress.ShadowDecoration.Parent = this.cbbAddress;
-            this.cbbAddress.Size = new System.Drawing.Size(140, 36);
+            this.cbbAddress.Size = new System.Drawing.Size(162, 36);
             this.cbbAddress.TabIndex = 18;
             // 
             // btnRevoke
@@ -238,9 +238,9 @@
             this.btnRevoke.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnRevoke.IconSize = 20;
             this.btnRevoke.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRevoke.Location = new System.Drawing.Point(205, 0);
+            this.btnRevoke.Location = new System.Drawing.Point(211, 1);
             this.btnRevoke.Name = "btnRevoke";
-            this.btnRevoke.Size = new System.Drawing.Size(104, 41);
+            this.btnRevoke.Size = new System.Drawing.Size(134, 51);
             this.btnRevoke.TabIndex = 17;
             this.btnRevoke.Text = "Bị hủy";
             this.btnRevoke.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -257,9 +257,9 @@
             this.btnPending.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnPending.IconSize = 20;
             this.btnPending.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPending.Location = new System.Drawing.Point(55, 0);
+            this.btnPending.Location = new System.Drawing.Point(37, 0);
             this.btnPending.Name = "btnPending";
-            this.btnPending.Size = new System.Drawing.Size(144, 41);
+            this.btnPending.Size = new System.Drawing.Size(174, 51);
             this.btnPending.TabIndex = 16;
             this.btnPending.Text = "Chờ xác nhận";
             this.btnPending.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -276,9 +276,9 @@
             this.btnBlackList.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnBlackList.IconSize = 20;
             this.btnBlackList.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBlackList.Location = new System.Drawing.Point(535, 0);
+            this.btnBlackList.Location = new System.Drawing.Point(613, 1);
             this.btnBlackList.Name = "btnBlackList";
-            this.btnBlackList.Size = new System.Drawing.Size(150, 41);
+            this.btnBlackList.Size = new System.Drawing.Size(180, 51);
             this.btnBlackList.TabIndex = 15;
             this.btnBlackList.Text = "Danh sách đen";
             this.btnBlackList.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -295,9 +295,9 @@
             this.btnSaved.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSaved.IconSize = 20;
             this.btnSaved.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSaved.Location = new System.Drawing.Point(425, 0);
+            this.btnSaved.Location = new System.Drawing.Point(479, 1);
             this.btnSaved.Name = "btnSaved";
-            this.btnSaved.Size = new System.Drawing.Size(104, 41);
+            this.btnSaved.Size = new System.Drawing.Size(134, 51);
             this.btnSaved.TabIndex = 14;
             this.btnSaved.Text = "Đã lưu";
             this.btnSaved.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -314,9 +314,9 @@
             this.btnHired.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnHired.IconSize = 20;
             this.btnHired.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHired.Location = new System.Drawing.Point(315, 0);
+            this.btnHired.Location = new System.Drawing.Point(345, 1);
             this.btnHired.Name = "btnHired";
-            this.btnHired.Size = new System.Drawing.Size(104, 41);
+            this.btnHired.Size = new System.Drawing.Size(134, 51);
             this.btnHired.TabIndex = 13;
             this.btnHired.Text = "Đã thuê";
             this.btnHired.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -329,16 +329,16 @@
             this.flowPanelContain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowPanelContain.Location = new System.Drawing.Point(0, 0);
             this.flowPanelContain.Name = "flowPanelContain";
-            this.flowPanelContain.Size = new System.Drawing.Size(1179, 522);
+            this.flowPanelContain.Size = new System.Drawing.Size(1799, 818);
             this.flowPanelContain.TabIndex = 16;
             // 
             // panelContain
             // 
             this.panelContain.Controls.Add(this.flowPanelContain);
             this.panelContain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContain.Location = new System.Drawing.Point(0, 41);
+            this.panelContain.Location = new System.Drawing.Point(0, 51);
             this.panelContain.Name = "panelContain";
-            this.panelContain.Size = new System.Drawing.Size(1179, 522);
+            this.panelContain.Size = new System.Drawing.Size(1799, 818);
             this.panelContain.TabIndex = 17;
             // 
             // FHired
@@ -346,7 +346,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1179, 670);
+            this.ClientSize = new System.Drawing.Size(1799, 998);
             this.Controls.Add(this.panelContain);
             this.Controls.Add(this.panelTop);
             this.Controls.Add(this.panelTaskBar);

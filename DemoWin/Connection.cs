@@ -62,6 +62,31 @@ namespace DemoWin
                     
             }
         }
+        public void ThucThi(string sqlStr)
+        {
+            try
+            {
+                using (SqlConnection connection = GetSqlConnection())
+                {
+                    connection.Open();
+                    SqlCommand cmd = new SqlCommand(sqlStr, connection);
+                    if (cmd.ExecuteNonQuery() > 0)
+                        MessageBox.Show("Thao tác thành công");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Thao tác thất bại: " + ex.Message);
+            }
+            finally
+            {
+                using (SqlConnection connection = GetSqlConnection())
+                {
+                    connection.Close();
+                }
+
+            }
+        }
 
     }
 }

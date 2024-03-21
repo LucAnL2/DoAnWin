@@ -32,7 +32,7 @@ namespace DemoWin.Forms
             for (int i = 0; i < 3; i++)
             {
                 UCWorkerInfo uc = new UCWorkerInfo();
-                uc.Margin = new Padding(13);
+                uc.Margin = new Padding(25);
                 uc.BackColor = ThemeColors.PrimaryColor;
                 uc.btnDetail.Click += btnOpenDetail_Click;
                 flowPanelContain.Controls.Add(uc);

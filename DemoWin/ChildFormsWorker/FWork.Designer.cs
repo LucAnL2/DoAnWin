@@ -31,8 +31,8 @@
             this.panelRight = new System.Windows.Forms.Panel();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.btnPostJob = new FontAwesome.Sharp.IconButton();
-            this.PanelComboAddress = new System.Windows.Forms.FlowLayoutPanel();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
+            this.PanelComboFilter = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnFilter = new FontAwesome.Sharp.IconButton();
             this.btnHaNoi = new FontAwesome.Sharp.IconButton();
             this.btnTpHCM = new FontAwesome.Sharp.IconButton();
             this.btnHue = new FontAwesome.Sharp.IconButton();
@@ -40,7 +40,7 @@
             this.panelBoundary = new System.Windows.Forms.Panel();
             this.flowPanelContain = new System.Windows.Forms.FlowLayoutPanel();
             this.panelRight.SuspendLayout();
-            this.PanelComboAddress.SuspendLayout();
+            this.PanelComboFilter.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelRight
@@ -50,7 +50,7 @@
             this.panelRight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.panelRight.Controls.Add(this.iconButton2);
             this.panelRight.Controls.Add(this.btnPostJob);
-            this.panelRight.Controls.Add(this.PanelComboAddress);
+            this.panelRight.Controls.Add(this.PanelComboFilter);
             this.panelRight.Location = new System.Drawing.Point(965, 31);
             this.panelRight.MaximumSize = new System.Drawing.Size(214, 2000);
             this.panelRight.Name = "panelRight";
@@ -98,42 +98,42 @@
             this.btnPostJob.UseVisualStyleBackColor = true;
             this.btnPostJob.Click += new System.EventHandler(this.btnPostJob_Click);
             // 
-            // PanelComboAddress
+            // PanelComboFilter
             // 
-            this.PanelComboAddress.BackColor = System.Drawing.Color.Transparent;
-            this.PanelComboAddress.Controls.Add(this.iconButton3);
-            this.PanelComboAddress.Controls.Add(this.btnHaNoi);
-            this.PanelComboAddress.Controls.Add(this.btnTpHCM);
-            this.PanelComboAddress.Controls.Add(this.btnHue);
-            this.PanelComboAddress.Controls.Add(this.btnNoiKhac);
-            this.PanelComboAddress.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelComboAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PanelComboAddress.ForeColor = System.Drawing.Color.White;
-            this.PanelComboAddress.Location = new System.Drawing.Point(0, 0);
-            this.PanelComboAddress.MaximumSize = new System.Drawing.Size(214, 287);
-            this.PanelComboAddress.MinimumSize = new System.Drawing.Size(214, 58);
-            this.PanelComboAddress.Name = "PanelComboAddress";
-            this.PanelComboAddress.Size = new System.Drawing.Size(214, 58);
-            this.PanelComboAddress.TabIndex = 2;
+            this.PanelComboFilter.BackColor = System.Drawing.Color.Transparent;
+            this.PanelComboFilter.Controls.Add(this.btnFilter);
+            this.PanelComboFilter.Controls.Add(this.btnHaNoi);
+            this.PanelComboFilter.Controls.Add(this.btnTpHCM);
+            this.PanelComboFilter.Controls.Add(this.btnHue);
+            this.PanelComboFilter.Controls.Add(this.btnNoiKhac);
+            this.PanelComboFilter.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PanelComboFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanelComboFilter.ForeColor = System.Drawing.Color.White;
+            this.PanelComboFilter.Location = new System.Drawing.Point(0, 0);
+            this.PanelComboFilter.MaximumSize = new System.Drawing.Size(214, 287);
+            this.PanelComboFilter.MinimumSize = new System.Drawing.Size(214, 58);
+            this.PanelComboFilter.Name = "PanelComboFilter";
+            this.PanelComboFilter.Size = new System.Drawing.Size(214, 58);
+            this.PanelComboFilter.TabIndex = 2;
             // 
-            // iconButton3
+            // btnFilter
             // 
-            this.iconButton3.FlatAppearance.BorderSize = 0;
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton3.ForeColor = System.Drawing.Color.White;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.ChevronLeft;
-            this.iconButton3.IconColor = System.Drawing.Color.White;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.IconSize = 25;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(3, 3);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.iconButton3.Size = new System.Drawing.Size(214, 52);
-            this.iconButton3.TabIndex = 5;
-            this.iconButton3.Text = "Đăng việc";
-            this.iconButton3.UseVisualStyleBackColor = true;
+            this.btnFilter.FlatAppearance.BorderSize = 0;
+            this.btnFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFilter.ForeColor = System.Drawing.Color.White;
+            this.btnFilter.IconChar = FontAwesome.Sharp.IconChar.ChevronLeft;
+            this.btnFilter.IconColor = System.Drawing.Color.White;
+            this.btnFilter.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnFilter.IconSize = 25;
+            this.btnFilter.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFilter.Location = new System.Drawing.Point(3, 3);
+            this.btnFilter.Name = "btnFilter";
+            this.btnFilter.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnFilter.Size = new System.Drawing.Size(214, 52);
+            this.btnFilter.TabIndex = 5;
+            this.btnFilter.Text = "Đăng việc";
+            this.btnFilter.UseVisualStyleBackColor = true;
             // 
             // btnHaNoi
             // 
@@ -243,7 +243,7 @@
             this.Text = "FWork";
             this.Load += new System.EventHandler(this.FWork_Load);
             this.panelRight.ResumeLayout(false);
-            this.PanelComboAddress.ResumeLayout(false);
+            this.PanelComboFilter.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -251,7 +251,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panelRight;
-        private System.Windows.Forms.FlowLayoutPanel PanelComboAddress;
+        private System.Windows.Forms.FlowLayoutPanel PanelComboFilter;
         private FontAwesome.Sharp.IconButton btnHaNoi;
         private FontAwesome.Sharp.IconButton btnTpHCM;
         private FontAwesome.Sharp.IconButton btnHue;
@@ -260,6 +260,6 @@
         private FontAwesome.Sharp.IconButton btnPostJob;
         private System.Windows.Forms.Panel panelBoundary;
         private System.Windows.Forms.FlowLayoutPanel flowPanelContain;
-        private FontAwesome.Sharp.IconButton iconButton3;
+        private FontAwesome.Sharp.IconButton btnFilter;
     }
 }

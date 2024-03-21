@@ -37,8 +37,8 @@ namespace DemoWin
         }
         public void DeleteWork(Worker newDangviec)
         {
-            string sqlStr = string.Format("DELETE FROM DangViec WHERE NgheNghiep = '{0}'", newDangviec.Job);
-            connect.ThucThi(sqlStr, "Xóa công việc thành công", newDangviec);
+            string sqlStr = string.Format("DELETE FROM DangViec WHERE ID = '{0}' AND NgheNghiep = '{1}'", newDangviec.Id, newDangviec.Job);
+            connect.ThucThi(sqlStr);
         }
         //public void RepairWork(Worker newDangviec)
         //{
