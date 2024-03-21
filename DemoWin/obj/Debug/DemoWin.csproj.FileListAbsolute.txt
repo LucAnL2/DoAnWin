@@ -129,3 +129,4 @@ C:\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.CoreCompileInputs.cache
 C:\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.Up2Date
 C:\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.exe
 C:\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.pdb
+C:\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.Form3.resources

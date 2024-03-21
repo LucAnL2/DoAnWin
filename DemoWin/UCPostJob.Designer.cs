@@ -308,24 +308,24 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblPersonPost;
-        private System.Windows.Forms.Label lblPersonPostData;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label lblHirerData;
-        private System.Windows.Forms.Label lblHirer;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label lblDatePostData;
-        private System.Windows.Forms.Label lblDatePost;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label lblGroupWorkData;
-        private System.Windows.Forms.Label lblGroupWork;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label lblStatusData;
-        private System.Windows.Forms.Label lblStatus;
-        private FontAwesome.Sharp.IconButton btnDetail;
-        private FontAwesome.Sharp.IconButton btnHome;
-        private FontAwesome.Sharp.IconButton iconButton1;
-        private FontAwesome.Sharp.IconButton btnDeleteJob;
+        public System.Windows.Forms.Panel panel1;
+        public System.Windows.Forms.Label lblPersonPost;
+        public System.Windows.Forms.Label lblPersonPostData;
+        public System.Windows.Forms.Panel panel2;
+        public System.Windows.Forms.Label lblHirerData;
+        public System.Windows.Forms.Label lblHirer;
+        public System.Windows.Forms.Panel panel3;
+        public System.Windows.Forms.Label lblDatePostData;
+        public System.Windows.Forms.Label lblDatePost;
+        public System.Windows.Forms.Panel panel4;
+        public System.Windows.Forms.Label lblGroupWorkData;
+        public System.Windows.Forms.Label lblGroupWork;
+        public System.Windows.Forms.Panel panel5;
+        public System.Windows.Forms.Label lblStatusData;
+        public System.Windows.Forms.Label lblStatus;
+        public FontAwesome.Sharp.IconButton btnDetail;
+        public FontAwesome.Sharp.IconButton btnHome;
+        public FontAwesome.Sharp.IconButton iconButton1;
+        public FontAwesome.Sharp.IconButton btnDeleteJob;
     }
 }

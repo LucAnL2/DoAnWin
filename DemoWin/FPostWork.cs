@@ -1,9 +1,12 @@
-﻿using FontAwesome.Sharp;
+﻿using DemoWin.ChildFormsWorker;
+using FontAwesome.Sharp;
 using Guna.UI2.WinForms;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -17,7 +20,6 @@ namespace DemoWin
 {
     public partial class FPostWork : Form
     {
-
         public UCTxtWorker UctHireCost
         {
             get { return ucTxtWorker1; }
@@ -127,8 +129,9 @@ namespace DemoWin
             WokerDAO HSD = new WokerDAO();
             HSD.PostWork(wk);
             load();
+            FWork fWork = new FWork();
+            fWork.LoadDataIntoTextBoxes();
         }
-
         private void guna2Button3_Click(object sender, EventArgs e)
         {
             Worker wk = new Worker(ThemeColors.IncomeID, ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
