@@ -54,7 +54,7 @@ namespace DemoWin
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            FHome.panelCotain.Visible = false;
+            FHome.panelContain.Visible = false;
         }
 
         private void panelMenu_Paint(object sender, PaintEventArgs e)
@@ -67,7 +67,7 @@ namespace DemoWin
             for (int i = 0; i < 7; i++)
             {
                 UCWorkerInfo uc = new UCWorkerInfo();
-                uc.Margin = new Padding(23);
+                uc.Margin = new Padding(35);
                 uc.btnDetail.Click += btnOpenDetail_Click;
                 flowLayoutPanel.Controls.Add(uc);
 

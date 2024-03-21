@@ -42,15 +42,15 @@ namespace DemoWin.Forms
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
-            panelCotain.Controls.Add(childForm);
-            panelCotain.Tag = childForm;
+            panelContain.Controls.Add(childForm);
+            panelContain.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
         }
         private void FHome_Load(object sender, EventArgs e)
         {
             LoadTheme();
-            panelCotain.Hide();
+            panelContain.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -67,28 +67,28 @@ namespace DemoWin.Forms
         {
             FHire user = new FHire(btnMechanic.Text);
             OpenChildForm(user, sender);
-            panelCotain.Show();
+            panelContain.Show();
         }
 
         private void btnPainter_Click(object sender, EventArgs e)
         {
             FHire user = new FHire(btnPainter.Text);
             OpenChildForm(user, sender);
-            panelCotain.Show();
+            panelContain.Show();
         }
 
         private void btnElectrician_Click(object sender, EventArgs e)
         {
             FHire user = new FHire(btnElectrician.Text);
             OpenChildForm(user, sender);
-            panelCotain.Show();
+            panelContain.Show();
         }
         
         private void btnCarvers_Click(object sender, EventArgs e)
         {
             FHire user = new FHire(btnCarvers.Text);
             OpenChildForm(user, sender);
-            panelCotain.Show();
+            panelContain.Show();
 
         }
 
@@ -96,14 +96,14 @@ namespace DemoWin.Forms
         {
             FHire user = new FHire(btnCarWashman.Text);
             OpenChildForm(user, sender);
-            panelCotain.Show();
+            panelContain.Show();
         }
 
         private void btnOther_Click(object sender, EventArgs e)
         {
             FHire user = new FHire(btnOther.Text);
             OpenChildForm(user, sender);
-            panelCotain.Show();
+            panelContain.Show();
         }
     }
 }

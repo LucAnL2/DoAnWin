@@ -105,7 +105,7 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(262, 670);
+            this.panelMenu.Size = new System.Drawing.Size(307, 869);
             this.panelMenu.TabIndex = 0;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
@@ -136,7 +136,7 @@
             this.panelContain.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelContain.Location = new System.Drawing.Point(15, 41);
             this.panelContain.Name = "panelContain";
-            this.panelContain.Size = new System.Drawing.Size(230, 604);
+            this.panelContain.Size = new System.Drawing.Size(277, 803);
             this.panelContain.TabIndex = 1;
             // 
             // panelSearch
@@ -147,7 +147,7 @@
             this.panelSearch.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSearch.Location = new System.Drawing.Point(0, 348);
             this.panelSearch.Name = "panelSearch";
-            this.panelSearch.Size = new System.Drawing.Size(230, 134);
+            this.panelSearch.Size = new System.Drawing.Size(277, 134);
             this.panelSearch.TabIndex = 0;
             // 
             // btnSearch
@@ -160,10 +160,10 @@
             this.btnSearch.ForeColor = System.Drawing.Color.White;
             this.btnSearch.HoverState.Parent = this.btnSearch;
             this.btnSearch.Image = global::DemoWin.Properties.Resources.search__3_;
-            this.btnSearch.Location = new System.Drawing.Point(6, 80);
+            this.btnSearch.Location = new System.Drawing.Point(29, 77);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.ShadowDecoration.Parent = this.btnSearch;
-            this.btnSearch.Size = new System.Drawing.Size(196, 45);
+            this.btnSearch.Size = new System.Drawing.Size(219, 45);
             this.btnSearch.TabIndex = 1;
             this.btnSearch.Text = "Tìm kiếm";
             // 
@@ -184,14 +184,14 @@
             this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSearch.HoverState.Parent = this.txtSearch;
-            this.txtSearch.Location = new System.Drawing.Point(6, 23);
+            this.txtSearch.Location = new System.Drawing.Point(29, 20);
             this.txtSearch.Margin = new System.Windows.Forms.Padding(8);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PasswordChar = '\0';
             this.txtSearch.PlaceholderText = "Tìm kiếm";
             this.txtSearch.SelectedText = "";
             this.txtSearch.ShadowDecoration.Parent = this.txtSearch;
-            this.txtSearch.Size = new System.Drawing.Size(196, 46);
+            this.txtSearch.Size = new System.Drawing.Size(219, 46);
             this.txtSearch.TabIndex = 10;
             // 
             // PanelComboWorkHour
@@ -205,10 +205,10 @@
             this.PanelComboWorkHour.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PanelComboWorkHour.ForeColor = System.Drawing.Color.Navy;
             this.PanelComboWorkHour.Location = new System.Drawing.Point(0, 290);
-            this.PanelComboWorkHour.MaximumSize = new System.Drawing.Size(214, 229);
-            this.PanelComboWorkHour.MinimumSize = new System.Drawing.Size(214, 58);
+            this.PanelComboWorkHour.MaximumSize = new System.Drawing.Size(277, 229);
+            this.PanelComboWorkHour.MinimumSize = new System.Drawing.Size(277, 58);
             this.PanelComboWorkHour.Name = "PanelComboWorkHour";
-            this.PanelComboWorkHour.Size = new System.Drawing.Size(214, 58);
+            this.PanelComboWorkHour.Size = new System.Drawing.Size(277, 58);
             this.PanelComboWorkHour.TabIndex = 4;
             // 
             // btnWorkHour
@@ -224,7 +224,7 @@
             this.btnWorkHour.Location = new System.Drawing.Point(3, 3);
             this.btnWorkHour.Name = "btnWorkHour";
             this.btnWorkHour.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnWorkHour.Size = new System.Drawing.Size(211, 52);
+            this.btnWorkHour.Size = new System.Drawing.Size(267, 52);
             this.btnWorkHour.TabIndex = 0;
             this.btnWorkHour.Text = "Giờ làm";
             this.btnWorkHour.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -244,7 +244,7 @@
             this.btn7h10h30.Location = new System.Drawing.Point(3, 61);
             this.btn7h10h30.Name = "btn7h10h30";
             this.btn7h10h30.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn7h10h30.Size = new System.Drawing.Size(211, 52);
+            this.btn7h10h30.Size = new System.Drawing.Size(267, 52);
             this.btn7h10h30.TabIndex = 1;
             this.btn7h10h30.Text = "7h  - 10h30";
             this.btn7h10h30.UseVisualStyleBackColor = true;
@@ -263,7 +263,7 @@
             this.btn12h305h.Location = new System.Drawing.Point(3, 119);
             this.btn12h305h.Name = "btn12h305h";
             this.btn12h305h.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn12h305h.Size = new System.Drawing.Size(211, 52);
+            this.btn12h305h.Size = new System.Drawing.Size(267, 52);
             this.btn12h305h.TabIndex = 2;
             this.btn12h305h.Text = "12h30 - 17h";
             this.btn12h305h.UseVisualStyleBackColor = true;
@@ -282,7 +282,7 @@
             this.btnOvertime.Location = new System.Drawing.Point(3, 177);
             this.btnOvertime.Name = "btnOvertime";
             this.btnOvertime.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnOvertime.Size = new System.Drawing.Size(211, 52);
+            this.btnOvertime.Size = new System.Drawing.Size(267, 52);
             this.btnOvertime.TabIndex = 2;
             this.btnOvertime.Text = "Ngoài giờ";
             this.btnOvertime.UseVisualStyleBackColor = true;
@@ -302,10 +302,10 @@
             this.PanelComboWorkDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PanelComboWorkDay.ForeColor = System.Drawing.Color.Navy;
             this.PanelComboWorkDay.Location = new System.Drawing.Point(0, 232);
-            this.PanelComboWorkDay.MaximumSize = new System.Drawing.Size(214, 403);
-            this.PanelComboWorkDay.MinimumSize = new System.Drawing.Size(214, 58);
+            this.PanelComboWorkDay.MaximumSize = new System.Drawing.Size(277, 403);
+            this.PanelComboWorkDay.MinimumSize = new System.Drawing.Size(277, 58);
             this.PanelComboWorkDay.Name = "PanelComboWorkDay";
-            this.PanelComboWorkDay.Size = new System.Drawing.Size(214, 58);
+            this.PanelComboWorkDay.Size = new System.Drawing.Size(277, 58);
             this.PanelComboWorkDay.TabIndex = 3;
             // 
             // btnWorkDay
@@ -321,7 +321,7 @@
             this.btnWorkDay.Location = new System.Drawing.Point(3, 3);
             this.btnWorkDay.Name = "btnWorkDay";
             this.btnWorkDay.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnWorkDay.Size = new System.Drawing.Size(211, 52);
+            this.btnWorkDay.Size = new System.Drawing.Size(267, 52);
             this.btnWorkDay.TabIndex = 0;
             this.btnWorkDay.Text = "Ngày làm/Tuần";
             this.btnWorkDay.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -341,7 +341,7 @@
             this.btnMonday.Location = new System.Drawing.Point(3, 61);
             this.btnMonday.Name = "btnMonday";
             this.btnMonday.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnMonday.Size = new System.Drawing.Size(211, 52);
+            this.btnMonday.Size = new System.Drawing.Size(267, 52);
             this.btnMonday.TabIndex = 3;
             this.btnMonday.Text = "Thứ hai";
             this.btnMonday.UseVisualStyleBackColor = true;
@@ -360,7 +360,7 @@
             this.btnTuesday.Location = new System.Drawing.Point(3, 119);
             this.btnTuesday.Name = "btnTuesday";
             this.btnTuesday.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnTuesday.Size = new System.Drawing.Size(211, 52);
+            this.btnTuesday.Size = new System.Drawing.Size(267, 52);
             this.btnTuesday.TabIndex = 4;
             this.btnTuesday.Text = "Thứ ba";
             this.btnTuesday.UseVisualStyleBackColor = true;
@@ -379,7 +379,7 @@
             this.btnWednesday.Location = new System.Drawing.Point(3, 177);
             this.btnWednesday.Name = "btnWednesday";
             this.btnWednesday.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnWednesday.Size = new System.Drawing.Size(211, 52);
+            this.btnWednesday.Size = new System.Drawing.Size(267, 52);
             this.btnWednesday.TabIndex = 4;
             this.btnWednesday.Text = "Thứ tư";
             this.btnWednesday.UseVisualStyleBackColor = true;
@@ -398,7 +398,7 @@
             this.btnThursday.Location = new System.Drawing.Point(3, 235);
             this.btnThursday.Name = "btnThursday";
             this.btnThursday.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnThursday.Size = new System.Drawing.Size(211, 52);
+            this.btnThursday.Size = new System.Drawing.Size(267, 52);
             this.btnThursday.TabIndex = 4;
             this.btnThursday.Text = "Thứ năm";
             this.btnThursday.UseVisualStyleBackColor = true;
@@ -417,7 +417,7 @@
             this.btnFriday.Location = new System.Drawing.Point(3, 293);
             this.btnFriday.Name = "btnFriday";
             this.btnFriday.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnFriday.Size = new System.Drawing.Size(211, 52);
+            this.btnFriday.Size = new System.Drawing.Size(267, 52);
             this.btnFriday.TabIndex = 4;
             this.btnFriday.Text = "Thứ sáu";
             this.btnFriday.UseVisualStyleBackColor = true;
@@ -436,7 +436,7 @@
             this.btnSaturday.Location = new System.Drawing.Point(3, 351);
             this.btnSaturday.Name = "btnSaturday";
             this.btnSaturday.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnSaturday.Size = new System.Drawing.Size(211, 52);
+            this.btnSaturday.Size = new System.Drawing.Size(267, 52);
             this.btnSaturday.TabIndex = 5;
             this.btnSaturday.Text = "Thứ bảy";
             this.btnSaturday.UseVisualStyleBackColor = true;
@@ -455,10 +455,10 @@
             this.PanelComboRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PanelComboRate.ForeColor = System.Drawing.Color.Navy;
             this.PanelComboRate.Location = new System.Drawing.Point(0, 174);
-            this.PanelComboRate.MaximumSize = new System.Drawing.Size(214, 343);
-            this.PanelComboRate.MinimumSize = new System.Drawing.Size(214, 58);
+            this.PanelComboRate.MaximumSize = new System.Drawing.Size(277, 343);
+            this.PanelComboRate.MinimumSize = new System.Drawing.Size(277, 58);
             this.PanelComboRate.Name = "PanelComboRate";
-            this.PanelComboRate.Size = new System.Drawing.Size(214, 58);
+            this.PanelComboRate.Size = new System.Drawing.Size(277, 58);
             this.PanelComboRate.TabIndex = 2;
             // 
             // btnRate
@@ -474,7 +474,7 @@
             this.btnRate.Location = new System.Drawing.Point(3, 3);
             this.btnRate.Name = "btnRate";
             this.btnRate.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnRate.Size = new System.Drawing.Size(211, 52);
+            this.btnRate.Size = new System.Drawing.Size(267, 52);
             this.btnRate.TabIndex = 0;
             this.btnRate.Text = "Số sao";
             this.btnRate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -494,7 +494,7 @@
             this.btn1Sao.Location = new System.Drawing.Point(3, 61);
             this.btn1Sao.Name = "btn1Sao";
             this.btn1Sao.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn1Sao.Size = new System.Drawing.Size(211, 52);
+            this.btn1Sao.Size = new System.Drawing.Size(267, 52);
             this.btn1Sao.TabIndex = 3;
             this.btn1Sao.Text = "1 Sao";
             this.btn1Sao.UseVisualStyleBackColor = true;
@@ -513,7 +513,7 @@
             this.btn2Sao.Location = new System.Drawing.Point(3, 119);
             this.btn2Sao.Name = "btn2Sao";
             this.btn2Sao.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn2Sao.Size = new System.Drawing.Size(211, 52);
+            this.btn2Sao.Size = new System.Drawing.Size(267, 52);
             this.btn2Sao.TabIndex = 4;
             this.btn2Sao.Text = "2 Sao";
             this.btn2Sao.UseVisualStyleBackColor = true;
@@ -532,7 +532,7 @@
             this.btn3Sao.Location = new System.Drawing.Point(3, 177);
             this.btn3Sao.Name = "btn3Sao";
             this.btn3Sao.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn3Sao.Size = new System.Drawing.Size(211, 52);
+            this.btn3Sao.Size = new System.Drawing.Size(267, 52);
             this.btn3Sao.TabIndex = 4;
             this.btn3Sao.Text = "3 Sao";
             this.btn3Sao.UseVisualStyleBackColor = true;
@@ -551,7 +551,7 @@
             this.btn4Sao.Location = new System.Drawing.Point(3, 235);
             this.btn4Sao.Name = "btn4Sao";
             this.btn4Sao.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn4Sao.Size = new System.Drawing.Size(211, 52);
+            this.btn4Sao.Size = new System.Drawing.Size(267, 52);
             this.btn4Sao.TabIndex = 4;
             this.btn4Sao.Text = "4 Sao";
             this.btn4Sao.UseVisualStyleBackColor = true;
@@ -570,7 +570,7 @@
             this.btn5Sao.Location = new System.Drawing.Point(3, 293);
             this.btn5Sao.Name = "btn5Sao";
             this.btn5Sao.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn5Sao.Size = new System.Drawing.Size(211, 52);
+            this.btn5Sao.Size = new System.Drawing.Size(267, 52);
             this.btn5Sao.TabIndex = 4;
             this.btn5Sao.Text = "5 Sao";
             this.btn5Sao.UseVisualStyleBackColor = true;
@@ -588,10 +588,10 @@
             this.PanelComboHireCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PanelComboHireCost.ForeColor = System.Drawing.Color.Navy;
             this.PanelComboHireCost.Location = new System.Drawing.Point(0, 116);
-            this.PanelComboHireCost.MaximumSize = new System.Drawing.Size(214, 285);
-            this.PanelComboHireCost.MinimumSize = new System.Drawing.Size(214, 58);
+            this.PanelComboHireCost.MaximumSize = new System.Drawing.Size(277, 285);
+            this.PanelComboHireCost.MinimumSize = new System.Drawing.Size(277, 58);
             this.PanelComboHireCost.Name = "PanelComboHireCost";
-            this.PanelComboHireCost.Size = new System.Drawing.Size(214, 58);
+            this.PanelComboHireCost.Size = new System.Drawing.Size(277, 58);
             this.PanelComboHireCost.TabIndex = 1;
             // 
             // btnHireCost
@@ -607,7 +607,7 @@
             this.btnHireCost.Location = new System.Drawing.Point(3, 3);
             this.btnHireCost.Name = "btnHireCost";
             this.btnHireCost.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnHireCost.Size = new System.Drawing.Size(211, 52);
+            this.btnHireCost.Size = new System.Drawing.Size(267, 52);
             this.btnHireCost.TabIndex = 0;
             this.btnHireCost.Text = "Chi phí thuê";
             this.btnHireCost.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -627,7 +627,7 @@
             this.btn8Tr.Location = new System.Drawing.Point(3, 61);
             this.btn8Tr.Name = "btn8Tr";
             this.btn8Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn8Tr.Size = new System.Drawing.Size(211, 52);
+            this.btn8Tr.Size = new System.Drawing.Size(267, 52);
             this.btn8Tr.TabIndex = 1;
             this.btn8Tr.Text = "Dưới 8 Tr/Tháng";
             this.btn8Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -647,9 +647,9 @@
             this.btn810Tr.Location = new System.Drawing.Point(3, 119);
             this.btn810Tr.Name = "btn810Tr";
             this.btn810Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn810Tr.Size = new System.Drawing.Size(211, 52);
+            this.btn810Tr.Size = new System.Drawing.Size(267, 52);
             this.btn810Tr.TabIndex = 2;
-            this.btn810Tr.Text = "8 - 10 Tr/Tháng";
+            this.btn810Tr.Text = "8-10 Tr/Tháng";
             this.btn810Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn810Tr.UseVisualStyleBackColor = true;
             this.btn810Tr.Click += new System.EventHandler(this.btn810Tr_Click);
@@ -667,9 +667,9 @@
             this.btn1020Tr.Location = new System.Drawing.Point(3, 177);
             this.btn1020Tr.Name = "btn1020Tr";
             this.btn1020Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn1020Tr.Size = new System.Drawing.Size(211, 52);
+            this.btn1020Tr.Size = new System.Drawing.Size(267, 52);
             this.btn1020Tr.TabIndex = 2;
-            this.btn1020Tr.Text = "10 - 20 Tr/Tháng";
+            this.btn1020Tr.Text = "10-20 Tr/Tháng";
             this.btn1020Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn1020Tr.UseVisualStyleBackColor = true;
             this.btn1020Tr.Click += new System.EventHandler(this.btn1020Tr_Click);
@@ -687,9 +687,9 @@
             this.btn20Tr.Location = new System.Drawing.Point(3, 235);
             this.btn20Tr.Name = "btn20Tr";
             this.btn20Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn20Tr.Size = new System.Drawing.Size(211, 52);
+            this.btn20Tr.Size = new System.Drawing.Size(267, 52);
             this.btn20Tr.TabIndex = 2;
-            this.btn20Tr.Text = "Trên 20    Tr/Tháng";
+            this.btn20Tr.Text = "Trên 20 Tr/Tháng";
             this.btn20Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn20Tr.UseVisualStyleBackColor = true;
             this.btn20Tr.Click += new System.EventHandler(this.btn20Tr_Click);
@@ -705,10 +705,10 @@
             this.PanelComboAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PanelComboAge.ForeColor = System.Drawing.Color.Navy;
             this.PanelComboAge.Location = new System.Drawing.Point(0, 58);
-            this.PanelComboAge.MaximumSize = new System.Drawing.Size(214, 229);
-            this.PanelComboAge.MinimumSize = new System.Drawing.Size(214, 58);
+            this.PanelComboAge.MaximumSize = new System.Drawing.Size(277, 229);
+            this.PanelComboAge.MinimumSize = new System.Drawing.Size(277, 58);
             this.PanelComboAge.Name = "PanelComboAge";
-            this.PanelComboAge.Size = new System.Drawing.Size(214, 58);
+            this.PanelComboAge.Size = new System.Drawing.Size(277, 58);
             this.PanelComboAge.TabIndex = 0;
             // 
             // btnAge
@@ -724,7 +724,7 @@
             this.btnAge.Location = new System.Drawing.Point(3, 3);
             this.btnAge.Name = "btnAge";
             this.btnAge.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnAge.Size = new System.Drawing.Size(211, 52);
+            this.btnAge.Size = new System.Drawing.Size(267, 52);
             this.btnAge.TabIndex = 0;
             this.btnAge.Text = "Tuổi";
             this.btnAge.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -744,7 +744,7 @@
             this.btn1618.Location = new System.Drawing.Point(3, 61);
             this.btn1618.Name = "btn1618";
             this.btn1618.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn1618.Size = new System.Drawing.Size(211, 52);
+            this.btn1618.Size = new System.Drawing.Size(267, 52);
             this.btn1618.TabIndex = 1;
             this.btn1618.Text = "16 - 18 tuổi";
             this.btn1618.UseVisualStyleBackColor = true;
@@ -763,7 +763,7 @@
             this.btn1825.Location = new System.Drawing.Point(3, 119);
             this.btn1825.Name = "btn1825";
             this.btn1825.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn1825.Size = new System.Drawing.Size(211, 52);
+            this.btn1825.Size = new System.Drawing.Size(267, 52);
             this.btn1825.TabIndex = 2;
             this.btn1825.Text = "18 - 25 tuổi";
             this.btn1825.UseVisualStyleBackColor = true;
@@ -782,7 +782,7 @@
             this.btn25.Location = new System.Drawing.Point(3, 177);
             this.btn25.Name = "btn25";
             this.btn25.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn25.Size = new System.Drawing.Size(211, 52);
+            this.btn25.Size = new System.Drawing.Size(267, 52);
             this.btn25.TabIndex = 2;
             this.btn25.Text = "Trên 25 tuổi";
             this.btn25.UseVisualStyleBackColor = true;
@@ -800,10 +800,10 @@
             this.PanelComboAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PanelComboAddress.ForeColor = System.Drawing.Color.Navy;
             this.PanelComboAddress.Location = new System.Drawing.Point(0, 0);
-            this.PanelComboAddress.MaximumSize = new System.Drawing.Size(214, 287);
-            this.PanelComboAddress.MinimumSize = new System.Drawing.Size(214, 58);
+            this.PanelComboAddress.MaximumSize = new System.Drawing.Size(277, 287);
+            this.PanelComboAddress.MinimumSize = new System.Drawing.Size(277, 58);
             this.PanelComboAddress.Name = "PanelComboAddress";
-            this.PanelComboAddress.Size = new System.Drawing.Size(214, 58);
+            this.PanelComboAddress.Size = new System.Drawing.Size(277, 58);
             this.PanelComboAddress.TabIndex = 1;
             // 
             // btnAddress
@@ -819,7 +819,7 @@
             this.btnAddress.Location = new System.Drawing.Point(3, 3);
             this.btnAddress.Name = "btnAddress";
             this.btnAddress.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnAddress.Size = new System.Drawing.Size(211, 52);
+            this.btnAddress.Size = new System.Drawing.Size(267, 52);
             this.btnAddress.TabIndex = 0;
             this.btnAddress.Text = "Địa chỉ";
             this.btnAddress.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -839,7 +839,7 @@
             this.btnHaNoi.Location = new System.Drawing.Point(3, 61);
             this.btnHaNoi.Name = "btnHaNoi";
             this.btnHaNoi.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnHaNoi.Size = new System.Drawing.Size(211, 52);
+            this.btnHaNoi.Size = new System.Drawing.Size(267, 52);
             this.btnHaNoi.TabIndex = 2;
             this.btnHaNoi.Text = "Hà Nội";
             this.btnHaNoi.UseVisualStyleBackColor = true;
@@ -858,9 +858,9 @@
             this.btnTpHCM.Location = new System.Drawing.Point(3, 119);
             this.btnTpHCM.Name = "btnTpHCM";
             this.btnTpHCM.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnTpHCM.Size = new System.Drawing.Size(211, 52);
+            this.btnTpHCM.Size = new System.Drawing.Size(267, 52);
             this.btnTpHCM.TabIndex = 3;
-            this.btnTpHCM.Text = "Tp Hồ Chí Minh";
+            this.btnTpHCM.Text = "     Tp Hồ Chí Minh";
             this.btnTpHCM.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTpHCM.UseVisualStyleBackColor = true;
             this.btnTpHCM.Click += new System.EventHandler(this.btnTpHCM_Click);
@@ -878,7 +878,7 @@
             this.btnHue.Location = new System.Drawing.Point(3, 177);
             this.btnHue.Name = "btnHue";
             this.btnHue.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnHue.Size = new System.Drawing.Size(211, 52);
+            this.btnHue.Size = new System.Drawing.Size(267, 52);
             this.btnHue.TabIndex = 3;
             this.btnHue.Text = "Huế";
             this.btnHue.UseVisualStyleBackColor = true;
@@ -897,7 +897,7 @@
             this.btnNoiKhac.Location = new System.Drawing.Point(3, 235);
             this.btnNoiKhac.Name = "btnNoiKhac";
             this.btnNoiKhac.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnNoiKhac.Size = new System.Drawing.Size(211, 52);
+            this.btnNoiKhac.Size = new System.Drawing.Size(267, 52);
             this.btnNoiKhac.TabIndex = 4;
             this.btnNoiKhac.Text = "Nơi khác";
             this.btnNoiKhac.UseVisualStyleBackColor = true;
@@ -909,9 +909,9 @@
             this.panelTop.Controls.Add(this.btnHelp);
             this.panelTop.Controls.Add(this.btnBack);
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTop.Location = new System.Drawing.Point(262, 0);
+            this.panelTop.Location = new System.Drawing.Point(307, 0);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(917, 41);
+            this.panelTop.Size = new System.Drawing.Size(1492, 41);
             this.panelTop.TabIndex = 25;
             this.panelTop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTop_Paint);
             this.panelTop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTop_MouseDown);
@@ -924,10 +924,10 @@
             this.btnHelp.ForeColor = System.Drawing.Color.White;
             this.btnHelp.Image = global::DemoWin.Properties.Resources.interrogation1;
             this.btnHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHelp.Location = new System.Drawing.Point(142, -6);
+            this.btnHelp.Location = new System.Drawing.Point(174, -6);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnHelp.Size = new System.Drawing.Size(125, 47);
+            this.btnHelp.Size = new System.Drawing.Size(157, 47);
             this.btnHelp.TabIndex = 9;
             this.btnHelp.Text = "    Help";
             this.btnHelp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -946,7 +946,7 @@
             this.btnBack.Location = new System.Drawing.Point(0, -6);
             this.btnBack.Name = "btnBack";
             this.btnBack.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnBack.Size = new System.Drawing.Size(136, 47);
+            this.btnBack.Size = new System.Drawing.Size(168, 47);
             this.btnBack.TabIndex = 8;
             this.btnBack.Text = "    Back";
             this.btnBack.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -958,9 +958,9 @@
             // 
             this.panelButtom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.panelButtom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelButtom.Location = new System.Drawing.Point(262, 645);
+            this.panelButtom.Location = new System.Drawing.Point(307, 844);
             this.panelButtom.Name = "panelButtom";
-            this.panelButtom.Size = new System.Drawing.Size(917, 25);
+            this.panelButtom.Size = new System.Drawing.Size(1492, 25);
             this.panelButtom.TabIndex = 27;
             // 
             // flowLayoutPanel
@@ -969,7 +969,7 @@
             this.flowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel.Name = "flowLayoutPanel";
-            this.flowLayoutPanel.Size = new System.Drawing.Size(917, 604);
+            this.flowLayoutPanel.Size = new System.Drawing.Size(1492, 803);
             this.flowLayoutPanel.TabIndex = 28;
             this.flowLayoutPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel_Paint);
             // 
@@ -1008,9 +1008,9 @@
             this.panelContainDetail.AutoScroll = true;
             this.panelContainDetail.Controls.Add(this.flowLayoutPanel);
             this.panelContainDetail.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContainDetail.Location = new System.Drawing.Point(262, 41);
+            this.panelContainDetail.Location = new System.Drawing.Point(307, 41);
             this.panelContainDetail.Name = "panelContainDetail";
-            this.panelContainDetail.Size = new System.Drawing.Size(917, 604);
+            this.panelContainDetail.Size = new System.Drawing.Size(1492, 803);
             this.panelContainDetail.TabIndex = 28;
             // 
             // FHire
@@ -1018,7 +1018,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1179, 670);
+            this.ClientSize = new System.Drawing.Size(1799, 869);
             this.Controls.Add(this.panelContainDetail);
             this.Controls.Add(this.panelButtom);
             this.Controls.Add(this.panelTop);

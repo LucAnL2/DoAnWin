@@ -29,7 +29,7 @@ namespace DemoWin
             this.ControlBox = false;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             leftBorderBtn = new Panel();
-            leftBorderBtn.Size = new Size(7, 60);
+            leftBorderBtn.Size = new Size(7, 49);
             panelMenu.Controls.Add(leftBorderBtn);
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -140,6 +140,7 @@ namespace DemoWin
                 this.Hide();
                 FLogin login = new FLogin();
                 login.ShowDialog();
+                this.Close();
             }
             DisableButton();
         }

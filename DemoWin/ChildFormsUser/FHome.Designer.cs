@@ -46,7 +46,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            panelCotain = new System.Windows.Forms.Panel();
+            panelContain = new System.Windows.Forms.Panel();
             this.panelTaskBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCarWash)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picOther)).BeginInit();
@@ -63,9 +63,9 @@
             this.btnElectrician.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnElectrician.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnElectrician.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnElectrician.Location = new System.Drawing.Point(64, 466);
+            this.btnElectrician.Location = new System.Drawing.Point(12, 771);
             this.btnElectrician.Name = "btnElectrician";
-            this.btnElectrician.Size = new System.Drawing.Size(296, 57);
+            this.btnElectrician.Size = new System.Drawing.Size(396, 57);
             this.btnElectrician.TabIndex = 5;
             this.btnElectrician.Text = "Thợ điện";
             this.btnElectrician.UseVisualStyleBackColor = true;
@@ -78,9 +78,9 @@
             this.btnCarvers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCarvers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCarvers.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnCarvers.Location = new System.Drawing.Point(443, 466);
+            this.btnCarvers.Location = new System.Drawing.Point(731, 771);
             this.btnCarvers.Name = "btnCarvers";
-            this.btnCarvers.Size = new System.Drawing.Size(296, 57);
+            this.btnCarvers.Size = new System.Drawing.Size(396, 57);
             this.btnCarvers.TabIndex = 5;
             this.btnCarvers.Text = "Thợ điêu khắc";
             this.btnCarvers.UseVisualStyleBackColor = true;
@@ -92,9 +92,9 @@
             this.btnMechanic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMechanic.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMechanic.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnMechanic.Location = new System.Drawing.Point(64, 208);
+            this.btnMechanic.Location = new System.Drawing.Point(12, 308);
             this.btnMechanic.Name = "btnMechanic";
-            this.btnMechanic.Size = new System.Drawing.Size(296, 53);
+            this.btnMechanic.Size = new System.Drawing.Size(396, 53);
             this.btnMechanic.TabIndex = 5;
             this.btnMechanic.Text = "Thợ máy";
             this.btnMechanic.UseVisualStyleBackColor = true;
@@ -107,9 +107,9 @@
             this.btnCarWashman.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCarWashman.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCarWashman.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnCarWashman.Location = new System.Drawing.Point(818, 208);
+            this.btnCarWashman.Location = new System.Drawing.Point(1391, 308);
             this.btnCarWashman.Name = "btnCarWashman";
-            this.btnCarWashman.Size = new System.Drawing.Size(296, 53);
+            this.btnCarWashman.Size = new System.Drawing.Size(396, 53);
             this.btnCarWashman.TabIndex = 5;
             this.btnCarWashman.Text = "Thợ rửa xe";
             this.btnCarWashman.UseVisualStyleBackColor = true;
@@ -122,9 +122,9 @@
             this.btnOther.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOther.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOther.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnOther.Location = new System.Drawing.Point(818, 466);
+            this.btnOther.Location = new System.Drawing.Point(1391, 771);
             this.btnOther.Name = "btnOther";
-            this.btnOther.Size = new System.Drawing.Size(296, 57);
+            this.btnOther.Size = new System.Drawing.Size(396, 57);
             this.btnOther.TabIndex = 5;
             this.btnOther.Text = "Thợ khác";
             this.btnOther.UseVisualStyleBackColor = true;
@@ -137,9 +137,9 @@
             this.btnPainter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPainter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPainter.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnPainter.Location = new System.Drawing.Point(443, 208);
+            this.btnPainter.Location = new System.Drawing.Point(731, 308);
             this.btnPainter.Name = "btnPainter";
-            this.btnPainter.Size = new System.Drawing.Size(296, 53);
+            this.btnPainter.Size = new System.Drawing.Size(396, 53);
             this.btnPainter.TabIndex = 5;
             this.btnPainter.Text = "Thợ sơn";
             this.btnPainter.UseVisualStyleBackColor = true;
@@ -154,9 +154,9 @@
             this.panelTaskBar.Controls.Add(this.button1);
             this.panelTaskBar.Controls.Add(this.label1);
             this.panelTaskBar.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelTaskBar.Location = new System.Drawing.Point(0, 577);
+            this.panelTaskBar.Location = new System.Drawing.Point(0, 869);
             this.panelTaskBar.Name = "panelTaskBar";
-            this.panelTaskBar.Size = new System.Drawing.Size(1179, 93);
+            this.panelTaskBar.Size = new System.Drawing.Size(1799, 129);
             this.panelTaskBar.TabIndex = 13;
             // 
             // button4
@@ -168,9 +168,9 @@
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = global::DemoWin.Properties.Resources.discord;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(761, 43);
+            this.button4.Location = new System.Drawing.Point(1122, 61);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(124, 38);
+            this.button4.Size = new System.Drawing.Size(166, 38);
             this.button4.TabIndex = 2;
             this.button4.Text = "  WWOZ";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -186,9 +186,9 @@
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = global::DemoWin.Properties.Resources.facebook;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(616, 43);
+            this.button3.Location = new System.Drawing.Point(926, 61);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(122, 38);
+            this.button3.Size = new System.Drawing.Size(164, 38);
             this.button3.TabIndex = 2;
             this.button3.Text = "  LucAn";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -205,9 +205,9 @@
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::DemoWin.Properties.Resources.clock__1_;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(479, 43);
+            this.button2.Location = new System.Drawing.Point(753, 61);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 38);
+            this.button2.Size = new System.Drawing.Size(149, 38);
             this.button2.TabIndex = 2;
             this.button2.Text = "  24/7";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -223,9 +223,9 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::DemoWin.Properties.Resources.smartphone;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(264, 43);
+            this.button1.Location = new System.Drawing.Point(512, 61);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(165, 38);
+            this.button1.Size = new System.Drawing.Size(207, 38);
             this.button1.TabIndex = 2;
             this.button1.Text = "  03xxxxxx90";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -239,7 +239,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(522, 5);
+            this.label1.Location = new System.Drawing.Point(832, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(165, 22);
             this.label1.TabIndex = 1;
@@ -249,9 +249,9 @@
             // 
             this.picCarWash.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.picCarWash.Image = global::DemoWin.Properties.Resources.Car_wash_rafiki;
-            this.picCarWash.Location = new System.Drawing.Point(818, 12);
+            this.picCarWash.Location = new System.Drawing.Point(1391, 12);
             this.picCarWash.Name = "picCarWash";
-            this.picCarWash.Size = new System.Drawing.Size(296, 190);
+            this.picCarWash.Size = new System.Drawing.Size(396, 290);
             this.picCarWash.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picCarWash.TabIndex = 12;
             this.picCarWash.TabStop = false;
@@ -260,9 +260,9 @@
             // 
             this.picOther.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.picOther.Image = global::DemoWin.Properties.Resources.Dark_mode_pana;
-            this.picOther.Location = new System.Drawing.Point(818, 270);
+            this.picOther.Location = new System.Drawing.Point(1391, 475);
             this.picOther.Name = "picOther";
-            this.picOther.Size = new System.Drawing.Size(296, 190);
+            this.picOther.Size = new System.Drawing.Size(396, 290);
             this.picOther.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picOther.TabIndex = 11;
             this.picOther.TabStop = false;
@@ -271,9 +271,9 @@
             // 
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBox4.Image = global::DemoWin.Properties.Resources.Sculpting_cuate;
-            this.pictureBox4.Location = new System.Drawing.Point(443, 270);
+            this.pictureBox4.Location = new System.Drawing.Point(731, 475);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(296, 190);
+            this.pictureBox4.Size = new System.Drawing.Size(396, 290);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 10;
             this.pictureBox4.TabStop = false;
@@ -282,9 +282,9 @@
             // 
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox3.Image = global::DemoWin.Properties.Resources.Electrician_amico;
-            this.pictureBox3.Location = new System.Drawing.Point(64, 270);
+            this.pictureBox3.Location = new System.Drawing.Point(12, 475);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(296, 190);
+            this.pictureBox3.Size = new System.Drawing.Size(396, 290);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
@@ -292,9 +292,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::DemoWin.Properties.Resources.Prototyping_process_amico;
-            this.pictureBox2.Location = new System.Drawing.Point(64, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(296, 190);
+            this.pictureBox2.Size = new System.Drawing.Size(396, 290);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
@@ -303,20 +303,21 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = global::DemoWin.Properties.Resources.Artist_amico;
-            this.pictureBox1.Location = new System.Drawing.Point(443, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(731, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(296, 190);
+            this.pictureBox1.Size = new System.Drawing.Size(396, 290);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // panelCotain
+            // panelContain
             // 
-            panelCotain.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelCotain.Location = new System.Drawing.Point(0, 0);
-            panelCotain.Name = "panelCotain";
-            panelCotain.Size = new System.Drawing.Size(1179, 577);
-            panelCotain.TabIndex = 14;
+            panelContain.AutoScroll = true;
+            panelContain.Dock = System.Windows.Forms.DockStyle.Fill;
+            panelContain.Location = new System.Drawing.Point(0, 0);
+            panelContain.Name = "panelContain";
+            panelContain.Size = new System.Drawing.Size(1799, 869);
+            panelContain.TabIndex = 14;
             // 
             // FHome
             // 
@@ -324,8 +325,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1179, 670);
-            this.Controls.Add(panelCotain);
+            this.ClientSize = new System.Drawing.Size(1799, 998);
+            this.Controls.Add(panelContain);
             this.Controls.Add(this.panelTaskBar);
             this.Controls.Add(this.picCarWash);
             this.Controls.Add(this.picOther);
@@ -374,6 +375,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        public static System.Windows.Forms.Panel panelCotain;
+        public static System.Windows.Forms.Panel panelContain;
     }
 }

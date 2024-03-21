@@ -12,7 +12,7 @@ namespace DemoWin
     public class Connection
     {
         //private static string stringConnection = @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=DemoWin;Integrated Security=True";
-        private static string stringConnection = @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=theGioiTho;Integrated Security=True";
+        private static string stringConnection = @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=theGioiTho2;Integrated Security=True";
         public static SqlConnection GetSqlConnection()
         {
             return new SqlConnection(stringConnection);

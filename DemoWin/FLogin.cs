@@ -71,6 +71,7 @@ namespace DemoWin
                         worker.ShowDialog();
                         
                     }
+                    //this.Close();
                     this.Close();
                 }
                 else
