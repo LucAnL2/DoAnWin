@@ -28,7 +28,7 @@ namespace DemoWin
         private string confirmPassword;
         private string role;
         public Person(string id, string name, string sex, string phone, string address, string cccd, 
-            string date, string email, string acNumber, string pass)
+            string date, string email, string account, string pass)
         {
             this.id = id;
             this.name = name;
@@ -38,7 +38,7 @@ namespace DemoWin
             this.cccd = cccd;
             this.date = date;
             this.email = email;
-            this.acNumber = acNumber;
+            this.account = account;
             this.pass = pass;
         }
         public Person(string id, string name, string email, string account, string pass, string confirmPassword, string role)

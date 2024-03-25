@@ -38,12 +38,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.ucTxtWorkerPass = new DemoWin.UCTxtWorker();
             this.ucTxtWorkerAccount = new DemoWin.UCTxtWorker();
-            this.ucTxtWorkerEmail = new DemoWin.UCTxtWorker();
-            this.ucTxtWorkerPhone = new DemoWin.UCTxtWorker();
             this.ucTxtWorkerCCCD = new DemoWin.UCTxtWorker();
             this.ucTxtWorkerAddress = new DemoWin.UCTxtWorker();
             this.ucTxtWorkerSex = new DemoWin.UCTxtWorker();
-            this.ucTxtWorkerBirthDay = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerEmail = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerDate = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerPhone = new DemoWin.UCTxtWorker();
             this.ucTxtWorkerName = new DemoWin.UCTxtWorker();
             this.ucTxtWorkerID = new DemoWin.UCTxtWorker();
             ((System.ComponentModel.ISupportInitialize)(this.picWorkerCard)).BeginInit();
@@ -193,84 +193,82 @@
             // ucTxtWorkerPass
             // 
             this.ucTxtWorkerPass.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerPass.Location = new System.Drawing.Point(629, 486);
+            this.ucTxtWorkerPass.Location = new System.Drawing.Point(567, 71);
             this.ucTxtWorkerPass.Name = "ucTxtWorkerPass";
             this.ucTxtWorkerPass.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerPass.TabIndex = 1;
-            this.ucTxtWorkerPass.Load += new System.EventHandler(this.ucTxtWorker10_Load);
+            this.ucTxtWorkerPass.TabIndex = 3;
             // 
             // ucTxtWorkerAccount
             // 
             this.ucTxtWorkerAccount.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerAccount.Location = new System.Drawing.Point(629, 377);
+            this.ucTxtWorkerAccount.Location = new System.Drawing.Point(567, 166);
             this.ucTxtWorkerAccount.Name = "ucTxtWorkerAccount";
             this.ucTxtWorkerAccount.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerAccount.TabIndex = 1;
-            this.ucTxtWorkerAccount.Load += new System.EventHandler(this.ucTxtWorker8_Load);
-            // 
-            // ucTxtWorkerEmail
-            // 
-            this.ucTxtWorkerEmail.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerEmail.Location = new System.Drawing.Point(629, 166);
-            this.ucTxtWorkerEmail.Name = "ucTxtWorkerEmail";
-            this.ucTxtWorkerEmail.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerEmail.TabIndex = 1;
-            // 
-            // ucTxtWorkerPhone
-            // 
-            this.ucTxtWorkerPhone.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerPhone.Location = new System.Drawing.Point(629, 60);
-            this.ucTxtWorkerPhone.Name = "ucTxtWorkerPhone";
-            this.ucTxtWorkerPhone.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerPhone.TabIndex = 1;
+            this.ucTxtWorkerAccount.TabIndex = 3;
             // 
             // ucTxtWorkerCCCD
             // 
             this.ucTxtWorkerCCCD.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerCCCD.Location = new System.Drawing.Point(629, 275);
+            this.ucTxtWorkerCCCD.Location = new System.Drawing.Point(567, 275);
             this.ucTxtWorkerCCCD.Name = "ucTxtWorkerCCCD";
             this.ucTxtWorkerCCCD.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerCCCD.TabIndex = 1;
+            this.ucTxtWorkerCCCD.TabIndex = 3;
             // 
             // ucTxtWorkerAddress
             // 
             this.ucTxtWorkerAddress.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerAddress.Location = new System.Drawing.Point(270, 486);
+            this.ucTxtWorkerAddress.Location = new System.Drawing.Point(567, 387);
             this.ucTxtWorkerAddress.Name = "ucTxtWorkerAddress";
             this.ucTxtWorkerAddress.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerAddress.TabIndex = 1;
+            this.ucTxtWorkerAddress.TabIndex = 3;
             // 
             // ucTxtWorkerSex
             // 
             this.ucTxtWorkerSex.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerSex.Location = new System.Drawing.Point(270, 377);
+            this.ucTxtWorkerSex.Location = new System.Drawing.Point(567, 508);
             this.ucTxtWorkerSex.Name = "ucTxtWorkerSex";
             this.ucTxtWorkerSex.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerSex.TabIndex = 1;
+            this.ucTxtWorkerSex.TabIndex = 3;
             // 
-            // ucTxtWorkerBirthDay
+            // ucTxtWorkerEmail
             // 
-            this.ucTxtWorkerBirthDay.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerBirthDay.Location = new System.Drawing.Point(270, 275);
-            this.ucTxtWorkerBirthDay.Name = "ucTxtWorkerBirthDay";
-            this.ucTxtWorkerBirthDay.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerBirthDay.TabIndex = 1;
+            this.ucTxtWorkerEmail.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerEmail.Location = new System.Drawing.Point(238, 508);
+            this.ucTxtWorkerEmail.Name = "ucTxtWorkerEmail";
+            this.ucTxtWorkerEmail.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerEmail.TabIndex = 3;
+            // 
+            // ucTxtWorkerDate
+            // 
+            this.ucTxtWorkerDate.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerDate.Location = new System.Drawing.Point(238, 387);
+            this.ucTxtWorkerDate.Name = "ucTxtWorkerDate";
+            this.ucTxtWorkerDate.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerDate.TabIndex = 3;
+            // 
+            // ucTxtWorkerPhone
+            // 
+            this.ucTxtWorkerPhone.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerPhone.Location = new System.Drawing.Point(238, 275);
+            this.ucTxtWorkerPhone.Name = "ucTxtWorkerPhone";
+            this.ucTxtWorkerPhone.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerPhone.TabIndex = 3;
             // 
             // ucTxtWorkerName
             // 
             this.ucTxtWorkerName.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerName.Location = new System.Drawing.Point(270, 166);
+            this.ucTxtWorkerName.Location = new System.Drawing.Point(238, 166);
             this.ucTxtWorkerName.Name = "ucTxtWorkerName";
             this.ucTxtWorkerName.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerName.TabIndex = 1;
+            this.ucTxtWorkerName.TabIndex = 3;
             // 
             // ucTxtWorkerID
             // 
             this.ucTxtWorkerID.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerID.Location = new System.Drawing.Point(270, 60);
+            this.ucTxtWorkerID.Location = new System.Drawing.Point(238, 71);
             this.ucTxtWorkerID.Name = "ucTxtWorkerID";
             this.ucTxtWorkerID.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerID.TabIndex = 1;
+            this.ucTxtWorkerID.TabIndex = 3;
             // 
             // FWokerInfo
             // 
@@ -278,18 +276,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1179, 670);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panelRight);
             this.Controls.Add(this.ucTxtWorkerPass);
             this.Controls.Add(this.ucTxtWorkerAccount);
-            this.Controls.Add(this.ucTxtWorkerEmail);
-            this.Controls.Add(this.ucTxtWorkerPhone);
             this.Controls.Add(this.ucTxtWorkerCCCD);
             this.Controls.Add(this.ucTxtWorkerAddress);
             this.Controls.Add(this.ucTxtWorkerSex);
-            this.Controls.Add(this.ucTxtWorkerBirthDay);
+            this.Controls.Add(this.ucTxtWorkerEmail);
+            this.Controls.Add(this.ucTxtWorkerDate);
+            this.Controls.Add(this.ucTxtWorkerPhone);
             this.Controls.Add(this.ucTxtWorkerName);
             this.Controls.Add(this.ucTxtWorkerID);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelRight);
             this.Controls.Add(this.picWorkerCard);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FWokerInfo";
@@ -304,16 +302,6 @@
         #endregion
 
         private FontAwesome.Sharp.IconPictureBox picWorkerCard;
-        private UCTxtWorker ucTxtWorkerID;
-        private UCTxtWorker ucTxtWorkerName;
-        private UCTxtWorker ucTxtWorkerBirthDay;
-        private UCTxtWorker ucTxtWorkerSex;
-        private UCTxtWorker ucTxtWorkerAddress;
-        private UCTxtWorker ucTxtWorkerPhone;
-        private UCTxtWorker ucTxtWorkerEmail;
-        private UCTxtWorker ucTxtWorkerAccount;
-        private UCTxtWorker ucTxtWorkerCCCD;
-        private UCTxtWorker ucTxtWorkerPass;
         private System.Windows.Forms.Panel panelRight;
         private System.Windows.Forms.Panel panel1;
         private FontAwesome.Sharp.IconButton btnHome;
@@ -321,5 +309,15 @@
         private FontAwesome.Sharp.IconButton iconButton2;
         private FontAwesome.Sharp.IconButton iconButton1;
         private FontAwesome.Sharp.IconButton iconButton4;
+        private UCTxtWorker ucTxtWorkerID;
+        private UCTxtWorker ucTxtWorkerName;
+        private UCTxtWorker ucTxtWorkerPhone;
+        private UCTxtWorker ucTxtWorkerDate;
+        private UCTxtWorker ucTxtWorkerEmail;
+        private UCTxtWorker ucTxtWorkerSex;
+        private UCTxtWorker ucTxtWorkerAddress;
+        private UCTxtWorker ucTxtWorkerCCCD;
+        private UCTxtWorker ucTxtWorkerAccount;
+        private UCTxtWorker ucTxtWorkerPass;
     }
 }

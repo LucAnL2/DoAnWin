@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             this.btnDetail = new Guna.UI2.WinForms.Guna2Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblPhone = new System.Windows.Forms.Label();
+            this.lblRate = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
             this.picBackGround = new System.Windows.Forms.PictureBox();
+            this.lblID = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picBackGround)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,39 +58,39 @@
             this.btnDetail.Text = "Chi tiết";
             this.btnDetail.Click += new System.EventHandler(this.btnDetail_Click);
             // 
-            // label4
+            // lblPhone
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(33, 322);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "09xxxxxx06";
+            this.lblPhone.AutoSize = true;
+            this.lblPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPhone.ForeColor = System.Drawing.Color.White;
+            this.lblPhone.Location = new System.Drawing.Point(30, 315);
+            this.lblPhone.Name = "lblPhone";
+            this.lblPhone.Size = new System.Drawing.Size(103, 20);
+            this.lblPhone.TabIndex = 0;
+            this.lblPhone.Text = "09xxxxxx06";
             // 
-            // label5
+            // lblRate
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(33, 350);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 20);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "5 Sao";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.lblRate.AutoSize = true;
+            this.lblRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRate.ForeColor = System.Drawing.Color.White;
+            this.lblRate.Location = new System.Drawing.Point(30, 343);
+            this.lblRate.Name = "lblRate";
+            this.lblRate.Size = new System.Drawing.Size(56, 20);
+            this.lblRate.TabIndex = 0;
+            this.lblRate.Text = "5 Sao";
+            this.lblRate.Click += new System.EventHandler(this.label5_Click);
             // 
-            // label1
+            // lblName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(33, 294);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Huỳnh Văn C";
+            this.lblName.AutoSize = true;
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.ForeColor = System.Drawing.Color.White;
+            this.lblName.Location = new System.Drawing.Point(30, 287);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(117, 20);
+            this.lblName.TabIndex = 0;
+            this.lblName.Text = "Huỳnh Văn C";
             // 
             // picBackGround
             // 
@@ -101,6 +102,17 @@
             this.picBackGround.TabStop = false;
             this.picBackGround.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // lblID
+            // 
+            this.lblID.AutoSize = true;
+            this.lblID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblID.ForeColor = System.Drawing.Color.White;
+            this.lblID.Location = new System.Drawing.Point(258, 287);
+            this.lblID.Name = "lblID";
+            this.lblID.Size = new System.Drawing.Size(117, 20);
+            this.lblID.TabIndex = 0;
+            this.lblID.Text = "Huỳnh Văn C";
+            // 
             // UCWorkerInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -108,9 +120,10 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.Controls.Add(this.picBackGround);
             this.Controls.Add(this.btnDetail);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblRate);
+            this.Controls.Add(this.lblPhone);
+            this.Controls.Add(this.lblID);
+            this.Controls.Add(this.lblName);
             this.Name = "UCWorkerInfo";
             this.Size = new System.Drawing.Size(402, 439);
             this.Load += new System.EventHandler(this.USWorkerInfo_Load);
@@ -123,9 +136,10 @@
         #endregion
 
         public Guna.UI2.WinForms.Guna2Button btnDetail;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label lblPhone;
+        private System.Windows.Forms.Label lblRate;
+        public System.Windows.Forms.Label lblName;
         private System.Windows.Forms.PictureBox picBackGround;
+        public System.Windows.Forms.Label lblID;
     }
 }

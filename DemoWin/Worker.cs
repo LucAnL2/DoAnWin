@@ -19,8 +19,8 @@ namespace DemoWin
 
 
         public Worker(string id, string name, string sex, string phone, string address,
-            string cccd, string date, string email, string acNumber, string pass) 
-            : base(id, name, sex, phone, address, cccd, date, email, acNumber, pass)
+            string cccd, string date, string email, string account, string pass) 
+            : base(id, name, sex, phone, address, cccd, date, email, account, pass)
         {
         }
         public Worker(string id, string job, string workingDay, string workingTime,

@@ -46,6 +46,7 @@ namespace DemoWin
         private bool isbtn12h305h = false;
         private bool isbtnOvertime = false;
         public static Form activeForm;
+        string[] listTho = { "Thợ máy", "Thợ sơn", "Thợ sửa xe", "Thợ điện","Thợ điêu khắc" };
         public FHire()
         {
             InitializeComponent();
@@ -76,8 +77,60 @@ namespace DemoWin
             //    flowLayoutPanel.Controls.Add(uc);
 
             //}
+            LoadDataIntoTextBoxes();
             ChangeColor();
             
+        }
+        public void LoadDataIntoTextBoxes()
+        {
+            string query = "";
+            if (listTho.Contains(lblTitle.Text))
+            {
+                query = string.Format("select Worker.ID, Worker.Ten, Worker.SDT, DangViec.NgheNghiep\r\n" +
+                    "from Worker\r\ninner join DangViec on Worker.ID = DangViec.ID " +
+                    "where DangViec.NgheNghiep = N'{0}'", lblTitle.Text);
+            }
+            else
+            {
+                query = string.Format("select Worker.ID, Worker.Ten, Worker.SDT, DangViec.NgheNghiep\r\n" +
+                    "from Worker\r\ninner join DangViec on Worker.ID = DangViec.ID " +
+                    "where DangViec.NgheNghiep != N'Thợ máy' and DangViec.NgheNghiep != N'Thợ sơn' and DangViec.NgheNghiep != N'Thợ sửa xe' and DangViec.NgheNghiep != N'Thợ điện' and DangViec.NgheNghiep != N'Thợ điêu khắc'");
+            }    
+            using (SqlConnection connection = Connection.GetSqlConnection())
+            {
+                connection.Open();
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+                                UCWorkerInfo uc = new UCWorkerInfo();
+                                uc.lblName.Text = reader["Ten"].ToString();
+                                uc.lblPhone.Text = reader["SDT"].ToString();
+                                uc.lblID.Text = reader["ID"].ToString();
+                                uc.btnDetail.Click += btnOpenDetail_Click;
+                                loadWorkerInfo(uc);
+                                //connection.Open();
+                                //SqlDataAdapter adapter = new SqlDataAdapter(query,connection);
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Không có dữ liệu được trả về!");
+                        }
+                    }
+                }
+            }
+        }
+        public void loadWorkerInfo(UCWorkerInfo uc)
+        {
+            uc.Margin = new Padding(35);
+            uc.BackColor = ThemeColors.PrimaryColor;
+            flowLayoutPanel.Controls.Add(uc);
         }
         private void loadUCtoForm()
         {

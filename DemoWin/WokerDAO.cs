@@ -47,14 +47,13 @@ namespace DemoWin
         //}
         public void updateInfo(Worker newInfo)
         {
-            Person newperson = new Person(newInfo.Id, newInfo.Name, newInfo.Date, newInfo.Sex, 
-                newInfo.Address, newInfo.Phone, newInfo.Email, newInfo.Cccd,newInfo.Account,newInfo.Pass);
 
-            string sqlStr = string.Format("UPDATE Worker SET ID = '{0}', Ten = '{1}', NgaySinh = '{2}', GioiTinh = '{3}', " +
-                "DiaChi = '{4}', SDT = '{5}', Email = '{6}', CCCD = '{7}', TenTaiKhoan = '{8}',MatKhau = '{9}' WHERE ID = '{0}'",
-                newInfo.Id, newInfo.Name, newInfo.Date, newInfo.Sex,
-                newInfo.Address, newInfo.Phone, newInfo.Email, newInfo.Cccd, newInfo.Account, newInfo.Pass);
-            connect.ThucThi(sqlStr, "Sửa thông tin học sinh thành công", newperson);
+
+            string sqlStr = string.Format("UPDATE Worker SET ID = '{0}', Ten = '{1}', NgaySinh = '{2}', GioiTinh = N'{3}', " +
+                "DiaChi = '{4}', SDT = '{5}', Email = '{6}', CCCD = '{7}', TenTaiKhoan = '{8}', MatKhau = '{9}' WHERE ID = '{0}'",
+            newInfo.Id, newInfo.Name, newInfo.Date, newInfo.Sex,
+            newInfo.Address, newInfo.Phone, newInfo.Email, newInfo.Cccd, newInfo.Account, newInfo.Pass);
+            connect.ThucThi(sqlStr);
         }
     }
 }
