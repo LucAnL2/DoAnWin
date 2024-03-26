@@ -91,5 +91,24 @@ namespace DemoWin
             return true;
         }
 
+
+        public static bool checkNullInfo(Worker newWorker)
+        {
+            string[] propertiesToCheck = { "Id", "Name", "Sex", "Phone", "Address", "CCCD", "Date", "Email", "Account", "Pass" };
+
+            foreach (var propertyName in propertiesToCheck)
+            {
+                var property = newWorker.GetType().GetProperty(propertyName);
+                if (property == null) continue; // Kiểm tra xem thuộc tính có tồn tại không
+
+                if (property.GetValue(newWorker) == null || string.IsNullOrEmpty(property.GetValue(newWorker).ToString()))
+                {
+                    MessageBox.Show("Vui lòng cập nhật đầy đủ thông tin để truy cập chức năng này !!!");
+                    return false;
+                }
+               
+            }
+            return true;
+        }
     }
 }

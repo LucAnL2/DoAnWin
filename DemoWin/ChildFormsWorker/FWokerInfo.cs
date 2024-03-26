@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -103,6 +104,16 @@ namespace DemoWin.ChildFormsWorker
         private void iconButton2_Click(object sender, EventArgs e)
         {
 
+        }
+        public bool checkNullTextBox()
+        {
+            Worker newWorker = new Worker(ThemeColors.IncomeID, ucTxtWorkerName.txtData.Text, ucTxtWorkerSex.txtData.Text,
+                                    ucTxtWorkerPhone.txtData.Text, ucTxtWorkerAddress.txtData.Text, ucTxtWorkerCCCD.txtData.Text,
+                                    ucTxtWorkerDate.txtData.Text, ucTxtWorkerEmail.txtData.Text, ucTxtWorkerAccount.txtData.Text,
+                                       ucTxtWorkerPass.txtData.Text);
+            if (Worker.checkNullInfo(newWorker)) ;
+                return true;
+            
         }
     }
 }
