@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.picWorkerCard = new FontAwesome.Sharp.IconPictureBox();
             this.panelRight = new System.Windows.Forms.Panel();
             this.iconButton4 = new FontAwesome.Sharp.IconButton();
             this.btnUpdateInfo = new FontAwesome.Sharp.IconButton();
@@ -36,33 +35,26 @@
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.btnHome = new FontAwesome.Sharp.IconButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panelContainInfo = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picAvata = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.panelChildContain = new System.Windows.Forms.Panel();
             this.ucTxtWorkerPass = new DemoWin.UCTxtWorker();
-            this.ucTxtWorkerAccount = new DemoWin.UCTxtWorker();
-            this.ucTxtWorkerCCCD = new DemoWin.UCTxtWorker();
-            this.ucTxtWorkerAddress = new DemoWin.UCTxtWorker();
             this.ucTxtWorkerSex = new DemoWin.UCTxtWorker();
             this.ucTxtWorkerEmail = new DemoWin.UCTxtWorker();
-            this.ucTxtWorkerDate = new DemoWin.UCTxtWorker();
-            this.ucTxtWorkerPhone = new DemoWin.UCTxtWorker();
-            this.ucTxtWorkerName = new DemoWin.UCTxtWorker();
             this.ucTxtWorkerID = new DemoWin.UCTxtWorker();
-            ((System.ComponentModel.ISupportInitialize)(this.picWorkerCard)).BeginInit();
+            this.ucTxtWorkerAddress = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerAccount = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerDate = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerName = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerCCCD = new DemoWin.UCTxtWorker();
+            this.ucTxtWorkerPhone = new DemoWin.UCTxtWorker();
             this.panelRight.SuspendLayout();
+            this.panelContainInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAvata)).BeginInit();
+            this.panelChildContain.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // picWorkerCard
-            // 
-            this.picWorkerCard.BackColor = System.Drawing.Color.White;
-            this.picWorkerCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.picWorkerCard.IconChar = FontAwesome.Sharp.IconChar.ClipboardUser;
-            this.picWorkerCard.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.picWorkerCard.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.picWorkerCard.IconSize = 150;
-            this.picWorkerCard.Location = new System.Drawing.Point(32, 129);
-            this.picWorkerCard.Name = "picWorkerCard";
-            this.picWorkerCard.Size = new System.Drawing.Size(150, 150);
-            this.picWorkerCard.TabIndex = 0;
-            this.picWorkerCard.TabStop = false;
             // 
             // panelRight
             // 
@@ -74,9 +66,9 @@
             this.panelRight.Controls.Add(this.iconButton2);
             this.panelRight.Controls.Add(this.iconButton1);
             this.panelRight.Controls.Add(this.btnHome);
-            this.panelRight.Location = new System.Drawing.Point(958, 36);
+            this.panelRight.Location = new System.Drawing.Point(1512, 36);
             this.panelRight.Name = "panelRight";
-            this.panelRight.Size = new System.Drawing.Size(222, 575);
+            this.panelRight.Size = new System.Drawing.Size(288, 903);
             this.panelRight.TabIndex = 2;
             // 
             // iconButton4
@@ -89,10 +81,10 @@
             this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton4.IconSize = 32;
             this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.Location = new System.Drawing.Point(29, 262);
+            this.iconButton4.Location = new System.Drawing.Point(68, 267);
             this.iconButton4.Name = "iconButton4";
             this.iconButton4.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton4.Size = new System.Drawing.Size(190, 60);
+            this.iconButton4.Size = new System.Drawing.Size(217, 60);
             this.iconButton4.TabIndex = 17;
             this.iconButton4.Text = "Số dư";
             this.iconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -109,10 +101,10 @@
             this.btnUpdateInfo.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnUpdateInfo.IconSize = 32;
             this.btnUpdateInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUpdateInfo.Location = new System.Drawing.Point(29, 196);
+            this.btnUpdateInfo.Location = new System.Drawing.Point(68, 201);
             this.btnUpdateInfo.Name = "btnUpdateInfo";
             this.btnUpdateInfo.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnUpdateInfo.Size = new System.Drawing.Size(190, 60);
+            this.btnUpdateInfo.Size = new System.Drawing.Size(217, 60);
             this.btnUpdateInfo.TabIndex = 16;
             this.btnUpdateInfo.Text = "Cập nhật thông tin";
             this.btnUpdateInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -130,10 +122,10 @@
             this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton2.IconSize = 32;
             this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(29, 130);
+            this.iconButton2.Location = new System.Drawing.Point(68, 135);
             this.iconButton2.Name = "iconButton2";
             this.iconButton2.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton2.Size = new System.Drawing.Size(190, 60);
+            this.iconButton2.Size = new System.Drawing.Size(217, 60);
             this.iconButton2.TabIndex = 15;
             this.iconButton2.Text = "Đổi mật khẩu";
             this.iconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -151,10 +143,10 @@
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton1.IconSize = 32;
             this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(29, 66);
+            this.iconButton1.Location = new System.Drawing.Point(68, 69);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton1.Size = new System.Drawing.Size(190, 60);
+            this.iconButton1.Size = new System.Drawing.Size(217, 60);
             this.iconButton1.TabIndex = 14;
             this.iconButton1.Text = "Nhắn tin với Admin";
             this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -171,10 +163,10 @@
             this.btnHome.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnHome.IconSize = 32;
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHome.Location = new System.Drawing.Point(29, 0);
+            this.btnHome.Location = new System.Drawing.Point(68, 3);
             this.btnHome.Name = "btnHome";
             this.btnHome.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnHome.Size = new System.Drawing.Size(190, 60);
+            this.btnHome.Size = new System.Drawing.Size(217, 60);
             this.btnHome.TabIndex = 13;
             this.btnHome.Text = "Hộp thư";
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -185,123 +177,166 @@
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.Location = new System.Drawing.Point(976, 36);
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Location = new System.Drawing.Point(1527, 36);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(8, 575);
+            this.panel1.Size = new System.Drawing.Size(8, 903);
             this.panel1.TabIndex = 0;
+            // 
+            // panelContainInfo
+            // 
+            this.panelContainInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panelContainInfo.Controls.Add(this.pictureBox1);
+            this.panelContainInfo.Controls.Add(this.picAvata);
+            this.panelContainInfo.Controls.Add(this.panelChildContain);
+            this.panelContainInfo.Location = new System.Drawing.Point(134, 77);
+            this.panelContainInfo.Name = "panelContainInfo";
+            this.panelContainInfo.Size = new System.Drawing.Size(1206, 814);
+            this.panelContainInfo.TabIndex = 4;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::DemoWin.Properties.Resources.road_1072821_12801;
+            this.pictureBox1.Location = new System.Drawing.Point(221, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(985, 235);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // picAvata
+            // 
+            this.picAvata.Image = global::DemoWin.Properties.Resources._7_23_3_6_11_40_11m;
+            this.picAvata.Location = new System.Drawing.Point(15, 33);
+            this.picAvata.Name = "picAvata";
+            this.picAvata.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picAvata.ShadowDecoration.Parent = this.picAvata;
+            this.picAvata.Size = new System.Drawing.Size(205, 176);
+            this.picAvata.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picAvata.TabIndex = 5;
+            this.picAvata.TabStop = false;
+            // 
+            // panelChildContain
+            // 
+            this.panelChildContain.BackColor = System.Drawing.Color.White;
+            this.panelChildContain.Controls.Add(this.ucTxtWorkerPass);
+            this.panelChildContain.Controls.Add(this.ucTxtWorkerSex);
+            this.panelChildContain.Controls.Add(this.ucTxtWorkerEmail);
+            this.panelChildContain.Controls.Add(this.ucTxtWorkerID);
+            this.panelChildContain.Controls.Add(this.ucTxtWorkerAddress);
+            this.panelChildContain.Controls.Add(this.ucTxtWorkerAccount);
+            this.panelChildContain.Controls.Add(this.ucTxtWorkerDate);
+            this.panelChildContain.Controls.Add(this.ucTxtWorkerName);
+            this.panelChildContain.Controls.Add(this.ucTxtWorkerCCCD);
+            this.panelChildContain.Controls.Add(this.ucTxtWorkerPhone);
+            this.panelChildContain.Location = new System.Drawing.Point(15, 235);
+            this.panelChildContain.Name = "panelChildContain";
+            this.panelChildContain.Size = new System.Drawing.Size(1176, 561);
+            this.panelChildContain.TabIndex = 4;
             // 
             // ucTxtWorkerPass
             // 
             this.ucTxtWorkerPass.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerPass.Location = new System.Drawing.Point(567, 71);
+            this.ucTxtWorkerPass.Location = new System.Drawing.Point(670, 3);
             this.ucTxtWorkerPass.Name = "ucTxtWorkerPass";
-            this.ucTxtWorkerPass.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerPass.Size = new System.Drawing.Size(448, 63);
             this.ucTxtWorkerPass.TabIndex = 3;
-            // 
-            // ucTxtWorkerAccount
-            // 
-            this.ucTxtWorkerAccount.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerAccount.Location = new System.Drawing.Point(567, 166);
-            this.ucTxtWorkerAccount.Name = "ucTxtWorkerAccount";
-            this.ucTxtWorkerAccount.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerAccount.TabIndex = 3;
-            // 
-            // ucTxtWorkerCCCD
-            // 
-            this.ucTxtWorkerCCCD.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerCCCD.Location = new System.Drawing.Point(567, 275);
-            this.ucTxtWorkerCCCD.Name = "ucTxtWorkerCCCD";
-            this.ucTxtWorkerCCCD.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerCCCD.TabIndex = 3;
-            // 
-            // ucTxtWorkerAddress
-            // 
-            this.ucTxtWorkerAddress.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerAddress.Location = new System.Drawing.Point(567, 387);
-            this.ucTxtWorkerAddress.Name = "ucTxtWorkerAddress";
-            this.ucTxtWorkerAddress.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerAddress.TabIndex = 3;
             // 
             // ucTxtWorkerSex
             // 
             this.ucTxtWorkerSex.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerSex.Location = new System.Drawing.Point(567, 508);
+            this.ucTxtWorkerSex.Location = new System.Drawing.Point(670, 466);
             this.ucTxtWorkerSex.Name = "ucTxtWorkerSex";
-            this.ucTxtWorkerSex.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerSex.Size = new System.Drawing.Size(448, 63);
             this.ucTxtWorkerSex.TabIndex = 3;
             // 
             // ucTxtWorkerEmail
             // 
             this.ucTxtWorkerEmail.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerEmail.Location = new System.Drawing.Point(238, 508);
+            this.ucTxtWorkerEmail.Location = new System.Drawing.Point(62, 466);
             this.ucTxtWorkerEmail.Name = "ucTxtWorkerEmail";
-            this.ucTxtWorkerEmail.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerEmail.Size = new System.Drawing.Size(451, 63);
             this.ucTxtWorkerEmail.TabIndex = 3;
-            // 
-            // ucTxtWorkerDate
-            // 
-            this.ucTxtWorkerDate.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerDate.Location = new System.Drawing.Point(238, 387);
-            this.ucTxtWorkerDate.Name = "ucTxtWorkerDate";
-            this.ucTxtWorkerDate.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerDate.TabIndex = 3;
-            // 
-            // ucTxtWorkerPhone
-            // 
-            this.ucTxtWorkerPhone.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerPhone.Location = new System.Drawing.Point(238, 275);
-            this.ucTxtWorkerPhone.Name = "ucTxtWorkerPhone";
-            this.ucTxtWorkerPhone.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerPhone.TabIndex = 3;
-            // 
-            // ucTxtWorkerName
-            // 
-            this.ucTxtWorkerName.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerName.Location = new System.Drawing.Point(238, 166);
-            this.ucTxtWorkerName.Name = "ucTxtWorkerName";
-            this.ucTxtWorkerName.Size = new System.Drawing.Size(286, 63);
-            this.ucTxtWorkerName.TabIndex = 3;
             // 
             // ucTxtWorkerID
             // 
             this.ucTxtWorkerID.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorkerID.Location = new System.Drawing.Point(238, 71);
+            this.ucTxtWorkerID.Location = new System.Drawing.Point(65, 3);
             this.ucTxtWorkerID.Name = "ucTxtWorkerID";
-            this.ucTxtWorkerID.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorkerID.Size = new System.Drawing.Size(448, 63);
             this.ucTxtWorkerID.TabIndex = 3;
+            // 
+            // ucTxtWorkerAddress
+            // 
+            this.ucTxtWorkerAddress.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerAddress.Location = new System.Drawing.Point(670, 352);
+            this.ucTxtWorkerAddress.Name = "ucTxtWorkerAddress";
+            this.ucTxtWorkerAddress.Size = new System.Drawing.Size(448, 63);
+            this.ucTxtWorkerAddress.TabIndex = 3;
+            // 
+            // ucTxtWorkerAccount
+            // 
+            this.ucTxtWorkerAccount.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerAccount.Location = new System.Drawing.Point(670, 119);
+            this.ucTxtWorkerAccount.Name = "ucTxtWorkerAccount";
+            this.ucTxtWorkerAccount.Size = new System.Drawing.Size(448, 63);
+            this.ucTxtWorkerAccount.TabIndex = 3;
+            // 
+            // ucTxtWorkerDate
+            // 
+            this.ucTxtWorkerDate.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerDate.Location = new System.Drawing.Point(62, 352);
+            this.ucTxtWorkerDate.Name = "ucTxtWorkerDate";
+            this.ucTxtWorkerDate.Size = new System.Drawing.Size(451, 63);
+            this.ucTxtWorkerDate.TabIndex = 3;
+            // 
+            // ucTxtWorkerName
+            // 
+            this.ucTxtWorkerName.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerName.Location = new System.Drawing.Point(62, 119);
+            this.ucTxtWorkerName.Name = "ucTxtWorkerName";
+            this.ucTxtWorkerName.Size = new System.Drawing.Size(451, 63);
+            this.ucTxtWorkerName.TabIndex = 3;
+            // 
+            // ucTxtWorkerCCCD
+            // 
+            this.ucTxtWorkerCCCD.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerCCCD.Location = new System.Drawing.Point(670, 237);
+            this.ucTxtWorkerCCCD.Name = "ucTxtWorkerCCCD";
+            this.ucTxtWorkerCCCD.Size = new System.Drawing.Size(448, 63);
+            this.ucTxtWorkerCCCD.TabIndex = 3;
+            // 
+            // ucTxtWorkerPhone
+            // 
+            this.ucTxtWorkerPhone.BackColor = System.Drawing.Color.White;
+            this.ucTxtWorkerPhone.Location = new System.Drawing.Point(62, 237);
+            this.ucTxtWorkerPhone.Name = "ucTxtWorkerPhone";
+            this.ucTxtWorkerPhone.Size = new System.Drawing.Size(451, 63);
+            this.ucTxtWorkerPhone.TabIndex = 3;
             // 
             // FWokerInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1179, 670);
-            this.Controls.Add(this.ucTxtWorkerPass);
-            this.Controls.Add(this.ucTxtWorkerAccount);
-            this.Controls.Add(this.ucTxtWorkerCCCD);
-            this.Controls.Add(this.ucTxtWorkerAddress);
-            this.Controls.Add(this.ucTxtWorkerSex);
-            this.Controls.Add(this.ucTxtWorkerEmail);
-            this.Controls.Add(this.ucTxtWorkerDate);
-            this.Controls.Add(this.ucTxtWorkerPhone);
-            this.Controls.Add(this.ucTxtWorkerName);
-            this.Controls.Add(this.ucTxtWorkerID);
+            this.ClientSize = new System.Drawing.Size(1799, 998);
+            this.Controls.Add(this.panelContainInfo);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelRight);
-            this.Controls.Add(this.picWorkerCard);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FWokerInfo";
             this.Text = "FWokerInfo";
             this.Load += new System.EventHandler(this.FWokerInfo_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.picWorkerCard)).EndInit();
             this.panelRight.ResumeLayout(false);
+            this.panelContainInfo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAvata)).EndInit();
+            this.panelChildContain.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private FontAwesome.Sharp.IconPictureBox picWorkerCard;
         private System.Windows.Forms.Panel panelRight;
         private System.Windows.Forms.Panel panel1;
         private FontAwesome.Sharp.IconButton btnHome;
@@ -319,5 +354,9 @@
         private UCTxtWorker ucTxtWorkerCCCD;
         private UCTxtWorker ucTxtWorkerAccount;
         private UCTxtWorker ucTxtWorkerPass;
+        private System.Windows.Forms.Panel panelContainInfo;
+        private System.Windows.Forms.Panel panelChildContain;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox picAvata;
     }
 }

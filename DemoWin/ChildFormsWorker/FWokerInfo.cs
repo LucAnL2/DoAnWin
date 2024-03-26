@@ -30,9 +30,10 @@ namespace DemoWin.ChildFormsWorker
         private void FWokerInfo_Load(object sender, EventArgs e)
         {
             int i =9;
-            picWorkerCard.IconColor = ThemeColors.PrimaryColor;
             panelRight.BackColor = ThemeColors.PrimaryColor;
-            foreach (Control previousBtn in this.Controls)
+            panelContainInfo.BackColor = ThemeColors.PrimaryColor;
+            picAvata.BackColor = ThemeColors.PrimaryColor;
+            foreach (Control previousBtn in panelChildContain.Controls)
             {
                 if (previousBtn.GetType() == typeof(UCTxtWorker))
                 {
@@ -109,7 +110,6 @@ namespace DemoWin.ChildFormsWorker
         }
         public bool checkNullTextBox()
         {
-<<<<<<< HEAD
             Worker newWorker = new Worker(ThemeColors.IncomeID, ucTxtWorkerName.txtData.Text, ucTxtWorkerSex.txtData.Text,
                                     ucTxtWorkerPhone.txtData.Text, ucTxtWorkerAddress.txtData.Text, ucTxtWorkerCCCD.txtData.Text,
                                     ucTxtWorkerDate.txtData.Text, ucTxtWorkerEmail.txtData.Text, ucTxtWorkerAccount.txtData.Text,
@@ -117,20 +117,18 @@ namespace DemoWin.ChildFormsWorker
             if (Worker.checkNullInfo(newWorker))
                 return false;
             return true;
-=======
-            LoadDataIntoTextBoxes();
-            Worker wk = new Worker(ThemeColors.IncomeID, ucTxtWorkerName.txtData.Text, ucTxtWorkerSex.txtData.Text,
-                                   ucTxtWorkerPhone.txtData.Text, ucTxtWorkerAddress.txtData.Text, ucTxtWorkerCCCD.txtData.Text,
-                                   ucTxtWorkerDate.txtData.Text, ucTxtWorkerEmail.txtData.Text, ucTxtWorkerAccount.txtData.Text,
-                                      ucTxtWorkerPass.txtData.Text);
-            if (Worker.checkNullInfo(wk))
-                return true;
-            return false;
+            //////LoadDataIntoTextBoxes();
+            //////Worker wk = new Worker(ThemeColors.IncomeID, ucTxtWorkerName.txtData.Text, ucTxtWorkerSex.txtData.Text,
+            //////                       ucTxtWorkerPhone.txtData.Text, ucTxtWorkerAddress.txtData.Text, ucTxtWorkerCCCD.txtData.Text,
+            //////                       ucTxtWorkerDate.txtData.Text, ucTxtWorkerEmail.txtData.Text, ucTxtWorkerAccount.txtData.Text,
+            //////                          ucTxtWorkerPass.txtData.Text);
+            //////if (Worker.checkNullInfo(wk))
+            //////    return true;
+            //////return false;
         }
         public void chayChoi()
         {
             MessageBox.Show(ucTxtWorkerName.txtData.Text);
->>>>>>> 175a7eee23022fd69d0dda8327be4f277325fe56
         }
     }
 }

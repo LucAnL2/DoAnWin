@@ -73,6 +73,16 @@ namespace DemoWin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _7_23_3_6_11_40_11m {
+            get {
+                object obj = ResourceManager.GetObject("7-23-3-6-11-40-11m", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8_chart_popr {
             get {
                 object obj = ResourceManager.GetObject("8-chart-popr", resourceCulture);
@@ -623,6 +633,16 @@ namespace DemoWin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap man {
+            get {
+                object obj = ResourceManager.GetObject("man", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap menu_burger__4_ {
             get {
                 object obj = ResourceManager.GetObject("menu-burger (4)", resourceCulture);
@@ -766,6 +786,16 @@ namespace DemoWin.Properties {
         internal static System.Drawing.Bitmap road_1072821_1280 {
             get {
                 object obj = ResourceManager.GetObject("road-1072821_1280", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap road_1072821_12801 {
+            get {
+                object obj = ResourceManager.GetObject("road-1072821_12801", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

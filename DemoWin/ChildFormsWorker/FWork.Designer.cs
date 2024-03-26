@@ -51,10 +51,10 @@
             this.panelRight.Controls.Add(this.iconButton2);
             this.panelRight.Controls.Add(this.btnPostJob);
             this.panelRight.Controls.Add(this.PanelComboFilter);
-            this.panelRight.Location = new System.Drawing.Point(965, 31);
-            this.panelRight.MaximumSize = new System.Drawing.Size(214, 2000);
+            this.panelRight.Location = new System.Drawing.Point(1538, 30);
+            this.panelRight.MaximumSize = new System.Drawing.Size(500, 2000);
             this.panelRight.Name = "panelRight";
-            this.panelRight.Size = new System.Drawing.Size(214, 606);
+            this.panelRight.Size = new System.Drawing.Size(261, 934);
             this.panelRight.TabIndex = 16;
             // 
             // iconButton2
@@ -72,7 +72,7 @@
             this.iconButton2.Location = new System.Drawing.Point(0, 110);
             this.iconButton2.Name = "iconButton2";
             this.iconButton2.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.iconButton2.Size = new System.Drawing.Size(214, 52);
+            this.iconButton2.Size = new System.Drawing.Size(261, 52);
             this.iconButton2.TabIndex = 4;
             this.iconButton2.Text = "Xem lương";
             this.iconButton2.UseVisualStyleBackColor = true;
@@ -92,7 +92,7 @@
             this.btnPostJob.Location = new System.Drawing.Point(0, 58);
             this.btnPostJob.Name = "btnPostJob";
             this.btnPostJob.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnPostJob.Size = new System.Drawing.Size(214, 52);
+            this.btnPostJob.Size = new System.Drawing.Size(261, 52);
             this.btnPostJob.TabIndex = 3;
             this.btnPostJob.Text = "Đăng việc";
             this.btnPostJob.UseVisualStyleBackColor = true;
@@ -110,10 +110,10 @@
             this.PanelComboFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PanelComboFilter.ForeColor = System.Drawing.Color.White;
             this.PanelComboFilter.Location = new System.Drawing.Point(0, 0);
-            this.PanelComboFilter.MaximumSize = new System.Drawing.Size(214, 287);
-            this.PanelComboFilter.MinimumSize = new System.Drawing.Size(214, 58);
+            this.PanelComboFilter.MaximumSize = new System.Drawing.Size(261, 287);
+            this.PanelComboFilter.MinimumSize = new System.Drawing.Size(261, 58);
             this.PanelComboFilter.Name = "PanelComboFilter";
-            this.PanelComboFilter.Size = new System.Drawing.Size(214, 58);
+            this.PanelComboFilter.Size = new System.Drawing.Size(261, 58);
             this.PanelComboFilter.TabIndex = 2;
             // 
             // btnFilter
@@ -130,7 +130,7 @@
             this.btnFilter.Location = new System.Drawing.Point(3, 3);
             this.btnFilter.Name = "btnFilter";
             this.btnFilter.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnFilter.Size = new System.Drawing.Size(214, 52);
+            this.btnFilter.Size = new System.Drawing.Size(261, 52);
             this.btnFilter.TabIndex = 5;
             this.btnFilter.Text = "Đăng việc";
             this.btnFilter.UseVisualStyleBackColor = true;
@@ -148,7 +148,7 @@
             this.btnHaNoi.Location = new System.Drawing.Point(3, 61);
             this.btnHaNoi.Name = "btnHaNoi";
             this.btnHaNoi.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnHaNoi.Size = new System.Drawing.Size(211, 52);
+            this.btnHaNoi.Size = new System.Drawing.Size(261, 52);
             this.btnHaNoi.TabIndex = 2;
             this.btnHaNoi.Text = "   Chờ được duyệt";
             this.btnHaNoi.UseVisualStyleBackColor = true;
@@ -166,7 +166,7 @@
             this.btnTpHCM.Location = new System.Drawing.Point(3, 119);
             this.btnTpHCM.Name = "btnTpHCM";
             this.btnTpHCM.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnTpHCM.Size = new System.Drawing.Size(211, 52);
+            this.btnTpHCM.Size = new System.Drawing.Size(261, 52);
             this.btnTpHCM.TabIndex = 3;
             this.btnTpHCM.Text = "Chờ xác nhận";
             this.btnTpHCM.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -185,7 +185,7 @@
             this.btnHue.Location = new System.Drawing.Point(3, 177);
             this.btnHue.Name = "btnHue";
             this.btnHue.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnHue.Size = new System.Drawing.Size(211, 52);
+            this.btnHue.Size = new System.Drawing.Size(261, 52);
             this.btnHue.TabIndex = 3;
             this.btnHue.Text = "Đang làm";
             this.btnHue.UseVisualStyleBackColor = true;
@@ -203,7 +203,7 @@
             this.btnNoiKhac.Location = new System.Drawing.Point(3, 235);
             this.btnNoiKhac.Name = "btnNoiKhac";
             this.btnNoiKhac.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnNoiKhac.Size = new System.Drawing.Size(211, 52);
+            this.btnNoiKhac.Size = new System.Drawing.Size(261, 52);
             this.btnNoiKhac.TabIndex = 4;
             this.btnNoiKhac.Text = "Đã làm";
             this.btnNoiKhac.UseVisualStyleBackColor = true;
@@ -213,9 +213,9 @@
             this.panelBoundary.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelBoundary.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.panelBoundary.Location = new System.Drawing.Point(926, 0);
+            this.panelBoundary.Location = new System.Drawing.Point(1499, 0);
             this.panelBoundary.Name = "panelBoundary";
-            this.panelBoundary.Size = new System.Drawing.Size(13, 670);
+            this.panelBoundary.Size = new System.Drawing.Size(13, 998);
             this.panelBoundary.TabIndex = 17;
             // 
             // flowPanelContain
@@ -226,7 +226,7 @@
             this.flowPanelContain.AutoScroll = true;
             this.flowPanelContain.Location = new System.Drawing.Point(0, 0);
             this.flowPanelContain.Name = "flowPanelContain";
-            this.flowPanelContain.Size = new System.Drawing.Size(920, 670);
+            this.flowPanelContain.Size = new System.Drawing.Size(1493, 998);
             this.flowPanelContain.TabIndex = 18;
             // 
             // FWork
@@ -234,7 +234,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1179, 670);
+            this.ClientSize = new System.Drawing.Size(1799, 998);
             this.Controls.Add(this.flowPanelContain);
             this.Controls.Add(this.panelBoundary);
             this.Controls.Add(this.panelRight);
