@@ -111,9 +111,9 @@ namespace DemoWin.ChildFormsWorker
                                     ucTxtWorkerPhone.txtData.Text, ucTxtWorkerAddress.txtData.Text, ucTxtWorkerCCCD.txtData.Text,
                                     ucTxtWorkerDate.txtData.Text, ucTxtWorkerEmail.txtData.Text, ucTxtWorkerAccount.txtData.Text,
                                        ucTxtWorkerPass.txtData.Text);
-            if (Worker.checkNullInfo(newWorker)) ;
-                return true;
-            
+            if (Worker.checkNullInfo(newWorker))
+                return false;
+            return true;
         }
     }
 }
