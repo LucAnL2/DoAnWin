@@ -104,11 +104,11 @@ namespace DemoWin
                 if (property.GetValue(newWorker) == null || string.IsNullOrEmpty(property.GetValue(newWorker).ToString()))
                 {
                     MessageBox.Show("Vui lòng cập nhật đầy đủ thông tin để truy cập chức năng này !!!");
-                    return false;
+                    return true;
                 }
                
             }
-            return true;
+            return false;
         }
     }
 }
