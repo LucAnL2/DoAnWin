@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using DemoWin.ChildFormsWorker;
 using FontAwesome.Sharp;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace DemoWin
 {
@@ -209,6 +210,13 @@ namespace DemoWin
 
         private void btnPostJob_Click(object sender, EventArgs e)
         {
+            FWokerInfo fWokerInfo = new FWokerInfo();
+            if(fWokerInfo.checkNullTextBox())
+            {
+                OpenChildForm(fWokerInfo, sender);
+                return;
+            }
+
             FWork fWork = new FWork();
             OpenChildForm(fWork, sender);
         }

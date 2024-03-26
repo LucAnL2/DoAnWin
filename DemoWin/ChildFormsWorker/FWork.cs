@@ -69,6 +69,8 @@ namespace DemoWin.ChildFormsWorker
         }
         private void btnPostJob_Click(object sender, EventArgs e)
         {
+          
+            ///
             FPostWork postWork = new FPostWork();
             postWork.ShowDialog();
         }
