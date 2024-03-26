@@ -97,8 +97,10 @@ namespace DemoWin.ChildFormsWorker
                                     ucTxtWorkerPhone.txtData.Text, ucTxtWorkerAddress.txtData.Text, ucTxtWorkerCCCD.txtData.Text,
                                     ucTxtWorkerDate.txtData.Text, ucTxtWorkerEmail.txtData.Text, ucTxtWorkerAccount.txtData.Text,
                                        ucTxtWorkerPass.txtData.Text);
+            //MessageBox.Show(ucTxtWorkerEmail.txtData.Text);
             WokerDAO HSD = new WokerDAO();
             HSD.updateInfo(wk);
+            LoadDataIntoTextBoxes();
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
@@ -107,13 +109,18 @@ namespace DemoWin.ChildFormsWorker
         }
         public bool checkNullTextBox()
         {
-            Worker newWorker = new Worker(ThemeColors.IncomeID, ucTxtWorkerName.txtData.Text, ucTxtWorkerSex.txtData.Text,
-                                    ucTxtWorkerPhone.txtData.Text, ucTxtWorkerAddress.txtData.Text, ucTxtWorkerCCCD.txtData.Text,
-                                    ucTxtWorkerDate.txtData.Text, ucTxtWorkerEmail.txtData.Text, ucTxtWorkerAccount.txtData.Text,
-                                       ucTxtWorkerPass.txtData.Text);
-            if (Worker.checkNullInfo(newWorker)) ;
+            LoadDataIntoTextBoxes();
+            Worker wk = new Worker(ThemeColors.IncomeID, ucTxtWorkerName.txtData.Text, ucTxtWorkerSex.txtData.Text,
+                                   ucTxtWorkerPhone.txtData.Text, ucTxtWorkerAddress.txtData.Text, ucTxtWorkerCCCD.txtData.Text,
+                                   ucTxtWorkerDate.txtData.Text, ucTxtWorkerEmail.txtData.Text, ucTxtWorkerAccount.txtData.Text,
+                                      ucTxtWorkerPass.txtData.Text);
+            if (Worker.checkNullInfo(wk))
                 return true;
-            
+            return false;
+        }
+        public void chayChoi()
+        {
+            MessageBox.Show(ucTxtWorkerName.txtData.Text);
         }
     }
 }
