@@ -220,14 +220,14 @@ namespace DemoWin
             // Kiểm tra xem tất cả thông tin đã điền đầy đủ chưa.
             if (fWokerInfo.checkNullTextBox())
             {
-            // Nếu thông tin không được điền đầy đủ, mở form FWorkerInfo.
+                // Nếu thông tin không được điền đầy đủ, mở form FWorkerInfo.
                 OpenChildForm(fWokerInfo, sender);
             }
             else
             {
-            // Nếu tất cả thông tin đã được điền, mở form FWork.
-               FWork fWork = new FWork();
-               OpenChildForm(fWork, sender);
+                // Nếu tất cả thông tin đã được điền, mở form FWork.
+                FWork fWork = new FWork();
+                OpenChildForm(fWork, sender);
             }
         }
 

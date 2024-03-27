@@ -16,10 +16,13 @@ namespace DemoWin
         private string experience;
         private string describe;
         private string hireTimes;
+        private string avgRate;
+        private string status;
+
 
 
         public Worker(string id, string name, string sex, string phone, string address,
-            string cccd, string date, string email, string account, string pass) 
+            string cccd, string date, string email, string account, string pass)
             : base(id, name, sex, phone, address, cccd, date, email, account, pass)
         {
         }
@@ -33,9 +36,13 @@ namespace DemoWin
             Experience = experience;
             Describe = describe;
         }
-        public Worker(string id, string job) 
-        { 
+        public Worker(string id, string job)
+        {
             Id = id;
+            Job = job;
+        }
+        public Worker(string id, string name, string phone, string job) : base(id,name,phone) 
+        { 
             Job = job;
         }
 
@@ -46,6 +53,8 @@ namespace DemoWin
         public string Experience { get => experience; set => experience = value; }
         public string Describe { get => describe; set => describe = value; }
         public string HireTimes { get => hireTimes; set => hireTimes = value; }
+        public string AvgRate { get => avgRate; set => avgRate = value; }
+        public string Status { get => status; set => status = value; }
 
         //public static class GlobalVariables
         //{
@@ -106,7 +115,7 @@ namespace DemoWin
                     MessageBox.Show("Vui lòng cập nhật đầy đủ thông tin để truy cập chức năng này !!!");
                     return true;
                 }
-               
+
             }
             return false;
         }

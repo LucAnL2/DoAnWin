@@ -29,7 +29,7 @@ namespace DemoWin.ChildFormsWorker
         }
         private void FWokerInfo_Load(object sender, EventArgs e)
         {
-            int i =9;
+            int i = 9;
             panelRight.BackColor = ThemeColors.PrimaryColor;
             panelContainInfo.BackColor = ThemeColors.PrimaryColor;
             picAvata.BackColor = ThemeColors.PrimaryColor;
@@ -111,17 +111,14 @@ namespace DemoWin.ChildFormsWorker
         public bool checkNullTextBox()
         {
             LoadDataIntoTextBoxes();
-            Worker newWorker = new Worker(ThemeColors.IncomeID, ucTxtWorkerName.txtData.Text, ucTxtWorkerSex.txtData.Text,
-                                    ucTxtWorkerPhone.txtData.Text, ucTxtWorkerAddress.txtData.Text, ucTxtWorkerCCCD.txtData.Text,
-                                    ucTxtWorkerDate.txtData.Text, ucTxtWorkerEmail.txtData.Text, ucTxtWorkerAccount.txtData.Text,
-                                       ucTxtWorkerPass.txtData.Text);
-            if (Worker.checkNullInfo(newWorker))
+            Worker wk = new Worker(ThemeColors.IncomeID, ucTxtWorkerName.txtData.Text, ucTxtWorkerSex.txtData.Text,
+                                   ucTxtWorkerPhone.txtData.Text, ucTxtWorkerAddress.txtData.Text, ucTxtWorkerCCCD.txtData.Text,
+                                   ucTxtWorkerDate.txtData.Text, ucTxtWorkerEmail.txtData.Text, ucTxtWorkerAccount.txtData.Text,
+                                      ucTxtWorkerPass.txtData.Text);
+            if (Worker.checkNullInfo(wk))
                 return true;
             return false;
         }
-        public void chayChoi()
-        {
-            MessageBox.Show(ucTxtWorkerName.txtData.Text);
-        }
+      
     }
 }

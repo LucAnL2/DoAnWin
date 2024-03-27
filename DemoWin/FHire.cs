@@ -3,6 +3,7 @@ using FontAwesome.Sharp;
 using Microsoft.VisualBasic.ApplicationServices;
 using Microsoft.VisualBasic.Devices;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -77,16 +78,16 @@ namespace DemoWin
             string query = "";
             if (listTho.Contains(lblTitle.Text))
             {
-                query = string.Format("select Worker.ID, Worker.Ten, Worker.SDT, DangViec.NgheNghiep\r\n" +
+                query = string.Format("select Worker.ID, Worker.Ten, Worker.SDT, DangViec.NgheNghiep, Worker.DanhGiaTrungBinh\r\n" +
                     "from Worker\r\ninner join DangViec on Worker.ID = DangViec.ID " +
                     "where DangViec.NgheNghiep = N'{0}'", lblTitle.Text);
             }
             else
             {
-                query = string.Format("select Worker.ID, Worker.Ten, Worker.SDT, DangViec.NgheNghiep\r\n" +
+                query = string.Format("select Worker.ID, Worker.Ten, Worker.SDT, DangViec.NgheNghiep, Worker.DanhGiaTrungBinh\r\n" +
                     "from Worker\r\ninner join DangViec on Worker.ID = DangViec.ID " +
                     "where DangViec.NgheNghiep != N'Thợ máy' and DangViec.NgheNghiep != N'Thợ sơn' and DangViec.NgheNghiep != N'Thợ sửa xe' and DangViec.NgheNghiep != N'Thợ điện' and DangViec.NgheNghiep != N'Thợ điêu khắc'");
-            }    
+            }
             using (SqlConnection connection = Connection.GetSqlConnection())
             {
                 connection.Open();
@@ -103,6 +104,7 @@ namespace DemoWin
                                 uc.lblName.Text = reader["Ten"].ToString();
                                 uc.lblPhone.Text = reader["SDT"].ToString();
                                 uc.lblID.Text = reader["ID"].ToString();
+                                uc.lblRate.Text = reader["DanhGiaTrungBinh"].ToString();
                                 uc.btnDetail.Click += btnOpenDetail_Click;
                                 loadWorkerInfo(uc);
                                 //connection.Open();
@@ -224,11 +226,168 @@ namespace DemoWin
                 check = false;
             }
         }
+        public string CreateQueryFilter()
+        {
+            StringBuilder query = new StringBuilder($"SELECT DISTINCT DangViec.ID, Ten, SDT, NgheNghiep FROM DangViec INNER JOIN Worker ON Worker.ID = DangViec.ID WHERE NgheNghiep = N'{lblTitle.Text}'");
 
+            // Kiểm tra địa chỉ
+            List<string> addressConditions = new List<string>();
+            if (isbtnHaNoi)
+            {
+                addressConditions.Add($"Worker.DiaChi = N'{btnHaNoi.Text}'");
+            }
+            if (isbtnTpHCM)
+            {
+                addressConditions.Add($"Worker.DiaChi = N'{btnTpHCM.Text}'");
+            }
+            if (isbtnHue)
+            {
+                addressConditions.Add($"Worker.DiaChi = N'{btnHue.Text}'");
+            }
+            if (isbtnNoiKhac)
+            {
+                // Thêm điều kiện cho nơi khác
+                addressConditions.Add($"Worker.DiaChi NOT IN (N'{btnHaNoi.Text}', N'{btnTpHCM.Text}', N'{btnHue.Text}')");
+            }
+
+            if (addressConditions.Any())
+            {
+                query.Append(" AND ");
+                query.Append(string.Join(" OR ", addressConditions));
+            }
+
+            List<string> ageConditions = new List<string>();
+            if (isbtn1618)
+            {
+                ageConditions.Add("YEAR(CONVERT(DATE, Worker.NgaySinh)) BETWEEN 2006 AND 2008");
+            }
+            if (isbtn1825)
+            {
+                ageConditions.Add("YEAR(CONVERT(DATE, Worker.NgaySinh)) BETWEEN 1999 AND 2006");
+            }
+            if (isbtn25)
+            {
+                ageConditions.Add("YEAR(CONVERT(DATE, Worker.NgaySinh)) > 1999");
+            }
+
+            if (ageConditions.Any())
+            {
+                query.Append(" AND ");
+                query.Append(string.Join(" OR ", ageConditions));
+            }
+
+            List<string> salary = new List<string>();
+            if (isbtn8Tr)
+            {
+                salary.Add("CONVERT(FLOAT, DangViec.GiaThue * 8 * 30) < 8000");
+            }
+            if (isbtn810Tr)
+            {
+                salary.Add("CONVERT(FLOAT, DangViec.GiaThue) *8*30 between 8000 and 10000");
+            }
+            if (isbtn1020Tr)
+            {
+                salary.Add("CONVERT(FLOAT, DangViec.GiaThue) *8*30 between 10000 and 20000");
+            }
+            if (isbtn20Tr)
+            {
+                salary.Add("CONVERT(FLOAT, DangViec.GiaThue) * 8 * 30 >20000");
+            }
+
+            if (salary.Any())
+            {
+                query.Append(" AND (");
+                query.Append(string.Join(" OR ", salary));
+                query.Append(")");
+            }
+            List<string> Rate = new List<string>();
+            if (isbtn1Sao)
+            {
+                Rate.Add("CONVERT(FLOAT, Worker.DanhGiaTrungBinh) >= 1");
+            }
+            if (isbtn2Sao)
+            {
+                Rate.Add("CONVERT(FLOAT, Worker.DanhGiaTrungBinh) >= 2");
+            }
+            if (isbtn3Sao)
+            {
+                Rate.Add("CONVERT(FLOAT, Worker.DanhGiaTrungBinh) >= 3");
+            }
+            if (isbtn4Sao)
+            {
+                Rate.Add("CONVERT(FLOAT, Worker.DanhGiaTrungBinh) >= 4");
+            }
+            if (isbtn5Sao)
+            {
+                Rate.Add("CONVERT(FLOAT, Worker.DanhGiaTrungBinh) = 5");
+            }
+            if (Rate.Any())
+            {
+                query.Append(" AND ");
+                query.Append(string.Join(" OR ", Rate));
+            }
+            List<string> WorkOfDay = new List<string>();
+            if (isbtnMonday)
+            {
+                WorkOfDay.Add("DangViec.NgayLamViec LIKE '%2%'");
+            }
+            if (isbtnTuesday)
+            {
+                WorkOfDay.Add("DangViec.NgayLamViec LIKE '%3%'");
+            }
+            if (isbtnWednesday)
+            {
+                WorkOfDay.Add("DangViec.NgayLamViec LIKE '%4%'");
+            }
+            if (isbtnThursday)
+            {
+                WorkOfDay.Add("DangViec.NgayLamViec LIKE '%5%'");
+            }
+            if (isbtnFriday)
+            {
+                WorkOfDay.Add("DangViec.NgayLamViec LIKE '%6%'");
+            }
+            if (isbtnSaturday)
+            {
+                WorkOfDay.Add("DangViec.NgayLamViec LIKE '%7%'");
+            }
+            if (WorkOfDay.Any())
+            {
+                query.Append(" AND ");
+                query.Append(string.Join(" AND ", WorkOfDay));
+            }
+            
+            List<string> WorkOfTime = new List<string>();
+
+            if (isbtn7h10h30)
+            {
+                WorkOfTime.Add("CONVERT(FLOAT, DangViec.GioLam) <= 5");
+            }
+            if (isbtn12h305h)
+            {
+                WorkOfTime.Add("CONVERT(FLOAT, DangViec.Giolam) <= 8");
+            }
+            if (isbtnOvertime)
+            {
+                WorkOfTime.Add("CONVERT(FLOAT, DangViec.GioLam) > 8");
+            }
+            if (WorkOfTime.Any())
+            {
+                query.Append(" AND (");
+                query.Append(string.Join(" OR ", WorkOfTime));
+                query.Append(")");
+
+            }
+
+            return query.ToString();
+
+        }
         private void btnHaNoi_Click(object sender, EventArgs e)
         {
             CheckButtonActivate(ref isbtnHaNoi, btnHaNoi);
+
         }
+
 
         private void btnTpHCM_Click(object sender, EventArgs e)
         {
@@ -431,6 +590,44 @@ namespace DemoWin
             panelContainDetail.Controls.Add(flowLayoutPanel);
             panelContainDetail.Tag = flowLayoutPanel;
             flowLayoutPanel.BringToFront();
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            // Xóa hết các UCWorkerInfo cũ ra khỏi flowLayoutPanel
+            flowLayoutPanel.Controls.Clear();
+            string query = CreateQueryFilter();
+            MessageBox.Show(query);
+         
+            using (SqlConnection connection = Connection.GetSqlConnection())
+            {
+                connection.Open();
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+                                UCWorkerInfo uc = new UCWorkerInfo();
+                                uc.lblName.Text = reader["Ten"].ToString();
+                                uc.lblPhone.Text = reader["SDT"].ToString();
+                                uc.lblID.Text = reader["ID"].ToString();
+                                uc.btnDetail.Click += btnOpenDetail_Click;
+                                loadWorkerInfo(uc);
+                                //connection.Open();
+                                //SqlDataAdapter adapter = new SqlDataAdapter(query,connection);
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Không có dữ liệu được trả về!");
+                        }
+                    }
+                }
+            }
         }
     }
 }

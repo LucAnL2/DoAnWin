@@ -50,7 +50,7 @@
             this.btnDetail.ForeColor = System.Drawing.Color.White;
             this.btnDetail.HoverState.Parent = this.btnDetail;
             this.btnDetail.Image = global::DemoWin.Properties.Resources.file_circle_info;
-            this.btnDetail.Location = new System.Drawing.Point(262, 384);
+            this.btnDetail.Location = new System.Drawing.Point(262, 381);
             this.btnDetail.Name = "btnDetail";
             this.btnDetail.ShadowDecoration.Parent = this.btnDetail;
             this.btnDetail.Size = new System.Drawing.Size(115, 39);
@@ -63,7 +63,7 @@
             this.lblPhone.AutoSize = true;
             this.lblPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPhone.ForeColor = System.Drawing.Color.White;
-            this.lblPhone.Location = new System.Drawing.Point(30, 315);
+            this.lblPhone.Location = new System.Drawing.Point(30, 312);
             this.lblPhone.Name = "lblPhone";
             this.lblPhone.Size = new System.Drawing.Size(103, 20);
             this.lblPhone.TabIndex = 0;
@@ -74,9 +74,9 @@
             this.lblRate.AutoSize = true;
             this.lblRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRate.ForeColor = System.Drawing.Color.White;
-            this.lblRate.Location = new System.Drawing.Point(30, 343);
+            this.lblRate.Location = new System.Drawing.Point(30, 340);
             this.lblRate.Name = "lblRate";
-            this.lblRate.Size = new System.Drawing.Size(56, 20);
+            this.lblRate.Size = new System.Drawing.Size(57, 20);
             this.lblRate.TabIndex = 0;
             this.lblRate.Text = "5 Sao";
             this.lblRate.Click += new System.EventHandler(this.label5_Click);
@@ -86,15 +86,15 @@
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblName.ForeColor = System.Drawing.Color.White;
-            this.lblName.Location = new System.Drawing.Point(30, 287);
+            this.lblName.Location = new System.Drawing.Point(30, 284);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(117, 20);
+            this.lblName.Size = new System.Drawing.Size(119, 20);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Huỳnh Văn C";
             // 
             // picBackGround
             // 
-            this.picBackGround.Location = new System.Drawing.Point(9, 9);
+            this.picBackGround.Location = new System.Drawing.Point(9, 6);
             this.picBackGround.Name = "picBackGround";
             this.picBackGround.Size = new System.Drawing.Size(385, 250);
             this.picBackGround.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -107,9 +107,9 @@
             this.lblID.AutoSize = true;
             this.lblID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblID.ForeColor = System.Drawing.Color.White;
-            this.lblID.Location = new System.Drawing.Point(258, 287);
+            this.lblID.Location = new System.Drawing.Point(258, 284);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(117, 20);
+            this.lblID.Size = new System.Drawing.Size(119, 20);
             this.lblID.TabIndex = 0;
             this.lblID.Text = "Huỳnh Văn C";
             // 
@@ -137,9 +137,9 @@
 
         public Guna.UI2.WinForms.Guna2Button btnDetail;
         public System.Windows.Forms.Label lblPhone;
-        private System.Windows.Forms.Label lblRate;
         public System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.PictureBox picBackGround;
         public System.Windows.Forms.Label lblID;
+        public System.Windows.Forms.Label lblRate;
+        public System.Windows.Forms.PictureBox picBackGround;
     }
 }
