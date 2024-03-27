@@ -276,7 +276,7 @@ namespace DemoWin
         }
         public string CreateQueryFilter()
         {
-            StringBuilder query = new StringBuilder($"SELECT DISTINCT DangViec.ID, Ten, SDT, NgheNghiep FROM DangViec INNER JOIN Worker ON Worker.ID = DangViec.ID WHERE NgheNghiep = N'{lblTitle.Text}'");
+            StringBuilder query = new StringBuilder($"SELECT DISTINCT DangViec.ID, Ten, SDT,DangViec.NgheNghiep FROM DangViec INNER JOIN Worker ON Worker.ID = DangViec.ID WHERE NgheNghiep = N'{lblTitle.Text}'");
 
             // Kiểm tra địa chỉ
             List<string> addressConditions = new List<string>();
