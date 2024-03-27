@@ -473,6 +473,16 @@ namespace DemoWin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap forest_3622519_1280 {
+            get {
+                object obj = ResourceManager.GetObject("forest-3622519_1280", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap free_user_icon_3296_thumb {
             get {
                 object obj = ResourceManager.GetObject("free-user-icon-3296-thumb", resourceCulture);
@@ -826,6 +836,16 @@ namespace DemoWin.Properties {
         internal static System.Drawing.Bitmap search__3_ {
             get {
                 object obj = ResourceManager.GetObject("search (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap search__4_ {
+            get {
+                object obj = ResourceManager.GetObject("search (4)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

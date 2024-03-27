@@ -18,7 +18,7 @@ namespace DemoWin.ChildFormsWorker
 {
     public partial class FWokerInfo : Form
     {
-        private string[] listTitle = { "ID", "Tên", "Số ĐT", "Ngày sinh", "Email", "Giới tính", "Địa chỉ", "CCCD", "Tài khoản", "Mật khẩu" };
+        private string[] listTitle = { "Số ĐT", "CCCD", "Tên", "Ngày sinh", "Tài khoản", "Địa chỉ", "ID", "Email", "Giới tính", "Mật khẩu" };
         //private string[] listData = { "2030442", "Phạm D", "12/12/2002", "Nam", "Hà Nội", "07220400", "03xxxxxx14", "D123@gmail.com", "Worker", "xxxxxx" };
         //private string connectionString = @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=theGioiTho;Integrated Security=True";
         //private string query = "SELECT ID, Ten, NgaySinh, GioiTinh, DiaChi, SDT, Email, CCCD, TenTaiKhoan, MatKhau FROM Worker";
@@ -110,21 +110,14 @@ namespace DemoWin.ChildFormsWorker
         }
         public bool checkNullTextBox()
         {
+            LoadDataIntoTextBoxes();
             Worker newWorker = new Worker(ThemeColors.IncomeID, ucTxtWorkerName.txtData.Text, ucTxtWorkerSex.txtData.Text,
                                     ucTxtWorkerPhone.txtData.Text, ucTxtWorkerAddress.txtData.Text, ucTxtWorkerCCCD.txtData.Text,
                                     ucTxtWorkerDate.txtData.Text, ucTxtWorkerEmail.txtData.Text, ucTxtWorkerAccount.txtData.Text,
                                        ucTxtWorkerPass.txtData.Text);
             if (Worker.checkNullInfo(newWorker))
-                return false;
-            return true;
-            //////LoadDataIntoTextBoxes();
-            //////Worker wk = new Worker(ThemeColors.IncomeID, ucTxtWorkerName.txtData.Text, ucTxtWorkerSex.txtData.Text,
-            //////                       ucTxtWorkerPhone.txtData.Text, ucTxtWorkerAddress.txtData.Text, ucTxtWorkerCCCD.txtData.Text,
-            //////                       ucTxtWorkerDate.txtData.Text, ucTxtWorkerEmail.txtData.Text, ucTxtWorkerAccount.txtData.Text,
-            //////                          ucTxtWorkerPass.txtData.Text);
-            //////if (Worker.checkNullInfo(wk))
-            //////    return true;
-            //////return false;
+                return true;
+            return false;
         }
         public void chayChoi()
         {

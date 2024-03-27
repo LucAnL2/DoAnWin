@@ -9,6 +9,7 @@ namespace DemoWin
 {
     public static class ThemeColors
     {
+        public static string OpenID { get; set; }
         public static string IncomeID { get; set; }
         public static Color PrimaryColor { get; set; }
         public static Color SecondaryColor { get; set; }

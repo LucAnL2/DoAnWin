@@ -103,6 +103,18 @@
     <Compile Include="ChildFormsManager\FRevenue.Designer.cs">
       <DependentUpon>FRevenue.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChildFormsUser\FUserJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildFormsUser\FUserJob.Designer.cs">
+      <DependentUpon>FUserJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildFormsWorker\FDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildFormsWorker\FDashBoard.Designer.cs">
+      <DependentUpon>FDashBoard.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChildFormsWorker\FWokerInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,11 +127,29 @@
     <Compile Include="ChildFormsWorker\FWork.Designer.cs">
       <DependentUpon>FWork.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChildFormsWorker\FWorkerHIstory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildFormsWorker\FWorkerHIstory.Designer.cs">
+      <DependentUpon>FWorkerHIstory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildFormsWorker\FSearchJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildFormsWorker\FSearchJob.Designer.cs">
+      <DependentUpon>FSearchJob.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FUserPostJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FUserPostJob.Designer.cs">
+      <DependentUpon>FUserPostJob.cs</DependentUpon>
     </Compile>
     <Compile Include="PerSonDAO.cs" />
     <Compile Include="Connection.cs" />
@@ -263,6 +293,7 @@
       <DependentUpon>UCWorkerInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <Compile Include="UserDAO.cs" />
     <Compile Include="WokerDAO.cs" />
     <Compile Include="Worker.cs" />
     <EmbeddedResource Include="ChildFormsManager\FAllUsers.resx">
@@ -271,11 +302,23 @@
     <EmbeddedResource Include="ChildFormsManager\FRevenue.resx">
       <DependentUpon>FRevenue.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChildFormsUser\FUserJob.resx">
+      <DependentUpon>FUserJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildFormsWorker\FDashBoard.resx">
+      <DependentUpon>FDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChildFormsWorker\FWokerInfo.resx">
       <DependentUpon>FWokerInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChildFormsWorker\FWork.resx">
       <DependentUpon>FWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildFormsWorker\FWorkerHIstory.resx">
+      <DependentUpon>FWorkerHIstory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildFormsWorker\FSearchJob.resx">
+      <DependentUpon>FSearchJob.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FConfirmHire.resx">
       <DependentUpon>FConfirmHire.cs</DependentUpon>
@@ -300,6 +343,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FPostWork.resx">
       <DependentUpon>FPostWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FUserPostJob.resx">
+      <DependentUpon>FUserPostJob.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FUsers.resx">
       <DependentUpon>FUsers.cs</DependentUpon>
@@ -610,6 +656,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\road-1072821_12801.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forest-3622519_1280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search %284%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -130,3 +130,8 @@ C:\DoAnWin\cloneNhanhToan\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.CoreCompileIn
 C:\DoAnWin\cloneNhanhToan\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.Up2Date
 C:\DoAnWin\cloneNhanhToan\DoAnWin\DemoWin\obj\Debug\DemoWin.exe
 C:\DoAnWin\cloneNhanhToan\DoAnWin\DemoWin\obj\Debug\DemoWin.pdb
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FUserPostJob.resources
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.ChildFormsUser.FUserJob.resources
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.ChildFormsWorker.FDashBoard.resources
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.ChildFormsWorker.FWorkerHIstory.resources
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.ChildFormsWorker.FSearchJob.resources

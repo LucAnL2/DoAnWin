@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblID = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
             this.lblBotton = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblPhone = new System.Windows.Forms.Label();
+            this.lblWorkingDay = new System.Windows.Forms.Label();
+            this.lblWorkingHour = new System.Windows.Forms.Label();
+            this.lblCostHire = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
             this.iconWorkHour = new FontAwesome.Sharp.IconPictureBox();
             this.iconWorkDay = new FontAwesome.Sharp.IconPictureBox();
             this.iconPhone = new FontAwesome.Sharp.IconPictureBox();
@@ -45,20 +45,20 @@
             this.btnHire = new System.Windows.Forms.Button();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btnChangeColor = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblAge = new System.Windows.Forms.Label();
+            this.lblSex = new System.Windows.Forms.Label();
             this.btnBack = new Guna.UI2.WinForms.Guna2Button();
             this.lblRight = new System.Windows.Forms.Label();
             this.lblLeft = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblAddress = new System.Windows.Forms.Label();
+            this.lblYearExpirience = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.iconHireTime = new FontAwesome.Sharp.IconPictureBox();
             this.iconMedal = new FontAwesome.Sharp.IconPictureBox();
             this.iconAddress = new FontAwesome.Sharp.IconPictureBox();
             this.iconStar = new FontAwesome.Sharp.IconPictureBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblDescribe = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.label23 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -87,27 +87,27 @@
             this.label1.TabIndex = 54;
             this.label1.Text = "CONTACT INFORMATION";
             // 
-            // label2
+            // lblID
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(225, 127);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 15);
-            this.label2.TabIndex = 54;
-            this.label2.Text = "ID: 0439540";
+            this.lblID.AutoSize = true;
+            this.lblID.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblID.ForeColor = System.Drawing.Color.White;
+            this.lblID.Location = new System.Drawing.Point(225, 127);
+            this.lblID.Name = "lblID";
+            this.lblID.Size = new System.Drawing.Size(74, 15);
+            this.lblID.TabIndex = 54;
+            this.lblID.Text = "ID: 0439540";
             // 
-            // label3
+            // lblName
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(223, 49);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(176, 29);
-            this.label3.TabIndex = 54;
-            this.label3.Text = "Nguyễn Văn A";
+            this.lblName.AutoSize = true;
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.ForeColor = System.Drawing.Color.White;
+            this.lblName.Location = new System.Drawing.Point(223, 49);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(176, 29);
+            this.lblName.TabIndex = 54;
+            this.lblName.Text = "Nguyễn Văn A";
             // 
             // lblBotton
             // 
@@ -118,60 +118,60 @@
             this.lblBotton.Size = new System.Drawing.Size(1505, 2);
             this.lblBotton.TabIndex = 57;
             // 
-            // label18
+            // lblPhone
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label18.Location = new System.Drawing.Point(833, 282);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(266, 25);
-            this.label18.TabIndex = 88;
-            this.label18.Text = "Số điện thoại: 09xxxxxx67";
+            this.lblPhone.AutoSize = true;
+            this.lblPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPhone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.lblPhone.Location = new System.Drawing.Point(950, 326);
+            this.lblPhone.Name = "lblPhone";
+            this.lblPhone.Size = new System.Drawing.Size(266, 25);
+            this.lblPhone.TabIndex = 88;
+            this.lblPhone.Text = "Số điện thoại: 09xxxxxx67";
             // 
-            // label11
+            // lblWorkingDay
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label11.Location = new System.Drawing.Point(62, 407);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(248, 25);
-            this.label11.TabIndex = 94;
-            this.label11.Text = "Ngày làm việc: Thứ 2 - 7";
+            this.lblWorkingDay.AutoSize = true;
+            this.lblWorkingDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWorkingDay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.lblWorkingDay.Location = new System.Drawing.Point(167, 472);
+            this.lblWorkingDay.Name = "lblWorkingDay";
+            this.lblWorkingDay.Size = new System.Drawing.Size(248, 25);
+            this.lblWorkingDay.TabIndex = 94;
+            this.lblWorkingDay.Text = "Ngày làm việc: Thứ 2 - 7";
             // 
-            // label15
+            // lblWorkingHour
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label15.Location = new System.Drawing.Point(62, 341);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(243, 25);
-            this.label15.TabIndex = 97;
-            this.label15.Text = "Giờ làm: 4-8 tiếng/ ngày";
+            this.lblWorkingHour.AutoSize = true;
+            this.lblWorkingHour.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWorkingHour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.lblWorkingHour.Location = new System.Drawing.Point(167, 397);
+            this.lblWorkingHour.Name = "lblWorkingHour";
+            this.lblWorkingHour.Size = new System.Drawing.Size(243, 25);
+            this.lblWorkingHour.TabIndex = 97;
+            this.lblWorkingHour.Text = "Giờ làm: 4-8 tiếng/ ngày";
             // 
-            // label20
+            // lblCostHire
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label20.Location = new System.Drawing.Point(62, 282);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(196, 25);
-            this.label20.TabIndex = 101;
-            this.label20.Text = "Mức lương: 60k/giờ";
+            this.lblCostHire.AutoSize = true;
+            this.lblCostHire.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCostHire.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.lblCostHire.Location = new System.Drawing.Point(165, 323);
+            this.lblCostHire.Name = "lblCostHire";
+            this.lblCostHire.Size = new System.Drawing.Size(196, 25);
+            this.lblCostHire.TabIndex = 101;
+            this.lblCostHire.Text = "Mức lương: 60k/giờ";
             // 
-            // label5
+            // lblEmail
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(225, 105);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(227, 16);
-            this.label5.TabIndex = 79;
-            this.label5.Text = "Email: ANguyen123@gmail.com";
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.ForeColor = System.Drawing.Color.White;
+            this.lblEmail.Location = new System.Drawing.Point(225, 105);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(227, 16);
+            this.lblEmail.TabIndex = 79;
+            this.lblEmail.Text = "Email: ANguyen123@gmail.com";
             // 
             // iconWorkHour
             // 
@@ -180,7 +180,7 @@
             this.iconWorkHour.IconChar = FontAwesome.Sharp.IconChar.ClockFour;
             this.iconWorkHour.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconWorkHour.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconWorkHour.Location = new System.Drawing.Point(24, 337);
+            this.iconWorkHour.Location = new System.Drawing.Point(129, 393);
             this.iconWorkHour.Name = "iconWorkHour";
             this.iconWorkHour.Size = new System.Drawing.Size(32, 32);
             this.iconWorkHour.TabIndex = 81;
@@ -193,7 +193,7 @@
             this.iconWorkDay.IconChar = FontAwesome.Sharp.IconChar.CalendarCheck;
             this.iconWorkDay.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconWorkDay.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconWorkDay.Location = new System.Drawing.Point(24, 404);
+            this.iconWorkDay.Location = new System.Drawing.Point(129, 469);
             this.iconWorkDay.Name = "iconWorkDay";
             this.iconWorkDay.Size = new System.Drawing.Size(32, 32);
             this.iconWorkDay.TabIndex = 81;
@@ -206,7 +206,7 @@
             this.iconPhone.IconChar = FontAwesome.Sharp.IconChar.Phone;
             this.iconPhone.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconPhone.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPhone.Location = new System.Drawing.Point(795, 278);
+            this.iconPhone.Location = new System.Drawing.Point(912, 322);
             this.iconPhone.Name = "iconPhone";
             this.iconPhone.Size = new System.Drawing.Size(32, 32);
             this.iconPhone.TabIndex = 81;
@@ -219,7 +219,7 @@
             this.iconHireCost.IconChar = FontAwesome.Sharp.IconChar.MoneyCheckDollar;
             this.iconHireCost.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconHireCost.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconHireCost.Location = new System.Drawing.Point(24, 278);
+            this.iconHireCost.Location = new System.Drawing.Point(127, 319);
             this.iconHireCost.Name = "iconHireCost";
             this.iconHireCost.Size = new System.Drawing.Size(32, 32);
             this.iconHireCost.TabIndex = 81;
@@ -231,11 +231,11 @@
             this.panelTaskBar.Controls.Add(this.btnHire);
             this.panelTaskBar.Controls.Add(this.guna2CirclePictureBox1);
             this.panelTaskBar.Controls.Add(this.btnChangeColor);
-            this.panelTaskBar.Controls.Add(this.label3);
-            this.panelTaskBar.Controls.Add(this.label6);
-            this.panelTaskBar.Controls.Add(this.label4);
-            this.panelTaskBar.Controls.Add(this.label2);
-            this.panelTaskBar.Controls.Add(this.label5);
+            this.panelTaskBar.Controls.Add(this.lblName);
+            this.panelTaskBar.Controls.Add(this.lblAge);
+            this.panelTaskBar.Controls.Add(this.lblSex);
+            this.panelTaskBar.Controls.Add(this.lblID);
+            this.panelTaskBar.Controls.Add(this.lblEmail);
             this.panelTaskBar.Controls.Add(this.btnBack);
             this.panelTaskBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTaskBar.Location = new System.Drawing.Point(0, 0);
@@ -251,7 +251,7 @@
             this.btnHire.ForeColor = System.Drawing.Color.White;
             this.btnHire.Image = global::DemoWin.Properties.Resources.envelope__2_;
             this.btnHire.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHire.Location = new System.Drawing.Point(1288, 140);
+            this.btnHire.Location = new System.Drawing.Point(1287, 127);
             this.btnHire.Name = "btnHire";
             this.btnHire.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btnHire.Size = new System.Drawing.Size(152, 43);
@@ -281,7 +281,7 @@
             this.btnChangeColor.ForeColor = System.Drawing.Color.White;
             this.btnChangeColor.Image = global::DemoWin.Properties.Resources.envelope__2_;
             this.btnChangeColor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnChangeColor.Location = new System.Drawing.Point(1121, 140);
+            this.btnChangeColor.Location = new System.Drawing.Point(1120, 127);
             this.btnChangeColor.Name = "btnChangeColor";
             this.btnChangeColor.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btnChangeColor.Size = new System.Drawing.Size(152, 43);
@@ -292,27 +292,27 @@
             this.btnChangeColor.UseVisualStyleBackColor = true;
             this.btnChangeColor.Click += new System.EventHandler(this.btnChangeColor_Click);
             // 
-            // label6
+            // lblAge
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(346, 85);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 15);
-            this.label6.TabIndex = 54;
-            this.label6.Text = "Tuổi: 29";
+            this.lblAge.AutoSize = true;
+            this.lblAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAge.ForeColor = System.Drawing.Color.White;
+            this.lblAge.Location = new System.Drawing.Point(346, 85);
+            this.lblAge.Name = "lblAge";
+            this.lblAge.Size = new System.Drawing.Size(51, 15);
+            this.lblAge.TabIndex = 54;
+            this.lblAge.Text = "Tuổi: 29";
             // 
-            // label4
+            // lblSex
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(225, 85);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 15);
-            this.label4.TabIndex = 54;
-            this.label4.Text = "Giới tính: Nam";
+            this.lblSex.AutoSize = true;
+            this.lblSex.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSex.ForeColor = System.Drawing.Color.White;
+            this.lblSex.Location = new System.Drawing.Point(225, 85);
+            this.lblSex.Name = "lblSex";
+            this.lblSex.Size = new System.Drawing.Size(85, 15);
+            this.lblSex.TabIndex = 54;
+            this.lblSex.Text = "Giới tính: Nam";
             // 
             // btnBack
             // 
@@ -355,34 +355,34 @@
             this.lblLeft.Size = new System.Drawing.Size(2, 596);
             this.lblLeft.TabIndex = 109;
             // 
-            // label7
+            // lblAddress
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label7.Location = new System.Drawing.Point(833, 219);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(156, 25);
-            this.label7.TabIndex = 94;
-            this.label7.Text = "Địa chỉ: Hà Nội";
+            this.lblAddress.AutoSize = true;
+            this.lblAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.lblAddress.Location = new System.Drawing.Point(950, 257);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.Size = new System.Drawing.Size(156, 25);
+            this.lblAddress.TabIndex = 94;
+            this.lblAddress.Text = "Địa chỉ: Hà Nội";
             // 
-            // label8
+            // lblYearExpirience
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label8.Location = new System.Drawing.Point(62, 219);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(250, 25);
-            this.label8.TabIndex = 94;
-            this.label8.Text = "Năm kinh nghiệm: 7 năm";
+            this.lblYearExpirience.AutoSize = true;
+            this.lblYearExpirience.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblYearExpirience.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.lblYearExpirience.Location = new System.Drawing.Point(165, 254);
+            this.lblYearExpirience.Name = "lblYearExpirience";
+            this.lblYearExpirience.Size = new System.Drawing.Size(250, 25);
+            this.lblYearExpirience.TabIndex = 94;
+            this.lblYearExpirience.Text = "Năm kinh nghiệm: 7 năm";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label9.Location = new System.Drawing.Point(833, 341);
+            this.label9.Location = new System.Drawing.Point(952, 400);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(194, 25);
             this.label9.TabIndex = 94;
@@ -393,7 +393,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label10.Location = new System.Drawing.Point(833, 407);
+            this.label10.Location = new System.Drawing.Point(952, 475);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(168, 25);
             this.label10.TabIndex = 94;
@@ -406,7 +406,7 @@
             this.iconHireTime.IconChar = FontAwesome.Sharp.IconChar.BusinessTime;
             this.iconHireTime.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconHireTime.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconHireTime.Location = new System.Drawing.Point(795, 337);
+            this.iconHireTime.Location = new System.Drawing.Point(914, 396);
             this.iconHireTime.Name = "iconHireTime";
             this.iconHireTime.Size = new System.Drawing.Size(32, 32);
             this.iconHireTime.TabIndex = 110;
@@ -419,7 +419,7 @@
             this.iconMedal.IconChar = FontAwesome.Sharp.IconChar.Medal;
             this.iconMedal.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconMedal.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconMedal.Location = new System.Drawing.Point(24, 215);
+            this.iconMedal.Location = new System.Drawing.Point(127, 250);
             this.iconMedal.Name = "iconMedal";
             this.iconMedal.Size = new System.Drawing.Size(32, 32);
             this.iconMedal.TabIndex = 110;
@@ -432,7 +432,7 @@
             this.iconAddress.IconChar = FontAwesome.Sharp.IconChar.LocationDot;
             this.iconAddress.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconAddress.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconAddress.Location = new System.Drawing.Point(795, 216);
+            this.iconAddress.Location = new System.Drawing.Point(912, 254);
             this.iconAddress.Name = "iconAddress";
             this.iconAddress.Size = new System.Drawing.Size(32, 32);
             this.iconAddress.TabIndex = 110;
@@ -445,23 +445,23 @@
             this.iconStar.IconChar = FontAwesome.Sharp.IconChar.StarHalfAlt;
             this.iconStar.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconStar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconStar.Location = new System.Drawing.Point(795, 404);
+            this.iconStar.Location = new System.Drawing.Point(914, 466);
             this.iconStar.Name = "iconStar";
             this.iconStar.Size = new System.Drawing.Size(32, 32);
             this.iconStar.TabIndex = 110;
             this.iconStar.TabStop = false;
             // 
-            // label12
+            // lblDescribe
             // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label12.BackColor = System.Drawing.Color.White;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label12.Location = new System.Drawing.Point(227, 15);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(773, 56);
-            this.label12.TabIndex = 112;
-            this.label12.Text = "Nhận mọi công việc nằm trong lĩnh vực cơ khí, có 21.1 năm kinh nghiệm trong công " +
+            this.lblDescribe.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblDescribe.BackColor = System.Drawing.Color.White;
+            this.lblDescribe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescribe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.lblDescribe.Location = new System.Drawing.Point(47, 22);
+            this.lblDescribe.Name = "lblDescribe";
+            this.lblDescribe.Size = new System.Drawing.Size(823, 60);
+            this.lblDescribe.TabIndex = 112;
+            this.lblDescribe.Text = "Nhận mọi công việc nằm trong lĩnh vực cơ khí, có 21.1 năm kinh nghiệm trong công " +
     "việc, đã từng sửa chữa thành công cho nhiều xe tăng của bộ quốc phòng";
             // 
             // guna2Panel1
@@ -470,7 +470,7 @@
             this.guna2Panel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.guna2Panel1.BorderRadius = 10;
             this.guna2Panel1.BorderThickness = 2;
-            this.guna2Panel1.Controls.Add(this.label12);
+            this.guna2Panel1.Controls.Add(this.lblDescribe);
             this.guna2Panel1.Location = new System.Drawing.Point(107, 626);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
@@ -485,7 +485,7 @@
             this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.label23.Location = new System.Drawing.Point(122, 612);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(77, 27);
+            this.label23.Size = new System.Drawing.Size(102, 27);
             this.label23.TabIndex = 113;
             this.label23.Text = "Mô tả: ";
             // 
@@ -494,7 +494,7 @@
             this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.label13.Location = new System.Drawing.Point(768, 197);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(10, 252);
+            this.label13.Size = new System.Drawing.Size(10, 338);
             this.label13.TabIndex = 114;
             // 
             // lblTop
@@ -516,23 +516,23 @@
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.guna2Panel1);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.lblWorkingDay);
             this.Controls.Add(this.iconWorkDay);
             this.Controls.Add(this.iconPhone);
-            this.Controls.Add(this.label18);
+            this.Controls.Add(this.lblPhone);
             this.Controls.Add(this.iconWorkHour);
             this.Controls.Add(this.iconHireCost);
-            this.Controls.Add(this.label15);
+            this.Controls.Add(this.lblWorkingHour);
             this.Controls.Add(this.iconStar);
-            this.Controls.Add(this.label20);
+            this.Controls.Add(this.lblCostHire);
             this.Controls.Add(this.iconAddress);
             this.Controls.Add(this.iconMedal);
             this.Controls.Add(this.iconHireTime);
             this.Controls.Add(this.lblLeft);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lblYearExpirience);
+            this.Controls.Add(this.lblAddress);
             this.Controls.Add(this.lblRight);
             this.Controls.Add(this.panelTaskBar);
             this.Controls.Add(this.lblBotton);
@@ -564,14 +564,14 @@
         #endregion
         private System.Windows.Forms.Button btnChangeColor;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblID;
+        private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label lblBotton;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblPhone;
+        private System.Windows.Forms.Label lblWorkingDay;
+        private System.Windows.Forms.Label lblWorkingHour;
+        private System.Windows.Forms.Label lblCostHire;
+        private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Panel panelTaskBar;
         private System.Windows.Forms.Label lblRight;
         private System.Windows.Forms.Label lblLeft;
@@ -580,17 +580,17 @@
         private FontAwesome.Sharp.IconPictureBox iconWorkHour;
         private FontAwesome.Sharp.IconPictureBox iconHireCost;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblAge;
+        private System.Windows.Forms.Label lblSex;
+        private System.Windows.Forms.Label lblAddress;
+        private System.Windows.Forms.Label lblYearExpirience;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private FontAwesome.Sharp.IconPictureBox iconHireTime;
         private FontAwesome.Sharp.IconPictureBox iconMedal;
         private FontAwesome.Sharp.IconPictureBox iconAddress;
         private FontAwesome.Sharp.IconPictureBox iconStar;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label lblDescribe;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label13;

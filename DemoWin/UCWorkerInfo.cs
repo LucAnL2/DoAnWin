@@ -47,6 +47,7 @@ namespace DemoWin
 
         private void btnDetail_Click(object sender, EventArgs e)
         {
+            ThemeColors.OpenID = lblID.Text;
         }
     }
 }

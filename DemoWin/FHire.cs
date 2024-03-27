@@ -69,17 +69,8 @@ namespace DemoWin
 
         private void FHire_Load(object sender, EventArgs e)
         {
-            //for (int i = 0; i < 7; i++)
-            //{
-            //    UCWorkerInfo uc = new UCWorkerInfo();
-            //    uc.Margin = new Padding(35);
-            //    uc.btnDetail.Click += btnOpenDetail_Click;
-            //    flowLayoutPanel.Controls.Add(uc);
-
-            //}
-            LoadDataIntoTextBoxes();
             ChangeColor();
-            
+            LoadDataIntoTextBoxes();
         }
         public void LoadDataIntoTextBoxes()
         {
@@ -130,45 +121,6 @@ namespace DemoWin
         {
             uc.Margin = new Padding(35);
             uc.BackColor = ThemeColors.PrimaryColor;
-            flowLayoutPanel.Controls.Add(uc);
-        }
-        private void loadUCtoForm()
-        {
-            string workerID = "";
-            string query = "SELECT thongtin.ten, thongtin.diachi, vieclam.congviec " +
-                           "FROM thongtin " +
-                           "INNER JOIN vieclam ON thongtin.Id = vieclam.Id " +
-                           "WHERE thongtin.Id = @UserId";
-
-            using (SqlConnection connection = Connection.GetSqlConnection())
-            {
-                using (SqlCommand command = new SqlCommand(query, connection))
-                {
-                    command.Parameters.AddWithValue("@UserId", workerID);
-
-                    try
-                    {
-                        connection.Open();
-                        SqlDataReader reader = command.ExecuteReader();
-                        if (reader.Read())
-                        {
-                        }
-                        else
-                        {
-                            MessageBox.Show("User not found.");
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show("Error: " + ex.Message);
-                    }
-                }
-            }
-        }
-        private void loadUCWorkerDetail(UCWorkerInfo uc)
-        {
-            uc.Margin = new Padding(35);
-            uc.btnDetail.Click += btnOpenDetail_Click;
             flowLayoutPanel.Controls.Add(uc);
         }
         private void ChangeColor()
