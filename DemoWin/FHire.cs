@@ -47,7 +47,7 @@ namespace DemoWin
         private bool isbtn12h305h = false;
         private bool isbtnOvertime = false;
         public static Form activeForm;
-        string[] listTho = { "Thợ máy", "Thợ sơn", "Thợ sửa xe", "Thợ điện","Thợ điêu khắc" };
+        string[] listTho = { "Thợ máy", "Thợ sơn", "Thợ sửa xe", "Thợ điện", "Thợ điêu khắc" };
         public FHire()
         {
             InitializeComponent();
@@ -80,7 +80,7 @@ namespace DemoWin
             //}
             LoadDataIntoTextBoxes();
             ChangeColor();
-            
+
         }
         public void LoadDataIntoTextBoxes()
         {
@@ -96,7 +96,7 @@ namespace DemoWin
                 query = string.Format("select Worker.ID, Worker.Ten, Worker.SDT, DangViec.NgheNghiep, Worker.DanhGiaTrungBinh\r\n" +
                     "from Worker\r\ninner join DangViec on Worker.ID = DangViec.ID " +
                     "where DangViec.NgheNghiep != N'Thợ máy' and DangViec.NgheNghiep != N'Thợ sơn' and DangViec.NgheNghiep != N'Thợ sửa xe' and DangViec.NgheNghiep != N'Thợ điện' and DangViec.NgheNghiep != N'Thợ điêu khắc'");
-            }    
+            }
             using (SqlConnection connection = Connection.GetSqlConnection())
             {
                 connection.Open();
@@ -180,7 +180,7 @@ namespace DemoWin
                 if (previousBtn.GetType() == typeof(Label) || previousBtn.GetType() == typeof(Button) || previousBtn.GetType() == typeof(UCWorkerInfo))
                 {
                     previousBtn.BackColor = ThemeColors.PrimaryColor;
-                    if(previousBtn.Text == "")
+                    if (previousBtn.Text == "")
                         previousBtn.BackColor = ThemeColors.PrimaryColor;
                 }
             }
@@ -215,7 +215,7 @@ namespace DemoWin
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Nhấn vào nhân viên bạn muốn thuê trong bảng hoặc nhập vào Id của người đó và nhấn nút thuê sau đó nhấn yes để thuê","Thông báo",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            MessageBox.Show("Nhấn vào nhân viên bạn muốn thuê trong bảng hoặc nhập vào Id của người đó và nhấn nút thuê sau đó nhấn yes để thuê", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void panelTop_MouseDown(object sender, MouseEventArgs e)
@@ -404,7 +404,7 @@ namespace DemoWin
                 query.Append(" AND ");
                 query.Append(string.Join(" AND ", WorkOfDay));
             }
-            
+
             List<string> WorkOfTime = new List<string>();
 
             if (isbtn7h10h30)
@@ -633,7 +633,7 @@ namespace DemoWin
         private void btnCloseDetail_Click(object sender, EventArgs e)
         {
             //FHire_Load(sender, e);
-            
+
             flowLayoutPanel.Visible = true;
             panelContainDetail.Controls.Add(flowLayoutPanel);
             panelContainDetail.Tag = flowLayoutPanel;
@@ -646,7 +646,7 @@ namespace DemoWin
             flowLayoutPanel.Controls.Clear();
             string query = CreateQueryFilter();
             MessageBox.Show(query);
-         
+
             using (SqlConnection connection = Connection.GetSqlConnection())
             {
                 connection.Open();

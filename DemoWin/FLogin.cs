@@ -59,6 +59,8 @@ namespace DemoWin
 
                     if (rbtnUser.Checked)
                     {
+                        string queryneo = "Select * from NguoiDung2 where TenTaiKhoan = '" + userName + "'";
+                        ThemeColors.IncomeID = modify.Accounts(queryneo)[0].UserName;
                         FUsers user = new FUsers();
                         user.ShowDialog();
                     }

@@ -47,20 +47,23 @@
             this.btnHome = new FontAwesome.Sharp.IconButton();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.btnDeleteJob = new FontAwesome.Sharp.IconButton();
+            this.picBackGround = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBackGround)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.lblPersonPostData);
             this.panel1.Controls.Add(this.lblPersonPost);
-            this.panel1.Location = new System.Drawing.Point(18, 14);
+            this.panel1.Location = new System.Drawing.Point(210, 112);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(135, 75);
+            this.panel1.Size = new System.Drawing.Size(155, 75);
             this.panel1.TabIndex = 0;
             // 
             // lblPersonPostData
@@ -87,11 +90,12 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Controls.Add(this.lblHirerData);
             this.panel2.Controls.Add(this.lblHirer);
-            this.panel2.Location = new System.Drawing.Point(199, 14);
+            this.panel2.Location = new System.Drawing.Point(396, 112);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(135, 75);
+            this.panel2.Size = new System.Drawing.Size(155, 75);
             this.panel2.TabIndex = 0;
             // 
             // lblHirerData
@@ -121,9 +125,9 @@
             this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.Controls.Add(this.lblDatePostData);
             this.panel3.Controls.Add(this.lblDatePost);
-            this.panel3.Location = new System.Drawing.Point(378, 14);
+            this.panel3.Location = new System.Drawing.Point(580, 112);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(135, 75);
+            this.panel3.Size = new System.Drawing.Size(155, 75);
             this.panel3.TabIndex = 0;
             // 
             // lblDatePostData
@@ -150,11 +154,12 @@
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.Color.Transparent;
             this.panel4.Controls.Add(this.lblGroupWorkData);
             this.panel4.Controls.Add(this.lblGroupWork);
-            this.panel4.Location = new System.Drawing.Point(566, 14);
+            this.panel4.Location = new System.Drawing.Point(765, 112);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(135, 75);
+            this.panel4.Size = new System.Drawing.Size(155, 75);
             this.panel4.TabIndex = 0;
             // 
             // lblGroupWorkData
@@ -181,11 +186,12 @@
             // 
             // panel5
             // 
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
             this.panel5.Controls.Add(this.lblStatusData);
             this.panel5.Controls.Add(this.lblStatus);
-            this.panel5.Location = new System.Drawing.Point(752, 14);
+            this.panel5.Location = new System.Drawing.Point(950, 112);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(135, 75);
+            this.panel5.Size = new System.Drawing.Size(155, 75);
             this.panel5.TabIndex = 0;
             // 
             // lblStatusData
@@ -212,19 +218,21 @@
             // 
             // btnDetail
             // 
+            this.btnDetail.BackColor = System.Drawing.Color.Transparent;
             this.btnDetail.FlatAppearance.BorderSize = 0;
             this.btnDetail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetail.IconChar = FontAwesome.Sharp.IconChar.EllipsisVertical;
             this.btnDetail.IconColor = System.Drawing.Color.White;
             this.btnDetail.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnDetail.Location = new System.Drawing.Point(936, 14);
+            this.btnDetail.Location = new System.Drawing.Point(1314, 112);
             this.btnDetail.Name = "btnDetail";
             this.btnDetail.Size = new System.Drawing.Size(47, 75);
             this.btnDetail.TabIndex = 1;
-            this.btnDetail.UseVisualStyleBackColor = true;
+            this.btnDetail.UseVisualStyleBackColor = false;
             // 
             // btnHome
             // 
+            this.btnHome.BackColor = System.Drawing.Color.Transparent;
             this.btnHome.FlatAppearance.BorderSize = 0;
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -233,15 +241,16 @@
             this.btnHome.IconColor = System.Drawing.Color.White;
             this.btnHome.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnHome.IconSize = 32;
-            this.btnHome.Location = new System.Drawing.Point(283, 95);
+            this.btnHome.Location = new System.Drawing.Point(15, 112);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(135, 40);
             this.btnHome.TabIndex = 13;
             this.btnHome.Text = "Nhận việc";
-            this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.UseVisualStyleBackColor = false;
             // 
             // iconButton1
             // 
+            this.iconButton1.BackColor = System.Drawing.Color.Transparent;
             this.iconButton1.FlatAppearance.BorderSize = 0;
             this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -250,15 +259,16 @@
             this.iconButton1.IconColor = System.Drawing.Color.White;
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton1.IconSize = 32;
-            this.iconButton1.Location = new System.Drawing.Point(471, 95);
+            this.iconButton1.Location = new System.Drawing.Point(15, 158);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Size = new System.Drawing.Size(135, 40);
             this.iconButton1.TabIndex = 13;
             this.iconButton1.Text = "Từ chối";
-            this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButton1.UseVisualStyleBackColor = false;
             // 
             // btnDeleteJob
             // 
+            this.btnDeleteJob.BackColor = System.Drawing.Color.Transparent;
             this.btnDeleteJob.FlatAppearance.BorderSize = 0;
             this.btnDeleteJob.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteJob.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -267,19 +277,30 @@
             this.btnDeleteJob.IconColor = System.Drawing.Color.White;
             this.btnDeleteJob.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnDeleteJob.IconSize = 32;
-            this.btnDeleteJob.Location = new System.Drawing.Point(662, 95);
+            this.btnDeleteJob.Location = new System.Drawing.Point(1147, 153);
             this.btnDeleteJob.Name = "btnDeleteJob";
             this.btnDeleteJob.Size = new System.Drawing.Size(135, 40);
             this.btnDeleteJob.TabIndex = 13;
             this.btnDeleteJob.Text = "Xóa bỏ";
-            this.btnDeleteJob.UseVisualStyleBackColor = true;
+            this.btnDeleteJob.UseVisualStyleBackColor = false;
             this.btnDeleteJob.Click += new System.EventHandler(this.btnDeleteJob_Click);
+            // 
+            // picBackGround
+            // 
+            this.picBackGround.Dock = System.Windows.Forms.DockStyle.Top;
+            this.picBackGround.Location = new System.Drawing.Point(0, 0);
+            this.picBackGround.Name = "picBackGround";
+            this.picBackGround.Size = new System.Drawing.Size(1375, 106);
+            this.picBackGround.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBackGround.TabIndex = 14;
+            this.picBackGround.TabStop = false;
             // 
             // UCPostJob
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.picBackGround);
             this.Controls.Add(this.btnDeleteJob);
             this.Controls.Add(this.iconButton1);
             this.Controls.Add(this.btnHome);
@@ -290,7 +311,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "UCPostJob";
-            this.Size = new System.Drawing.Size(1027, 139);
+            this.Size = new System.Drawing.Size(1375, 216);
             this.Load += new System.EventHandler(this.UCPostJob_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -302,6 +323,7 @@
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBackGround)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -327,5 +349,6 @@
         public FontAwesome.Sharp.IconButton btnHome;
         public FontAwesome.Sharp.IconButton iconButton1;
         public FontAwesome.Sharp.IconButton btnDeleteJob;
+        private System.Windows.Forms.PictureBox picBackGround;
     }
 }

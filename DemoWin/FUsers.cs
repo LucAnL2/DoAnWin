@@ -1,4 +1,5 @@
-﻿using DemoWin.Forms;
+﻿using DemoWin.ChildFormsUser;
+using DemoWin.Forms;
 using FontAwesome.Sharp;
 using System;
 using System.Collections.Generic;
@@ -54,20 +55,22 @@ namespace DemoWin
                 if (currentButton != (IconButton)btnSender)
                 {
                     DisableButton();
-                    Color color = SelectThemeColors();
+                    //Color color = SelectThemeColors();
+                    Color color = Color.FromArgb(0, 133, 255);
                     currentButton = (IconButton)btnSender;
                     currentButton.BackColor = color;
                     currentButton.ForeColor = Color.White;
                     currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-                    panelTitleBar.BackColor = color;
-                    panelLogo.BackColor = ThemeColors.ChangeColorBrightness(color, -0.3);
+                    panelTitleBar.BackColor = Color.FromArgb(32, 104, 230);
+                    panelMenu.BackColor = Color.FromArgb(32, 104, 230);
+                    panelLogo.BackColor = ThemeColors.ChangeColorBrightness(Color.FromArgb(32, 104, 230), -0.3);
                     ThemeColors.PrimaryColor = color;
                     ThemeColors.SecondaryColor = ThemeColors.ChangeColorBrightness(color, -0.3);
                     btnCloseChildForm.Visible = true;
                     currentButton.TextAlign = ContentAlignment.MiddleCenter;
                     currentButton.TextImageRelation = TextImageRelation.TextBeforeImage;
                     currentButton.ImageAlign = ContentAlignment.MiddleRight;
-                    leftBorderBtn.BackColor = ThemeColors.ChangeColorBrightness(color, +0.3); ;
+                    leftBorderBtn.BackColor = ThemeColors.ChangeColorBrightness(color, +0.3);
                     leftBorderBtn.Location = new Point(0, currentButton.Location.Y);
                     leftBorderBtn.Visible = true;
                     leftBorderBtn.BringToFront();
@@ -78,7 +81,8 @@ namespace DemoWin
         {
             if (currentButton != null)
             {
-                currentButton.BackColor = Color.FromArgb(51, 51, 76);
+                //currentButton.BackColor = Color.FromArgb(51, 51, 76);
+                currentButton.BackColor = Color.FromArgb(32, 104, 230);
                 currentButton.ForeColor = Color.White;
                 currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                 currentButton.TextAlign = ContentAlignment.MiddleLeft;
@@ -193,6 +197,7 @@ namespace DemoWin
             btnHired.Text = "";
             btnUser.Text = "";
             btnLogout.Text = "";
+            btnPostJob.Text = "";
         }
         private void panelMenuTransition_Tick(object sender, EventArgs e)
         {
@@ -219,6 +224,7 @@ namespace DemoWin
                 btnHired.Text = "Lịch sử thuê";
                 btnUser.Text = "Cá nhân";
                 btnLogout.Text = "Đăng xuất";
+                btnPostJob.Text = "Tuyển thợ";
             }
         }
 
@@ -236,6 +242,17 @@ namespace DemoWin
         private void panelTitleBar_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void panelDesktop_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnPostJob_Click(object sender, EventArgs e)
+        {
+            FUserJob fUserPostJob = new FUserJob();
+            OpenChildForm(fUserPostJob, sender);
         }
     }
 }

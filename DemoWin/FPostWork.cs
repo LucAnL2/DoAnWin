@@ -132,23 +132,6 @@ namespace DemoWin
             FWork fWork = new FWork();
             fWork.LoadDataIntoTextBoxes();
         }
-        private void guna2Button3_Click(object sender, EventArgs e)
-        {
-            Worker wk = new Worker(ThemeColors.IncomeID, ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
-                             ucTxtWorker1.txtData.Text, ucTxtWorker5.txtData.Text, txtDataDescribe.Text);
-            WokerDAO HSD = new WokerDAO();
-            HSD.DeleteWork(wk);
-            load();
-        }
-
-        private void guna2Button4_Click(object sender, EventArgs e)
-        {
-            Worker wk = new Worker(ThemeColors.IncomeID, ucTxtWorker4.txtData.Text, ucTxtWorker3.txtData.Text, ucTxtWorker2.txtData.Text,
-                             ucTxtWorker1.txtData.Text, ucTxtWorker5.txtData.Text, txtDataDescribe.Text);
-            WokerDAO HSD = new WokerDAO();
-            //HSD.RepairWork(wk);
-            load();
-        }
         private void ExpandButton(ref bool isExpand, FlowLayoutPanel flowLayoutPanel, IconButton iconButton, Timer timer)
         {
             if (isExpand == false)

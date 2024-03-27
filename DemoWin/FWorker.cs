@@ -180,6 +180,9 @@ namespace DemoWin
             btnHome.Text = "";
             btnPostJob.Text = "";
             btnLogout.Text = "";
+            btnSearchJob.Text = "";
+            btnDashBoard.Text = "";
+            btnHistory.Text = "";
         }
         private void panelMenuTransition_Tick(object sender, EventArgs e)
         {
@@ -205,29 +208,50 @@ namespace DemoWin
                 btnHome.Text = "Trang chủ";
                 btnPostJob.Text = "Đăng việc";
                 btnLogout.Text = "Đăng xuất";
+                btnSearchJob.Text = "Tìm việc";
+                btnDashBoard.Text = "Thống kê";
+                btnHistory.Text = "Lịch sử";
             }
         }
 
         private void btnPostJob_Click(object sender, EventArgs e)
         {
-                FWokerInfo fWokerInfo = new FWokerInfo();
-                // Kiểm tra xem tất cả thông tin đã điền đầy đủ chưa.
-                if (fWokerInfo.checkNullTextBox())
-                {
-                    // Nếu thông tin không được điền đầy đủ, mở form FWorkerInfo.
-                    OpenChildForm(fWokerInfo, sender);
-                }
-                else
-                {
-                    // Nếu tất cả thông tin đã được điền, mở form FWork.
-                    FWork fWork = new FWork();
-                    OpenChildForm(fWork, sender);
-                }
+            FWokerInfo fWokerInfo = new FWokerInfo();
+            // Kiểm tra xem tất cả thông tin đã điền đầy đủ chưa.
+            if (fWokerInfo.checkNullTextBox())
+            {
+                // Nếu thông tin không được điền đầy đủ, mở form FWorkerInfo.
+                OpenChildForm(fWokerInfo, sender);
+            }
+            else
+            {
+                // Nếu tất cả thông tin đã được điền, mở form FWork.
+                FWork fWork = new FWork();
+                OpenChildForm(fWork, sender);
+            }
         }
 
         private void btnRoll_Click(object sender, EventArgs e)
         {
             panelMenuTransition.Start();
+        }
+
+        private void btnSearchJob_Click(object sender, EventArgs e)
+        {
+            FSearchJob fSearchJob = new FSearchJob();
+            OpenChildForm(fSearchJob, sender);
+        }
+
+        private void btnDashBoard_Click(object sender, EventArgs e)
+        {
+            FDashBoard fWokerInfo = new FDashBoard();
+            OpenChildForm(fWokerInfo, sender);
+        }
+
+        private void btnHistory_Click(object sender, EventArgs e)
+        {
+            FWorkerHIstory fWokerInfo = new FWorkerHIstory();
+            OpenChildForm(fWokerInfo, sender);
         }
     }
 }

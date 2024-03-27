@@ -69,7 +69,7 @@
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(0, 0);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(1167, 37);
+            this.panelTop.Size = new System.Drawing.Size(1268, 37);
             this.panelTop.TabIndex = 0;
             this.panelTop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTop_MouseDown);
             // 
@@ -104,7 +104,7 @@
             this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
             this.btnMinimize.Image = global::DemoWin.Properties.Resources.minus_small;
-            this.btnMinimize.Location = new System.Drawing.Point(1080, 2);
+            this.btnMinimize.Location = new System.Drawing.Point(1181, 2);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(35, 35);
             this.btnMinimize.TabIndex = 6;
@@ -119,7 +119,7 @@
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Image = global::DemoWin.Properties.Resources.cross_small;
-            this.btnClose.Location = new System.Drawing.Point(1129, 2);
+            this.btnClose.Location = new System.Drawing.Point(1230, 2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(35, 35);
             this.btnClose.TabIndex = 5;
@@ -134,7 +134,7 @@
             this.panelBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelBottom.Location = new System.Drawing.Point(0, 441);
             this.panelBottom.Name = "panelBottom";
-            this.panelBottom.Size = new System.Drawing.Size(1167, 67);
+            this.panelBottom.Size = new System.Drawing.Size(1268, 67);
             this.panelBottom.TabIndex = 3;
             // 
             // guna2Button1
@@ -149,7 +149,7 @@
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(67, 13);
+            this.guna2Button1.Location = new System.Drawing.Point(168, 13);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(104, 43);
@@ -169,7 +169,7 @@
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(1011, 13);
+            this.guna2Button2.Location = new System.Drawing.Point(1112, 13);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
             this.guna2Button2.Size = new System.Drawing.Size(104, 43);
@@ -226,36 +226,36 @@
             // ucTxtWorker4
             // 
             this.ucTxtWorker4.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorker4.Location = new System.Drawing.Point(407, 212);
+            this.ucTxtWorker4.Location = new System.Drawing.Point(477, 212);
             this.ucTxtWorker4.Name = "ucTxtWorker4";
-            this.ucTxtWorker4.Size = new System.Drawing.Size(286, 71);
+            this.ucTxtWorker4.Size = new System.Drawing.Size(441, 71);
             this.ucTxtWorker4.TabIndex = 2;
             this.ucTxtWorker4.Load += new System.EventHandler(this.ucTxtWorker4_Load);
             // 
             // ucTxtWorker3
             // 
             this.ucTxtWorker3.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorker3.Location = new System.Drawing.Point(68, 212);
+            this.ucTxtWorker3.Location = new System.Drawing.Point(25, 212);
             this.ucTxtWorker3.Name = "ucTxtWorker3";
-            this.ucTxtWorker3.Size = new System.Drawing.Size(286, 71);
+            this.ucTxtWorker3.Size = new System.Drawing.Size(446, 71);
             this.ucTxtWorker3.TabIndex = 2;
             this.ucTxtWorker3.Load += new System.EventHandler(this.ucTxtWorker3_Load);
             // 
             // ucTxtWorker2
             // 
             this.ucTxtWorker2.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorker2.Location = new System.Drawing.Point(407, 120);
+            this.ucTxtWorker2.Location = new System.Drawing.Point(477, 131);
             this.ucTxtWorker2.Name = "ucTxtWorker2";
-            this.ucTxtWorker2.Size = new System.Drawing.Size(286, 223);
+            this.ucTxtWorker2.Size = new System.Drawing.Size(440, 75);
             this.ucTxtWorker2.TabIndex = 2;
             this.ucTxtWorker2.Load += new System.EventHandler(this.ucTxtWorker2_Load);
             // 
             // ucTxtWorker1
             // 
             this.ucTxtWorker1.BackColor = System.Drawing.Color.White;
-            this.ucTxtWorker1.Location = new System.Drawing.Point(68, 120);
+            this.ucTxtWorker1.Location = new System.Drawing.Point(22, 131);
             this.ucTxtWorker1.Name = "ucTxtWorker1";
-            this.ucTxtWorker1.Size = new System.Drawing.Size(286, 223);
+            this.ucTxtWorker1.Size = new System.Drawing.Size(449, 86);
             this.ucTxtWorker1.TabIndex = 1;
             this.ucTxtWorker1.Load += new System.EventHandler(this.ucTxtWorker1_Load);
             // 
@@ -264,17 +264,17 @@
             this.ucTxtWorker5.BackColor = System.Drawing.Color.White;
             this.ucTxtWorker5.Location = new System.Drawing.Point(744, 360);
             this.ucTxtWorker5.Name = "ucTxtWorker5";
-            this.ucTxtWorker5.Size = new System.Drawing.Size(286, 63);
+            this.ucTxtWorker5.Size = new System.Drawing.Size(442, 63);
             this.ucTxtWorker5.TabIndex = 7;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(744, 85);
+            this.dataGridView1.Location = new System.Drawing.Point(933, 85);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(420, 269);
+            this.dataGridView1.Size = new System.Drawing.Size(332, 269);
             this.dataGridView1.TabIndex = 8;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -381,7 +381,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1167, 508);
+            this.ClientSize = new System.Drawing.Size(1268, 508);
             this.Controls.Add(this.PanelComboWorkOfDay);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.ucTxtWorker5);

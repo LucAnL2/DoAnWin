@@ -63,9 +63,9 @@ namespace DemoWin.Forms
         }
         private void btnOpenDetail_Click(object sender, EventArgs e)
         {
-            FWorkerDetail user = new FWorkerDetail();
-            user.btnBack.Click += btnCloseDetail_Click;
-            OpenChildForm(user, sender);
+            ////FWorkerDetail user = new FWorkerDetail();
+            ////user.btnBack.Click += btnCloseDetail_Click;
+            ////OpenChildForm(user, sender);
         }
         private void btnCloseDetail_Click(object sender, EventArgs e)
         {

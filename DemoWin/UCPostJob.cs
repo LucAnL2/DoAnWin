@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,9 +14,14 @@ namespace DemoWin
 {
     public partial class UCPostJob : UserControl
     {
+        private Random random = new Random();
+        private string[] imagePaths;
+        string root = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
         public UCPostJob()
         {
             InitializeComponent();
+            string defaultFolderPath = Path.Combine(root, "BackGroundImage"); // Tạo đường dẫn đầy đủ của thư mục hình ảnh
+            imagePaths = Directory.GetFiles(defaultFolderPath);
         }
 
         private void load()
@@ -35,7 +41,9 @@ namespace DemoWin
 
         private void UCPostJob_Load(object sender, EventArgs e)
         {
-
+            string randomImagePath = imagePaths[random.Next(imagePaths.Length)];
+            Image randomImage = Image.FromFile(randomImagePath);
+            picBackGround.Image = randomImage;
         }
     }
 }

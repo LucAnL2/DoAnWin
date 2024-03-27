@@ -30,34 +30,36 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.btnLogout = new FontAwesome.Sharp.IconButton();
-            this.btnUser = new FontAwesome.Sharp.IconButton();
-            this.btnHired = new FontAwesome.Sharp.IconButton();
-            this.btnHome = new FontAwesome.Sharp.IconButton();
             this.panelLogo = new System.Windows.Forms.Panel();
-            this.btnRoll = new System.Windows.Forms.PictureBox();
             this.panelTitleBar = new System.Windows.Forms.Panel();
-            this.btnMinimize = new System.Windows.Forms.Button();
-            this.btnMaximize = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
-            this.btnCloseChildForm = new System.Windows.Forms.Button();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.lblClock = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Clock = new System.Windows.Forms.Timer(this.components);
             this.panelMenuTransition = new System.Windows.Forms.Timer(this.components);
+            this.btnMinimize = new System.Windows.Forms.Button();
+            this.btnMaximize = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnCloseChildForm = new System.Windows.Forms.Button();
+            this.btnLogout = new FontAwesome.Sharp.IconButton();
+            this.btnUser = new FontAwesome.Sharp.IconButton();
+            this.btnHired = new FontAwesome.Sharp.IconButton();
+            this.btnHome = new FontAwesome.Sharp.IconButton();
+            this.btnRoll = new System.Windows.Forms.PictureBox();
+            this.btnPostJob = new FontAwesome.Sharp.IconButton();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnRoll)).BeginInit();
             this.panelTitleBar.SuspendLayout();
             this.panelDesktop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRoll)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panelMenu.Controls.Add(this.btnPostJob);
             this.panelMenu.Controls.Add(this.btnLogout);
             this.panelMenu.Controls.Add(this.btnUser);
             this.panelMenu.Controls.Add(this.btnHired);
@@ -71,94 +73,6 @@
             this.panelMenu.Size = new System.Drawing.Size(70, 1055);
             this.panelMenu.TabIndex = 7;
             // 
-            // btnLogout
-            // 
-            this.btnLogout.FlatAppearance.BorderSize = 0;
-            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.ForeColor = System.Drawing.Color.White;
-            this.btnLogout.IconChar = FontAwesome.Sharp.IconChar.RightToBracket;
-            this.btnLogout.IconColor = System.Drawing.Color.White;
-            this.btnLogout.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnLogout.IconSize = 32;
-            this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.Location = new System.Drawing.Point(-3, 255);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnLogout.Size = new System.Drawing.Size(260, 60);
-            this.btnLogout.TabIndex = 12;
-            this.btnLogout.Text = "Đăng xuất";
-            this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnLogout.UseVisualStyleBackColor = true;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-            // 
-            // btnUser
-            // 
-            this.btnUser.FlatAppearance.BorderSize = 0;
-            this.btnUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUser.ForeColor = System.Drawing.Color.White;
-            this.btnUser.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
-            this.btnUser.IconColor = System.Drawing.Color.White;
-            this.btnUser.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnUser.IconSize = 32;
-            this.btnUser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUser.Location = new System.Drawing.Point(0, 189);
-            this.btnUser.Name = "btnUser";
-            this.btnUser.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnUser.Size = new System.Drawing.Size(260, 60);
-            this.btnUser.TabIndex = 12;
-            this.btnUser.Text = "Cá nhân";
-            this.btnUser.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUser.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnUser.UseVisualStyleBackColor = true;
-            this.btnUser.Click += new System.EventHandler(this.btnUser_Click);
-            // 
-            // btnHired
-            // 
-            this.btnHired.FlatAppearance.BorderSize = 0;
-            this.btnHired.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHired.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHired.ForeColor = System.Drawing.Color.White;
-            this.btnHired.IconChar = FontAwesome.Sharp.IconChar.Briefcase;
-            this.btnHired.IconColor = System.Drawing.Color.White;
-            this.btnHired.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnHired.IconSize = 32;
-            this.btnHired.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHired.Location = new System.Drawing.Point(0, 123);
-            this.btnHired.Name = "btnHired";
-            this.btnHired.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnHired.Size = new System.Drawing.Size(260, 60);
-            this.btnHired.TabIndex = 12;
-            this.btnHired.Text = "Lịch sử thuê";
-            this.btnHired.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHired.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnHired.UseVisualStyleBackColor = true;
-            this.btnHired.Click += new System.EventHandler(this.btnHired_Click);
-            // 
-            // btnHome
-            // 
-            this.btnHome.FlatAppearance.BorderSize = 0;
-            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.ForeColor = System.Drawing.Color.White;
-            this.btnHome.IconChar = FontAwesome.Sharp.IconChar.House;
-            this.btnHome.IconColor = System.Drawing.Color.White;
-            this.btnHome.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnHome.IconSize = 32;
-            this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHome.Location = new System.Drawing.Point(0, 57);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnHome.Size = new System.Drawing.Size(260, 60);
-            this.btnHome.TabIndex = 12;
-            this.btnHome.Text = "Trang chủ";
-            this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnHome.UseVisualStyleBackColor = true;
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
-            // 
             // panelLogo
             // 
             this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
@@ -168,17 +82,6 @@
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(70, 57);
             this.panelLogo.TabIndex = 7;
-            // 
-            // btnRoll
-            // 
-            this.btnRoll.Image = global::DemoWin.Properties.Resources.menu_burger__4_;
-            this.btnRoll.Location = new System.Drawing.Point(22, 14);
-            this.btnRoll.Name = "btnRoll";
-            this.btnRoll.Size = new System.Drawing.Size(24, 24);
-            this.btnRoll.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.btnRoll.TabIndex = 0;
-            this.btnRoll.TabStop = false;
-            this.btnRoll.Click += new System.EventHandler(this.btnRoll_Click);
             // 
             // panelTitleBar
             // 
@@ -195,6 +98,73 @@
             this.panelTitleBar.TabIndex = 8;
             this.panelTitleBar.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTitleBar_Paint);
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.Color.White;
+            this.lblTitle.Location = new System.Drawing.Point(847, 7);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(153, 31);
+            this.lblTitle.TabIndex = 0;
+            this.lblTitle.Text = "WELCOME";
+            // 
+            // panelDesktop
+            // 
+            this.panelDesktop.BackColor = System.Drawing.Color.White;
+            this.panelDesktop.Controls.Add(this.lblClock);
+            this.panelDesktop.Controls.Add(this.label2);
+            this.panelDesktop.Controls.Add(this.label1);
+            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDesktop.Location = new System.Drawing.Point(70, 57);
+            this.panelDesktop.Name = "panelDesktop";
+            this.panelDesktop.Size = new System.Drawing.Size(1799, 998);
+            this.panelDesktop.TabIndex = 9;
+            this.panelDesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktop_Paint);
+            // 
+            // lblClock
+            // 
+            this.lblClock.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblClock.AutoSize = true;
+            this.lblClock.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClock.Location = new System.Drawing.Point(1687, 956);
+            this.lblClock.Name = "lblClock";
+            this.lblClock.Size = new System.Drawing.Size(72, 18);
+            this.lblClock.TabIndex = 2;
+            this.lblClock.Text = "00:00:00";
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(837, 548);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(237, 16);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "-Let us help you get the job done-";
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(594, 438);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(649, 80);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "World of work Z";
+            // 
+            // Clock
+            // 
+            this.Clock.Tick += new System.EventHandler(this.Clock_Tick);
+            // 
+            // panelMenuTransition
+            // 
+            this.panelMenuTransition.Interval = 10;
+            this.panelMenuTransition.Tick += new System.EventHandler(this.panelMenuTransition_Tick);
             // 
             // btnMinimize
             // 
@@ -241,18 +211,6 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // lblTitle
-            // 
-            this.lblTitle.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(847, 7);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(153, 31);
-            this.lblTitle.TabIndex = 0;
-            this.lblTitle.Text = "WELCOME";
-            // 
             // btnCloseChildForm
             // 
             this.btnCloseChildForm.Dock = System.Windows.Forms.DockStyle.Left;
@@ -266,59 +224,126 @@
             this.btnCloseChildForm.UseVisualStyleBackColor = true;
             this.btnCloseChildForm.Click += new System.EventHandler(this.btnCloseChildForm_Click);
             // 
-            // panelDesktop
+            // btnLogout
             // 
-            this.panelDesktop.BackColor = System.Drawing.Color.White;
-            this.panelDesktop.Controls.Add(this.lblClock);
-            this.panelDesktop.Controls.Add(this.label2);
-            this.panelDesktop.Controls.Add(this.label1);
-            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(70, 57);
-            this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(1799, 998);
-            this.panelDesktop.TabIndex = 9;
+            this.btnLogout.FlatAppearance.BorderSize = 0;
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.Color.White;
+            this.btnLogout.IconChar = FontAwesome.Sharp.IconChar.RightToBracket;
+            this.btnLogout.IconColor = System.Drawing.Color.White;
+            this.btnLogout.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnLogout.IconSize = 32;
+            this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLogout.Location = new System.Drawing.Point(-3, 321);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnLogout.Size = new System.Drawing.Size(260, 60);
+            this.btnLogout.TabIndex = 12;
+            this.btnLogout.Text = "Đăng xuất";
+            this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
-            // lblClock
+            // btnUser
             // 
-            this.lblClock.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblClock.AutoSize = true;
-            this.lblClock.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblClock.Location = new System.Drawing.Point(1687, 956);
-            this.lblClock.Name = "lblClock";
-            this.lblClock.Size = new System.Drawing.Size(72, 18);
-            this.lblClock.TabIndex = 2;
-            this.lblClock.Text = "00:00:00";
+            this.btnUser.FlatAppearance.BorderSize = 0;
+            this.btnUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUser.ForeColor = System.Drawing.Color.White;
+            this.btnUser.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
+            this.btnUser.IconColor = System.Drawing.Color.White;
+            this.btnUser.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnUser.IconSize = 32;
+            this.btnUser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUser.Location = new System.Drawing.Point(0, 255);
+            this.btnUser.Name = "btnUser";
+            this.btnUser.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnUser.Size = new System.Drawing.Size(260, 60);
+            this.btnUser.TabIndex = 12;
+            this.btnUser.Text = "Cá nhân";
+            this.btnUser.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUser.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnUser.UseVisualStyleBackColor = true;
+            this.btnUser.Click += new System.EventHandler(this.btnUser_Click);
             // 
-            // label2
+            // btnHired
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(837, 548);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(237, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "-Let us help you get the job done-";
+            this.btnHired.FlatAppearance.BorderSize = 0;
+            this.btnHired.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHired.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHired.ForeColor = System.Drawing.Color.White;
+            this.btnHired.IconChar = FontAwesome.Sharp.IconChar.Briefcase;
+            this.btnHired.IconColor = System.Drawing.Color.White;
+            this.btnHired.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnHired.IconSize = 32;
+            this.btnHired.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHired.Location = new System.Drawing.Point(0, 189);
+            this.btnHired.Name = "btnHired";
+            this.btnHired.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnHired.Size = new System.Drawing.Size(260, 60);
+            this.btnHired.TabIndex = 12;
+            this.btnHired.Text = "Lịch sử thuê";
+            this.btnHired.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHired.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnHired.UseVisualStyleBackColor = true;
+            this.btnHired.Click += new System.EventHandler(this.btnHired_Click);
             // 
-            // label1
+            // btnHome
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(594, 438);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(649, 80);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "World of work Z";
+            this.btnHome.FlatAppearance.BorderSize = 0;
+            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.ForeColor = System.Drawing.Color.White;
+            this.btnHome.IconChar = FontAwesome.Sharp.IconChar.House;
+            this.btnHome.IconColor = System.Drawing.Color.White;
+            this.btnHome.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnHome.IconSize = 32;
+            this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHome.Location = new System.Drawing.Point(0, 57);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnHome.Size = new System.Drawing.Size(260, 60);
+            this.btnHome.TabIndex = 12;
+            this.btnHome.Text = "Trang chủ";
+            this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
-            // Clock
+            // btnRoll
             // 
-            this.Clock.Tick += new System.EventHandler(this.Clock_Tick);
+            this.btnRoll.Image = global::DemoWin.Properties.Resources.menu_burger__4_;
+            this.btnRoll.Location = new System.Drawing.Point(22, 14);
+            this.btnRoll.Name = "btnRoll";
+            this.btnRoll.Size = new System.Drawing.Size(24, 24);
+            this.btnRoll.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.btnRoll.TabIndex = 0;
+            this.btnRoll.TabStop = false;
+            this.btnRoll.Click += new System.EventHandler(this.btnRoll_Click);
             // 
-            // panelMenuTransition
+            // btnPostJob
             // 
-            this.panelMenuTransition.Interval = 10;
-            this.panelMenuTransition.Tick += new System.EventHandler(this.panelMenuTransition_Tick);
+            this.btnPostJob.FlatAppearance.BorderSize = 0;
+            this.btnPostJob.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPostJob.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPostJob.ForeColor = System.Drawing.Color.White;
+            this.btnPostJob.IconChar = FontAwesome.Sharp.IconChar.UserEdit;
+            this.btnPostJob.IconColor = System.Drawing.Color.White;
+            this.btnPostJob.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnPostJob.IconSize = 32;
+            this.btnPostJob.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPostJob.Location = new System.Drawing.Point(0, 123);
+            this.btnPostJob.Name = "btnPostJob";
+            this.btnPostJob.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnPostJob.Size = new System.Drawing.Size(260, 60);
+            this.btnPostJob.TabIndex = 13;
+            this.btnPostJob.Text = "Tuyển thợ";
+            this.btnPostJob.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPostJob.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnPostJob.UseVisualStyleBackColor = true;
+            this.btnPostJob.Click += new System.EventHandler(this.btnPostJob_Click);
             // 
             // FUsers
             // 
@@ -335,11 +360,11 @@
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnRoll)).EndInit();
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
             this.panelDesktop.ResumeLayout(false);
             this.panelDesktop.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRoll)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -365,5 +390,6 @@
         private FontAwesome.Sharp.IconButton btnHired;
         private FontAwesome.Sharp.IconButton btnUser;
         private FontAwesome.Sharp.IconButton btnLogout;
+        private FontAwesome.Sharp.IconButton btnPostJob;
     }
 }
