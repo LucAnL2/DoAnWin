@@ -145,7 +145,7 @@
             this.panelSearch.Controls.Add(this.btnSearch);
             this.panelSearch.Controls.Add(this.txtSearch);
             this.panelSearch.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSearch.Location = new System.Drawing.Point(0, 348);
+            this.panelSearch.Location = new System.Drawing.Point(0, 519);
             this.panelSearch.Name = "panelSearch";
             this.panelSearch.Size = new System.Drawing.Size(277, 134);
             this.panelSearch.TabIndex = 0;
@@ -166,6 +166,7 @@
             this.btnSearch.Size = new System.Drawing.Size(219, 45);
             this.btnSearch.TabIndex = 1;
             this.btnSearch.Text = "Tìm kiếm";
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // txtSearch
             // 
@@ -208,7 +209,7 @@
             this.PanelComboWorkHour.MaximumSize = new System.Drawing.Size(277, 229);
             this.PanelComboWorkHour.MinimumSize = new System.Drawing.Size(277, 58);
             this.PanelComboWorkHour.Name = "PanelComboWorkHour";
-            this.PanelComboWorkHour.Size = new System.Drawing.Size(277, 58);
+            this.PanelComboWorkHour.Size = new System.Drawing.Size(277, 229);
             this.PanelComboWorkHour.TabIndex = 4;
             // 
             // btnWorkHour
@@ -246,7 +247,7 @@
             this.btn7h10h30.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
             this.btn7h10h30.Size = new System.Drawing.Size(267, 52);
             this.btn7h10h30.TabIndex = 1;
-            this.btn7h10h30.Text = "7h  - 10h30";
+            this.btn7h10h30.Text = "5h/day";
             this.btn7h10h30.UseVisualStyleBackColor = true;
             this.btn7h10h30.Click += new System.EventHandler(this.btn7h10h30_Click);
             // 
@@ -265,7 +266,7 @@
             this.btn12h305h.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
             this.btn12h305h.Size = new System.Drawing.Size(267, 52);
             this.btn12h305h.TabIndex = 2;
-            this.btn12h305h.Text = "12h30 - 17h";
+            this.btn12h305h.Text = "8h/day";
             this.btn12h305h.UseVisualStyleBackColor = true;
             this.btn12h305h.Click += new System.EventHandler(this.btn12h305h_Click);
             // 
@@ -284,7 +285,7 @@
             this.btnOvertime.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
             this.btnOvertime.Size = new System.Drawing.Size(267, 52);
             this.btnOvertime.TabIndex = 2;
-            this.btnOvertime.Text = "Ngoài giờ";
+            this.btnOvertime.Text = "Trên 8h/day";
             this.btnOvertime.UseVisualStyleBackColor = true;
             this.btnOvertime.Click += new System.EventHandler(this.btnOvertime_Click);
             // 
@@ -860,8 +861,7 @@
             this.btnTpHCM.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
             this.btnTpHCM.Size = new System.Drawing.Size(267, 52);
             this.btnTpHCM.TabIndex = 3;
-            this.btnTpHCM.Text = "     Tp Hồ Chí Minh";
-            this.btnTpHCM.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTpHCM.Text = "Hồ Chí Minh";
             this.btnTpHCM.UseVisualStyleBackColor = true;
             this.btnTpHCM.Click += new System.EventHandler(this.btnTpHCM_Click);
             // 

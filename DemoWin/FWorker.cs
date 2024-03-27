@@ -210,7 +210,6 @@ namespace DemoWin
 
         private void btnPostJob_Click(object sender, EventArgs e)
         {
-            {
                 FWokerInfo fWokerInfo = new FWokerInfo();
                 // Kiểm tra xem tất cả thông tin đã điền đầy đủ chưa.
                 if (fWokerInfo.checkNullTextBox())
@@ -224,7 +223,6 @@ namespace DemoWin
                     FWork fWork = new FWork();
                     OpenChildForm(fWork, sender);
                 }
-            }
         }
 
         private void btnRoll_Click(object sender, EventArgs e)

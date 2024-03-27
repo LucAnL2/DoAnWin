@@ -51,6 +51,12 @@ namespace DemoWin
             this.role = role;
             this.confirmPassword = confirmPassword;
         }
+        public Person(string id, string name, string phone) 
+        {
+            Id = id;
+            Name = name;
+            Phone = phone;
+        }
         //public Person(string id, string name, string date, string sex, string address, string phone, string email,
         //    string cccd, string acNumber, string pass)
         //{
