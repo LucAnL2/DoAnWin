@@ -155,5 +155,11 @@ namespace DemoWin
                 }
             }
         }
+
+        private void iconStar_Click(object sender, EventArgs e)
+        {
+            FDetailReview fDetailReview = new FDetailReview();
+            fDetailReview.Show();
+        }
     }
 }

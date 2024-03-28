@@ -96,3 +96,7 @@ C:\DoAnWin\cloneDoAnToan2\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.CoreCompileIn
 C:\DoAnWin\cloneDoAnToan2\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.Up2Date
 C:\DoAnWin\cloneDoAnToan2\DoAnWin\DemoWin\obj\Debug\DemoWin.exe
 C:\DoAnWin\cloneDoAnToan2\DoAnWin\DemoWin\obj\Debug\DemoWin.pdb
+C:\DoAnWin\cloneDoAnToan2\DoAnWin\DemoWin\bin\Debug\Guna.UI2.dll
+C:\DoAnWin\cloneDoAnToan2\DoAnWin\DemoWin\obj\Debug\DemoWin.FDetailReview.resources
+C:\DoAnWin\cloneDoAnToan2\DoAnWin\DemoWin\obj\Debug\DemoWin.UCDetailReview.resources
+C:\DoAnWin\cloneDoAnToan2\DoAnWin\DemoWin\obj\Debug\DemoWin.UCLoadPicture.resources
