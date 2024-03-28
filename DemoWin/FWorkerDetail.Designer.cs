@@ -398,6 +398,7 @@
             this.label10.Size = new System.Drawing.Size(168, 25);
             this.label10.TabIndex = 94;
             this.label10.Text = "Đánh giá: 5 Sao";
+            this.label10.Click += new System.EventHandler(this.iconStar_Click);
             // 
             // iconHireTime
             // 
@@ -450,6 +451,7 @@
             this.iconStar.Size = new System.Drawing.Size(32, 32);
             this.iconStar.TabIndex = 110;
             this.iconStar.TabStop = false;
+            this.iconStar.Click += new System.EventHandler(this.iconStar_Click);
             // 
             // lblDescribe
             // 

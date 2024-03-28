@@ -5,6 +5,7 @@ D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\bin\Debug\Bunifu.Licensing.dll
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\bin\Debug\Bunifu.UI.WinForms.dll
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\bin\Debug\Bunifu.Utils.dll
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\bin\Debug\FontAwesome.Sharp.dll
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\bin\Debug\Guna.UI2.dll
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\bin\Debug\System.Data.SqlClient.dll
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\bin\Debug\Bunifu.UI.WinForms.xml
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\bin\Debug\System.Data.SqlClient.xml
@@ -18,6 +19,7 @@ D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.ChildFormsWorker.FWork.res
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.ChildFormsWorker.FWorkerHIstory.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.ChildFormsWorker.FSearchJob.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FConfirmHire.resources
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FDetailReview.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FMail.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FMailBox.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FManagerToolcs.resources
@@ -38,13 +40,15 @@ D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.Forms.FHired.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.Forms.FHome.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.Forms.FInfo.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.Properties.Resources.resources
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.UCDetailReview.resources
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.UCLoadPicture.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.UCMail.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.UCPostJob.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.UCTxtWorker.resources
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.UCUserJob.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.UCWorkerInfo.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.GenerateResource.cache
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.CoreCompileInputs.cache
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.Up2Date
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.exe
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.pdb
-D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.UCUserJob.resources
