@@ -22,14 +22,14 @@ namespace DemoWin
                 if (newPerson.Role == "Người dùng")
                 {
                     string sqlStr = string.Format("INSERT INTO NguoiDung2 (ID, Ten, Email, TenTaiKhoan, MatKhau,NhapLaiMatKhau,VaiTro) " +
-                         "VALUES  ('{0}', '{1}','{2}','{3}','{4}','{5}','{6}')", newPerson.Id, newPerson.Name, newPerson.Email
+                         "VALUES  (N'{0}', N'{1}',N'{2}',N'{3}',N'{4}',N'{5}',N'{6}')", newPerson.Id, newPerson.Name, newPerson.Email
                          , newPerson.Account, newPerson.Pass, newPerson.ConfirmPassword, newPerson.Role);
                     connect.ThucThi(sqlStr, "Đăng kí thành công", newPerson);
                 }
                 else
                 {
                     string sqlStr = string.Format("INSERT INTO Worker (ID, Ten, Email, TenTaiKhoan, MatKhau,NhapLaiMatKhau,VaiTro) " +
-                         "VALUES  ('{0}', '{1}','{2}','{3}','{4}','{5}','{6}')", newPerson.Id, newPerson.Name, newPerson.Email
+                         "VALUES  (N'{0}', N'{1}',N'{2}',N'{3}',N'{4}',N'{5}',N'{6}')", newPerson.Id, newPerson.Name, newPerson.Email
                          , newPerson.Account, newPerson.Pass, newPerson.ConfirmPassword, newPerson.Role);
                     connect.ThucThi(sqlStr, "Đăng kí thành công", newPerson);
                 }

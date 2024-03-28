@@ -70,7 +70,8 @@ namespace DemoWin
 
         private void btnHire_Click(object sender, EventArgs e)
         {
-
+            WokerDAO wokerDAO = new WokerDAO();
+            wokerDAO.UpdateStatus(ThemeColors.OpenID);
         }
 
         private void btnWorkMonth_Click(object sender, EventArgs e)

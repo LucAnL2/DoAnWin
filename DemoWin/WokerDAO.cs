@@ -55,5 +55,10 @@ namespace DemoWin
             newInfo.Address, newInfo.Phone, newInfo.Email, newInfo.Cccd, newInfo.Account, newInfo.Pass);
             connect.ThucThi(sqlStr);
         }
+        public void UpdateStatus(string ID)
+        {
+            string sqlStr = string.Format("UPDATE DangViec SET TrangThai = N'{0}' WHERE ID = N'{1}'", "Xác nhận", ID);
+            connect.ThucThi(sqlStr);
+        }
     }
 }

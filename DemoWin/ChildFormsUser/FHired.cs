@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Reflection.Emit;
@@ -29,14 +30,57 @@ namespace DemoWin.Forms
         private void FHired_Load(object sender, EventArgs e)
         {
             LoadTheme();
-            for (int i = 0; i < 3; i++)
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    UCWorkerInfo uc = new UCWorkerInfo();
+            //    uc.Margin = new Padding(25);
+            //    uc.BackColor = ThemeColors.PrimaryColor;
+            //    uc.btnDetail.Click += btnOpenDetail_Click;
+            //    flowPanelContain.Controls.Add(uc);
+            //}
+            LoadDataIntoTextBoxes();
+        }
+        public void LoadDataIntoTextBoxes()
+        {
+            string query = string.Format("select Worker.ID, Worker.Ten, Worker.SDT, DangViec.NgheNghiep, Worker.DanhGiaTrungBinh\r\n" +
+                    "from Worker\r\ninner join DangViec on Worker.ID = DangViec.ID " +
+                    "where  DangViec.TrangThai = N'{0}'","Xác nhận");
+            using (SqlConnection connection = Connection.GetSqlConnection())
             {
-                UCWorkerInfo uc = new UCWorkerInfo();
-                uc.Margin = new Padding(25);
-                uc.BackColor = ThemeColors.PrimaryColor;
-                uc.btnDetail.Click += btnOpenDetail_Click;
-                flowPanelContain.Controls.Add(uc);
+                connection.Open();
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+                                UCWorkerInfo uc = new UCWorkerInfo();
+                                uc.lblName.Text = reader["Ten"].ToString();
+                                uc.lblPhone.Text = reader["SDT"].ToString();
+                                uc.lblID.Text = reader["ID"].ToString();
+                                uc.lblRate.Text = reader["DanhGiaTrungBinh"].ToString();
+                                uc.btnDetail.Click += btnOpenDetail_Click;
+                                loadWorkerInfo(uc);
+                                //connection.Open();
+                                //SqlDataAdapter adapter = new SqlDataAdapter(query,connection);
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Không có dữ liệu được trả về!");
+                        }
+                    }
+                }
             }
+        }
+        public void loadWorkerInfo(UCWorkerInfo uc)
+        {
+            uc.Margin = new Padding(20);
+            uc.BackColor = ThemeColors.PrimaryColor;
+            flowPanelContain.Controls.Add(uc);
         }
         private void LoadTheme()
         {

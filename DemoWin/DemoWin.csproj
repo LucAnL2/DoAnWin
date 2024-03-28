@@ -286,6 +286,12 @@
     <Compile Include="UCTxtWorker.Designer.cs">
       <DependentUpon>UCTxtWorker.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCUserJob.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCUserJob.Designer.cs">
+      <DependentUpon>UCUserJob.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCWorkerInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -398,6 +404,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCTxtWorker.resx">
       <DependentUpon>UCTxtWorker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCUserJob.resx">
+      <DependentUpon>UCUserJob.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCWorkerInfo.resx">
       <DependentUpon>UCWorkerInfo.cs</DependentUpon>

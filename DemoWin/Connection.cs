@@ -7,6 +7,7 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Windows;
 using System.Windows.Markup;
+using System.IO;
 namespace DemoWin
 {
     public class Connection
@@ -46,7 +47,9 @@ namespace DemoWin
                     connection.Open();
                     SqlCommand cmd = new SqlCommand(sqlStr, connection);
                     if (cmd.ExecuteNonQuery() > 0)
+                    {
                         MessageBox.Show(successMessage);
+                    }
                 }
             }
             catch (Exception ex)
@@ -62,6 +65,7 @@ namespace DemoWin
                     
             }
         }
+        
         public void ThucThi(string sqlStr)
         {
             try
@@ -87,6 +91,33 @@ namespace DemoWin
 
             }
         }
-
+        public void CreateFileData(string id)
+        {
+            string root = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
+            try
+            {
+                string defaultFolderPath = root + "\\DataUser\\";
+                string defaultFilePath = Path.Combine(defaultFolderPath, id.ToString() + ".txt");
+                string defaultFilePathNeo = Path.Combine(defaultFolderPath, id.ToString() + "History"+".txt");
+                if (File.Exists(defaultFilePath))
+                {
+                    MessageBox.Show("Default file already exists.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
+                using (StreamWriter writer = new StreamWriter(defaultFilePath))
+                {
+                    //writer.WriteLine("");
+                }
+                using (StreamWriter writer = new StreamWriter(defaultFilePathNeo))
+                {
+                    //writer.WriteLine("");
+                }
+                MessageBox.Show("Default text file created successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
     }
 }

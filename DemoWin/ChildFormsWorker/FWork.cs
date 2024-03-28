@@ -29,7 +29,7 @@ namespace DemoWin.ChildFormsWorker
         {
             string id = ThemeColors.IncomeID;
 
-            string query = string.Format("select Worker.Ten, DangViec.NgheNghiep from Worker, DangViec Where Worker.ID = '{0}' and DangViec.ID = '{0}'", id);
+            string query = string.Format("select Worker.Ten, DangViec.NgheNghiep, DangViec.TrangThai from Worker, DangViec Where Worker.ID = '{0}' and DangViec.ID = '{0}'", id);
             using (SqlConnection connection = Connection.GetSqlConnection())
             {
                 connection.Open();
@@ -45,6 +45,7 @@ namespace DemoWin.ChildFormsWorker
                                 UCPostJob job = new UCPostJob();
                                 job.lblPersonPostData.Text = reader["Ten"].ToString();
                                 job.lblGroupWorkData.Text = reader["NgheNghiep"].ToString();
+                                job.lblStatusData.Text = reader["TrangThai"].ToString();
                                 loadPostJob(job);
                                 //connection.Open();
                                 //SqlDataAdapter adapter = new SqlDataAdapter(query,connection);

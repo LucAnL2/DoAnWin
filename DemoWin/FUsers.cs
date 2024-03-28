@@ -110,6 +110,7 @@ namespace DemoWin
         }
         private void FUsers_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Normal;
             Clock.Start();
             MakeSpace();
         }

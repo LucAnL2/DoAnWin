@@ -47,3 +47,4 @@ D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.CoreCompileInputs.c
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.Up2Date
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.exe
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.pdb
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.UCUserJob.resources

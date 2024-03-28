@@ -12,6 +12,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
 using System.Windows.Media;
 using static DemoWin.Worker;
 using System.Xml.Linq;
+using System.IO;
 
 namespace DemoWin
 {
@@ -21,8 +22,10 @@ namespace DemoWin
         Modify modify = new Modify();
         PaintColor makeColor = new PaintColor();
         private string[] dataRole = { "Người dùng", "Thợ" };
+
         public FRegister()
         {
+            this.WindowState = FormWindowState.Normal;
             InitializeComponent();
         }
         public bool CheckAccount( string ac)
@@ -37,8 +40,8 @@ namespace DemoWin
         {
             //comboBox1.Text = "Mặc định";
             PerSonDAO psd = new PerSonDAO();
-            dataGridView1.DataSource = psd.load();
         }
+
         private void btnRegister_Click(object sender, EventArgs e)
         {
             string id = Person.CreateID(cbbVaiTro);
@@ -53,7 +56,6 @@ namespace DemoWin
             PSD.DangKi(person);
             load();
         }
-
         private void clock_Tick(object sender, EventArgs e)
         {
             lblClock.Text = DateTime.Now.ToString("hh:mm:ss");
@@ -61,6 +63,7 @@ namespace DemoWin
 
         private void FRegister_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Normal;
             clock.Start();
             cbbVaiTro.DataSource = dataRole;
 

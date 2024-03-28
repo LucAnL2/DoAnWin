@@ -145,7 +145,7 @@
             this.panelSearch.Controls.Add(this.btnSearch);
             this.panelSearch.Controls.Add(this.txtSearch);
             this.panelSearch.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSearch.Location = new System.Drawing.Point(0, 519);
+            this.panelSearch.Location = new System.Drawing.Point(0, 348);
             this.panelSearch.Name = "panelSearch";
             this.panelSearch.Size = new System.Drawing.Size(277, 134);
             this.panelSearch.TabIndex = 0;
@@ -209,7 +209,7 @@
             this.PanelComboWorkHour.MaximumSize = new System.Drawing.Size(277, 229);
             this.PanelComboWorkHour.MinimumSize = new System.Drawing.Size(277, 58);
             this.PanelComboWorkHour.Name = "PanelComboWorkHour";
-            this.PanelComboWorkHour.Size = new System.Drawing.Size(277, 229);
+            this.PanelComboWorkHour.Size = new System.Drawing.Size(277, 58);
             this.PanelComboWorkHour.TabIndex = 4;
             // 
             // btnWorkHour

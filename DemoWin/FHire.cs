@@ -89,13 +89,13 @@ namespace DemoWin
             {
                 query = string.Format("select Worker.ID, Worker.Ten, Worker.SDT, DangViec.NgheNghiep, Worker.DanhGiaTrungBinh\r\n" +
                     "from Worker\r\ninner join DangViec on Worker.ID = DangViec.ID " +
-                    "where DangViec.NgheNghiep = N'{0}'", lblTitle.Text);
+                    "where DangViec.NgheNghiep = N'{0}' and DangViec.TrangThai = N'{1}'", lblTitle.Text, "Đang chờ");
             }
             else
             {
                 query = string.Format("select Worker.ID, Worker.Ten, Worker.SDT, DangViec.NgheNghiep, Worker.DanhGiaTrungBinh\r\n" +
                     "from Worker\r\ninner join DangViec on Worker.ID = DangViec.ID " +
-                    "where DangViec.NgheNghiep != N'Thợ máy' and DangViec.NgheNghiep != N'Thợ sơn' and DangViec.NgheNghiep != N'Thợ sửa xe' and DangViec.NgheNghiep != N'Thợ điện' and DangViec.NgheNghiep != N'Thợ điêu khắc'");
+                    "where DangViec.NgheNghiep != N'Thợ máy' and DangViec.NgheNghiep != N'Thợ sơn' and DangViec.NgheNghiep != N'Thợ sửa xe' and DangViec.NgheNghiep != N'Thợ điện' and DangViec.NgheNghiep != N'Thợ điêu khắc' and DangViec.TrangThai = N'{0}'", "Đang chờ");
             }
             using (SqlConnection connection = Connection.GetSqlConnection())
             {
@@ -132,45 +132,6 @@ namespace DemoWin
         {
             uc.Margin = new Padding(35);
             uc.BackColor = ThemeColors.PrimaryColor;
-            flowLayoutPanel.Controls.Add(uc);
-        }
-        private void loadUCtoForm()
-        {
-            string workerID = "";
-            string query = "SELECT thongtin.ten, thongtin.diachi, vieclam.congviec " +
-                           "FROM thongtin " +
-                           "INNER JOIN vieclam ON thongtin.Id = vieclam.Id " +
-                           "WHERE thongtin.Id = @UserId";
-
-            using (SqlConnection connection = Connection.GetSqlConnection())
-            {
-                using (SqlCommand command = new SqlCommand(query, connection))
-                {
-                    command.Parameters.AddWithValue("@UserId", workerID);
-
-                    try
-                    {
-                        connection.Open();
-                        SqlDataReader reader = command.ExecuteReader();
-                        if (reader.Read())
-                        {
-                        }
-                        else
-                        {
-                            MessageBox.Show("User not found.");
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show("Error: " + ex.Message);
-                    }
-                }
-            }
-        }
-        private void loadUCWorkerDetail(UCWorkerInfo uc)
-        {
-            uc.Margin = new Padding(35);
-            uc.btnDetail.Click += btnOpenDetail_Click;
             flowLayoutPanel.Controls.Add(uc);
         }
         private void ChangeColor()

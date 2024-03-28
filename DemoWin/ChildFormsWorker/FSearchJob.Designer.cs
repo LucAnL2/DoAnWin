@@ -29,36 +29,36 @@
         private void InitializeComponent()
         {
             this.panelTop = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panelContain = new System.Windows.Forms.Panel();
-            this.flowPanelContain = new System.Windows.Forms.FlowLayoutPanel();
             this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.PanelComboAddress = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnAddress = new FontAwesome.Sharp.IconButton();
-            this.btnHaNoi = new FontAwesome.Sharp.IconButton();
-            this.btnTpHCM = new FontAwesome.Sharp.IconButton();
-            this.btnHue = new FontAwesome.Sharp.IconButton();
-            this.btnNoiKhac = new FontAwesome.Sharp.IconButton();
-            this.PanelComboHireCost = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnHireCost = new FontAwesome.Sharp.IconButton();
-            this.btn8Tr = new FontAwesome.Sharp.IconButton();
-            this.btn810Tr = new FontAwesome.Sharp.IconButton();
-            this.btn1020Tr = new FontAwesome.Sharp.IconButton();
-            this.btn20Tr = new FontAwesome.Sharp.IconButton();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.flowPanelJob = new System.Windows.Forms.FlowLayoutPanel();
             this.btnJob = new FontAwesome.Sharp.IconButton();
             this.btnEngineer = new FontAwesome.Sharp.IconButton();
             this.btnPainter = new FontAwesome.Sharp.IconButton();
             this.btnCarvers = new FontAwesome.Sharp.IconButton();
             this.btnDiffer = new FontAwesome.Sharp.IconButton();
+            this.PanelComboHireCost = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnHireCost = new FontAwesome.Sharp.IconButton();
+            this.btn8Tr = new FontAwesome.Sharp.IconButton();
+            this.btn810Tr = new FontAwesome.Sharp.IconButton();
+            this.btn1020Tr = new FontAwesome.Sharp.IconButton();
+            this.btn20Tr = new FontAwesome.Sharp.IconButton();
+            this.PanelComboAddress = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnAddress = new FontAwesome.Sharp.IconButton();
+            this.btnHaNoi = new FontAwesome.Sharp.IconButton();
+            this.btnTpHCM = new FontAwesome.Sharp.IconButton();
+            this.btnHue = new FontAwesome.Sharp.IconButton();
+            this.btnNoiKhac = new FontAwesome.Sharp.IconButton();
+            this.panelContain = new System.Windows.Forms.Panel();
+            this.flowPanelContain = new System.Windows.Forms.FlowLayoutPanel();
             this.panelTop.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panelContain.SuspendLayout();
-            this.PanelComboAddress.SuspendLayout();
-            this.PanelComboHireCost.SuspendLayout();
             this.flowPanelJob.SuspendLayout();
+            this.PanelComboHireCost.SuspendLayout();
+            this.PanelComboAddress.SuspendLayout();
+            this.panelContain.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelTop
@@ -72,37 +72,6 @@
             this.panelTop.Name = "panelTop";
             this.panelTop.Size = new System.Drawing.Size(1799, 126);
             this.panelTop.TabIndex = 0;
-            // 
-            // panel1
-            // 
-            this.panel1.AutoScroll = true;
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.panel1.Controls.Add(this.flowPanelJob);
-            this.panel1.Controls.Add(this.PanelComboHireCost);
-            this.panel1.Controls.Add(this.PanelComboAddress);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 126);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(277, 872);
-            this.panel1.TabIndex = 1;
-            // 
-            // panelContain
-            // 
-            this.panelContain.BackColor = System.Drawing.Color.White;
-            this.panelContain.Controls.Add(this.flowPanelContain);
-            this.panelContain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContain.Location = new System.Drawing.Point(277, 126);
-            this.panelContain.Name = "panelContain";
-            this.panelContain.Size = new System.Drawing.Size(1522, 872);
-            this.panelContain.TabIndex = 2;
-            // 
-            // flowPanelContain
-            // 
-            this.flowPanelContain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowPanelContain.Location = new System.Drawing.Point(0, 0);
-            this.flowPanelContain.Name = "flowPanelContain";
-            this.flowPanelContain.Size = new System.Drawing.Size(1522, 872);
-            this.flowPanelContain.TabIndex = 0;
             // 
             // txtSearch
             // 
@@ -158,228 +127,18 @@
             this.btnClose.TabIndex = 3;
             this.btnClose.UseVisualStyleBackColor = true;
             // 
-            // PanelComboAddress
+            // panel1
             // 
-            this.PanelComboAddress.BackColor = System.Drawing.Color.White;
-            this.PanelComboAddress.Controls.Add(this.btnAddress);
-            this.PanelComboAddress.Controls.Add(this.btnHaNoi);
-            this.PanelComboAddress.Controls.Add(this.btnTpHCM);
-            this.PanelComboAddress.Controls.Add(this.btnHue);
-            this.PanelComboAddress.Controls.Add(this.btnNoiKhac);
-            this.PanelComboAddress.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelComboAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PanelComboAddress.ForeColor = System.Drawing.Color.Navy;
-            this.PanelComboAddress.Location = new System.Drawing.Point(0, 0);
-            this.PanelComboAddress.MaximumSize = new System.Drawing.Size(277, 287);
-            this.PanelComboAddress.MinimumSize = new System.Drawing.Size(277, 58);
-            this.PanelComboAddress.Name = "PanelComboAddress";
-            this.PanelComboAddress.Size = new System.Drawing.Size(277, 58);
-            this.PanelComboAddress.TabIndex = 2;
-            // 
-            // btnAddress
-            // 
-            this.btnAddress.FlatAppearance.BorderSize = 0;
-            this.btnAddress.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddress.IconChar = FontAwesome.Sharp.IconChar.ChevronRight;
-            this.btnAddress.IconColor = System.Drawing.Color.Navy;
-            this.btnAddress.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnAddress.IconSize = 25;
-            this.btnAddress.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAddress.Location = new System.Drawing.Point(3, 3);
-            this.btnAddress.Name = "btnAddress";
-            this.btnAddress.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnAddress.Size = new System.Drawing.Size(267, 52);
-            this.btnAddress.TabIndex = 0;
-            this.btnAddress.Text = "Địa chỉ";
-            this.btnAddress.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAddress.UseVisualStyleBackColor = true;
-            // 
-            // btnHaNoi
-            // 
-            this.btnHaNoi.FlatAppearance.BorderSize = 0;
-            this.btnHaNoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHaNoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHaNoi.IconChar = FontAwesome.Sharp.IconChar.Square;
-            this.btnHaNoi.IconColor = System.Drawing.Color.Navy;
-            this.btnHaNoi.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnHaNoi.IconSize = 25;
-            this.btnHaNoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHaNoi.Location = new System.Drawing.Point(3, 61);
-            this.btnHaNoi.Name = "btnHaNoi";
-            this.btnHaNoi.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnHaNoi.Size = new System.Drawing.Size(267, 52);
-            this.btnHaNoi.TabIndex = 2;
-            this.btnHaNoi.Text = "Hà Nội";
-            this.btnHaNoi.UseVisualStyleBackColor = true;
-            // 
-            // btnTpHCM
-            // 
-            this.btnTpHCM.FlatAppearance.BorderSize = 0;
-            this.btnTpHCM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTpHCM.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTpHCM.IconChar = FontAwesome.Sharp.IconChar.Square;
-            this.btnTpHCM.IconColor = System.Drawing.Color.Navy;
-            this.btnTpHCM.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnTpHCM.IconSize = 25;
-            this.btnTpHCM.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTpHCM.Location = new System.Drawing.Point(3, 119);
-            this.btnTpHCM.Name = "btnTpHCM";
-            this.btnTpHCM.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnTpHCM.Size = new System.Drawing.Size(267, 52);
-            this.btnTpHCM.TabIndex = 3;
-            this.btnTpHCM.Text = "     Tp Hồ Chí Minh";
-            this.btnTpHCM.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnTpHCM.UseVisualStyleBackColor = true;
-            // 
-            // btnHue
-            // 
-            this.btnHue.FlatAppearance.BorderSize = 0;
-            this.btnHue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHue.IconChar = FontAwesome.Sharp.IconChar.Square;
-            this.btnHue.IconColor = System.Drawing.Color.Navy;
-            this.btnHue.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnHue.IconSize = 25;
-            this.btnHue.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHue.Location = new System.Drawing.Point(3, 177);
-            this.btnHue.Name = "btnHue";
-            this.btnHue.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnHue.Size = new System.Drawing.Size(267, 52);
-            this.btnHue.TabIndex = 3;
-            this.btnHue.Text = "Huế";
-            this.btnHue.UseVisualStyleBackColor = true;
-            // 
-            // btnNoiKhac
-            // 
-            this.btnNoiKhac.FlatAppearance.BorderSize = 0;
-            this.btnNoiKhac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNoiKhac.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNoiKhac.IconChar = FontAwesome.Sharp.IconChar.Square;
-            this.btnNoiKhac.IconColor = System.Drawing.Color.Navy;
-            this.btnNoiKhac.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnNoiKhac.IconSize = 25;
-            this.btnNoiKhac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNoiKhac.Location = new System.Drawing.Point(3, 235);
-            this.btnNoiKhac.Name = "btnNoiKhac";
-            this.btnNoiKhac.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnNoiKhac.Size = new System.Drawing.Size(267, 52);
-            this.btnNoiKhac.TabIndex = 4;
-            this.btnNoiKhac.Text = "Nơi khác";
-            this.btnNoiKhac.UseVisualStyleBackColor = true;
-            // 
-            // PanelComboHireCost
-            // 
-            this.PanelComboHireCost.BackColor = System.Drawing.Color.White;
-            this.PanelComboHireCost.Controls.Add(this.btnHireCost);
-            this.PanelComboHireCost.Controls.Add(this.btn8Tr);
-            this.PanelComboHireCost.Controls.Add(this.btn810Tr);
-            this.PanelComboHireCost.Controls.Add(this.btn1020Tr);
-            this.PanelComboHireCost.Controls.Add(this.btn20Tr);
-            this.PanelComboHireCost.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelComboHireCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PanelComboHireCost.ForeColor = System.Drawing.Color.Navy;
-            this.PanelComboHireCost.Location = new System.Drawing.Point(0, 58);
-            this.PanelComboHireCost.MaximumSize = new System.Drawing.Size(277, 285);
-            this.PanelComboHireCost.MinimumSize = new System.Drawing.Size(277, 58);
-            this.PanelComboHireCost.Name = "PanelComboHireCost";
-            this.PanelComboHireCost.Size = new System.Drawing.Size(277, 58);
-            this.PanelComboHireCost.TabIndex = 3;
-            // 
-            // btnHireCost
-            // 
-            this.btnHireCost.FlatAppearance.BorderSize = 0;
-            this.btnHireCost.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHireCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHireCost.IconChar = FontAwesome.Sharp.IconChar.ChevronRight;
-            this.btnHireCost.IconColor = System.Drawing.Color.Navy;
-            this.btnHireCost.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnHireCost.IconSize = 25;
-            this.btnHireCost.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnHireCost.Location = new System.Drawing.Point(3, 3);
-            this.btnHireCost.Name = "btnHireCost";
-            this.btnHireCost.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnHireCost.Size = new System.Drawing.Size(267, 52);
-            this.btnHireCost.TabIndex = 0;
-            this.btnHireCost.Text = "Lương";
-            this.btnHireCost.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHireCost.UseVisualStyleBackColor = true;
-            // 
-            // btn8Tr
-            // 
-            this.btn8Tr.FlatAppearance.BorderSize = 0;
-            this.btn8Tr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn8Tr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn8Tr.IconChar = FontAwesome.Sharp.IconChar.Square;
-            this.btn8Tr.IconColor = System.Drawing.Color.Navy;
-            this.btn8Tr.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn8Tr.IconSize = 25;
-            this.btn8Tr.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn8Tr.Location = new System.Drawing.Point(3, 61);
-            this.btn8Tr.Name = "btn8Tr";
-            this.btn8Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn8Tr.Size = new System.Drawing.Size(267, 52);
-            this.btn8Tr.TabIndex = 1;
-            this.btn8Tr.Text = "Dưới 8 Tr/Tháng";
-            this.btn8Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn8Tr.UseVisualStyleBackColor = true;
-            // 
-            // btn810Tr
-            // 
-            this.btn810Tr.FlatAppearance.BorderSize = 0;
-            this.btn810Tr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn810Tr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn810Tr.IconChar = FontAwesome.Sharp.IconChar.Square;
-            this.btn810Tr.IconColor = System.Drawing.Color.Navy;
-            this.btn810Tr.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn810Tr.IconSize = 25;
-            this.btn810Tr.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn810Tr.Location = new System.Drawing.Point(3, 119);
-            this.btn810Tr.Name = "btn810Tr";
-            this.btn810Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn810Tr.Size = new System.Drawing.Size(267, 52);
-            this.btn810Tr.TabIndex = 2;
-            this.btn810Tr.Text = "8-10 Tr/Tháng";
-            this.btn810Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn810Tr.UseVisualStyleBackColor = true;
-            // 
-            // btn1020Tr
-            // 
-            this.btn1020Tr.FlatAppearance.BorderSize = 0;
-            this.btn1020Tr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1020Tr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn1020Tr.IconChar = FontAwesome.Sharp.IconChar.Square;
-            this.btn1020Tr.IconColor = System.Drawing.Color.Navy;
-            this.btn1020Tr.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn1020Tr.IconSize = 25;
-            this.btn1020Tr.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn1020Tr.Location = new System.Drawing.Point(3, 177);
-            this.btn1020Tr.Name = "btn1020Tr";
-            this.btn1020Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn1020Tr.Size = new System.Drawing.Size(267, 52);
-            this.btn1020Tr.TabIndex = 2;
-            this.btn1020Tr.Text = "10-20 Tr/Tháng";
-            this.btn1020Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn1020Tr.UseVisualStyleBackColor = true;
-            // 
-            // btn20Tr
-            // 
-            this.btn20Tr.FlatAppearance.BorderSize = 0;
-            this.btn20Tr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn20Tr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn20Tr.IconChar = FontAwesome.Sharp.IconChar.Square;
-            this.btn20Tr.IconColor = System.Drawing.Color.Navy;
-            this.btn20Tr.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn20Tr.IconSize = 25;
-            this.btn20Tr.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn20Tr.Location = new System.Drawing.Point(3, 235);
-            this.btn20Tr.Name = "btn20Tr";
-            this.btn20Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btn20Tr.Size = new System.Drawing.Size(267, 52);
-            this.btn20Tr.TabIndex = 2;
-            this.btn20Tr.Text = "Trên 20 Tr/Tháng";
-            this.btn20Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn20Tr.UseVisualStyleBackColor = true;
+            this.panel1.AutoScroll = true;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panel1.Controls.Add(this.flowPanelJob);
+            this.panel1.Controls.Add(this.PanelComboHireCost);
+            this.panel1.Controls.Add(this.PanelComboAddress);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 126);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(298, 872);
+            this.panel1.TabIndex = 1;
             // 
             // flowPanelJob
             // 
@@ -494,7 +253,248 @@
             this.btnDiffer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnDiffer.UseVisualStyleBackColor = true;
             // 
-            // SearchJob
+            // PanelComboHireCost
+            // 
+            this.PanelComboHireCost.BackColor = System.Drawing.Color.White;
+            this.PanelComboHireCost.Controls.Add(this.btnHireCost);
+            this.PanelComboHireCost.Controls.Add(this.btn8Tr);
+            this.PanelComboHireCost.Controls.Add(this.btn810Tr);
+            this.PanelComboHireCost.Controls.Add(this.btn1020Tr);
+            this.PanelComboHireCost.Controls.Add(this.btn20Tr);
+            this.PanelComboHireCost.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PanelComboHireCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanelComboHireCost.ForeColor = System.Drawing.Color.Navy;
+            this.PanelComboHireCost.Location = new System.Drawing.Point(0, 58);
+            this.PanelComboHireCost.MaximumSize = new System.Drawing.Size(277, 285);
+            this.PanelComboHireCost.MinimumSize = new System.Drawing.Size(277, 58);
+            this.PanelComboHireCost.Name = "PanelComboHireCost";
+            this.PanelComboHireCost.Size = new System.Drawing.Size(277, 58);
+            this.PanelComboHireCost.TabIndex = 3;
+            // 
+            // btnHireCost
+            // 
+            this.btnHireCost.FlatAppearance.BorderSize = 0;
+            this.btnHireCost.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHireCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHireCost.IconChar = FontAwesome.Sharp.IconChar.ChevronRight;
+            this.btnHireCost.IconColor = System.Drawing.Color.Navy;
+            this.btnHireCost.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnHireCost.IconSize = 25;
+            this.btnHireCost.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnHireCost.Location = new System.Drawing.Point(3, 3);
+            this.btnHireCost.Name = "btnHireCost";
+            this.btnHireCost.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnHireCost.Size = new System.Drawing.Size(267, 52);
+            this.btnHireCost.TabIndex = 0;
+            this.btnHireCost.Text = "Lương";
+            this.btnHireCost.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHireCost.UseVisualStyleBackColor = true;
+            // 
+            // btn8Tr
+            // 
+            this.btn8Tr.FlatAppearance.BorderSize = 0;
+            this.btn8Tr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8Tr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn8Tr.IconChar = FontAwesome.Sharp.IconChar.Square;
+            this.btn8Tr.IconColor = System.Drawing.Color.Navy;
+            this.btn8Tr.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn8Tr.IconSize = 25;
+            this.btn8Tr.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn8Tr.Location = new System.Drawing.Point(3, 61);
+            this.btn8Tr.Name = "btn8Tr";
+            this.btn8Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btn8Tr.Size = new System.Drawing.Size(267, 52);
+            this.btn8Tr.TabIndex = 1;
+            this.btn8Tr.Text = "Dưới 8 Tr/Tháng";
+            this.btn8Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn8Tr.UseVisualStyleBackColor = true;
+            // 
+            // btn810Tr
+            // 
+            this.btn810Tr.FlatAppearance.BorderSize = 0;
+            this.btn810Tr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn810Tr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn810Tr.IconChar = FontAwesome.Sharp.IconChar.Square;
+            this.btn810Tr.IconColor = System.Drawing.Color.Navy;
+            this.btn810Tr.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn810Tr.IconSize = 25;
+            this.btn810Tr.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn810Tr.Location = new System.Drawing.Point(3, 119);
+            this.btn810Tr.Name = "btn810Tr";
+            this.btn810Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btn810Tr.Size = new System.Drawing.Size(267, 52);
+            this.btn810Tr.TabIndex = 2;
+            this.btn810Tr.Text = "8-10 Tr/Tháng";
+            this.btn810Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn810Tr.UseVisualStyleBackColor = true;
+            // 
+            // btn1020Tr
+            // 
+            this.btn1020Tr.FlatAppearance.BorderSize = 0;
+            this.btn1020Tr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1020Tr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn1020Tr.IconChar = FontAwesome.Sharp.IconChar.Square;
+            this.btn1020Tr.IconColor = System.Drawing.Color.Navy;
+            this.btn1020Tr.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn1020Tr.IconSize = 25;
+            this.btn1020Tr.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn1020Tr.Location = new System.Drawing.Point(3, 177);
+            this.btn1020Tr.Name = "btn1020Tr";
+            this.btn1020Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btn1020Tr.Size = new System.Drawing.Size(267, 52);
+            this.btn1020Tr.TabIndex = 2;
+            this.btn1020Tr.Text = "10-20 Tr/Tháng";
+            this.btn1020Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn1020Tr.UseVisualStyleBackColor = true;
+            // 
+            // btn20Tr
+            // 
+            this.btn20Tr.FlatAppearance.BorderSize = 0;
+            this.btn20Tr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn20Tr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn20Tr.IconChar = FontAwesome.Sharp.IconChar.Square;
+            this.btn20Tr.IconColor = System.Drawing.Color.Navy;
+            this.btn20Tr.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn20Tr.IconSize = 25;
+            this.btn20Tr.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn20Tr.Location = new System.Drawing.Point(3, 235);
+            this.btn20Tr.Name = "btn20Tr";
+            this.btn20Tr.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btn20Tr.Size = new System.Drawing.Size(267, 52);
+            this.btn20Tr.TabIndex = 2;
+            this.btn20Tr.Text = "Trên 20 Tr/Tháng";
+            this.btn20Tr.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn20Tr.UseVisualStyleBackColor = true;
+            // 
+            // PanelComboAddress
+            // 
+            this.PanelComboAddress.BackColor = System.Drawing.Color.White;
+            this.PanelComboAddress.Controls.Add(this.btnAddress);
+            this.PanelComboAddress.Controls.Add(this.btnHaNoi);
+            this.PanelComboAddress.Controls.Add(this.btnTpHCM);
+            this.PanelComboAddress.Controls.Add(this.btnHue);
+            this.PanelComboAddress.Controls.Add(this.btnNoiKhac);
+            this.PanelComboAddress.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PanelComboAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanelComboAddress.ForeColor = System.Drawing.Color.Navy;
+            this.PanelComboAddress.Location = new System.Drawing.Point(0, 0);
+            this.PanelComboAddress.MaximumSize = new System.Drawing.Size(277, 287);
+            this.PanelComboAddress.MinimumSize = new System.Drawing.Size(277, 58);
+            this.PanelComboAddress.Name = "PanelComboAddress";
+            this.PanelComboAddress.Size = new System.Drawing.Size(277, 58);
+            this.PanelComboAddress.TabIndex = 2;
+            // 
+            // btnAddress
+            // 
+            this.btnAddress.FlatAppearance.BorderSize = 0;
+            this.btnAddress.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddress.IconChar = FontAwesome.Sharp.IconChar.ChevronRight;
+            this.btnAddress.IconColor = System.Drawing.Color.Navy;
+            this.btnAddress.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnAddress.IconSize = 25;
+            this.btnAddress.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAddress.Location = new System.Drawing.Point(3, 3);
+            this.btnAddress.Name = "btnAddress";
+            this.btnAddress.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnAddress.Size = new System.Drawing.Size(267, 52);
+            this.btnAddress.TabIndex = 0;
+            this.btnAddress.Text = "Địa chỉ";
+            this.btnAddress.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAddress.UseVisualStyleBackColor = true;
+            // 
+            // btnHaNoi
+            // 
+            this.btnHaNoi.FlatAppearance.BorderSize = 0;
+            this.btnHaNoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHaNoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHaNoi.IconChar = FontAwesome.Sharp.IconChar.Square;
+            this.btnHaNoi.IconColor = System.Drawing.Color.Navy;
+            this.btnHaNoi.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnHaNoi.IconSize = 25;
+            this.btnHaNoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHaNoi.Location = new System.Drawing.Point(3, 61);
+            this.btnHaNoi.Name = "btnHaNoi";
+            this.btnHaNoi.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnHaNoi.Size = new System.Drawing.Size(267, 52);
+            this.btnHaNoi.TabIndex = 2;
+            this.btnHaNoi.Text = "Hà Nội";
+            this.btnHaNoi.UseVisualStyleBackColor = true;
+            // 
+            // btnTpHCM
+            // 
+            this.btnTpHCM.FlatAppearance.BorderSize = 0;
+            this.btnTpHCM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTpHCM.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTpHCM.IconChar = FontAwesome.Sharp.IconChar.Square;
+            this.btnTpHCM.IconColor = System.Drawing.Color.Navy;
+            this.btnTpHCM.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnTpHCM.IconSize = 25;
+            this.btnTpHCM.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTpHCM.Location = new System.Drawing.Point(3, 119);
+            this.btnTpHCM.Name = "btnTpHCM";
+            this.btnTpHCM.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnTpHCM.Size = new System.Drawing.Size(267, 52);
+            this.btnTpHCM.TabIndex = 3;
+            this.btnTpHCM.Text = "     Tp Hồ Chí Minh";
+            this.btnTpHCM.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTpHCM.UseVisualStyleBackColor = true;
+            // 
+            // btnHue
+            // 
+            this.btnHue.FlatAppearance.BorderSize = 0;
+            this.btnHue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHue.IconChar = FontAwesome.Sharp.IconChar.Square;
+            this.btnHue.IconColor = System.Drawing.Color.Navy;
+            this.btnHue.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnHue.IconSize = 25;
+            this.btnHue.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHue.Location = new System.Drawing.Point(3, 177);
+            this.btnHue.Name = "btnHue";
+            this.btnHue.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnHue.Size = new System.Drawing.Size(267, 52);
+            this.btnHue.TabIndex = 3;
+            this.btnHue.Text = "Huế";
+            this.btnHue.UseVisualStyleBackColor = true;
+            // 
+            // btnNoiKhac
+            // 
+            this.btnNoiKhac.FlatAppearance.BorderSize = 0;
+            this.btnNoiKhac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNoiKhac.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNoiKhac.IconChar = FontAwesome.Sharp.IconChar.Square;
+            this.btnNoiKhac.IconColor = System.Drawing.Color.Navy;
+            this.btnNoiKhac.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnNoiKhac.IconSize = 25;
+            this.btnNoiKhac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNoiKhac.Location = new System.Drawing.Point(3, 235);
+            this.btnNoiKhac.Name = "btnNoiKhac";
+            this.btnNoiKhac.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnNoiKhac.Size = new System.Drawing.Size(267, 52);
+            this.btnNoiKhac.TabIndex = 4;
+            this.btnNoiKhac.Text = "Nơi khác";
+            this.btnNoiKhac.UseVisualStyleBackColor = true;
+            // 
+            // panelContain
+            // 
+            this.panelContain.BackColor = System.Drawing.Color.White;
+            this.panelContain.Controls.Add(this.flowPanelContain);
+            this.panelContain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContain.Location = new System.Drawing.Point(298, 126);
+            this.panelContain.Name = "panelContain";
+            this.panelContain.Size = new System.Drawing.Size(1501, 872);
+            this.panelContain.TabIndex = 2;
+            // 
+            // flowPanelContain
+            // 
+            this.flowPanelContain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowPanelContain.Location = new System.Drawing.Point(0, 0);
+            this.flowPanelContain.Name = "flowPanelContain";
+            this.flowPanelContain.Size = new System.Drawing.Size(1501, 872);
+            this.flowPanelContain.TabIndex = 0;
+            // 
+            // FSearchJob
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -503,14 +503,14 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "SearchJob";
+            this.Name = "FSearchJob";
             this.Text = "SearchJob";
             this.panelTop.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.panelContain.ResumeLayout(false);
-            this.PanelComboAddress.ResumeLayout(false);
-            this.PanelComboHireCost.ResumeLayout(false);
             this.flowPanelJob.ResumeLayout(false);
+            this.PanelComboHireCost.ResumeLayout(false);
+            this.PanelComboAddress.ResumeLayout(false);
+            this.panelContain.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
