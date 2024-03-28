@@ -78,8 +78,8 @@ namespace DemoWin
             //    flowLayoutPanel.Controls.Add(uc);
 
             //}
-            LoadDataIntoTextBoxes();
             ChangeColor();
+            LoadDataIntoTextBoxes();
 
         }
         public void LoadDataIntoTextBoxes()
@@ -115,6 +115,7 @@ namespace DemoWin
                                 uc.lblID.Text = reader["ID"].ToString();
                                 uc.lblRate.Text = reader["DanhGiaTrungBinh"].ToString();
                                 uc.btnDetail.Click += btnOpenDetail_Click;
+                                uc.btnMark.Click += btnMark_Click;
                                 loadWorkerInfo(uc);
                                 //connection.Open();
                                 //SqlDataAdapter adapter = new SqlDataAdapter(query,connection);
@@ -132,6 +133,7 @@ namespace DemoWin
         {
             uc.Margin = new Padding(35);
             uc.BackColor = ThemeColors.PrimaryColor;
+            uc.btnMark.BackColor = ThemeColors.PrimaryColor;
             flowLayoutPanel.Controls.Add(uc);
         }
         private void ChangeColor()
@@ -590,6 +592,11 @@ namespace DemoWin
             FWorkerDetail user = new FWorkerDetail();
             user.btnBack.Click += btnCloseDetail_Click;
             OpenChildForm(user, sender);
+        }
+        private void btnMark_Click(object sender, EventArgs e)
+        {
+            WokerDAO wkd = new WokerDAO();
+            wkd.Mark();
         }
         private void btnCloseDetail_Click(object sender, EventArgs e)
         {

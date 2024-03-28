@@ -19,7 +19,8 @@ namespace DemoWin
                 string sqlStr = string.Format("INSERT INTO NguoiDungDangViec (ID, ViTri, Luong, DiaChi, YeuCau, NgayLam, GioLam, MoTa, TrangThai) " +
                         "VALUES (N'{0}', N'{1}', N'{2}', N'{3}', N'{4}', N'{5}', N'{6}', N'{7}', N'{8}')", newDangviec.Id, newDangviec.Position, newDangviec.Salary
                         , newDangviec.Address, newDangviec.Require, newDangviec.WorkingDay, newDangviec.WorkingHour, newDangviec.Describe, newDangviec.Status);
-                connect.ThucThi(sqlStr, "Thêm công việc thành công", newDangviec);
+                ///connect.ThucThi(sqlStr, "Thêm công việc thành công", newDangviec);
+                connect.ThucThi(sqlStr);
             }
             else
             {

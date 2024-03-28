@@ -30,9 +30,9 @@
         {
             this.lblSalary = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.lblID = new System.Windows.Forms.Label();
+            this.lblWork = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,21 +55,12 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(683, 23);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // iconButton1
             // 
             this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButton1.IconColor = System.Drawing.Color.Black;
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.Location = new System.Drawing.Point(799, 9);
+            this.iconButton1.Location = new System.Drawing.Point(970, 6);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Size = new System.Drawing.Size(36, 50);
             this.iconButton1.TabIndex = 3;
@@ -84,17 +75,26 @@
             this.lblID.TabIndex = 4;
             this.lblID.Text = "ID";
             // 
+            // lblWork
+            // 
+            this.lblWork.AutoSize = true;
+            this.lblWork.Location = new System.Drawing.Point(425, 23);
+            this.lblWork.Name = "lblWork";
+            this.lblWork.Size = new System.Drawing.Size(67, 16);
+            this.lblWork.TabIndex = 5;
+            this.lblWork.Text = "Công việc";
+            // 
             // UCUserJob
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lblWork);
             this.Controls.Add(this.lblID);
             this.Controls.Add(this.iconButton1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblSalary);
             this.Name = "UCUserJob";
-            this.Size = new System.Drawing.Size(852, 65);
+            this.Size = new System.Drawing.Size(1029, 69);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -103,10 +103,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblSalary;
+        public System.Windows.Forms.Label lblSalary;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
         private FontAwesome.Sharp.IconButton iconButton1;
-        private System.Windows.Forms.Label lblID;
+        public System.Windows.Forms.Label lblID;
+        private System.Windows.Forms.Label lblWork;
     }
 }

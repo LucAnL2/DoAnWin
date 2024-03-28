@@ -25,11 +25,9 @@ D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FMailBox.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FManagerToolcs.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.Form1.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.Form2.resources
-D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.Form3.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FPostWork.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FUserPostJob.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FUsers.resources
-D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FWorker.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FWorkerDetail.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FForgotPassword.resources
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FHire.resources
@@ -52,3 +50,8 @@ D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.CoreCompileInputs.c
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.csproj.Up2Date
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.exe
 D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.pdb
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FWorkers.resources
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.Form3.resources
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.Form4.resources
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.FMark.resources
+D:\DataD\c#\DoAnWin\DoAnWin\DemoWin\obj\Debug\DemoWin.UCMark.resources

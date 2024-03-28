@@ -163,6 +163,16 @@ namespace DemoWin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bookmark__1_ {
+            get {
+                object obj = ResourceManager.GetObject("bookmark (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap briefcase {
             get {
                 object obj = ResourceManager.GetObject("briefcase", resourceCulture);

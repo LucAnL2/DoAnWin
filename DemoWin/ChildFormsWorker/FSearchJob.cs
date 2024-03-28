@@ -19,9 +19,8 @@ namespace DemoWin.ChildFormsWorker
         }
         public void LoadDataIntoTextBoxes()
         {
-            string query = string.Format("select Worker.ID, Worker.Ten, Worker.SDT, DangViec.NgheNghiep, Worker.DanhGiaTrungBinh\r\n" +
-                    "from Worker\r\ninner join DangViec on Worker.ID = DangViec.ID " +
-                    "where DangViec.NgheNghiep = N'{0}'");
+            string query = string.Format("select NguoiDung2.ID, NguoiDungDangViec.Luong\r\n" +
+                    "from NguoiDung2\r\ninner join NguoiDungDangViec on NguoiDung2.ID = NguoiDungDangViec.ID ");
             using (SqlConnection connection = Connection.GetSqlConnection())
             {
                 connection.Open();
@@ -34,11 +33,9 @@ namespace DemoWin.ChildFormsWorker
                         {
                             while (reader.Read())
                             {
-                                UCWorkerInfo uc = new UCWorkerInfo();
-                                uc.lblName.Text = reader["Ten"].ToString();
-                                uc.lblPhone.Text = reader["SDT"].ToString();
+                                UCUserJob uc = new UCUserJob();
+                                uc.lblSalary.Text = reader["Luong"].ToString();
                                 uc.lblID.Text = reader["ID"].ToString();
-                                uc.lblRate.Text = reader["DanhGiaTrungBinh"].ToString();
                                 //uc.btnDetail.Click += btnOpenDetail_Click;
                                 loadWorkerInfo(uc);
                                 //connection.Open();
@@ -53,11 +50,16 @@ namespace DemoWin.ChildFormsWorker
                 }
             }
         }
-        public void loadWorkerInfo(UCWorkerInfo uc)
+        public void loadWorkerInfo(UCUserJob uc)
         {
-            uc.Margin = new Padding(35);
+            uc.Margin = new Padding(20);
             uc.BackColor = ThemeColors.PrimaryColor;
             flowPanelContain.Controls.Add(uc);
+        }
+
+        private void FSearchJob_Load(object sender, EventArgs e)
+        {
+            LoadDataIntoTextBoxes();
         }
     }
 }

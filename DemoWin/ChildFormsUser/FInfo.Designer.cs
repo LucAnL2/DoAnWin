@@ -40,6 +40,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
+            this.btnMark = new System.Windows.Forms.Button();
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.btnMailBox = new FontAwesome.Sharp.IconButton();
@@ -49,6 +50,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panelTaskBar.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.panelBackInfo.SuspendLayout();
@@ -93,7 +96,6 @@
             this.guna2Panel1.Controls.Add(this.picBackGround);
             this.guna2Panel1.Location = new System.Drawing.Point(143, 22);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(1568, 642);
             this.guna2Panel1.TabIndex = 15;
             // 
@@ -102,6 +104,9 @@
             this.panelBackInfo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelBackInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panelBackInfo.Controls.Add(this.label5);
+            this.panelBackInfo.Controls.Add(this.label1);
+            this.panelBackInfo.Controls.Add(this.btnMark);
             this.panelBackInfo.Controls.Add(this.iconButton3);
             this.panelBackInfo.Controls.Add(this.panel1);
             this.panelBackInfo.Controls.Add(this.guna2Button2);
@@ -135,15 +140,11 @@
             this.guna2Button2.BorderColor = System.Drawing.Color.White;
             this.guna2Button2.BorderRadius = 8;
             this.guna2Button2.BorderThickness = 2;
-            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
-            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
             this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.Parent = this.guna2Button2;
             this.guna2Button2.Location = new System.Drawing.Point(1089, 157);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
             this.guna2Button2.Size = new System.Drawing.Size(129, 30);
             this.guna2Button2.TabIndex = 84;
             this.guna2Button2.Text = "Nạp tiền";
@@ -154,15 +155,11 @@
             this.guna2Button1.BorderColor = System.Drawing.Color.White;
             this.guna2Button1.BorderRadius = 8;
             this.guna2Button1.BorderThickness = 2;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
             this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Location = new System.Drawing.Point(514, 282);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(166, 30);
             this.guna2Button1.TabIndex = 84;
             this.guna2Button1.Text = "Đổi mật khẩu";
@@ -173,15 +170,11 @@
             this.btnDetail.BorderColor = System.Drawing.Color.White;
             this.btnDetail.BorderRadius = 8;
             this.btnDetail.BorderThickness = 2;
-            this.btnDetail.CheckedState.Parent = this.btnDetail;
-            this.btnDetail.CustomImages.Parent = this.btnDetail;
             this.btnDetail.FillColor = System.Drawing.Color.Transparent;
             this.btnDetail.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetail.ForeColor = System.Drawing.Color.White;
-            this.btnDetail.HoverState.Parent = this.btnDetail;
             this.btnDetail.Location = new System.Drawing.Point(34, 204);
             this.btnDetail.Name = "btnDetail";
-            this.btnDetail.ShadowDecoration.Parent = this.btnDetail;
             this.btnDetail.Size = new System.Drawing.Size(130, 30);
             this.btnDetail.TabIndex = 84;
             this.btnDetail.Text = "Chi tiết";
@@ -234,6 +227,18 @@
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Tên người dùng: ";
             // 
+            // btnMark
+            // 
+            this.btnMark.FlatAppearance.BorderSize = 0;
+            this.btnMark.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMark.Image = global::DemoWin.Properties.Resources.bookmark__1_;
+            this.btnMark.Location = new System.Drawing.Point(1322, 0);
+            this.btnMark.Name = "btnMark";
+            this.btnMark.Size = new System.Drawing.Size(54, 41);
+            this.btnMark.TabIndex = 87;
+            this.btnMark.UseVisualStyleBackColor = true;
+            this.btnMark.Click += new System.EventHandler(this.btnMark_Click);
+            // 
             // iconButton3
             // 
             this.iconButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -246,7 +251,7 @@
             this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton3.IconSize = 20;
             this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(1048, 3);
+            this.iconButton3.Location = new System.Drawing.Point(994, 3);
             this.iconButton3.Name = "iconButton3";
             this.iconButton3.Size = new System.Drawing.Size(152, 32);
             this.iconButton3.TabIndex = 86;
@@ -265,9 +270,9 @@
             this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton2.IconSize = 20;
             this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(1089, 272);
+            this.iconButton2.Location = new System.Drawing.Point(1072, 272);
             this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(230, 27);
+            this.iconButton2.Size = new System.Drawing.Size(230, 40);
             this.iconButton2.TabIndex = 83;
             this.iconButton2.Text = "Gửi phản hồi cho hệ thống";
             this.iconButton2.UseVisualStyleBackColor = true;
@@ -284,7 +289,7 @@
             this.btnMailBox.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnMailBox.IconSize = 20;
             this.btnMailBox.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMailBox.Location = new System.Drawing.Point(1231, 3);
+            this.btnMailBox.Location = new System.Drawing.Point(1177, 3);
             this.btnMailBox.Name = "btnMailBox";
             this.btnMailBox.Size = new System.Drawing.Size(125, 32);
             this.btnMailBox.TabIndex = 83;
@@ -297,10 +302,10 @@
             this.guna2CirclePictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.guna2CirclePictureBox1.Image = global::DemoWin.Properties.Resources.user__5_;
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(21, 68);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
             this.guna2CirclePictureBox1.Size = new System.Drawing.Size(151, 130);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox1.TabIndex = 82;
@@ -311,9 +316,9 @@
             this.picBackGround.BorderRadius = 10;
             this.picBackGround.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picBackGround.Image = global::DemoWin.Properties.Resources.forest_3622519_1280;
+            this.picBackGround.ImageRotate = 0F;
             this.picBackGround.Location = new System.Drawing.Point(0, 0);
             this.picBackGround.Name = "picBackGround";
-            this.picBackGround.ShadowDecoration.Parent = this.picBackGround;
             this.picBackGround.Size = new System.Drawing.Size(1568, 642);
             this.picBackGround.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBackGround.TabIndex = 0;
@@ -391,6 +396,28 @@
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(338, 110);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(80, 25);
+            this.label1.TabIndex = 88;
+            this.label1.Text = "Lục Ân";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(339, 180);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(193, 20);
+            this.label5.TabIndex = 88;
+            this.label5.Text = "Lucan123@gmail.com";
+            // 
             // FInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -437,5 +464,8 @@
         private FontAwesome.Sharp.IconButton iconButton3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnMark;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label1;
     }
 }

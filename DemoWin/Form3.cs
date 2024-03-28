@@ -16,5 +16,14 @@ namespace DemoWin
         {
             InitializeComponent();
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            for(int i=0; i<5; i++)
+            {
+                UCWorkerInfo workerInfo = new UCWorkerInfo();
+                flowLayoutPanel1.Controls.Add(workerInfo);
+            }
+        }
     }
 }

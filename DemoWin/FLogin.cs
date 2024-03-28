@@ -76,7 +76,7 @@ namespace DemoWin
                         string queryneo = "Select * from Worker where TenTaiKhoan = '" + userName + "'";
                         ThemeColors.IncomeID = modify.Accounts(queryneo)[0].UserName;
                         //MessageBox.Show(ThemeColors.IncomeID);
-                        FWorker worker = new FWorker();
+                        FWorkers worker = new FWorkers();
                         worker.ShowDialog();
                         
                     }

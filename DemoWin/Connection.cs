@@ -49,6 +49,7 @@ namespace DemoWin
                     if (cmd.ExecuteNonQuery() > 0)
                     {
                         MessageBox.Show(successMessage);
+                        CreateFileData(newperson.Id);
                     }
                 }
             }
@@ -97,18 +98,13 @@ namespace DemoWin
             try
             {
                 string defaultFolderPath = root + "\\DataUser\\";
-                string defaultFilePath = Path.Combine(defaultFolderPath, id.ToString() + ".txt");
-                string defaultFilePathNeo = Path.Combine(defaultFolderPath, id.ToString() + "History"+".txt");
+                string defaultFilePath = Path.Combine(defaultFolderPath, id + ".txt");
                 if (File.Exists(defaultFilePath))
                 {
                     MessageBox.Show("Default file already exists.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                     return;
                 }
                 using (StreamWriter writer = new StreamWriter(defaultFilePath))
-                {
-                    //writer.WriteLine("");
-                }
-                using (StreamWriter writer = new StreamWriter(defaultFilePathNeo))
                 {
                     //writer.WriteLine("");
                 }

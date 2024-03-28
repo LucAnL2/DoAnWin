@@ -49,5 +49,10 @@ namespace DemoWin
         {
             ThemeColors.OpenID = lblID.Text;
         }
+
+        private void btnMark_Click(object sender, EventArgs e)
+        {
+            ThemeColors.OpenID = lblID.Text;
+        }
     }
 }

@@ -173,16 +173,12 @@
             this.cbbRate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbbRate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.cbbRate.FocusedColor = System.Drawing.Color.Empty;
-            this.cbbRate.FocusedState.Parent = this.cbbRate;
             this.cbbRate.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbbRate.ForeColor = System.Drawing.Color.White;
             this.cbbRate.FormattingEnabled = true;
-            this.cbbRate.HoverState.Parent = this.cbbRate;
             this.cbbRate.ItemHeight = 30;
-            this.cbbRate.ItemsAppearance.Parent = this.cbbRate;
             this.cbbRate.Location = new System.Drawing.Point(1117, 7);
             this.cbbRate.Name = "cbbRate";
-            this.cbbRate.ShadowDecoration.Parent = this.cbbRate;
             this.cbbRate.Size = new System.Drawing.Size(162, 36);
             this.cbbRate.TabIndex = 20;
             // 
@@ -194,16 +190,12 @@
             this.cbbHirecost.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbbHirecost.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.cbbHirecost.FocusedColor = System.Drawing.Color.Empty;
-            this.cbbHirecost.FocusedState.Parent = this.cbbHirecost;
             this.cbbHirecost.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbbHirecost.ForeColor = System.Drawing.Color.White;
             this.cbbHirecost.FormattingEnabled = true;
-            this.cbbHirecost.HoverState.Parent = this.cbbHirecost;
             this.cbbHirecost.ItemHeight = 30;
-            this.cbbHirecost.ItemsAppearance.Parent = this.cbbHirecost;
             this.cbbHirecost.Location = new System.Drawing.Point(955, 7);
             this.cbbHirecost.Name = "cbbHirecost";
-            this.cbbHirecost.ShadowDecoration.Parent = this.cbbHirecost;
             this.cbbHirecost.Size = new System.Drawing.Size(162, 36);
             this.cbbHirecost.TabIndex = 19;
             // 
@@ -215,16 +207,12 @@
             this.cbbAddress.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbbAddress.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.cbbAddress.FocusedColor = System.Drawing.Color.Empty;
-            this.cbbAddress.FocusedState.Parent = this.cbbAddress;
             this.cbbAddress.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbbAddress.ForeColor = System.Drawing.Color.White;
             this.cbbAddress.FormattingEnabled = true;
-            this.cbbAddress.HoverState.Parent = this.cbbAddress;
             this.cbbAddress.ItemHeight = 30;
-            this.cbbAddress.ItemsAppearance.Parent = this.cbbAddress;
             this.cbbAddress.Location = new System.Drawing.Point(793, 7);
             this.cbbAddress.Name = "cbbAddress";
-            this.cbbAddress.ShadowDecoration.Parent = this.cbbAddress;
             this.cbbAddress.Size = new System.Drawing.Size(162, 36);
             this.cbbAddress.TabIndex = 18;
             // 
@@ -303,6 +291,7 @@
             this.btnSaved.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSaved.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSaved.UseVisualStyleBackColor = true;
+            this.btnSaved.Click += new System.EventHandler(this.btnSaved_Click);
             // 
             // btnHired
             // 

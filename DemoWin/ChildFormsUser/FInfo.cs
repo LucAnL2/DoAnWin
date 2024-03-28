@@ -43,5 +43,11 @@ namespace DemoWin.Forms
             FMailBox mailBox = new FMailBox();
             mailBox.ShowDialog();
         }
+
+        private void btnMark_Click(object sender, EventArgs e)
+        {
+            FMark fMark = new FMark();
+            fMark.ShowDialog();
+        }
     }
 }

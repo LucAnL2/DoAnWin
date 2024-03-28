@@ -80,6 +80,7 @@ namespace DemoWin.Forms
         {
             uc.Margin = new Padding(20);
             uc.BackColor = ThemeColors.PrimaryColor;
+            uc.btnMark.BackColor = ThemeColors.PrimaryColor;
             flowPanelContain.Controls.Add(uc);
         }
         private void LoadTheme()
@@ -119,6 +120,11 @@ namespace DemoWin.Forms
             panelContain.Controls.Add(flowPanelContain);
             panelContain.Tag = flowPanelContain;
             flowPanelContain.BringToFront();
+        }
+
+        private void btnSaved_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

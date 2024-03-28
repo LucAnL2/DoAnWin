@@ -34,6 +34,7 @@
             this.lblName = new System.Windows.Forms.Label();
             this.picBackGround = new System.Windows.Forms.PictureBox();
             this.lblID = new System.Windows.Forms.Label();
+            this.btnMark = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.picBackGround)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,16 +44,12 @@
             this.btnDetail.BorderColor = System.Drawing.Color.White;
             this.btnDetail.BorderRadius = 4;
             this.btnDetail.BorderThickness = 2;
-            this.btnDetail.CheckedState.Parent = this.btnDetail;
-            this.btnDetail.CustomImages.Parent = this.btnDetail;
             this.btnDetail.FillColor = System.Drawing.Color.Transparent;
             this.btnDetail.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetail.ForeColor = System.Drawing.Color.White;
-            this.btnDetail.HoverState.Parent = this.btnDetail;
             this.btnDetail.Image = global::DemoWin.Properties.Resources.file_circle_info;
             this.btnDetail.Location = new System.Drawing.Point(262, 381);
             this.btnDetail.Name = "btnDetail";
-            this.btnDetail.ShadowDecoration.Parent = this.btnDetail;
             this.btnDetail.Size = new System.Drawing.Size(115, 39);
             this.btnDetail.TabIndex = 1;
             this.btnDetail.Text = "Chi tiết";
@@ -76,7 +73,7 @@
             this.lblRate.ForeColor = System.Drawing.Color.White;
             this.lblRate.Location = new System.Drawing.Point(30, 340);
             this.lblRate.Name = "lblRate";
-            this.lblRate.Size = new System.Drawing.Size(57, 20);
+            this.lblRate.Size = new System.Drawing.Size(56, 20);
             this.lblRate.TabIndex = 0;
             this.lblRate.Text = "5 Sao";
             this.lblRate.Click += new System.EventHandler(this.label5_Click);
@@ -88,7 +85,7 @@
             this.lblName.ForeColor = System.Drawing.Color.White;
             this.lblName.Location = new System.Drawing.Point(30, 284);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(119, 20);
+            this.lblName.Size = new System.Drawing.Size(117, 20);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Huỳnh Văn C";
             // 
@@ -107,17 +104,33 @@
             this.lblID.AutoSize = true;
             this.lblID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblID.ForeColor = System.Drawing.Color.White;
-            this.lblID.Location = new System.Drawing.Point(258, 284);
+            this.lblID.Location = new System.Drawing.Point(30, 381);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(119, 20);
+            this.lblID.Size = new System.Drawing.Size(117, 20);
             this.lblID.TabIndex = 0;
             this.lblID.Text = "Huỳnh Văn C";
+            // 
+            // btnMark
+            // 
+            this.btnMark.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.btnMark.FlatAppearance.BorderSize = 0;
+            this.btnMark.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMark.IconChar = FontAwesome.Sharp.IconChar.Bookmark;
+            this.btnMark.IconColor = System.Drawing.Color.White;
+            this.btnMark.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnMark.Location = new System.Drawing.Point(319, 262);
+            this.btnMark.Name = "btnMark";
+            this.btnMark.Size = new System.Drawing.Size(75, 70);
+            this.btnMark.TabIndex = 3;
+            this.btnMark.UseVisualStyleBackColor = false;
+            this.btnMark.Click += new System.EventHandler(this.btnMark_Click);
             // 
             // UCWorkerInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.Controls.Add(this.btnMark);
             this.Controls.Add(this.picBackGround);
             this.Controls.Add(this.btnDetail);
             this.Controls.Add(this.lblRate);
@@ -141,5 +154,6 @@
         public System.Windows.Forms.Label lblID;
         public System.Windows.Forms.Label lblRate;
         public System.Windows.Forms.PictureBox picBackGround;
+        public FontAwesome.Sharp.IconButton btnMark;
     }
 }
