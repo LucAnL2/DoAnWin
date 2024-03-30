@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.btnWaittingReview = new FontAwesome.Sharp.IconButton();
             this.btnPostJob = new FontAwesome.Sharp.IconButton();
             this.btnLogout = new FontAwesome.Sharp.IconButton();
             this.btnUser = new FontAwesome.Sharp.IconButton();
@@ -59,6 +60,7 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panelMenu.Controls.Add(this.btnWaittingReview);
             this.panelMenu.Controls.Add(this.btnPostJob);
             this.panelMenu.Controls.Add(this.btnLogout);
             this.panelMenu.Controls.Add(this.btnUser);
@@ -72,6 +74,28 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(70, 1055);
             this.panelMenu.TabIndex = 7;
+            // 
+            // btnWaittingReview
+            // 
+            this.btnWaittingReview.FlatAppearance.BorderSize = 0;
+            this.btnWaittingReview.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWaittingReview.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnWaittingReview.ForeColor = System.Drawing.Color.White;
+            this.btnWaittingReview.IconChar = FontAwesome.Sharp.IconChar.RightToBracket;
+            this.btnWaittingReview.IconColor = System.Drawing.Color.White;
+            this.btnWaittingReview.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnWaittingReview.IconSize = 32;
+            this.btnWaittingReview.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnWaittingReview.Location = new System.Drawing.Point(-3, 321);
+            this.btnWaittingReview.Name = "btnWaittingReview";
+            this.btnWaittingReview.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnWaittingReview.Size = new System.Drawing.Size(260, 60);
+            this.btnWaittingReview.TabIndex = 12;
+            this.btnWaittingReview.Text = "Chờ đánh giá";
+            this.btnWaittingReview.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnWaittingReview.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnWaittingReview.UseVisualStyleBackColor = true;
+            this.btnWaittingReview.Click += new System.EventHandler(this.btnWaittingReview_Click);
             // 
             // btnPostJob
             // 
@@ -106,7 +130,7 @@
             this.btnLogout.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLogout.IconSize = 32;
             this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.Location = new System.Drawing.Point(-3, 321);
+            this.btnLogout.Location = new System.Drawing.Point(-3, 369);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnLogout.Size = new System.Drawing.Size(260, 60);
@@ -391,5 +415,6 @@
         private FontAwesome.Sharp.IconButton btnUser;
         private FontAwesome.Sharp.IconButton btnLogout;
         private FontAwesome.Sharp.IconButton btnPostJob;
+        private FontAwesome.Sharp.IconButton btnWaittingReview;
     }
 }

@@ -7,8 +7,10 @@ using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.IO;
 using System.Linq;
+using System.Security.RightsManagement;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -24,7 +26,8 @@ namespace DemoWin
             InitializeComponent();
             IconColor = Color.Black;
         }
-
+        public static int a ;
+                            
         private void Form1_Load(object sender, EventArgs e)
         {
             Color color = paintColor.SelectThemeColors();
@@ -44,6 +47,7 @@ namespace DemoWin
         {
             Color color = paintColor.SelectThemeColors();
             ChangeColorComboButton(flowLayoutPanel1, color);
+            
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
@@ -251,6 +255,13 @@ namespace DemoWin
             string defaultFolderPath = root + "\\DataUser\\";
             string filePath = Path.Combine(defaultFolderPath, "test.txt");
             ExportlineDataToFile(tableName, filePath);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            a = 99;
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
         }
     }
 }

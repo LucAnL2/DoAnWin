@@ -1,4 +1,5 @@
-﻿using FontAwesome.Sharp;
+﻿using DemoWin.Forms;
+using FontAwesome.Sharp;
 using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
@@ -12,11 +13,15 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace DemoWin
 {
     public partial class FWorkerDetail : Form
-    {
+    { 
+
+        public static string hiredID;
+        public static string hiredName;
         string query = "select Worker.Ten, Worker.GioiTinh, Worker.NgaySinh, Worker.Email, Worker.ID, DangViec.NamKinhNghiem, DangViec.GiaThue, DangViec.GioLam, DangViec.NgayLamViec, Worker.DiaChi, Worker.SDT, DangViec.MoTa, DangViec.GiaThue\r\nfrom Worker\r\ninner join DangViec on Worker.ID = DangViec.ID\r\nwhere Worker.ID = '"+ThemeColors.OpenID+"'";
         public FWorkerDetail()
         {
@@ -119,6 +124,8 @@ namespace DemoWin
         {
             FConfirmHire fConfirmHire = new FConfirmHire();
             fConfirmHire.ShowDialog();
+
+           
         }
         private void LoadDataIntoTextBoxes()
         {
@@ -158,8 +165,34 @@ namespace DemoWin
 
         private void iconStar_Click(object sender, EventArgs e)
         {
+           
+            using (SqlConnection connection = Connection.GetSqlConnection())
+            {
+                connection.Open();
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+                                hiredID = reader["ID"].ToString();
+                                hiredName = reader["Ten"].ToString();
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Không có dữ liệu được trả về!");
+                        }
+                    }
+                }
+            }
             FDetailReview fDetailReview = new FDetailReview();
             fDetailReview.Show();
+           
+           
         }
     }
 }

@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -21,8 +22,13 @@ namespace DemoWin
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
-
+        private string hireID;
+        private string hireName;
         Modify modify = new Modify();
+
+        public string HireID { get => hireID; set => hireID = value; }
+        public string HireName { get => hireName; set => hireName = value; }
+
         public FLogin()
         {
             InitializeComponent();
@@ -54,6 +60,31 @@ namespace DemoWin
                     query = "Select * from Worker where TenTaiKhoan = '" + userName + "' and MatKhau = '" + password + "'";
                 else if (rbtnWorker.Checked == false && rbtnUser.Checked == false) { MessageBox.Show("Vui lòng chọn vai trò !!!"); btnLogin.BackColor = Color.FromArgb(51, 51, 76); return; }
                 else { MessageBox.Show("Vui lòng chỉ chọn một vai trò !!!"); btnLogin.BackColor = Color.FromArgb(51, 51, 76); return; }
+                using (SqlConnection connection = Connection.GetSqlConnection())
+                {
+                    connection.Open();
+
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+                                while (reader.Read())
+                                {
+                                    HireID = reader["ID"].ToString();
+                                    HireName = reader["Ten"].ToString();
+                                    MessageBox.Show(HireID, HireName);
+                                }
+                            }
+                            else
+                            {
+                                MessageBox.Show("Không có dữ liệu được trả về!");
+                            }
+                        }
+                    }
+                }
+
                 if (modify.Accounts(query).Count != 0)
                 {
                     MessageBox.Show("Đăng nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -88,6 +119,10 @@ namespace DemoWin
                     MessageBox.Show("Tên tài khoản hoặc mật khẩu không chính xác", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     btnLogin.BackColor = Color.FromArgb(51, 51, 76);
                 }
+
+                ///// lấy id và mật khẩu nếu đăng nhập thành công
+                
+
             }
         }
         

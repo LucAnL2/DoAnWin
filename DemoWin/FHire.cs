@@ -239,7 +239,7 @@ namespace DemoWin
         }
         public string CreateQueryFilter()
         {
-            StringBuilder query = new StringBuilder($"SELECT DISTINCT DangViec.ID, Ten, SDT,DangViec.NgheNghiep FROM DangViec INNER JOIN Worker ON Worker.ID = DangViec.ID WHERE NgheNghiep = N'{lblTitle.Text}'");
+            StringBuilder query = new StringBuilder($"SELECT DISTINCT DangViec.ID, Ten, SDT,DangViec.NgheNghiep,Worker.DanhGiaTrungBinh FROM DangViec INNER JOIN Worker ON Worker.ID = DangViec.ID WHERE NgheNghiep = N'{lblTitle.Text}' AND DangViec.TrangThai = N'Đang chờ'");
 
             // Kiểm tra địa chỉ
             List<string> addressConditions = new List<string>();
@@ -263,8 +263,9 @@ namespace DemoWin
 
             if (addressConditions.Any())
             {
-                query.Append(" AND ");
+                query.Append(" AND (");
                 query.Append(string.Join(" OR ", addressConditions));
+                query.Append("  )");
             }
 
             List<string> ageConditions = new List<string>();
@@ -283,8 +284,9 @@ namespace DemoWin
 
             if (ageConditions.Any())
             {
-                query.Append(" AND ");
+                query.Append(" AND (");
                 query.Append(string.Join(" OR ", ageConditions));
+                query.Append(')');
             }
 
             List<string> salary = new List<string>();
@@ -334,8 +336,9 @@ namespace DemoWin
             }
             if (Rate.Any())
             {
-                query.Append(" AND ");
+                query.Append(" AND (");
                 query.Append(string.Join(" OR ", Rate));
+                query.Append(" )");
             }
             List<string> WorkOfDay = new List<string>();
             if (isbtnMonday)
@@ -364,8 +367,9 @@ namespace DemoWin
             }
             if (WorkOfDay.Any())
             {
-                query.Append(" AND ");
+                query.Append(" AND (");
                 query.Append(string.Join(" AND ", WorkOfDay));
+                query.Append(')');
             }
 
             List<string> WorkOfTime = new List<string>();
@@ -631,6 +635,7 @@ namespace DemoWin
                                 uc.lblName.Text = reader["Ten"].ToString();
                                 uc.lblPhone.Text = reader["SDT"].ToString();
                                 uc.lblID.Text = reader["ID"].ToString();
+                                uc.lblRate.Text = reader["DanhGiaTrungBinh"].ToString();
                                 uc.btnDetail.Click += btnOpenDetail_Click;
                                 loadWorkerInfo(uc);
                                 //connection.Open();

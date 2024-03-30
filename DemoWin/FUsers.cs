@@ -124,10 +124,7 @@ namespace DemoWin
             OpenChildForm(new Forms.FHired(), sender);
         }
 
-        private void btnUser_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Forms.FInfo(), sender);
-        }
+       
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
@@ -254,6 +251,16 @@ namespace DemoWin
         {
             FUserJob fUserPostJob = new FUserJob();
             OpenChildForm(fUserPostJob, sender);
+        }
+
+        private void btnWaittingReview_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FWaittingReview(),sender);
+        }
+
+        private void btnUser_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FInfo(), sender);
         }
     }
 }

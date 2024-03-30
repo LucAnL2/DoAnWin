@@ -140,10 +140,10 @@
     <Compile Include="ChildFormsWorker\FSearchJob.Designer.cs">
       <DependentUpon>FSearchJob.cs</DependentUpon>
     </Compile>
-    <Compile Include="FDetailReview.cs">
+    <Compile Include="Review\FDetailReview.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FDetailReview.Designer.cs">
+    <Compile Include="Review\FDetailReview.Designer.cs">
       <DependentUpon>FDetailReview.cs</DependentUpon>
     </Compile>
     <Compile Include="FMark.cs">
@@ -169,6 +169,18 @@
     </Compile>
     <Compile Include="FUserPostJob.Designer.cs">
       <DependentUpon>FUserPostJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Review\FReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\FReview.Designer.cs">
+      <DependentUpon>FReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Review\FWaittingReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review\FWaittingReview.Designer.cs">
+      <DependentUpon>FWaittingReview.cs</DependentUpon>
     </Compile>
     <Compile Include="PerSonDAO.cs" />
     <Compile Include="Connection.cs" />
@@ -285,19 +297,25 @@
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test.cs" />
-    <Compile Include="ThemeColors.cs" />
-    <Compile Include="UCDetailReview.cs">
+    <Compile Include="Review\UCDetailReview.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCDetailReview.Designer.cs">
+    <Compile Include="Review\UCDetailReview.Designer.cs">
       <DependentUpon>UCDetailReview.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCLoadPicture.cs">
+    <Compile Include="Review\UCWaittingReiew.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCLoadPicture.Designer.cs">
-      <DependentUpon>UCLoadPicture.cs</DependentUpon>
+    <Compile Include="Review\UCWaittingReiew.Designer.cs">
+      <DependentUpon>UCWaittingReiew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test.cs" />
+    <Compile Include="ThemeColors.cs" />
+    <Compile Include="Review\UCSendDetailReview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Review\UCSendDetailReview.Designer.cs">
+      <DependentUpon>UCSendDetailReview.cs</DependentUpon>
     </Compile>
     <Compile Include="UCMail.cs">
       <SubType>UserControl</SubType>
@@ -366,7 +384,7 @@
     <EmbeddedResource Include="FConfirmHire.resx">
       <DependentUpon>FConfirmHire.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FDetailReview.resx">
+    <EmbeddedResource Include="Review\FDetailReview.resx">
       <DependentUpon>FDetailReview.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FMail.resx">
@@ -401,6 +419,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FUsers.resx">
       <DependentUpon>FUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\FReview.resx">
+      <DependentUpon>FReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\FWaittingReview.resx">
+      <DependentUpon>FWaittingReview.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FWorkers.resx">
       <DependentUpon>FWorkers.cs</DependentUpon>
@@ -442,11 +466,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UCDetailReview.resx">
+    <EmbeddedResource Include="Review\UCDetailReview.resx">
       <DependentUpon>UCDetailReview.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCLoadPicture.resx">
-      <DependentUpon>UCLoadPicture.cs</DependentUpon>
+    <EmbeddedResource Include="Review\UCSendDetailReview.resx">
+      <DependentUpon>UCSendDetailReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review\UCWaittingReiew.resx">
+      <DependentUpon>UCWaittingReiew.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCMail.resx">
       <DependentUpon>UCMail.cs</DependentUpon>
@@ -729,6 +756,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bookmark %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Designer.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

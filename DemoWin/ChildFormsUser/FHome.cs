@@ -105,5 +105,10 @@ namespace DemoWin.Forms
             OpenChildForm(user, sender);
             panelContain.Show();
         }
+
+        private void panelContain_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

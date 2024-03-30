@@ -11,6 +11,7 @@ namespace DemoWin
     {
         public static string OpenID { get; set; }
         public static string IncomeID { get; set; }
+        public static string IncomeName{ get; set; }
         public static Color PrimaryColor { get; set; }
         public static Color SecondaryColor { get; set; }
         public static List<string> ColorList = new List<string>() { "#3F51B5",

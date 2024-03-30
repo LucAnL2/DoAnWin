@@ -25,7 +25,13 @@ namespace DemoWin
         private void iconButton1_Click(object sender, EventArgs e)
         {
             Form1 form1 = new Form1();
-            form1.ShowDialog();
+            int b = Form1.a;
+            MessageBox.Show(b.ToString());
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

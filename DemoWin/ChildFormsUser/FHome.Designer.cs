@@ -35,18 +35,18 @@
             this.btnOther = new System.Windows.Forms.Button();
             this.btnPainter = new System.Windows.Forms.Button();
             this.panelTaskBar = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            panelContain = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.picCarWash = new System.Windows.Forms.PictureBox();
             this.picOther = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            panelContain = new System.Windows.Forms.Panel();
             this.panelTaskBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCarWash)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picOther)).BeginInit();
@@ -159,6 +159,28 @@
             this.panelTaskBar.Size = new System.Drawing.Size(1799, 129);
             this.panelTaskBar.TabIndex = 13;
             // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(832, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(165, 22);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "-World of work Z-";
+            // 
+            // panelContain
+            // 
+            panelContain.AutoScroll = true;
+            panelContain.Dock = System.Windows.Forms.DockStyle.Fill;
+            panelContain.Location = new System.Drawing.Point(0, 0);
+            panelContain.Name = "panelContain";
+            panelContain.Size = new System.Drawing.Size(1799, 869);
+            panelContain.TabIndex = 14;
+            panelContain.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContain_Paint);
+            // 
             // button4
             // 
             this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -233,18 +255,6 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(832, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(165, 22);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "-World of work Z-";
-            // 
             // picCarWash
             // 
             this.picCarWash.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -310,15 +320,6 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // panelContain
-            // 
-            panelContain.AutoScroll = true;
-            panelContain.Dock = System.Windows.Forms.DockStyle.Fill;
-            panelContain.Location = new System.Drawing.Point(0, 0);
-            panelContain.Name = "panelContain";
-            panelContain.Size = new System.Drawing.Size(1799, 869);
-            panelContain.TabIndex = 14;
-            // 
             // FHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -375,6 +376,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        public static System.Windows.Forms.Panel panelContain;
+        public static System.Windows.Forms.Panel  panelContain;
     }
 }
