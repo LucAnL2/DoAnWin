@@ -24,10 +24,14 @@ namespace DemoWin
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
         private string hireID;
         private string hireName;
+        private string address;
+        private string phone;
         Modify modify = new Modify();
 
         public string HireID { get => hireID; set => hireID = value; }
         public string HireName { get => hireName; set => hireName = value; }
+        public string Address { get => address; set => address = value; }
+        public string Phone { get => phone; set => phone = value; }
 
         public FLogin()
         {
@@ -74,8 +78,11 @@ namespace DemoWin
                                 {
                                     HireID = reader["ID"].ToString();
                                     HireName = reader["Ten"].ToString();
-                                    MessageBox.Show(HireID, HireName);
+                                    Address = reader["DiaChi"].ToString();
+                                    Phone = reader["SDT"].ToString();
+
                                 }
+                                MessageBox.Show(Address, Phone);
                             }
                             else
                             {
@@ -119,10 +126,6 @@ namespace DemoWin
                     MessageBox.Show("Tên tài khoản hoặc mật khẩu không chính xác", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     btnLogin.BackColor = Color.FromArgb(51, 51, 76);
                 }
-
-                ///// lấy id và mật khẩu nếu đăng nhập thành công
-                
-
             }
         }
         

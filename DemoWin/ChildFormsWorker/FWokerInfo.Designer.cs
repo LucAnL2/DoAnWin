@@ -172,6 +172,7 @@
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // panel1
             // 
@@ -207,10 +208,10 @@
             // picAvata
             // 
             this.picAvata.Image = global::DemoWin.Properties.Resources._7_23_3_6_11_40_11m;
+            this.picAvata.ImageRotate = 0F;
             this.picAvata.Location = new System.Drawing.Point(15, 33);
             this.picAvata.Name = "picAvata";
             this.picAvata.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.picAvata.ShadowDecoration.Parent = this.picAvata;
             this.picAvata.Size = new System.Drawing.Size(205, 176);
             this.picAvata.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picAvata.TabIndex = 5;

@@ -92,6 +92,37 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account.cs" />
+    <Compile Include="Booking\Cons.cs" />
+    <Compile Include="Booking\FCalender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking\FCalender.Designer.cs">
+      <DependentUpon>FCalender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking\FCalenderJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking\FCalenderJob.Designer.cs">
+      <DependentUpon>FCalenderJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking\FConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking\FConfirm.Designer.cs">
+      <DependentUpon>FConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking\UCDay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Booking\UCDay.Designer.cs">
+      <DependentUpon>UCDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking\UCReceiveJob.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Booking\UCReceiveJob.Designer.cs">
+      <DependentUpon>UCReceiveJob.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChildFormsManager\FAllUsers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -357,6 +388,21 @@
     <Compile Include="UserDAO.cs" />
     <Compile Include="WokerDAO.cs" />
     <Compile Include="Worker.cs" />
+    <EmbeddedResource Include="Booking\FCalender.resx">
+      <DependentUpon>FCalender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking\FCalenderJob.resx">
+      <DependentUpon>FCalenderJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking\FConfirm.resx">
+      <DependentUpon>FConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking\UCDay.resx">
+      <DependentUpon>UCDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking\UCReceiveJob.resx">
+      <DependentUpon>UCReceiveJob.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChildFormsManager\FAllUsers.resx">
       <DependentUpon>FAllUsers.cs</DependentUpon>
     </EmbeddedResource>

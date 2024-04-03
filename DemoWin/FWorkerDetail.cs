@@ -1,4 +1,5 @@
-﻿using DemoWin.Forms;
+﻿using DemoWin.Booking;
+using DemoWin.Forms;
 using FontAwesome.Sharp;
 using Guna.UI2.WinForms;
 using System;
@@ -122,8 +123,13 @@ namespace DemoWin
 
         private void btnHire_Click_1(object sender, EventArgs e)
         {
-            FConfirmHire fConfirmHire = new FConfirmHire();
-            fConfirmHire.ShowDialog();
+            hiredID = lblID.Text;
+            hiredName = lblName.Text;
+            FCalender fCalender = new FCalender();
+            fCalender.ShowDialog();
+
+            //FConfirmHire fConfirmHire = new FConfirmHire();
+            //fConfirmHire.ShowDialog();
 
            
         }
@@ -145,7 +151,7 @@ namespace DemoWin
                             lblSex.Text = "Giới tính: " + reader["GioiTinh"].ToString();
                             lblAge.Text = "Tuổi: " + reader["NgaySinh"].ToString();
                             lblEmail.Text = "Email: " + reader["Email"].ToString();
-                            lblID.Text = "ID: " + reader["ID"].ToString();
+                            lblID.Text =  reader["ID"].ToString();
                             lblYearExpirience.Text = "Năm kinh nghiệm: " + reader["NamKinhNghiem"].ToString();
                             lblCostHire.Text = "Mức lương: " + reader["GiaThue"].ToString();
                             lblWorkingHour.Text = "Giờ làm: " + reader["GioLam"].ToString();

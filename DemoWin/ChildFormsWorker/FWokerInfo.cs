@@ -1,4 +1,5 @@
-﻿using FontAwesome.Sharp;
+﻿using DemoWin.Booking;
+using FontAwesome.Sharp;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,6 +19,8 @@ namespace DemoWin.ChildFormsWorker
 {
     public partial class FWokerInfo : Form
     {
+        public static string hiredID;
+        public  static string hiredName;
         private string[] listTitle = { "Số ĐT", "CCCD", "Tên", "Ngày sinh", "Tài khoản", "Địa chỉ", "ID", "Email", "Giới tính", "Mật khẩu" };
         //private string[] listData = { "2030442", "Phạm D", "12/12/2002", "Nam", "Hà Nội", "07220400", "03xxxxxx14", "D123@gmail.com", "Worker", "xxxxxx" };
         //private string connectionString = @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=theGioiTho;Integrated Security=True";
@@ -119,6 +122,13 @@ namespace DemoWin.ChildFormsWorker
                 return true;
             return false;
         }
-      
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            hiredID = ucTxtWorkerID.txtData.Text;
+            hiredName = ucTxtWorkerName.txtData.Text;
+            FCalenderJob fCalenderJob = new FCalenderJob();
+            fCalenderJob.Show();
+        }
     }
 }

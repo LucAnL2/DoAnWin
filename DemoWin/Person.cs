@@ -51,27 +51,24 @@ namespace DemoWin
             this.role = role;
             this.confirmPassword = confirmPassword;
         }
-        public Person(string id, string name, string phone) 
+        public Person(string id, string name, string phone)
         {
             Id = id;
             Name = name;
             Phone = phone;
         }
-        //public Person(string id, string name, string date, string sex, string address, string phone, string email,
-        //    string cccd, string acNumber, string pass)
-        //{
-        //    this.id= id;
-        //    this.name = name;
-        //    this.date= date;
-        //    this.sex = sex;
-        //    this.address = address;
-        //    this.phone = phone;
-        //    this.email = email;
-        //    this.cccd = cccd;
-        //    this.acNumber = acNumber;
-        //    this.pass= pass;
-        //}
-
+        public Person(string id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
+        public Person(string id,string name, string address,string phone)
+        {
+            Id = id;
+            Name = name;
+            Address = address;
+            Phone = phone;
+        }
         public Person()
         {
         }
@@ -137,25 +134,7 @@ namespace DemoWin
                         System.Windows.Forms.MessageBox.Show("Email này đã được sử dụng vui lòng dùng Email khác !!!"); 
                         return false; 
                     }
-                    //else
-                    //{
-                    //    var query1Result = ("SELECT * FROM NguoiDung2 WHERE Email = '" + email + "'");
-                    //    var query2Result = ("SELECT * FROM Worker WHERE Email = '" + email + "'");
-
-                    //    if (query1Result.Count() != 0 || query2Result.Count() != 0)
-                    //    {
-                    //        // Nếu có ít nhất một hàng được trả về từ bất kỳ truy vấn nào, tức là email đã tồn tại trong cơ sở dữ liệu
-                    //        System.Windows.Forms.MessageBox.Show("Email đã được sử dụng !!!");
-                    //        return false;
-                    //    }
-                    //}
-                    //if (property.Name == "ID")
-                    //{
-                    //    if (modify.Accounts("Select * from NguoiDung2 where ID = '" + Id + "'").Count != 0 || modify.Accounts("Select * from Worker where ID = '" + Id + "'").Count != 0)
-                    //    {
-                    //        Id = Id + 100;
-                    //    }
-                    //}
+                 
                 }
             }
             return true;

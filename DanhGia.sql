@@ -8,3 +8,7 @@ CREATE TABLE [dbo].DanhGia (
 	NgayDanhGia NVARCHAR (MAX) NULL,
 	HinhAnh varbinary(MAX) NULL,
 );
+ALTER TABLE DanhGia
+ADD HinhAnh2 varbinary(MAX) NULL,
+    HinhAnh3 varbinary(MAX) NULL;
+

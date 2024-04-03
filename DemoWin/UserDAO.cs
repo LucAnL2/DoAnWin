@@ -32,5 +32,22 @@ namespace DemoWin
             string sqlStr = string.Format("DELETE FROM NguoiDungDangViec WHERE ID = '{0}' AND NgheNghiep = '{1}'", newDangviec.Id);
             connect.ThucThi(sqlStr);
         }
+        public void Booking(User newBooking)
+        {
+            //newDangviec = new Worker(newDangviec.Id, newDangvi   
+                string sqlStr = string.Format("INSERT INTO ThueViec (IDNguoiThue, TenNguoiThue, IDNguoiDuocThue, TenNguoiDuocThue, NgayThue, ThangThue, NamThue, TrangThaiThue,DiaChi,SDT,CongViecMuonThue) " +
+                        "VALUES (N'{0}', N'{1}', N'{2}', N'{3}', N'{4}', N'{5}', N'{6}', N'{7}', N'{8}', N'{9}', N'{10}')", newBooking.Id, newBooking.Name, newBooking.HiredID
+                        , newBooking.HiredName, newBooking.HireDays, newBooking.HireMonths, newBooking.HireYears, newBooking.StatusRequest,newBooking.Address,newBooking.Phone,newBooking.JobWantHire);
+                ///connect.ThucThi(sqlStr, "Thêm công việc thành công", newDangviec);
+                connect.ThucThi(sqlStr);
+        }
+        public void updateBooking(User newBooking) // chuyen doi trang thái thanh "da xac nhan"
+        {
+            //newDangviec = new Worker(newDangviec.Id, newDangvi   
+            string sqlStr = string.Format("Update ThueViec Set TrangThaiThue = N'{0}' WHERE IDNguoiThue = N'{1}' And IDNguoiDuocThue = N'{2}'", "Đã xác nhận", newBooking.Id,newBooking.HiredID);
+            ///connect.ThucThi(sqlStr, "Thêm công việc thành công", newDangviec);
+            connect.ThucThi(sqlStr);
+            
+        }
     }
 }

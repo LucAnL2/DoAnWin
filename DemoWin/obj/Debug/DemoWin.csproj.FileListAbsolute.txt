@@ -115,3 +115,8 @@ C:\DoAnWin\toan4\DoAnWin\DemoWin\obj\Debug\DemoWin.Review.UCDetailReview.resourc
 C:\DoAnWin\toan4\DoAnWin\DemoWin\obj\Debug\DemoWin.UCSendDetailReview.resources
 C:\DoAnWin\toan4\DoAnWin\DemoWin\obj\Debug\DemoWin.Review.UCWaittingReiew.resources
 C:\DoAnWin\toan4\DoAnWin\DemoWin\obj\Debug\DemoWin.Review.FReview.resources
+C:\DoAnWin\toan4\DoAnWin\DemoWin\obj\Debug\DemoWin.Booking.FCalender.resources
+C:\DoAnWin\toan4\DoAnWin\DemoWin\obj\Debug\DemoWin.Booking.UCDay.resources
+C:\DoAnWin\toan4\DoAnWin\DemoWin\obj\Debug\DemoWin.Booking.FConfirm.resources
+C:\DoAnWin\toan4\DoAnWin\DemoWin\obj\Debug\DemoWin.Booking.FCalenderJob.resources
+C:\DoAnWin\toan4\DoAnWin\DemoWin\obj\Debug\DemoWin.Booking.UCReceiveJob.resources

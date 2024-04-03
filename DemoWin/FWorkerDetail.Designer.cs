@@ -63,6 +63,7 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.lblTop = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.iconWorkHour)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconWorkDay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPhone)).BeginInit();
@@ -92,11 +93,11 @@
             this.lblID.AutoSize = true;
             this.lblID.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblID.ForeColor = System.Drawing.Color.White;
-            this.lblID.Location = new System.Drawing.Point(225, 127);
+            this.lblID.Location = new System.Drawing.Point(264, 128);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(74, 15);
+            this.lblID.Size = new System.Drawing.Size(59, 15);
             this.lblID.TabIndex = 54;
-            this.lblID.Text = "ID: 0439540";
+            this.lblID.Text = " 0439540";
             // 
             // lblName
             // 
@@ -228,6 +229,7 @@
             // panelTaskBar
             // 
             this.panelTaskBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panelTaskBar.Controls.Add(this.label2);
             this.panelTaskBar.Controls.Add(this.btnHire);
             this.panelTaskBar.Controls.Add(this.guna2CirclePictureBox1);
             this.panelTaskBar.Controls.Add(this.btnChangeColor);
@@ -265,10 +267,10 @@
             // guna2CirclePictureBox1
             // 
             this.guna2CirclePictureBox1.Image = global::DemoWin.Properties.Resources.profile;
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(24, 24);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
             this.guna2CirclePictureBox1.Size = new System.Drawing.Size(153, 140);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox1.TabIndex = 81;
@@ -321,15 +323,11 @@
             this.btnBack.BorderColor = System.Drawing.Color.Transparent;
             this.btnBack.BorderRadius = 8;
             this.btnBack.BorderThickness = 2;
-            this.btnBack.CheckedState.Parent = this.btnBack;
-            this.btnBack.CustomImages.Parent = this.btnBack;
             this.btnBack.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.btnBack.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.ForeColor = System.Drawing.Color.White;
-            this.btnBack.HoverState.Parent = this.btnBack;
             this.btnBack.Location = new System.Drawing.Point(1354, 9);
             this.btnBack.Name = "btnBack";
-            this.btnBack.ShadowDecoration.Parent = this.btnBack;
             this.btnBack.Size = new System.Drawing.Size(111, 55);
             this.btnBack.TabIndex = 75;
             this.btnBack.Text = "Đóng";
@@ -475,7 +473,6 @@
             this.guna2Panel1.Controls.Add(this.lblDescribe);
             this.guna2Panel1.Location = new System.Drawing.Point(107, 626);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(1269, 94);
             this.guna2Panel1.TabIndex = 113;
             // 
@@ -508,6 +505,16 @@
             this.lblTop.Name = "lblTop";
             this.lblTop.Size = new System.Drawing.Size(1496, 2);
             this.lblTop.TabIndex = 51;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(225, 127);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(23, 16);
+            this.label2.TabIndex = 84;
+            this.label2.Text = "ID:";
             // 
             // FWorkerDetail
             // 
@@ -599,5 +606,6 @@
         private System.Windows.Forms.Label lblTop;
         private System.Windows.Forms.Button btnHire;
         public Guna.UI2.WinForms.Guna2Button btnBack;
+        private System.Windows.Forms.Label label2;
     }
 }

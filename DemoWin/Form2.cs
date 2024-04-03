@@ -21,12 +21,12 @@ namespace DemoWin
         {
 
         }
+        public event EventHandler ButtonClicked;
+
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
-            int b = Form1.a;
-            MessageBox.Show(b.ToString());
+            ButtonClicked?.Invoke(this, EventArgs.Empty);
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)

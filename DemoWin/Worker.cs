@@ -18,7 +18,7 @@ namespace DemoWin
         private string hireTimes;
         private string avgRate;
         private string status;
-
+        
 
 
         public Worker(string id, string name, string sex, string phone, string address,
@@ -46,6 +46,8 @@ namespace DemoWin
             Job = job;
         }
 
+       
+
         public string Job { get => job; set => job = value; }
         public string WorkingDay { get => workingDay; set => workingDay = value; }
         public string WorkingTime { get => workingTime; set => workingTime = value; }
@@ -55,6 +57,7 @@ namespace DemoWin
         public string HireTimes { get => hireTimes; set => hireTimes = value; }
         public string AvgRate { get => avgRate; set => avgRate = value; }
         public string Status { get => status; set => status = value; }
+       
 
         //public static class GlobalVariables
         //{

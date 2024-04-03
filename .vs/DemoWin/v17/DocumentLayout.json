@@ -3,38 +3,296 @@
   "WorkspaceRootPath": "C:\\DoAnWin\\toan4\\DoAnWin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fhire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fhire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|c:\\doanwin\\toan4\\doanwin\\demowin\\booking\\fcalenderjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\fcalenderjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.DangViec.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\fcalender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\fcalender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\ucday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\ucday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\fconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\fconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\fcalender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\fcalender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\ucday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\ucday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\ucreceivejob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\ucreceivejob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.NguoiDung2.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.ThueViec.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\ucreceivejob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\ucreceivejob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\cons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\cons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\fconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\fconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\fcalender.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\fcalender.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\fcalenderjob.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\fcalenderjob.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fworkerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fworkerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\wokerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\wokerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsworker\\fwokerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\childformsworker\\fwokerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsworker\\fwokerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\childformsworker\\fwokerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsworker\\fsearchjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\childformsworker\\fsearchjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsworker\\fdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\childformsworker\\fdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\ucworkerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucworkerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\ucworkerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucworkerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\ucuserjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucuserjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\uctxtworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\uctxtworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\ucpostjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucpostjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fworkers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fworkers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fpostwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fpostwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fuserpostjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fuserpostjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.Worker.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fhire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fhire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\review\\ucwaittingreiew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\review\\ucwaittingreiew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\review\\freview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\review\\freview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\review\\freview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\review\\freview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\fcalenderjob.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\fcalenderjob.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\ucreceivejob.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\ucreceivejob.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\ucreceivejob.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\ucreceivejob.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\review\\fdetailreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\review\\fdetailreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\fcalenderjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\fcalenderjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\review\\ucwaittingreiew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\review\\ucwaittingreiew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\review\\fwaittingreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\review\\fwaittingreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fhire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fhire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.Worker.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsuser\\fhired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\childformsuser\\fhired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|c:\\doanwin\\toan4\\doanwin\\demowin\\childformsuser\\finfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\childformsuser\\finfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsworker\\fworkerhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\childformsworker\\fworkerhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\ucdetailreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucdetailreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fconfirmhire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fconfirmhire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fmailbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fmailbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fmanagertoolcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fmanagertoolcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\ucmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\ucmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fworkerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fworkerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\review\\ucsenddetailreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\review\\ucsenddetailreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\review\\ucdetailreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\review\\ucdetailreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\booking\\ucday.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\booking\\ucday.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsmanager\\frevenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\childformsmanager\\frevenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsmanager\\fallusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\childformsmanager\\fallusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.DangViec.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\ucworkerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucworkerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsuser\\finfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\childformsuser\\finfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsuser\\finfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -53,16 +311,8 @@
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucmark.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\ucmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fpostwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fpostwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fpostwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fpostwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsuser\\fuserjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -70,10 +320,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.DanhDau.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsuser\\fhired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\childformsuser\\fhired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsuser\\fhired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -88,40 +334,12 @@
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\wokerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\wokerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fconfirmhire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fconfirmhire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fworkerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fworkerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\fusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\fusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\ucuserjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucuserjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\ucloadpicture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucloadpicture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.NguoiDungDangViec.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -131,27 +349,20 @@
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\persondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsworker\\fsearchjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\childformsworker\\fsearchjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\childformsworker\\fsearchjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\childformsworker\\fsearchjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.NguoiDung2.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\ucuserjob.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\ucuserjob.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0417299-67F0-4EBB-90FB-D82FE7217E7B}|DemoWin\\DemoWin.csproj|solutionrelative:demowin\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\ucdetailreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:demowin\\ucdetailreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\DoAnWin\\toan4\\DoAnWin\\demowin\\ucloadpicture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:demowin\\ucloadpicture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -161,21 +372,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "dbo.Worker [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.Worker.sql",
-              "ToolTip": "dbo.Worker [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-28T17:46:37.323Z",
-              "EditorCaption": ""
+              "Title": "FCalender.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FCalender.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\FCalender.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FCalender.cs",
+              "RelativeToolTip": "DemoWin\\Booking\\FCalender.cs",
+              "ViewState": "AQIAAHQBAAAAAAAAAAAAwIIBAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T14:50:13.605Z",
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -188,43 +398,796 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FHire.cs [Design]",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FHire.cs",
-              "RelativeDocumentMoniker": "DemoWin\\FHire.cs",
-              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FHire.cs [Design]",
-              "RelativeToolTip": "DemoWin\\FHire.cs [Design]",
+              "Title": "FConfirm.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FConfirm.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\FConfirm.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FConfirm.cs",
+              "RelativeToolTip": "DemoWin\\Booking\\FConfirm.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAtwCUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T06:59:56.879Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-02T10:36:32.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FHire.cs",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FHire.cs",
-              "RelativeDocumentMoniker": "DemoWin\\FHire.cs",
-              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FHire.cs",
-              "RelativeToolTip": "DemoWin\\FHire.cs",
-              "ViewState": "AQIAAOkAAAAAAAAAAAAuwPkAAAAbAAAA",
+              "DocumentIndex": 3,
+              "Title": "UCDay.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\UCDay.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\UCDay.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\UCDay.cs [Design]",
+              "RelativeToolTip": "DemoWin\\Booking\\UCDay.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T07:00:00.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T09:08:14.918Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FLogin.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FLogin.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FLogin.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FLogin.cs",
+              "RelativeToolTip": "DemoWin\\FLogin.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAIAwwJQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:40:03.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FCalender.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FCalender.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\FCalender.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FCalender.cs [Design]",
+              "RelativeToolTip": "DemoWin\\Booking\\FCalender.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T14:40:39.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FCalenderJob.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FCalenderJob.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\FCalenderJob.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FCalenderJob.cs",
+              "RelativeToolTip": "DemoWin\\Booking\\FCalenderJob.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAwF4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:11:37.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UCDay.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\UCDay.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\UCDay.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\UCDay.cs",
+              "RelativeToolTip": "DemoWin\\Booking\\UCDay.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:21:10.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UCReceiveJob.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\UCReceiveJob.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\UCReceiveJob.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\UCReceiveJob.cs [Design]",
+              "RelativeToolTip": "DemoWin\\Booking\\UCReceiveJob.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T16:09:10.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.NguoiDung2 [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.NguoiDung2.sql",
+              "ToolTip": "dbo.NguoiDung2 [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-28T06:26:49.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.ThueViec [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.ThueViec.sql",
+              "ToolTip": "dbo.ThueViec [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-02T13:56:05.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UCReceiveJob.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\UCReceiveJob.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\UCReceiveJob.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\UCReceiveJob.cs",
+              "RelativeToolTip": "DemoWin\\Booking\\UCReceiveJob.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAwwC8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T16:12:17.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cons.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\Cons.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\Cons.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\Cons.cs",
+              "RelativeToolTip": "DemoWin\\Booking\\Cons.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T15:11:10.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FConfirm.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FConfirm.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\FConfirm.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FConfirm.cs [Design]",
+              "RelativeToolTip": "DemoWin\\Booking\\FConfirm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:22:36.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDAO.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UserDAO.cs",
+              "RelativeDocumentMoniker": "DemoWin\\UserDAO.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UserDAO.cs",
+              "RelativeToolTip": "DemoWin\\UserDAO.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAIAywDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:44:16.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FCalender.Designer.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FCalender.Designer.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\FCalender.Designer.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FCalender.Designer.cs",
+              "RelativeToolTip": "DemoWin\\Booking\\FCalender.Designer.cs",
+              "ViewState": "AQIAACABAAAAAAAAAAAWwDABAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T11:01:13.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Connection.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Connection.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Connection.cs",
+              "RelativeToolTip": "DemoWin\\Connection.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAIAwwF0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T03:16:03.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FCalenderJob.Designer.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FCalenderJob.Designer.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\FCalenderJob.Designer.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FCalenderJob.Designer.cs",
+              "RelativeToolTip": "DemoWin\\Booking\\FCalenderJob.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T07:35:00.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FWorkerDetail.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FWorkerDetail.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FWorkerDetail.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FWorkerDetail.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FWorkerDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:15:52.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WokerDAO.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\WokerDAO.cs",
+              "RelativeDocumentMoniker": "DemoWin\\WokerDAO.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\WokerDAO.cs",
+              "RelativeToolTip": "DemoWin\\WokerDAO.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAD0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T02:45:58.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FWokerInfo.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsWorker\\FWokerInfo.cs",
+              "RelativeDocumentMoniker": "DemoWin\\ChildFormsWorker\\FWokerInfo.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsWorker\\FWokerInfo.cs [Design]",
+              "RelativeToolTip": "DemoWin\\ChildFormsWorker\\FWokerInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:16:30.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FWokerInfo.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsWorker\\FWokerInfo.cs",
+              "RelativeDocumentMoniker": "DemoWin\\ChildFormsWorker\\FWokerInfo.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsWorker\\FWokerInfo.cs",
+              "RelativeToolTip": "DemoWin\\ChildFormsWorker\\FWokerInfo.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAmwHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:16:43.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FSearchJob.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsWorker\\FSearchJob.cs",
+              "RelativeDocumentMoniker": "DemoWin\\ChildFormsWorker\\FSearchJob.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsWorker\\FSearchJob.cs [Design]",
+              "RelativeToolTip": "DemoWin\\ChildFormsWorker\\FSearchJob.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:38:10.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FDashBoard.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsWorker\\FDashBoard.cs",
+              "RelativeDocumentMoniker": "DemoWin\\ChildFormsWorker\\FDashBoard.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsWorker\\FDashBoard.cs [Design]",
+              "RelativeToolTip": "DemoWin\\ChildFormsWorker\\FDashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:16:27.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "UCWorkerInfo.cs [Design]",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCWorkerInfo.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCWorkerInfo.cs",
               "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCWorkerInfo.cs [Design]",
               "RelativeToolTip": "DemoWin\\UCWorkerInfo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T15:16:06.857Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-28T15:16:06.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 24,
+              "Title": "UCUserJob.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCUserJob.cs",
+              "RelativeDocumentMoniker": "DemoWin\\UCUserJob.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCUserJob.cs [Design]",
+              "RelativeToolTip": "DemoWin\\UCUserJob.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:00:55.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UCTxtWorker.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCTxtWorker.cs",
+              "RelativeDocumentMoniker": "DemoWin\\UCTxtWorker.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCTxtWorker.cs [Design]",
+              "RelativeToolTip": "DemoWin\\UCTxtWorker.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:15:21.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UCPostJob.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCPostJob.cs",
+              "RelativeDocumentMoniker": "DemoWin\\UCPostJob.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCPostJob.cs [Design]",
+              "RelativeToolTip": "DemoWin\\UCPostJob.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:15:22.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Modify.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Modify.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Modify.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Modify.cs",
+              "RelativeToolTip": "DemoWin\\Modify.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:09:10.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FWorkers.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FWorkers.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FWorkers.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FWorkers.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FWorkers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:15:09.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FPostWork.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FPostWork.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FPostWork.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FPostWork.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FPostWork.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:38:51.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FRegister.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FRegister.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FRegister.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FRegister.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FRegister.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:26:22.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FUserPostJob.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FUserPostJob.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FUserPostJob.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FUserPostJob.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FUserPostJob.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:15:13.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "dbo.Worker [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.Worker.sql",
+              "ToolTip": "dbo.Worker [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-28T17:46:37.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\User.cs",
+              "RelativeDocumentMoniker": "DemoWin\\User.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\User.cs",
+              "RelativeToolTip": "DemoWin\\User.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAUwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T11:39:36.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FUsers.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FUsers.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FUsers.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FUsers.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FUsers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:16:05.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FLogin.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FLogin.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FLogin.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FLogin.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:18:09.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FHire.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FHire.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FHire.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FHire.cs",
+              "RelativeToolTip": "DemoWin\\FHire.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAswGMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T07:00:00.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UCWaittingReiew.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\UCWaittingReiew.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Review\\UCWaittingReiew.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\UCWaittingReiew.cs",
+              "RelativeToolTip": "DemoWin\\Review\\UCWaittingReiew.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:39:42.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FReview.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\FReview.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Review\\FReview.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\FReview.cs",
+              "RelativeToolTip": "DemoWin\\Review\\FReview.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAzwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T07:35:59.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FReview.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\FReview.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Review\\FReview.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\FReview.cs [Design]",
+              "RelativeToolTip": "DemoWin\\Review\\FReview.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:37:56.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FCalenderJob.resx",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FCalenderJob.resx",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\FCalenderJob.resx",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FCalenderJob.resx",
+              "RelativeToolTip": "DemoWin\\Booking\\FCalenderJob.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-03T07:35:01.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UCReceiveJob.resx",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\UCReceiveJob.resx",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\UCReceiveJob.resx",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\UCReceiveJob.resx",
+              "RelativeToolTip": "DemoWin\\Booking\\UCReceiveJob.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-03T07:35:04.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UCReceiveJob.Designer.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\UCReceiveJob.Designer.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\UCReceiveJob.Designer.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\UCReceiveJob.Designer.cs",
+              "RelativeToolTip": "DemoWin\\Booking\\UCReceiveJob.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T07:35:04.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Form1.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Form1.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Form1.cs [Design]",
+              "RelativeToolTip": "DemoWin\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T08:00:34.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "FDetailReview.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\FDetailReview.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Review\\FDetailReview.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\FDetailReview.cs [Design]",
+              "RelativeToolTip": "DemoWin\\Review\\FDetailReview.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:47:05.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Form2.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Form2.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Form2.cs",
+              "RelativeToolTip": "DemoWin\\Form2.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T06:53:15.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Form2.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Form2.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Form2.cs [Design]",
+              "RelativeToolTip": "DemoWin\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:26:21.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FCalenderJob.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FCalenderJob.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\FCalenderJob.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\FCalenderJob.cs [Design]",
+              "RelativeToolTip": "DemoWin\\Booking\\FCalenderJob.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T14:54:16.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UCWaittingReiew.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\UCWaittingReiew.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Review\\UCWaittingReiew.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\UCWaittingReiew.cs [Design]",
+              "RelativeToolTip": "DemoWin\\Review\\UCWaittingReiew.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:47:24.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FWaittingReview.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\FWaittingReview.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Review\\FWaittingReview.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\FWaittingReview.cs [Design]",
+              "RelativeToolTip": "DemoWin\\Review\\FWaittingReview.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:37:52.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "FHire.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FHire.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FHire.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FHire.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FHire.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:59:56.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "FHired.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsUser\\FHired.cs",
+              "RelativeDocumentMoniker": "DemoWin\\ChildFormsUser\\FHired.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsUser\\FHired.cs",
+              "RelativeToolTip": "DemoWin\\ChildFormsUser\\FHired.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAIwF0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:33:58.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "FWorkerHIstory.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsWorker\\FWorkerHIstory.cs",
+              "RelativeDocumentMoniker": "DemoWin\\ChildFormsWorker\\FWorkerHIstory.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsWorker\\FWorkerHIstory.cs [Design]",
+              "RelativeToolTip": "DemoWin\\ChildFormsWorker\\FWorkerHIstory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:16:34.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "FForgotPassword.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FForgotPassword.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FForgotPassword.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FForgotPassword.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FForgotPassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:26:15.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FConfirmHire.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FConfirmHire.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FConfirmHire.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FConfirmHire.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FConfirmHire.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:26:06.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "FMail.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FMail.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FMail.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FMail.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FMail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T08:42:17.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "FMailBox.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FMailBox.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FMailBox.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FMailBox.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FMailBox.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:15:43.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "FManagerToolcs.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FManagerToolcs.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FManagerToolcs.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FManagerToolcs.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FManagerToolcs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:15:36.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "FManager.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FManager.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FManager.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FManager.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T08:42:18.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "UCMail.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCMail.cs",
+              "RelativeDocumentMoniker": "DemoWin\\UCMail.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCMail.cs [Design]",
+              "RelativeToolTip": "DemoWin\\UCMail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:15:24.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "UCMark.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCMark.cs",
+              "RelativeDocumentMoniker": "DemoWin\\UCMark.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCMark.cs [Design]",
+              "RelativeToolTip": "DemoWin\\UCMark.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:44:01.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Worker.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Worker.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Worker.cs",
+              "RelativeToolTip": "DemoWin\\Worker.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAUwCsAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T11:28:10.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Person.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Person.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Person.cs",
+              "RelativeToolTip": "DemoWin\\Person.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAowEQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:45:47.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "FWorkerDetail.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FWorkerDetail.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FWorkerDetail.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FWorkerDetail.cs",
+              "RelativeToolTip": "DemoWin\\FWorkerDetail.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAWwJcAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:48:32.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "UCSendDetailReview.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\UCSendDetailReview.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Review\\UCSendDetailReview.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\UCSendDetailReview.cs [Design]",
+              "RelativeToolTip": "DemoWin\\Review\\UCSendDetailReview.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:42:19.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Program.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Program.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Program.cs",
+              "RelativeToolTip": "DemoWin\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T13:49:19.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "UCDetailReview.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\UCDetailReview.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Review\\UCDetailReview.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Review\\UCDetailReview.cs [Design]",
+              "RelativeToolTip": "DemoWin\\Review\\UCDetailReview.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:37:55.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "FMark.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FMark.cs",
+              "RelativeDocumentMoniker": "DemoWin\\FMark.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FMark.cs [Design]",
+              "RelativeToolTip": "DemoWin\\FMark.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T16:05:50.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "UCDay.Designer.cs",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\UCDay.Designer.cs",
+              "RelativeDocumentMoniker": "DemoWin\\Booking\\UCDay.Designer.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Booking\\UCDay.Designer.cs",
+              "RelativeToolTip": "DemoWin\\Booking\\UCDay.Designer.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAMwC4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T09:31:23.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "FRevenue.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsManager\\FRevenue.cs",
+              "RelativeDocumentMoniker": "DemoWin\\ChildFormsManager\\FRevenue.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsManager\\FRevenue.cs [Design]",
+              "RelativeToolTip": "DemoWin\\ChildFormsManager\\FRevenue.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T08:42:11.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "FAllUsers.cs [Design]",
+              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsManager\\FAllUsers.cs",
+              "RelativeDocumentMoniker": "DemoWin\\ChildFormsManager\\FAllUsers.cs",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsManager\\FAllUsers.cs [Design]",
+              "RelativeToolTip": "DemoWin\\ChildFormsManager\\FAllUsers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T08:42:10.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
               "Title": "UCWorkerInfo.cs",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCWorkerInfo.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCWorkerInfo.cs",
@@ -232,22 +1195,20 @@
               "RelativeToolTip": "DemoWin\\UCWorkerInfo.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAnwCUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T15:16:10.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T15:16:10.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 71,
               "Title": "dbo.DangViec [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.DangViec.sql",
               "ToolTip": "dbo.DangViec [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-28T17:43:34.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T17:43:34.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 73,
               "Title": "FInfo.cs",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsUser\\FInfo.cs",
               "RelativeDocumentMoniker": "DemoWin\\ChildFormsUser\\FInfo.cs",
@@ -255,44 +1216,33 @@
               "RelativeToolTip": "DemoWin\\ChildFormsUser\\FInfo.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAqwDEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T16:00:15.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T16:00:15.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 79,
               "Title": "FUserJob.cs [Design]",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsUser\\FUserJob.cs",
               "RelativeDocumentMoniker": "DemoWin\\ChildFormsUser\\FUserJob.cs",
-              "ToolTip": "D:\\DataD\\c#\\DoAnWin\\DoAnWin\\DemoWin\\ChildFormsUser\\FUserJob.cs [Design]",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsUser\\FUserJob.cs [Design]",
+              "RelativeToolTip": "DemoWin\\ChildFormsUser\\FUserJob.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T15:37:48.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FPostWork.cs [Design]",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FPostWork.cs",
-              "RelativeDocumentMoniker": "DemoWin\\FPostWork.cs",
-              "ToolTip": "D:\\DataD\\c#\\DoAnWin\\DoAnWin\\DemoWin\\FPostWork.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T15:38:51.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 90,
               "Title": "UCDetailReview.cs [Design]",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCDetailReview.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCDetailReview.cs",
               "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCDetailReview.cs [Design]",
               "RelativeToolTip": "DemoWin\\UCDetailReview.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T13:57:05.28Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-28T13:57:05.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 75,
               "Title": "FMark.cs",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FMark.cs",
               "RelativeDocumentMoniker": "DemoWin\\FMark.cs",
@@ -304,17 +1254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UCMark.cs [Design]",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCMark.cs",
-              "RelativeDocumentMoniker": "DemoWin\\UCMark.cs",
-              "ToolTip": "D:\\DataD\\c#\\DoAnWin\\DoAnWin\\DemoWin\\UCMark.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T15:44:01.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 76,
               "Title": "UCMark.cs",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCMark.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCMark.cs",
@@ -326,39 +1266,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FMark.cs [Design]",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FMark.cs",
-              "RelativeDocumentMoniker": "DemoWin\\FMark.cs",
-              "ToolTip": "D:\\DataD\\c#\\DoAnWin\\DoAnWin\\DemoWin\\FMark.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T16:05:50.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 74,
               "Title": "FInfo.cs [Design]",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsUser\\FInfo.cs",
               "RelativeDocumentMoniker": "DemoWin\\ChildFormsUser\\FInfo.cs",
-              "ToolTip": "D:\\DataD\\c#\\DoAnWin\\DoAnWin\\DemoWin\\ChildFormsUser\\FInfo.cs [Design]",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsUser\\FInfo.cs [Design]",
+              "RelativeToolTip": "DemoWin\\ChildFormsUser\\FInfo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T15:06:13.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 77,
               "Title": "UCMark.Designer.cs",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCMark.Designer.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCMark.Designer.cs",
               "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCMark.Designer.cs",
               "RelativeToolTip": "DemoWin\\UCMark.Designer.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwGAAAAAOAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAABRwGAAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T15:49:56.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 80,
               "Title": "dbo.DanhDau [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.DanhDau.sql",
               "ToolTip": "dbo.DanhDau [Data]",
@@ -367,19 +1298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FHired.cs",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsUser\\FHired.cs",
-              "RelativeDocumentMoniker": "DemoWin\\ChildFormsUser\\FHired.cs",
-              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsUser\\FHired.cs",
-              "RelativeToolTip": "DemoWin\\ChildFormsUser\\FHired.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAgwFIAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T15:33:58.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 78,
               "Title": "FPostWork.cs",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FPostWork.cs",
               "RelativeDocumentMoniker": "DemoWin\\FPostWork.cs",
@@ -391,7 +1310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 82,
               "Title": "Form4.cs [Design]",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Form4.cs",
               "RelativeDocumentMoniker": "DemoWin\\Form4.cs",
@@ -401,41 +1320,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Connection.cs",
-              "RelativeDocumentMoniker": "DemoWin\\Connection.cs",
-              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Connection.cs",
-              "RelativeToolTip": "DemoWin\\Connection.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAowBMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T03:16:03.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "WokerDAO.cs",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\WokerDAO.cs",
-              "RelativeDocumentMoniker": "DemoWin\\WokerDAO.cs",
-              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\WokerDAO.cs",
-              "RelativeToolTip": "DemoWin\\WokerDAO.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAAAD8AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T02:45:58.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 81,
               "Title": "FHired.cs [Design]",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsUser\\FHired.cs",
               "RelativeDocumentMoniker": "DemoWin\\ChildFormsUser\\FHired.cs",
-              "ToolTip": "D:\\DataD\\c#\\DoAnWin\\DoAnWin\\DemoWin\\ChildFormsUser\\FHired.cs [Design]",
+              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsUser\\FHired.cs [Design]",
+              "RelativeToolTip": "DemoWin\\ChildFormsUser\\FHired.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T14:26:22.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 83,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Form3.cs",
               "RelativeDocumentMoniker": "DemoWin\\Form3.cs",
@@ -445,7 +1341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 84,
               "Title": "FConfirmHire.cs",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FConfirmHire.cs",
               "RelativeDocumentMoniker": "DemoWin\\FConfirmHire.cs",
@@ -457,49 +1353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "FWorkerDetail.cs [Design]",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FWorkerDetail.cs",
-              "RelativeDocumentMoniker": "DemoWin\\FWorkerDetail.cs",
-              "ToolTip": "D:\\DataD\\c#\\DoAnWin\\DoAnWin\\DemoWin\\FWorkerDetail.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T15:15:52.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UCUserJob.cs [Design]",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCUserJob.cs",
-              "RelativeDocumentMoniker": "DemoWin\\UCUserJob.cs",
-              "ToolTip": "D:\\DataD\\c#\\DoAnWin\\DoAnWin\\DemoWin\\UCUserJob.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T06:00:55.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "FUsers.cs [Design]",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FUsers.cs",
-              "RelativeDocumentMoniker": "DemoWin\\FUsers.cs",
-              "ToolTip": "D:\\DataD\\c#\\DoAnWin\\DoAnWin\\DemoWin\\FUsers.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T06:16:05.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Program.cs",
-              "RelativeDocumentMoniker": "DemoWin\\Program.cs",
-              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Program.cs",
-              "RelativeToolTip": "DemoWin\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T13:49:19.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 85,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\Form3.cs",
               "RelativeDocumentMoniker": "DemoWin\\Form3.cs",
@@ -511,7 +1365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 91,
               "Title": "UCLoadPicture.cs [Design]",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCLoadPicture.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCLoadPicture.cs",
@@ -521,7 +1375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 87,
               "Title": "PerSonDAO.cs",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\PerSonDAO.cs",
               "RelativeDocumentMoniker": "DemoWin\\PerSonDAO.cs",
@@ -533,28 +1387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "UserDAO.cs",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UserDAO.cs",
-              "RelativeDocumentMoniker": "DemoWin\\UserDAO.cs",
-              "ToolTip": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UserDAO.cs",
-              "RelativeToolTip": "DemoWin\\UserDAO.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAnwBYAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T06:44:16.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "dbo.NguoiDung2 [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.NguoiDung2.sql",
-              "ToolTip": "dbo.NguoiDung2 [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-28T06:26:49.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 86,
               "Title": "dbo.NguoiDungDangViec [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/theGioiTho/True/SqlTable/dbo.NguoiDungDangViec.sql",
               "ToolTip": "dbo.NguoiDungDangViec [Data]",
@@ -563,7 +1396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 88,
               "Title": "FSearchJob.cs",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsWorker\\FSearchJob.cs",
               "RelativeDocumentMoniker": "DemoWin\\ChildFormsWorker\\FSearchJob.cs",
@@ -575,17 +1408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "FLogin.cs [Design]",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\FLogin.cs",
-              "RelativeDocumentMoniker": "DemoWin\\FLogin.cs",
-              "ToolTip": "D:\\DataD\\c#\\DoAnWin\\DoAnWin\\DemoWin\\FLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T06:18:09.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 89,
               "Title": "UCUserJob.Designer.cs",
               "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\UCUserJob.Designer.cs",
               "RelativeDocumentMoniker": "DemoWin\\UCUserJob.Designer.cs",
@@ -594,16 +1417,6 @@
               "ViewState": "AQIAABAAAAAAAAAAAAAQwG0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T06:32:08.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "FSearchJob.cs [Design]",
-              "DocumentMoniker": "C:\\DoAnWin\\toan4\\DoAnWin\\DemoWin\\ChildFormsWorker\\FSearchJob.cs",
-              "RelativeDocumentMoniker": "DemoWin\\ChildFormsWorker\\FSearchJob.cs",
-              "ToolTip": "D:\\DataD\\c#\\DoAnWin\\DoAnWin\\DemoWin\\ChildFormsWorker\\FSearchJob.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T06:38:10.567Z"
             }
           ]
         },
