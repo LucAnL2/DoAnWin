@@ -11,6 +11,7 @@ using System.Runtime.InteropServices;
 using DemoWin.ChildFormsWorker;
 using FontAwesome.Sharp;
 using System.Windows.Forms.DataVisualization.Charting;
+using DemoWin.Booking;
 
 namespace DemoWin
 {
@@ -252,6 +253,12 @@ namespace DemoWin
         {
             FWorkerHIstory fWokerInfo = new FWorkerHIstory();
             OpenChildForm(fWokerInfo, sender);
+        }
+
+        private void btnProgress_Click(object sender, EventArgs e)
+        {
+            FWorkDoing fWorkDoing = new FWorkDoing();   
+            OpenChildForm (fWorkDoing, sender);
         }
     }
 }

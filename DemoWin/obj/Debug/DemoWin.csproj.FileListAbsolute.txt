@@ -120,3 +120,4 @@ C:\DoAnWin\toan4\DoAnWin\DemoWin\obj\Debug\DemoWin.Booking.UCDay.resources
 C:\DoAnWin\toan4\DoAnWin\DemoWin\obj\Debug\DemoWin.Booking.FConfirm.resources
 C:\DoAnWin\toan4\DoAnWin\DemoWin\obj\Debug\DemoWin.Booking.FCalenderJob.resources
 C:\DoAnWin\toan4\DoAnWin\DemoWin\obj\Debug\DemoWin.Booking.UCReceiveJob.resources
+C:\DoAnWin\toan4\DoAnWin\DemoWin\obj\Debug\DemoWin.Booking.FWorkDoing.resources

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Runtime.Remoting.Contexts;
 using System.Text;
@@ -41,13 +42,31 @@ namespace DemoWin
                 ///connect.ThucThi(sqlStr, "Thêm công việc thành công", newDangviec);
                 connect.ThucThi(sqlStr);
         }
-        public void updateBooking(User newBooking) // chuyen doi trang thái thanh "da xac nhan"
+        public void updateBooking(User newBooking) // chuyen doi trang thái thanh "Đang làm"
         {
             //newDangviec = new Worker(newDangviec.Id, newDangvi   
-            string sqlStr = string.Format("Update ThueViec Set TrangThaiThue = N'{0}' WHERE IDNguoiThue = N'{1}' And IDNguoiDuocThue = N'{2}'", "Đã xác nhận", newBooking.Id,newBooking.HiredID);
+            string sqlStr = string.Format("Update ThueViec Set TrangThaiThue = N'{0}' WHERE IDNguoiThue = N'{1}' And IDNguoiDuocThue = N'{2}'", "Đang làm", newBooking.Id,newBooking.HiredID);
             ///connect.ThucThi(sqlStr, "Thêm công việc thành công", newDangviec);
             connect.ThucThi(sqlStr);
             
+        }
+        public void DeleteBooking(User newBooking) // chuyen doi trang thái thanh "Đang làm"
+        {
+            //newDangviec = new Worker(newDangviec.Id, newDangvi   
+            string sqlStr = string.Format("DELETE FROM ThueViec WHERE IDNguoiThue = N'{0}' AND IDNguoiDuocThue = N'{1}' AND TrangThaiThue = N'{2}'", newBooking.Id,newBooking.HiredID,"Chờ xác nhận");
+            ///connect.ThucThi(sqlStr, "Thêm công việc thành công", newDangviec);
+            connect.ThucThi(sqlStr);
+
+        }
+        public DataTable LoadWorkDoing()
+        {
+            string sqlStr = string.Format("SELECT IDNguoiThue, TenNguoiThue, NgayThue, ThangThue, NamThue, TrangThaiThue,DiaChi,SDT,CongViecMuonThue FROM ThueViec Where TrangThaiThue = N'Đang làm'");
+            return connect.Load(sqlStr);
+        }
+        public DataTable LoadWorkComplete()
+        {
+            string sqlStr = string.Format("SELECT IDNguoiThue, TenNguoiThue, NgayThue, ThangThue, NamThue, TrangThaiThue,DiaChi,SDT,CongViecMuonThue FROM ThueViec Where TrangThaiThue = N'Hoàn thành'");
+            return connect.Load(sqlStr);
         }
     }
 }

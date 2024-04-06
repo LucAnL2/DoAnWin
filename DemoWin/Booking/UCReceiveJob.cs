@@ -40,7 +40,7 @@ namespace DemoWin.Booking
             UserDAO userDAO = new UserDAO();
             userDAO.updateBooking(user);
 
-            //OpenChildForm(fCalender, guna2Panel1, activeForm1);
+            // gọi hàm bên fcalender để có thể oad lại form
             FCalenderJob fCalenderJob = Application.OpenForms.OfType<FCalenderJob>().FirstOrDefault();
             // fCalenderJob.Refresh();
             if (fCalenderJob != null)
@@ -50,5 +50,19 @@ namespace DemoWin.Booking
 
         }
 
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            // cập nhật trang thái xác nhận cong việc
+            string statusHire = "Chờ xác nhận";
+            User user = new User(txtHireID.Text, txtHireName.Text, FWokerInfo.hiredID, FWokerInfo.hiredName,
+                txtDay.Text, txtMonth.Text, txtYear.Text, statusHire, txtAddress.Text, txtPhone.Text, txtJob.Text);
+            UserDAO userDAO = new UserDAO();
+            userDAO.DeleteBooking(user);
+            FCalenderJob fCalenderJob = Application.OpenForms.OfType<FCalenderJob>().FirstOrDefault();
+            if (fCalenderJob != null)
+            {
+                fCalenderJob.RefreshFlowLayoutPanel();
+            }
+        }
     }
 }

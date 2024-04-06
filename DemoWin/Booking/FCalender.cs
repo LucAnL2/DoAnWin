@@ -291,8 +291,8 @@ namespace DemoWin.Booking
 
         public List<string> TakeListHire()
         {
-            string queryHiredate = string.Format("SELECT NgayThue,ThangThue,NamThue FROM ThueViec WHERE (IDNguoiDuocThue = N'{0}' or IDNguoiDuocThue = N'{1}') AND TrangThaiThue = N'Đã xác nhận'", FWorkerDetail.hiredID,FWokerInfo.hiredID);
-            //essageBox.Show(queryHiredate);
+            string queryHiredate = string.Format("SELECT NgayThue,ThangThue,NamThue FROM ThueViec WHERE (IDNguoiDuocThue = N'{0}' or IDNguoiDuocThue = N'{1}') AND TrangThaiThue = N'Đang làm'", FWorkerDetail.hiredID,FWokerInfo.hiredID);
+            //MessageBox.Show(queryHiredate);
             List<string> ngayThueList = GetDataFromDatabase(queryHiredate);
             List<string> formattedList = FormatDateString(ngayThueList); // Chuyển đổi định dạng ngày thue
             return formattedList;

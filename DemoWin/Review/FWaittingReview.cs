@@ -43,13 +43,14 @@ namespace DemoWin
             if (fLogin != null)
             {
                 string hireID = fLogin.HireID;
-                MessageBox.Show(hireID);
+                //MessageBox.Show(hireID);
 
                 // Xóa hết các UCWorkerInfo cũ ra khỏi flowLayoutPanel
                 flowLayoutPanel1.Controls.Clear();
 
-                string query = string.Format("select DangViec.ID, Ten , SDT,DangViec.IDNguoiThue from DangViec inner join worker on DangViec.ID = Worker.ID" +
-                    " where DangViec.IDNguoiThue = N'{0}' and DangViec.TrangThai = N'{1}'", hireID, "Hoàn thành");
+                //string query = string.Format("select DangViec.ID, Ten , SDT,DangViec.IDNguoiThue from DangViec inner join worker on DangViec.ID = Worker.ID" +
+                //    " where DangViec.IDNguoiThue = N'{0}' and DangViec.TrangThai = N'{1}'", hireID, "Hoàn thành");
+                string query = string.Format("select IDNguoiDuocThue, TenNguoiDuocThue , SDT from ThueViec where ThueViec.IDNguoiThue = N'{0}' and ThueViec.TrangThaiThue = N'{1}'", hireID, "Hoàn thành");
 
                 MessageBox.Show(query);
 
@@ -66,9 +67,9 @@ namespace DemoWin
                                 while (reader.Read())
                                 {
                                     UCWaittingReiew uc = new UCWaittingReiew();
-                                    uc.lblName.Text = reader["Ten"].ToString();
+                                    uc.lblName.Text = reader["TenNguoiDuocThue"].ToString();
                                     uc.lblPhone.Text = reader["SDT"].ToString();
-                                    uc.lblID.Text = reader["ID"].ToString();
+                                    uc.lblID.Text = reader["IDNguoiDuocThue"].ToString();
                                     flowLayoutPanel1.Controls.Add(uc);
                                     //connection.Open();
                                     //SqlDataAdapter adapter = new SqlDataAdapter(query,connection);

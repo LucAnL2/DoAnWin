@@ -111,6 +111,12 @@
     <Compile Include="Booking\FConfirm.Designer.cs">
       <DependentUpon>FConfirm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Booking\FWorkDoing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking\FWorkDoing.Designer.cs">
+      <DependentUpon>FWorkDoing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Booking\UCDay.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -396,6 +402,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Booking\FConfirm.resx">
       <DependentUpon>FConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking\FWorkDoing.resx">
+      <DependentUpon>FWorkDoing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Booking\UCDay.resx">
       <DependentUpon>UCDay.cs</DependentUpon>
